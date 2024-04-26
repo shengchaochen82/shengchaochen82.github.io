@@ -75,3 +75,21 @@ My research interest includes Federated Learning, Time Series, and Computer Visi
 - *2023.03 - present*, [Guangdong-Hong Kong-Macao Greater Bay Area Weather Research Center for Monitoring Warning and Forecasting](https://weather.sz.gov.cn/gbamwf/), China.
 - *2022.03 - 2023.01*, [Guangdong-Hong Kong-Macao Greater Bay Area Weather Research Center for Monitoring Warning and Forecasting](https://weather.sz.gov.cn/gbamwf/), China.
 - *2021.07 - 2021.10*, [Guangdong-Hong Kong-Macao Greater Bay Area Weather Research Center for Monitoring Warning and Forecasting](https://weather.sz.gov.cn/gbamwf/), China.
+
+# 🧱 Internships
+**(Sub-)Reviewer**:
+- IEEE Transactions on Neural Network and Learning Systems
+- IEEE Transactions on Knowledge and Data Engineering
+- IEEE Sensors Journal
+- IEEE Information System
+- IEEE Access
+- Knowledge-Based Systems
+- Artificial Intelligence In Medicine
+- IJCAI'23, 24
+- FL@IJCAI'23
+- CVPR'23, 24
+- ECCV'23, 24
+- NeurIPS'23
+- ICLR'24
+- ICML'24
+- FL@WWW'24
