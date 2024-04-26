@@ -19,7 +19,7 @@ redirect_from:
 
 I am a Ph.D. student at Australian AI Intelligence Institute (AAII), University of Technology Sydney (UTS), working on Federated Learning/Spatio-Temporal Reasoning/Vision-Language. Until present, I also worked as a Deep Learning Research Intern at Shenzhen Meteorological Institute & Hong Kong Observatory. Previously, I completed an MPhil at the Hainan University and a BEng at Jiangxi University of Science and Technology, both in Information and Communication Engineering. Now, my research focuses on bridging the gap between academic research and real-world applications of Spatio-Temporal Mining (e.g., video streams, weather and cliamte data understanding, etc.). In addtion, I am also extremely interested in common computer vision problems such as autonomous driving, remote sensing, and healthcare. If you have any fun ideas or just want to have a chat, please feel free to drop me an email (shengchao.chen.cs AT gmail DOT com).
 
-My research interest includes Federated Learning, Time Series, and Computer Vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
+My research interest includes Federated Learning, Time Series, and Computer Vision. I have published more than 20 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>).
 
 
 # 🔥 News
@@ -31,7 +31,7 @@ My research interest includes Federated Learning, Time Series, and Computer Visi
 - *2023.06*: &nbsp;🎉🎉 I received my master's degree from Hainan University with distinguished scholarships and honors. Looking forward to starting the next journey.
 - *2023.04*: &nbsp;🎉🎉 I have one paper about FL-based Weather Foundation Model accpted by *IJCAI'23*，which is my first top conference in CS domain!
 - *2023.03*: &nbsp;🎉🎉 I have one paper about Federated Learning-based Photonic Reverse Design by *IEEE Photonic Letter*.
-- *2023.02*: &nbsp;🎉🎉 I have one paper about medical image analysis accpted by *IEEE Journal of Biomedical and Health Information* (Top in Medical Information).
+- *2023.02*: &nbsp;🎉🎉 I have one paper about medical image analysis accpted by *IEEE Journal of Biomedical and Health Informatics* (Top in Medical Information).
 - *2022.10*: &nbsp;🎉🎉 I was honored to be awarded the National Scholarship with the first place overall in Hainan University.
 - *2022.07*: &nbsp;🎉🎉 I have one paper about Machine Learning-based Photonic Reverse Design by *IEEE Photonic Letter*.
 - *2022.06*: &nbsp;🎉🎉 I have one paper about Generative Adversial Network on Radar Streams by *IEEE Transaction on Geoscience and Remote Sensing* (Top in RS, JCR Q1).
@@ -52,7 +52,10 @@ My research interest includes Federated Learning, Time Series, and Computer Visi
 </div>
 </div>
 
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+- [Federated Prompt Learning for](https://github.com), **Shengchao Chen**, Guodong Long, Tao Shen, Jing Jiang, Chengqi Zhang, **IJCAI 2024**
+- [Interpretable CNN-Multilevel Attention Transformer for Rapid Recognition of Pneumonia from Chest X-Ray Images](https://github.com), **Shengchao Chen**, Sufen Ren, Guanjun Wang, Mengxing Huang, Chenyang Xue, **IEEE Journal of Biomedical and Health Informatics**
+- [Free Lunch for Federated Remote Sensing Target Fine-Grained Classification: A Parameter-Efficient Framework](www.baidu.com), **Shengchao Chen**, Ting Shu, Huan Zhao, Jiahao Wang, Sufen Ren, Lina Yang, *Knowledge-Based Systems*
+- [Foundation models for weather and climate data understanding: A comprehensive survey](www.baidu.com), **Shengchao Chen**, Guodong Long, Jing Jiang, Chengqi Zhang, **arXiv**
 
 # 🎖 Honors and Awards
 - *2023.06* Outstanding Master's Thesis (1st place), Hainan University, China.
@@ -76,7 +79,7 @@ My research interest includes Federated Learning, Time Series, and Computer Visi
 - *2022.03 - 2023.01*, [Guangdong-Hong Kong-Macao Greater Bay Area Weather Research Center for Monitoring Warning and Forecasting](https://weather.sz.gov.cn/gbamwf/), China.
 - *2021.07 - 2021.10*, [Guangdong-Hong Kong-Macao Greater Bay Area Weather Research Center for Monitoring Warning and Forecasting](https://weather.sz.gov.cn/gbamwf/), China.
 
-# 🧱 Internships
+# 🧱 Services
 **(Sub-)Reviewer**:
 - IEEE Transactions on Neural Network and Learning Systems
 - IEEE Transactions on Knowledge and Data Engineering
