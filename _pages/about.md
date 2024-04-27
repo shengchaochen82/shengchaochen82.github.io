@@ -23,20 +23,20 @@ My research interest includes Federated Learning, Time Series, and Computer Visi
 
 
 # 🔥 News
-- *2024.04*: &nbsp;🎉🎉 I have one paper about On-device Weather Foundation Model accpted by *IJCAI'24*，see you on Jeju!
-- *2024.03*: &nbsp;🎉🎉 I have one paper about Federated Remote Sensing Analysis accepted by *Knowledge-Based Systems* (Top in Knowledge System, JCR Q1).
+- *2024.04*: &nbsp;🎉🎉 I have one paper about On-device Weather Foundation Model accpted by **IJCAI'24**，see you on Jeju!
+- *2024.03*: &nbsp;🎉🎉 I have one paper about Federated Remote Sensing Analysis accepted by **Knowledge-Based Systems** (Top in Knowledge System, JCR Q1).
 - *2023.12*: &nbsp;🎉🎉 Our survey: *Foundation Models for Weather and Climate Data Understanding: A Comprehensive Survey*, has appeared on arXiv, which is the first comprehensive and systematic effort to summarize DL-based understanding of weather and climate data, paving the way for the development of foundation models of weather and climate.
-- *2023.08*: &nbsp;🎉🎉 I have one paper about Weather Image Analysis accepted by *Knowledge-Based Systems* (Top in Knowledge System, JCR Q1).
-- *2023.07*: &nbsp;🎉🎉 I have one paper about Radar Spatial-temporal extrapolation accepted by *IEEE Transaction on Geoscience and Remote Sensing* (Top in RS, JCR Q1).
-- *2023.06*: &nbsp;🎉🎉 I received my master's degree from Hainan University with distinguished scholarships and honors. Looking forward to starting the next journey.
-- *2023.04*: &nbsp;🎉🎉 I have one paper about FL-based Weather Foundation Model accpted by *IJCAI'23*，which is my first top conference in CS domain!
-- *2023.03*: &nbsp;🎉🎉 I have one paper about Federated Learning-based Photonic Reverse Design by *IEEE Photonic Letter*.
-- *2023.02*: &nbsp;🎉🎉 I have one paper about medical image analysis accpted by *IEEE Journal of Biomedical and Health Informatics* (Top in Medical Information).
-- *2022.10*: &nbsp;🎉🎉 I was honored to be awarded the National Scholarship with the first place overall in Hainan University.
-- *2022.07*: &nbsp;🎉🎉 I have one paper about Machine Learning-based Photonic Reverse Design by *IEEE Photonic Letter*.
-- *2022.06*: &nbsp;🎉🎉 I have one paper about Generative Adversial Network on Radar Streams by *IEEE Transaction on Geoscience and Remote Sensing* (Top in RS, JCR Q1).
-- *2022.05*: &nbsp;🎉🎉 I have one paper about Machine Learning on Fiber-optic Measuring’2 by *Optics Express* (Top in Optical, JCR Q1).
-- *2022.02*: &nbsp;🎉🎉 I have one paper about Machine Learning on fiber-optic Measuring‘1 by *Optics Express* (Top in Optical, JCR Q1).
+- *2023.08*: &nbsp;🎉🎉 I have one paper about Weather Image Analysis accepted by **Knowledge-Based Systems** (Top in Knowledge System, JCR Q1).
+- *2023.07*: &nbsp;🎉🎉 I have one paper about Radar Spatial-temporal extrapolation accepted by **IEEE Transaction on Geoscience and Remote Sensing** (Top in RS, JCR Q1).
+- *2023.06*: &nbsp;🎉🎉 I received my master's degree from Hainan University with distinguished honors. Looking forward to starting the my Ph.D. journey.
+- *2023.04*: &nbsp;🎉🎉 I have one paper about FL-based Weather Foundation Model accpted by **IJCAI'23**，which is my first top conference in CS domain!
+- *2023.03*: &nbsp;🎉🎉 I have one paper about Federated Learning-based Photonic Reverse Design accpted by **IEEE Photonic Letter**.
+- *2023.02*: &nbsp;🎉🎉 I have one paper about medical image analysis accpted by **IEEE Journal of Biomedical and Health Informatics** (Top in Medical Information).
+- *2022.10*: &nbsp;🎉🎉 I was honored to be awarded the **National Scholarship** with the first place overall in Hainan University.
+- *2022.07*: &nbsp;🎉🎉 I have one paper about Machine Learning-based Photonic Reverse Design accepted by **IEEE Photonic Letter**.
+- *2022.06*: &nbsp;🎉🎉 I have one paper about Generative Adversial Network on Radar Iamges accepted by **IEEE Transaction on Geoscience and Remote Sensing** (Top in RS, JCR Q1).
+- *2022.05*: &nbsp;🎉🎉 I have one paper about Machine Learning on Fiber-optic Measuring’2 accepted by **Optics Express** (Top in Optical, JCR Q1).
+- *2022.02*: &nbsp;🎉🎉 I have one paper about Machine Learning on Fiber-optic Measuring‘1 accpted by **Optics Express** (Top in Optical, JCR Q1).
 
 # 📝 Publications 
 
