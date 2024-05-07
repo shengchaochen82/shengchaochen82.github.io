@@ -17,9 +17,14 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a Ph.D. student at Australian AI Intelligence Institute (AAII), University of Technology Sydney (UTS), working on Federated Learning/Spatio-Temporal Reasoning/Vision-Language. Until present, I also worked as a Deep Learning Research Intern at Shenzhen Meteorological Institute & Hong Kong Observatory. Previously, I completed an MPhil at the Hainan University and a BEng at Jiangxi University of Science and Technology, both in Information and Communication Engineering. Now, my research focuses on bridging the gap between academic research and real-world applications of Spatio-Temporal Mining (e.g., video streams, weather and cliamte data understanding, etc.). In addtion, I am also extremely interested in common computer vision problems such as autonomous driving, remote sensing, and healthcare. If you have any fun ideas or just want to have a chat, please feel free to drop me an email (shengchao.chen.cs AT gmail DOT com).
+I am a Ph.D. student at Australian AI Intelligence Institute (AAII), University of Technology Sydney (UTS), working on Federated Learning/Spatio-Temporal Reasoning/Vision-Language. Until present, I also worked as a Deep Learning Research Intern at Shenzhen Meteorological Institute & Hong Kong Observatory. Previously, I completed an MPhil at the Hainan University and a BEng at Jiangxi University of Science and Technology, both in Information and Communication Engineering. Now, my research focuses on bridging the gap between academic research and real-world applications of Spatio-Temporal Mining (e.g., video streams, weather and cliamte data understanding, etc.). In addtion, I am also extremely interested in common computer vision problems such as autonomous driving, remote sensing, and healthcare. If you have any fun ideas or just want to have a chat, please feel free to drop me an email (shengchao.chen.uts AT gmail DOT com).
 
 My research interest includes Federated Learning, Time Series, and Computer Vision. I have published more than 20 papers at the top international AI journals/conferences <a href='https://scholar.google.com/citations?user=9R3tsmUAAAAJ&hl=en'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>.
+
+**Interesting Fact**: My research during my masters was in fiber-optic sensing and I was exposed to ML/DL during my intership, which is the main reason why I have a composite background.
+
+
+# 🔥 Research Intersts
 
 
 # 🔥 News
