@@ -21,10 +21,16 @@ I am a Ph.D. student at Australian AI Intelligence Institute (AAII), University 
 
 My research interest includes Federated Learning, Time Series, and Computer Vision. I have published more than 20 papers at the top international AI journals/conferences.
 
-**Interesting Fact**: My research during my masters was in fiber-optic sensing and I was exposed to ML/DL during my intership, which is the main reason why I have a composite background.
+**Fun Fact**: My research during my masters was in fiber-optic sensing and I was exposed to ML/DL during my intership, which is the main reason why I have a composite background.
 
 
 # 🔥 Research Intersts
+- **Federated Learning (FL)**: Heterogeneous FL, FL for X (e.g., Time Series, Computer Vision, Science, etc.)
+- **Computer Vision**: Remote Sensing, Medical Image, Auto Driving
+- **Time Series**: Federated Time Series Modeling, Weather Time Series
+- **AI4Science**: Federated PDE Solver
+  
+**Fun Fact**:
 
 
 # 🔥 News
