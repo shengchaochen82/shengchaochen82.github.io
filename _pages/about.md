@@ -22,7 +22,7 @@ I am a Ph.D. student at Australian AI Intelligence Institute (AAII), University 
 **Fun Fact**: My research during my masters was in fiber-optic sensing and I was exposed to ML/DL during my intership, which is the main reason why I have a composite background.
 
 
-# 🔥 Research Intersts
+# 💬 Research Intersts
 - **Federated Learning (FL)**: Heterogeneous FL, FL for X (e.g., Time Series, Computer Vision, Science, etc.)
 - **Computer Vision**: Remote Sensing, Medical Image, Auto Driving
 - **Time Series**: Federated Time Series Modeling, Weather Time Series
@@ -71,9 +71,9 @@ I am a Ph.D. student at Australian AI Intelligence Institute (AAII), University 
 
 # 🎖 Honors and Awards
 - *2023.06* Outstanding Master's Thesis (1st place), Hainan University, China.
-- *2023.03* Full Scholarship for Ph.D., University of Technology Sydney, Australia.
+- *2023.03* Full Scholarship for Ph.D. Student, University of Technology Sydney, Australia.
 - *2023.05* Outstanding Graduates, Hainan University, China.
-- *2022.10* National Scholarship (Top 1%), Ministrt of Education, China.
+- *2022.10* **National Scholarship (Top 1%)**, Ministrt of Education, China.
 - *2022.09* Outstanding Graduate Student, Hainan University, China.
 
 # 📖 Educations
