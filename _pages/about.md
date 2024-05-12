@@ -19,9 +19,9 @@ redirect_from:
 
 I am a Ph.D. student at Australian AI Intelligence Institute (AAII), University of Technology Sydney (UTS), working on Federated Learning/Spatio-Temporal Reasoning/Vision-Language. Until present, I also worked as a Deep Learning Research Intern at Shenzhen Meteorological Institute & Hong Kong Observatory. Previously, I completed an MPhil at the Hainan University and a BEng at Jiangxi University of Science and Technology, both in Information and Communication Engineering. Now, my research focuses on bridging the gap between academic research and real-world applications of Spatio-Temporal Mining (e.g., video streams, weather and cliamte data understanding, etc.). In addtion, I am also extremely interested in common computer vision problems such as autonomous driving, remote sensing, and healthcare. If you have any fun ideas or just want to have a chat, please feel free to drop me an email (shengchao.chen.uts AT gmail DOT com).
 
-**Fun Fact**: My research during my masters was in fiber-optic sensing and I was exposed to ML/DL during my intership, which is the main reason why I have a composite background.
+*99% of the research process is frustrating, but refreshing insights may still be gleaned from it.*
 
-                                    &nbsp;&nbsp;&nbsp;*99% of the research process is frustrating, but refreshing insights may still be gleaned from it.*
+**Fun Fact**: My research during my masters was in fiber-optic sensing and I was exposed to ML/DL during my intership, which is the main reason why I have a composite background.
 
 # 💬 Research Intersts
 - **Federated Learning (FL)**: Heterogeneous FL, FL for X (e.g., Time Series, Computer Vision, Science, etc.)
