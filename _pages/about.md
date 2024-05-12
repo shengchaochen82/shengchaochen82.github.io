@@ -20,7 +20,7 @@ redirect_from:
 I am a Ph.D. student at Australian AI Intelligence Institute (AAII), University of Technology Sydney (UTS), working on Federated Learning/Spatio-Temporal Reasoning/Vision-Language. Until present, I also worked as a Deep Learning Research Intern at Shenzhen Meteorological Institute & Hong Kong Observatory. Previously, I completed an MPhil at the Hainan University and a BEng at Jiangxi University of Science and Technology, both in Information and Communication Engineering. Now, my research focuses on bridging the gap between academic research and real-world applications of Spatio-Temporal Mining (e.g., video streams, weather and cliamte data understanding, etc.). In addtion, I am also extremely interested in common computer vision problems such as autonomous driving, remote sensing, and healthcare. If you have any fun ideas or just want to have a chat, please feel free to drop me an email (shengchao.chen.uts AT gmail DOT com).
 
 **Fun Fact**: My research during my masters was in fiber-optic sensing and I was exposed to ML/DL during my intership, which is the main reason why I have a composite background.
-
+                                    &nbsp;&nbsp;&nbsp;*99% of the research process is frustrating, but refreshing insights may still be gleaned from it.*
 
 # 💬 Research Intersts
 - **Federated Learning (FL)**: Heterogeneous FL, FL for X (e.g., Time Series, Computer Vision, Science, etc.)
@@ -59,10 +59,10 @@ I am a Ph.D. student at Australian AI Intelligence Institute (AAII), University 
 
 **Federated Learning for Time Series**:
 - [Federated Prompt Learning for Weather Foundation Models on Devices](https://github.com), **Shengchao Chen**, Guodong Long, Tao Shen, Jing Jiang, Chengqi Zhang, **IJCAI 2024**
-- [Prompt Federated Learning for Weather Forecasting: Toward Foundation Models on Meteorological Data](https://github.com), **Shengchao Chen**, Guodong Long, Tao Shen, Jing Jiang, **IJCAI 2024**
+- [Prompt Federated Learning for Weather Forecasting: Toward Foundation Models on Meteorological Data](https://github.com), **Shengchao Chen**, Guodong Long, Tao Shen, Jing Jiang, **IJCAI 2023**
 
 **Federated Learning for Computer Vision**:
-- [Free Lunch for Federated Remote Sensing Target Fine-Grained Classification: A Parameter-Efficient Framework](www.baidu.com), **Shengchao Chen**, Ting Shu, Huan Zhao, Jiahao Wang, Sufen Ren, Lina Yang, *Knowledge-Based Systems*
+- [Free Lunch for Federated Remote Sensing Target Fine-Grained Classification: A Parameter-Efficient Framework](www.baidu.com), **Shengchao Chen**, Ting Shu, Huan Zhao, Jiahao Wang, Sufen Ren, Lina Yang, **Knowledge-Based Systems**
 
 **Computer Vision**
 - [TempEE: Temporal-Spatial Parallel Transformer for Radar Echo Extrapolation Beyond Auto-Regression](https://github.com), **Shengchao Chen**, Sufen Ren, Guanjun Wang, Mengxing Huang, Chenyang Xue, **IEEE Journal of Biomedical and Health Informatics**
@@ -72,8 +72,6 @@ I am a Ph.D. student at Australian AI Intelligence Institute (AAII), University 
 - [Diffusion Model in Semi-Supervised Scleral Segmentation](https://github.com), Hong Peng, **Shengchao Chen**, Ning Niu, Jiahao Wang, Qiaoyi Yao, Lu Wang, Yixuan Wang, Jurui Tang, Guanjun Wang, Mengxing Huang, Chengyang Xue, **2023 IEEE 6th International Conference on Pattern Recognition and Artificial Intelligence (PRAI)**
 - [Ensemble Learning for Retinal Disease Recognition under Limited Resources](https://github.com), Jiahao Wang, Hong Peng, **Shengchao Chen (Corresponding Author)**, Sufen Ren, **Medical & Biological Engineering & Computing**
 - [Recognition System for Diagnosing Pneumonia and Bronchitis Using Children’s Breathing Sounds Based on Transfer Learning](https://github.com), Jianying Shi, **Shengchao Chen**, Benguo Yu, Yi Ren, Guanjun Wang, Chenyang Xue, **Intelligent Automation & Soft Computing**
-
-
 
 
 # 🎖 Honors and Awards
@@ -115,3 +113,7 @@ I am a Ph.D. student at Australian AI Intelligence Institute (AAII), University 
 - ICLR'24
 - ICML'24
 - FL@WWW'24
+
+**Membership**:
+Institute of Electrical and Electronics Engineers (Student Mebmber'21 -> Member'23)
+Optical Society of America (Member'21)
