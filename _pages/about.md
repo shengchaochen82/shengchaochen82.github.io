@@ -32,6 +32,7 @@ I am a Ph.D. student at Australian AI Intelligence Institute (AAII), University 
 
 
 # 🔥 News
+- *2024.05*: &nbsp;🎉🎉 I am honour to be invited to attend and present at the AI4CI Workshop @ IJCAI 24, expect to get more insights.
 - *2024.05*: &nbsp;🎉🎉 I have one paper about Retinal Disease Recognition accpted by **Medical & Biological Engineering & Computing** (I act as the corresponding author). Congratulations to my collaborators!
 - *2024.04*: &nbsp;🎉🎉 I have one paper about On-device Weather Foundation Model accpted by **IJCAI'24**，see you on Jeju!
 - *2024.03*: &nbsp;🎉🎉 I have one paper about Federated Remote Sensing Analysis accepted by **Knowledge-Based Systems** (Top in Knowledge System, JCR Q1), which is my fourth work during my intership.
@@ -39,7 +40,7 @@ I am a Ph.D. student at Australian AI Intelligence Institute (AAII), University 
 - *2023.12*: &nbsp;🎉🎉 Our survey: *Foundation Models for Weather and Climate Data Understanding: A Comprehensive Survey*, has appeared on arXiv, which is the first comprehensive and systematic effort to summarize DL-based understanding of weather and climate data, paving the way for the development of foundation models of weather and climate.
 - *2023.08*: &nbsp;🎉🎉 I have one paper about Weather Image Analysis accepted by **Knowledge-Based Systems** (Top in Knowledge System, JCR Q1), which is my third work during my intership.
 - *2023.07*: &nbsp;🎉🎉 I have one paper about Radar Spatial-temporal extrapolation accepted by **IEEE Transaction on Geoscience and Remote Sensing** (Top in RS, JCR Q1), which is my second work during my intership.
-- *2023.06*: &nbsp;🎉🎉 I received my master's degree from Hainan University with distinguished honors. Looking forward to starting the my Ph.D. journey.
+- *2023.06*: &nbsp;🎉🎉 I received my master's degree from Hainan University with distinguished honors. Looking forward to starting the my Ph.D. student journey.
 - *2023.04*: &nbsp;🎉🎉 I have one paper about FL-based Weather Foundation Model accpted by **IJCAI'23**，which is my first top conference in CS domain!
 - *2023.03*: &nbsp;🎉🎉 I have three papers about Fiber-optics Demodulation accpted by **IEEE Sensors Journal** (I mentor). Congratulations to my collaborators!
 - *2023.03*: &nbsp;🎉🎉 I have one paper about Federated Learning-based Photonic Reverse Design accpted by **IEEE Photonic Letter**.
@@ -52,22 +53,28 @@ I am a Ph.D. student at Australian AI Intelligence Institute (AAII), University 
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+**Survey**:
+- [Foundation Models for Weather and Climate Data Understanding: A Comprehensive Survey](www.baidu.com), **Shengchao Chen**, Guodong Long, Jing Jiang, Chengqi Zhang, **arXiv**
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+**Federated Learning for Time Series**:
+- [Federated Prompt Learning for Weather Foundation Models on Devices](https://github.com), **Shengchao Chen**, Guodong Long, Tao Shen, Jing Jiang, Chengqi Zhang, **IJCAI 2024**
+- [Prompt Federated Learning for Weather Forecasting: Toward Foundation Models on Meteorological Data](https://github.com), **Shengchao Chen**, Guodong Long, Tao Shen, Jing Jiang, **IJCAI 2024**
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-</div>
-</div>
-
-- [Federated Prompt Learning for](https://github.com), **Shengchao Chen**, Guodong Long, Tao Shen, Jing Jiang, Chengqi Zhang, **IJCAI 2024**
-- [Interpretable CNN-Multilevel Attention Transformer for Rapid Recognition of Pneumonia from Chest X-Ray Images](https://github.com), **Shengchao Chen**, Sufen Ren, Guanjun Wang, Mengxing Huang, Chenyang Xue, **IEEE Journal of Biomedical and Health Informatics**
+**Federated Learning for Computer Vision**:
 - [Free Lunch for Federated Remote Sensing Target Fine-Grained Classification: A Parameter-Efficient Framework](www.baidu.com), **Shengchao Chen**, Ting Shu, Huan Zhao, Jiahao Wang, Sufen Ren, Lina Yang, *Knowledge-Based Systems*
-- [Foundation models for weather and climate data understanding: A comprehensive survey](www.baidu.com), **Shengchao Chen**, Guodong Long, Jing Jiang, Chengqi Zhang, **arXiv**
+
+**Computer Vision**
+- [TempEE: Temporal-Spatial Parallel Transformer for Radar Echo Extrapolation Beyond Auto-Regression](https://github.com), **Shengchao Chen**, Sufen Ren, Guanjun Wang, Mengxing Huang, Chenyang Xue, **IEEE Journal of Biomedical and Health Informatics**
+- [Interpretable CNN-Multilevel Attention Transformer for Rapid Recognition of Pneumonia from Chest X-Ray Images](https://github.com), **Shengchao Chen**, Sufen Ren, Guanjun Wang, Mengxing Huang, Chenyang Xue, **IEEE Journal of Biomedical and Health Informatics**
+- [MASK-CNN-Transformer for real-time multi-label weather recognition](https://github.com), **Shengchao Chen**, Sufen Ren, Guanjun Wang, Mengxing Huang, Chenyang Xue, **Knowledge-Based Systems**
+- [Dynamic Multiscale Fusion Generative Adversarial Network for Radar Image Extrapolation](https://github.com), **Shengchao Chen**, Ting Shu, Huan Zhao, Qilin Wan, Jincan Huang, Cailing Li **IEEE Transactions on Geoscience and Remote Sensing**
+- [Diffusion Model in Semi-Supervised Scleral Segmentation](https://github.com), Hong Peng, **Shengchao Chen**, Ning Niu, Jiahao Wang, Qiaoyi Yao, Lu Wang, Yixuan Wang, Jurui Tang, Guanjun Wang, Mengxing Huang, Chengyang Xue, **2023 IEEE 6th International Conference on Pattern Recognition and Artificial Intelligence (PRAI)**
+- [Ensemble Learning for Retinal Disease Recognition under Limited Resources](https://github.com), Jiahao Wang, Hong Peng, **Shengchao Chen (Corresponding Author)**, Sufen Ren, **Medical & Biological Engineering & Computing**
+- [Recognition System for Diagnosing Pneumonia and Bronchitis Using Children’s Breathing Sounds Based on Transfer Learning](https://github.com), Jianying Shi, **Shengchao Chen**, Benguo Yu, Yi Ren, Guanjun Wang, Chenyang Xue, **Intelligent Automation & Soft Computing**
+
+
+
 
 # 🎖 Honors and Awards
 - *2023.06* Outstanding Master's Thesis (1st place), Hainan University, China.
