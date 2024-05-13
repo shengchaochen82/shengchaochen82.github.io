@@ -117,4 +117,4 @@ I am a Ph.D. student at Australian AI Intelligence Institute (AAII), University 
 
 **Membership**:
 - Institute of Electrical and Electronics Engineers, IEEE (Student Mebmber'21 -> Member'23)
-Optical Society of America, OSA (Member'21)
+- Optical Society of America, OSA (Member'21)
