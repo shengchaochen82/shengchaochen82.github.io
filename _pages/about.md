@@ -55,7 +55,7 @@ I am a Ph.D. student at Australian AI Intelligence Institute (AAII), University 
 # 📝 Publications 
 
 **Survey**:
-- [Foundation Models for Weather and Climate Data Understanding: A Comprehensive Survey](www.baidu.com), **Shengchao Chen**, Guodong Long, Jing Jiang, Chengqi Zhang, **arXiv**
+- [Foundation Models for Weather and Climate Data Understanding: A Comprehensive Survey](www.baidu.com), **Shengchao Chen**, Guodong Long, Jing Jiang, Chengqi Zhang, **arXiv** (work in progress)
 
 
 **Federated Learning for Time Series**:
