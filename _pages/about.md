@@ -83,7 +83,7 @@ I am a Ph.D. student at Australian AI Intelligence Institute (AAII), University 
 - *2022.09* Outstanding Graduate Student, Hainan University, China.
 
 # 📖 Educations
-- *2024.02 - present*, Computer Science, University of Technology Sydney, Australia. 
+- *2023.07 - present*, Computer Science, University of Technology Sydney, Australia. 
 - *2020.09 - 2023.06*, Information and Communication Engineering, Hainan University, China. 
 - *2016.09 - 2020.06*, Communication Engineering, Jiangxi University of Science and Technology, China. 
 
