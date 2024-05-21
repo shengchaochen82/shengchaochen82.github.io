@@ -78,8 +78,10 @@ I am a Ph.D. student at Australian AI Intelligence Institute (AAII), University 
 - [Fabry-Perot interferometric sensor demodulation system utilizing multi-peak wavelength tracking and neural network algorithm](https://github.com), **Shengchao Chen**, Feifan Yao, Sufen Ren, Jianli Yang, Qian Yang, Shuyu Yuan, Guanjun Wang, Mengxing Huang, **Optics Express**
 - [Reconstruction of Fabry-Perot interferometric sensor spectrum from extremely sparse sampling points using dense neural network](https://github.com), **Shengchao Chen**, Sufen Ren, Jianli Yang, Feifan Yao, Qian Yang, Lu Wang, Guanjun Wang, Mengxing Huang, **IEEE Photonics Technology Letters**
 - [Collaborative photonic crystal fiber property optimization: A new paradigm for reverse design](https://github.com), **Shengchao Chen**, Xinchen Wang, Sufen Ren, Jianli Yang, Yaqian Zhang, Guanjun Wang, **IEEE Photonics Technology Letters**
-
-- 
+- [High-performance and low-cost FBG strain sensor demodulation system assisted by artificial neural network algorithm](https://github.com), **Shengchao Chen**, Feifan Yao, Sufen Ren, Jianli Yang, Qian Yang, Guanjun Wang, Mengxing Huang, **Optical Fiber Sensors**
+- [Improvement of fiber Bragg grating wavelength demodulation system by cascading generative adversarial network and dense neural network](https://github.com), Shuna Li, Sufen Ren, **Shengchao Chen (Corresponding Author)**, Benguo Yu, **Applied Science**
+- [Semi-supervised deep learning model for efficient computation of optical properties of suspended-core fibers](https://github.com), Gao Wang, Sufen Ren, Shuna Li, **Shengchao Chen (Corresponding Author)**, Benguo Yu, **Sensors**
+- [Dual-parameter demodulation of fbg-fpi cascade sensors via sparse samples: A deep learning-based perspective](https://github.com), Haoyang Xu, **Shengchao Chen ()**, Sufen Ren, Xuan Hou, Guanjun Wang, Chong Shen, **Sensors**
 
 
 # 🎖 Honors and Awards
