@@ -76,7 +76,10 @@ I am a Ph.D. student at Australian AI Intelligence Institute (AAII), University 
 **AI for Science**
 - [Cost-effective improvement of the performance of AWG-based FBG wavelength interrogation via a cascaded neural network](https://github.com), **Shengchao Chen**, Feifan Yao, Sufen Ren, Guanjun Wang, Mengxing Huang, **Optics Express**
 - [Fabry-Perot interferometric sensor demodulation system utilizing multi-peak wavelength tracking and neural network algorithm](https://github.com), **Shengchao Chen**, Feifan Yao, Sufen Ren, Jianli Yang, Qian Yang, Shuyu Yuan, Guanjun Wang, Mengxing Huang, **Optics Express**
-- [Reconstruction of Fabry-Perot interferometric sensor spectrum from extremely sparse sampling points using dense neural network](https://github.com), **Shengchao Chen**, Sufen Ren, Jianli Yang, Feifan Yao, Qian Yang, Lu Wang, Guanjun Wang, Mengxing Huang, **Optics Express**
+- [Reconstruction of Fabry-Perot interferometric sensor spectrum from extremely sparse sampling points using dense neural network](https://github.com), **Shengchao Chen**, Sufen Ren, Jianli Yang, Feifan Yao, Qian Yang, Lu Wang, Guanjun Wang, Mengxing Huang, **IEEE Photonics Technology Letters**
+- [Collaborative photonic crystal fiber property optimization: A new paradigm for reverse design](https://github.com), **Shengchao Chen**, Xinchen Wang, Sufen Ren, Jianli Yang, Yaqian Zhang, Guanjun Wang, **IEEE Photonics Technology Letters**
+
+- 
 
 
 # 🎖 Honors and Awards
