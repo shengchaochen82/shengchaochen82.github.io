@@ -56,8 +56,7 @@ I am a Ph.D. student at Australian AI Intelligence Institute (AAII), University 
 
 **Survey**:
 - [Foundation Models for Weather and Climate Data Understanding: A Comprehensive Survey](www.baidu.com), **Shengchao Chen**, Guodong Long, Jing Jiang, Chengqi Zhang, **arXiv** (work in progress)
-
-
+- 
 **Federated Learning for Time Series**:
 - [Federated Prompt Learning for Weather Foundation Models on Devices](https://github.com), **Shengchao Chen**, Guodong Long, Tao Shen, Jing Jiang, Chengqi Zhang, **IJCAI 2024**
 - [Prompt Federated Learning for Weather Forecasting: Toward Foundation Models on Meteorological Data](https://github.com), **Shengchao Chen**, Guodong Long, Tao Shen, Jing Jiang, **IJCAI 2023**
@@ -73,6 +72,10 @@ I am a Ph.D. student at Australian AI Intelligence Institute (AAII), University 
 - [Diffusion Model in Semi-Supervised Scleral Segmentation](https://github.com), Hong Peng, **Shengchao Chen**, Ning Niu, Jiahao Wang, Qiaoyi Yao, Lu Wang, Yixuan Wang, Jurui Tang, Guanjun Wang, Mengxing Huang, Chengyang Xue, **2023 IEEE 6th International Conference on Pattern Recognition and Artificial Intelligence (PRAI)**
 - [Ensemble Learning for Retinal Disease Recognition under Limited Resources](https://github.com), Jiahao Wang, Hong Peng, **Shengchao Chen (Corresponding Author)**, Sufen Ren, **Medical & Biological Engineering & Computing**
 - [Recognition System for Diagnosing Pneumonia and Bronchitis Using Children’s Breathing Sounds Based on Transfer Learning](https://github.com), Jianying Shi, **Shengchao Chen**, Benguo Yu, Yi Ren, Guanjun Wang, Chenyang Xue, **Intelligent Automation & Soft Computing**
+
+**AI for Science**
+- [Cost-effective improvement of the performance of AWG-based FBG wavelength interrogation via a cascaded neural network](https://github.com), **Shengchao Chen**, Feifan Yao, Sufen Ren, Guanjun Wang, Mengxing Huang, **Optics Express**
+- [Fabry-Perot interferometric sensor demodulation system utilizing multi-peak wavelength tracking and neural network algorithm](https://github.com), **Shengchao Chen**, Feifan Yao, Sufen Ren, Jianli Yang, Qian Yang, Shuyu Yuan, Guanjun Wang, Mengxing Huang, **Optics Express**
 
 
 # 🎖 Honors and Awards
