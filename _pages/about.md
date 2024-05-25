@@ -33,7 +33,7 @@ I am a Ph.D. student at Australian AI Intelligence Institute (AAII), University 
 
 
 # 🔥 News
-- *2024.05*: &nbsp;🎉🎉 I am honour to be invited to attend and present at the AI4CI Workshop @ IJCAI 24, expect to get more insights.
+- *2024.05*: &nbsp;🎉🎉 I am honour to be invited to attend and present at the **AI4CI Workshop @ IJCAI 24**, expect to get more insights.
 - *2024.05*: &nbsp;🎉🎉 I have one paper about Retinal Disease Recognition accpted by **Medical & Biological Engineering & Computing** (I act as the corresponding author). Congratulations to my collaborators!
 - *2024.04*: &nbsp;🎉🎉 I have one paper about On-device Weather Foundation Model accpted by **IJCAI'24**，see you on Jeju!
 - *2024.03*: &nbsp;🎉🎉 I have one paper about Federated Remote Sensing Analysis accepted by **Knowledge-Based Systems** (Top in Knowledge System, JCR Q1), which is my fourth work during my intership.
