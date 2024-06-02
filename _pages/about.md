@@ -81,8 +81,15 @@ I am a Ph.D. student at Australian AI Intelligence Institute (AAII), University 
 - [High-performance and low-cost FBG strain sensor demodulation system assisted by artificial neural network algorithm](https://github.com), **Shengchao Chen**, Feifan Yao, Sufen Ren, Jianli Yang, Qian Yang, Guanjun Wang, Mengxing Huang, **Optical Fiber Sensors**
 - [Improvement of fiber Bragg grating wavelength demodulation system by cascading generative adversarial network and dense neural network](https://github.com), Shuna Li, Sufen Ren, **Shengchao Chen (Corresponding Author)**, Benguo Yu, **Applied Science**
 - [Semi-supervised deep learning model for efficient computation of optical properties of suspended-core fibers](https://github.com), Gao Wang, Sufen Ren, Shuna Li, **Shengchao Chen (Corresponding Author)**, Benguo Yu, **Sensors**
-- [Dual-parameter demodulation of fbg-fpi cascade sensors via sparse samples: A deep learning-based perspective](https://github.com), Haoyang Xu, **Shengchao Chen ()**, Sufen Ren, Xuan Hou, Guanjun Wang, Chong Shen, **Sensors**
-
+- [Dual-parameter demodulation of fbg-fpi cascade sensors via sparse samples: A deep learning-based perspective](https://github.com), Haoyang Xu, **Shengchao Chen (mentor)**, Sufen Ren, Xuan Hou, Guanjun Wang, Chong Shen, **IEEE Sensors Journal**
+- [High-efficiency FBG array sensor interrogation system via a neural network working with sparse data](https://github.com), Sufen Ren, **Shengchao Chen (mentor)**, Jianli Yang, Jiahao Wang, Qian Yang, Chenyang Xue, Guanjun Wang, Mengxing Huang, **Optics Express**
+- [Fabrication and Demodulation for Sensitivity Enhanced Fiber Fabry-Perot Sensor based on Hookean Effect](https://github.com), Qian Yang, **Shengchao Chen (mentor)**, Zilu Liu, Lei Liu, Sen Zhang, Sufen Ren, Longtao Lv, Guanjun Wang, Chong Shen, **IEEE Sensors Journal**
+- [High Resolution Spectrum Reconstruction of Cascaded FBG-FPI Sensor In Resource-constrained Environments](https://github.com), Haoyang Xu, **Shengchao Chen (mentor)**, Sufen Ren, Xuan Hou, Hong Peng, Guanjun Wang, Yaqian Zhang, **IEEE Sensors Journal**
+- [Curvature sensing via symmetric fiber ball MZI and neural network with sparse data](https://github.com), Qian Yang, Lei Zhou, Rui Li, ShuaiCheng Liu, LongTao Lv, **ShengChao Chen**, SuFen Ren, Guanjun Wang, Chong Shen, **Optical Fiber Technology**
+- [Neural network-based FBG array sensor demodulation system with sparse data](https://github.com), Sufen Ren, **Shengchao Chen (mentor)**, Haoyang Xu, Xuan Hou, Guanjun Wang, Mengxing Huang, **2023 21st International Conference on Optical Communications and Networks (ICOCN)**
+- [A distributed photonic crystal fiber reverse design framework based on multi-source knowledge fusion](https://github,com), Sufen Ren, Shengchao Chen (mentor), Jiahao Wang, Haoyang Xu, Xuan Hou, Mengxing Huang, Jianxun Liu, Guanjun Wang, **Optical Fiber Technology**
+- [Unsupervised representation learning-based spectrum reconstruction for demodulation of Fabry-Perot interferometer sensor], Sufen Ren, Shengchao Chen (mentor), Haoyang Xu, Xuan Hou, Qian Yang, Guanjun Wang, Chong Shen, **IEEE Sensors Journal**
+- [Efficient calculation of optical properties of suspended-core fiber via a machine learning algorithm], Shuyu Yuan, **Shengchao Chen (co-first)**, Jianli Yang, Qian Yang, Sufen Ren, Guanjun Wang, Benguo Yu, **Applied Optics**
 
 # 🎖 Honors and Awards
 - *2023.06* Outstanding Master's Thesis (1st place), Hainan University, China.
