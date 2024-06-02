@@ -88,8 +88,8 @@ I am a Ph.D. student at Australian AI Intelligence Institute (AAII), University 
 - [Curvature sensing via symmetric fiber ball MZI and neural network with sparse data](https://github.com), Qian Yang, Lei Zhou, Rui Li, ShuaiCheng Liu, LongTao Lv, **ShengChao Chen**, SuFen Ren, Guanjun Wang, Chong Shen, **Optical Fiber Technology**
 - [Neural network-based FBG array sensor demodulation system with sparse data](https://github.com), Sufen Ren, **Shengchao Chen (mentor)**, Haoyang Xu, Xuan Hou, Guanjun Wang, Mengxing Huang, **2023 21st International Conference on Optical Communications and Networks (ICOCN)**
 - [A distributed photonic crystal fiber reverse design framework based on multi-source knowledge fusion](https://github,com), Sufen Ren, Shengchao Chen (mentor), Jiahao Wang, Haoyang Xu, Xuan Hou, Mengxing Huang, Jianxun Liu, Guanjun Wang, **Optical Fiber Technology**
-- [Unsupervised representation learning-based spectrum reconstruction for demodulation of Fabry-Perot interferometer sensor], Sufen Ren, Shengchao Chen (mentor), Haoyang Xu, Xuan Hou, Qian Yang, Guanjun Wang, Chong Shen, **IEEE Sensors Journal**
-- [Efficient calculation of optical properties of suspended-core fiber via a machine learning algorithm], Shuyu Yuan, **Shengchao Chen (co-first)**, Jianli Yang, Qian Yang, Sufen Ren, Guanjun Wang, Benguo Yu, **Applied Optics**
+- [Unsupervised representation learning-based spectrum reconstruction for demodulation of Fabry-Perot interferometer sensor](https://github,com), Sufen Ren, Shengchao Chen (mentor), Haoyang Xu, Xuan Hou, Qian Yang, Guanjun Wang, Chong Shen, **IEEE Sensors Journal**
+- [Efficient calculation of optical properties of suspended-core fiber via a machine learning algorithm](https://github,com), Shuyu Yuan, **Shengchao Chen (co-first)**, Jianli Yang, Qian Yang, Sufen Ren, Guanjun Wang, Benguo Yu, **Applied Optics**
 
 # 🎖 Honors and Awards
 - *2023.06* Outstanding Master's Thesis (1st place), Hainan University, China.
@@ -114,7 +114,7 @@ I am a Ph.D. student at Australian AI Intelligence Institute (AAII), University 
 - *2021.07 - 2021.10*, [Guangdong-Hong Kong-Macao Greater Bay Area Weather Research Center for Monitoring Warning and Forecasting](https://weather.sz.gov.cn/gbamwf/), China.
 
 # 🧱 Services
-**(Sub-)Reviewer**:
+**Reviewer**:
 - IEEE Transactions on Neural Network and Learning Systems
 - IEEE Transactions on Knowledge and Data Engineering
 - IEEE Sensors Journal
@@ -126,7 +126,7 @@ I am a Ph.D. student at Australian AI Intelligence Institute (AAII), University 
 - FL@IJCAI'23
 - CVPR'23, 24
 - ECCV'23, 24
-- NeurIPS'23
+- NeurIPS'23, 24
 - ICLR'24
 - ICML'24
 - FL@WWW'24
