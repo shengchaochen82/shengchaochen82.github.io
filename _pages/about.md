@@ -65,7 +65,7 @@ I am a Ph.D. student at Australian AI Intelligence Institute (AAII), University 
 - [Free Lunch for Federated Remote Sensing Target Fine-Grained Classification: A Parameter-Efficient Framework](www.baidu.com), **Shengchao Chen**, Ting Shu, Huan Zhao, Jiahao Wang, Sufen Ren, Lina Yang, **Knowledge-Based Systems**
 
 **Computer Vision**
-- [TempEE: Temporal-Spatial Parallel Transformer for Radar Echo Extrapolation Beyond Auto-Regression](https://github.com), **Shengchao Chen**, Sufen Ren, Guanjun Wang, Mengxing Huang, Chenyang Xue, **IEEE Journal of Biomedical and Health Informatics**
+- [TempEE: Temporal-Spatial Parallel Transformer for Radar Echo Extrapolation Beyond Auto-Regression](https://github.com), **Shengchao Chen**, Ting Shu, Huan Zhao, Guo Zhong, Xunlai Chen, **IEEE Transactions on Geoscience and Remote Sensing**
 - [Interpretable CNN-Multilevel Attention Transformer for Rapid Recognition of Pneumonia from Chest X-Ray Images](https://github.com), **Shengchao Chen**, Sufen Ren, Guanjun Wang, Mengxing Huang, Chenyang Xue, **IEEE Journal of Biomedical and Health Informatics**
 - [MASK-CNN-Transformer for real-time multi-label weather recognition](https://github.com), **Shengchao Chen**, Sufen Ren, Guanjun Wang, Mengxing Huang, Chenyang Xue, **Knowledge-Based Systems**
 - [Dynamic Multiscale Fusion Generative Adversarial Network for Radar Image Extrapolation](https://github.com), **Shengchao Chen**, Ting Shu, Huan Zhao, Qilin Wan, Jincan Huang, Cailing Li **IEEE Transactions on Geoscience and Remote Sensing**
