@@ -60,8 +60,8 @@ I am a Ph.D. student at Australian AI Intelligence Institute (AAII), University 
 
 **Federated Learning for Time Series**:
 - [Personalized Adapter for Large Meteorology Model on Devices: Towards Weather Foundation Models](www.baidu.com), **Shengchao Chen**, Guodong Long, Jing Jiang, Chengqi Zhang, **arXiv** (work in progress)
-- [Federated Prompt Learning for Weather Foundation Models on Devices](https://github.com), **Shengchao Chen**, Guodong Long, Tao Shen, Jing Jiang, Chengqi Zhang, **IJCAI 2024**
-- [Prompt Federated Learning for Weather Forecasting: Toward Foundation Models on Meteorological Data](https://github.com), **Shengchao Chen**, Guodong Long, Tao Shen, Jing Jiang, **IJCAI 2023**
+- [Federated Prompt Learning for Weather Foundation Models on Devices](https://github.com), **Shengchao Chen**, Guodong Long, Tao Shen, Jing Jiang, Chengqi Zhang, **Main Track in IJCAI 2024 & Invited Task on AI4CI**
+- [Prompt Federated Learning for Weather Forecasting: Toward Foundation Models on Meteorological Data](https://github.com), **Shengchao Chen**, Guodong Long, Tao Shen, Jing Jiang, **Main Track in IJCAI 2023**
 
 **Federated Learning for Computer Vision**:
 - [Free Lunch for Federated Remote Sensing Target Fine-Grained Classification: A Parameter-Efficient Framework](www.baidu.com), **Shengchao Chen**, Ting Shu, Huan Zhao, Jiahao Wang, Sufen Ren, Lina Yang, **Knowledge-Based Systems**
