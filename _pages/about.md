@@ -116,7 +116,7 @@ I am a Ph.D. student at Australian AI Intelligence Institute (AAII), University 
 - *2021.07 - 2021.10*, [Guangdong-Hong Kong-Macao Greater Bay Area Weather Research Center for Monitoring Warning and Forecasting](https://weather.sz.gov.cn/gbamwf/), China.
 
 # 🧱 Services
-**Reviewer**:
+**Reviewer** / **Program Member**:
 - IEEE Transactions on Neural Network and Learning Systems
 - IEEE Transactions on Knowledge and Data Engineering
 - IEEE Sensors Journal
