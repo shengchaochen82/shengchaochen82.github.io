@@ -33,7 +33,7 @@ I am a Ph.D. student at Australian AI Intelligence Institute (AAII), University 
 
 
 # 🔥 News
-- *2024.06*: &nbsp;🎉🎉 I have one paper about Federated Foundaion Model on Weather accpted by **AI4CI Workshop @ IJCAI 24**.
+- *2024.06*: &nbsp;🎉🎉 I have one paper about Federated Foundaion Model on Weather accpted by **AI4CI Workshop @ IJCAI 24 (Highlight)**.
 - *2024.05*: &nbsp;🎉🎉 I am honour to be invited to attend and present at the **AI4CI Workshop @ IJCAI 24**, expect to get more insights.
 - *2024.05*: &nbsp;🎉🎉 I have one paper about Retinal Disease Recognition accpted by **Medical & Biological Engineering & Computing** (I act as the corresponding author). Congratulations to my collaborators!
 - *2024.04*: &nbsp;🎉🎉 I have one paper about On-device Weather Foundation Model accpted by **IJCAI'24**，see you on Jeju!
