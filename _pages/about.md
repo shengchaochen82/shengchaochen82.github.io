@@ -90,7 +90,7 @@ I am a Ph.D. student at Australian AI Intelligence Institute (AAII), University 
 - [Curvature sensing via symmetric fiber ball MZI and neural network with sparse data](https://github.com), Qian Yang, Lei Zhou, Rui Li, ShuaiCheng Liu, LongTao Lv, **ShengChao Chen**, SuFen Ren, Guanjun Wang, Chong Shen, **Optical Fiber Technology**
 - [Neural network-based FBG array sensor demodulation system with sparse data](https://github.com), Sufen Ren, **Shengchao Chen (mentor)**, Haoyang Xu, Xuan Hou, Guanjun Wang, Mengxing Huang, **2023 21st International Conference on Optical Communications and Networks (ICOCN)**
 - [A distributed photonic crystal fiber reverse design framework based on multi-source knowledge fusion](https://github,com), Sufen Ren, Shengchao Chen (mentor), Jiahao Wang, Haoyang Xu, Xuan Hou, Mengxing Huang, Jianxun Liu, Guanjun Wang, **Optical Fiber Technology**
-- [Unsupervised representation learning-based spectrum reconstruction for demodulation of Fabry-Perot interferometer sensor](https://github,com), Sufen Ren, Shengchao Chen (mentor), Haoyang Xu, Xuan Hou, Qian Yang, Guanjun Wang, Chong Shen, **IEEE Sensors Journal**
+- [Unsupervised representation learning-based spectrum reconstruction for demodulation of Fabry-Perot interferometer sensor](https://github,com), Sufen Ren, **Shengchao Chen (mentor)**, Haoyang Xu, Xuan Hou, Qian Yang, Guanjun Wang, Chong Shen, **IEEE Sensors Journal**
 - [Efficient calculation of optical properties of suspended-core fiber via a machine learning algorithm](https://github,com), Shuyu Yuan, **Shengchao Chen (co-first)**, Jianli Yang, Qian Yang, Sufen Ren, Guanjun Wang, Benguo Yu, **Applied Optics**
 
 # 🎖 Honors and Awards
