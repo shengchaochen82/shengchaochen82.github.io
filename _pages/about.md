@@ -63,10 +63,8 @@ I am a Ph.D. student at Australian AI Intelligence Institute (AAII), University 
 - [Federated Prompt Learning for Weather Foundation Models on Devices](https://github.com), **Shengchao Chen**, Guodong Long, Tao Shen, Jing Jiang, Chengqi Zhang, **Main Track in IJCAI 2024 & Invited Talk on AI4CI**
 - [Prompt Federated Learning for Weather Forecasting: Toward Foundation Models on Meteorological Data](https://github.com), **Shengchao Chen**, Guodong Long, Tao Shen, Jing Jiang, **Main Track in IJCAI 2023**
 
-**Federated Learning for Computer Vision**:
-- [Free Lunch for Federated Remote Sensing Target Fine-Grained Classification: A Parameter-Efficient Framework](www.baidu.com), **Shengchao Chen**, Ting Shu, Huan Zhao, Jiahao Wang, Sufen Ren, Lina Yang, **Knowledge-Based Systems**
-
 **Computer Vision**
+- [Free Lunch for Federated Remote Sensing Target Fine-Grained Classification: A Parameter-Efficient Framework](www.baidu.com), **Shengchao Chen**, Ting Shu, Huan Zhao, Jiahao Wang, Sufen Ren, Lina Yang, **Knowledge-Based Systems**
 - [TempEE: Temporal-Spatial Parallel Transformer for Radar Echo Extrapolation Beyond Auto-Regression](https://github.com), **Shengchao Chen**, Ting Shu, Huan Zhao, Guo Zhong, Xunlai Chen, **IEEE Transactions on Geoscience and Remote Sensing**
 - [Interpretable CNN-Multilevel Attention Transformer for Rapid Recognition of Pneumonia from Chest X-Ray Images](https://github.com), **Shengchao Chen**, Sufen Ren, Guanjun Wang, Mengxing Huang, Chenyang Xue, **IEEE Journal of Biomedical and Health Informatics**
 - [MASK-CNN-Transformer for real-time multi-label weather recognition](https://github.com), **Shengchao Chen**, Sufen Ren, Guanjun Wang, Mengxing Huang, Chenyang Xue, **Knowledge-Based Systems**
