@@ -107,11 +107,11 @@ I am a Ph.D. student at Australian AI Intelligence Institute (AAII), University 
 - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
 
-# 💻 Internships
-- *2023.06 - 2024.02*, [Hainan University](https://weather.sz.gov.cn/gbamwf/), China.
-- *2023.03 - present*, [Guangdong-Hong Kong-Macao Greater Bay Area Weather Research Center for Monitoring Warning and Forecasting](https://weather.sz.gov.cn/gbamwf/), China.
-- *2022.03 - 2023.01*, [Guangdong-Hong Kong-Macao Greater Bay Area Weather Research Center for Monitoring Warning and Forecasting](https://weather.sz.gov.cn/gbamwf/), China.
-- *2021.07 - 2021.10*, [Guangdong-Hong Kong-Macao Greater Bay Area Weather Research Center for Monitoring Warning and Forecasting](https://weather.sz.gov.cn/gbamwf/), China.
+# 💻 Experiences
+- *2023.06 - 2024.02*, Remote research adviser, [Hainan University](https://weather.sz.gov.cn/gbamwf/), China.
+- *2023.03 - present*, Research Intern, [Guangdong-Hong Kong-Macao Greater Bay Area Weather Research Center for Monitoring Warning and Forecasting](https://weather.sz.gov.cn/gbamwf/), China.
+- *2022.03 - 2023.01*, Research Intern, [Guangdong-Hong Kong-Macao Greater Bay Area Weather Research Center for Monitoring Warning and Forecasting](https://weather.sz.gov.cn/gbamwf/), China.
+- *2021.07 - 2021.10*, Research Intern, [Guangdong-Hong Kong-Macao Greater Bay Area Weather Research Center for Monitoring Warning and Forecasting](https://weather.sz.gov.cn/gbamwf/), China.
 
 # 🧱 Services
 **Reviewer** / **Program Chair Member**:
