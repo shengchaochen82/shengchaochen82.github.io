@@ -25,12 +25,8 @@ I am a Ph.D. student at Australian AI Intelligence Institute (AAII), University 
 
 # 💬 Research Intersts
 - **Federated Learning (FL)**: Heterogeneous FL, FL for X (e.g., Time Series, Computer Vision, Science, etc.)
-- **Computer Vision**: Remote Sensing, Medical Image, Auto Driving
+- **Computer Vision**: Remote Sensing, Medical Image
 - **Time Series**: Federated Time Series Modeling, Weather Time Series
-- **AI4Science**: Federated PDE Solver
-  
-**Fun Fact**: I am regularly trying to combine real-world problems with research to create a variety of interdisciplinary cross-over research.
-
 
 # 🔥 News
 - *2024.06*: I have one paper about Federated Foundaion Model on Weather accpted by **AI4CI Workshop @ IJCAI 24 (Highlight)**.
@@ -102,10 +98,6 @@ I am a Ph.D. student at Australian AI Intelligence Institute (AAII), University 
 - *2023.07 - present*, Computer Science, University of Technology Sydney, Australia. 
 - *2020.09 - 2023.06*, Information and Communication Engineering, Hainan University, China. 
 - *2016.09 - 2020.06*, Communication Engineering, Jiangxi University of Science and Technology, China. 
-
-# 💬 Invited Talks
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  \| [\[video\]](https://github.com/)
 
 # 💻 Experiences
 - *2023.06 - 2024.02*, Remote research adviser, [Hainan University](https://weather.sz.gov.cn/gbamwf/), China.
