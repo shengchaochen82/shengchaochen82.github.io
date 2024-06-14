@@ -99,7 +99,7 @@ I am a Ph.D. student at Australian AI Intelligence Institute (AAII), University 
 - *2020.09 - 2023.06*, Information and Communication Engineering, Hainan University, China. **(Outstanding Graduates, 1st)**
 - *2016.09 - 2020.06*, Communication Engineering, Jiangxi University of Science and Technology, China. 
 
-# 💻 Experiences
+# 💻 Internships
 - *2023.06 - 2024.02*, Remote research adviser, [Hainan University](https://weather.sz.gov.cn/gbamwf/), China.
 - *2023.03 - present*, Research Intern, [Guangdong-Hong Kong-Macao Greater Bay Area Weather Research Center for Monitoring Warning and Forecasting](https://weather.sz.gov.cn/gbamwf/), China.
 - *2022.03 - 2023.01*, Research Intern, [Guangdong-Hong Kong-Macao Greater Bay Area Weather Research Center for Monitoring Warning and Forecasting](https://weather.sz.gov.cn/gbamwf/), China.
