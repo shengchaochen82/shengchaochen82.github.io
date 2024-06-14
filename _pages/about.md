@@ -25,8 +25,8 @@ I am a Ph.D. student at Australian AI Intelligence Institute (AAII), University 
 
 # 💬 Research Intersts
 - **Federated Learning**: FL for X (e.g., Time Series, Computer Vision, Science, etc.)
-- **Computer Vision**: Mainly for remote sensing**(IEEE TGRS'22,23)**/medical imaging
-- **Time Series**: Federated Time Series Modeling, Weather Time Series
+- **Computer Vision**: Mainly for remote sensing **(IEEE TGRS'22,23, KBS'23,24)**/medical imaging **(IEEE JBHI'24, MBEC'24)**
+- **Time Series**: Time Series Forecasting **(IJCAI'23,24, arXiv'23,24)**
 
 # 🔥 News
 - *2024.06*: I have one paper about Federated Foundaion Model on Weather accpted by **AI4CI Workshop @ IJCAI 24 (Highlight)**.
