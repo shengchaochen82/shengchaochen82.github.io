@@ -24,8 +24,8 @@ I am a Ph.D. student at Australian AI Intelligence Institute (AAII), University 
 **Fun Fact**: My research during my masters was in fiber-optic sensing and I was exposed to ML/DL during my intership, which is the main reason why I have a composite background.
 
 # 💬 Research Intersts
-- **Federated Learning (FL)**: Heterogeneous FL, FL for X (e.g., Time Series, Computer Vision, Science, etc.)
-- **Computer Vision**: Remote Sensing, Medical Image
+- **Federated Learning**: FL for X (e.g., Time Series, Computer Vision, Science, etc.)
+- **Computer Vision**: Mainly for remote sensing**(IEEE TGRS'22,23)**/medical imaging
 - **Time Series**: Federated Time Series Modeling, Weather Time Series
 
 # 🔥 News
