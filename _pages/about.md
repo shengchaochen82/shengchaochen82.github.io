@@ -25,7 +25,7 @@ I am a Ph.D. student at Australian AI Intelligence Institute (AAII), University 
 
 # 💬 Research Intersts
 - **Federated Learning**: FL for X (e.g., Time Series, Computer Vision, Science, etc.)
-- **Computer Vision**: Mainly for remote sensing **(IEEE TGRS'22,23, KBS'23,24)**/medical imaging **(IEEE JBHI'24, MBEC'24)**
+- **Computer Vision**: Mainly for remote sensing **(IEEE TGRS'22,23, KBS'23,24)**/medical imaging **(IEEE JBHI'24, MBEC'24, arXiv*24)**
 - **Time Series**: Time Series Forecasting **(IJCAI'23,24, arXiv'23,24)**
 
 # 🔥 News
