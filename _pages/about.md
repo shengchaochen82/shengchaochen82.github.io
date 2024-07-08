@@ -22,7 +22,6 @@ I am a Ph.D. student at Australian AI Intelligence Institute (AAII), University 
 *99% of the research process is frustrating, but refreshing insights may still be gleaned from it.*
 
 **Fun Fact**: My research during my masters was in fiber-optic sensing and I was exposed to ML/DL during my intership, which is the main reason why I have a composite background.
-**Note**: 
 
 # 💬 Research Intersts
 - **Federated Learning**: FL for X (e.g., Time Series, Computer Vision, Science, etc.)
@@ -92,7 +91,7 @@ I am a Ph.D. student at Australian AI Intelligence Institute (AAII), University 
 - *2023.06* Outstanding Master's Thesis (1st place), Hainan University, China.
 - *2023.03* Full Scholarship for Ph.D. Student, University of Technology Sydney, Australia.
 - *2023.05* Outstanding Graduates, Hainan University, China.
-- *2022.10* **National Scholarship (Top 1%)**, Ministrt of Education, China.
+- *2022.10* **National Scholarship (Top 1%, 1/1218)**, Ministrt of Education, China.
 - *2022.09* Outstanding Graduate Student, Hainan University, China.
 
 # 📖 Educations
