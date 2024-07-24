@@ -55,7 +55,7 @@ I am a Ph.D. student at Australian AI Intelligence Institute (AAII), University 
 - [Foundation Models for Weather and Climate Data Understanding: A Comprehensive Survey](www.baidu.com), **Shengchao Chen**, Guodong Long, Jing Jiang, Chengqi Zhang, **arXiv** (work in progress)
 
 **Federated Learning for Time Series**:
-- [Personalized Adapter for Large Meteorology Model on Devices: Towards Weather Foundation Models](www.baidu.com), **Shengchao Chen**, Guodong Long, Jing Jiang, Chengqi Zhang, **arXiv** (work in progress)
+- [Personalized Adapter for Large Meteorology Model on Devices: Towards Weather Foundation Models](www.baidu.com), **Shengchao Chen**, Guodong Long, Jing Jiang, Chengqi Zhang, **arXiv 2024** (work in progress)
 - [Federated Prompt Learning for Weather Foundation Models on Devices](https://github.com), **Shengchao Chen**, Guodong Long, Tao Shen, Jing Jiang, Chengqi Zhang, **Main Track in IJCAI 2024 & Invited Talk on AI4CI**
 - [Prompt Federated Learning for Weather Forecasting: Toward Foundation Models on Meteorological Data](https://github.com), **Shengchao Chen**, Guodong Long, Tao Shen, Jing Jiang, **Main Track in IJCAI 2023**
 
@@ -91,7 +91,7 @@ I am a Ph.D. student at Australian AI Intelligence Institute (AAII), University 
 - *2023.06* Outstanding Master's Thesis (1st place), Hainan University, China.
 - *2023.03* Full Scholarship for Ph.D. Student, University of Technology Sydney, Australia.
 - *2023.05* Outstanding Graduates, Hainan University, China.
-- *2022.10* **National Scholarship (Top 1%, 1/1218)**, Ministrt of Education, China.
+- *2022.10* **National Scholarship (Top 0.1%, 1/1218)**, Ministrt of Education, China.
 - *2022.09* Outstanding Graduate Student, Hainan University, China.
 
 # 📖 Educations
@@ -101,7 +101,7 @@ I am a Ph.D. student at Australian AI Intelligence Institute (AAII), University 
 
 # 💻 Internships
 - *2023.06 - 2024.02*, Remote research adviser, [Hainan University](https://weather.sz.gov.cn/gbamwf/), China.
-- *2023.03 - present*, Research Intern, [Guangdong-Hong Kong-Macao Greater Bay Area Weather Research Center for Monitoring Warning and Forecasting](https://weather.sz.gov.cn/gbamwf/), China.
+- *2023.03 - 2024.06*, Research Intern, [Guangdong-Hong Kong-Macao Greater Bay Area Weather Research Center for Monitoring Warning and Forecasting](https://weather.sz.gov.cn/gbamwf/), China.
 - *2022.03 - 2023.01*, Research Intern, [Guangdong-Hong Kong-Macao Greater Bay Area Weather Research Center for Monitoring Warning and Forecasting](https://weather.sz.gov.cn/gbamwf/), China.
 - *2021.07 - 2021.10*, Research Intern, [Guangdong-Hong Kong-Macao Greater Bay Area Weather Research Center for Monitoring Warning and Forecasting](https://weather.sz.gov.cn/gbamwf/), China.
 
@@ -114,6 +114,7 @@ I am a Ph.D. student at Australian AI Intelligence Institute (AAII), University 
 - IEEE Access
 - Knowledge-Based Systems
 - Artificial Intelligence In Medicine
+- Computer Methods in Biomechanics and Biomedical Engineering: Imaging & Visualization
 - IJCAI'23, 24
 - FL@IJCAI'23
 - CVPR'23, 24
