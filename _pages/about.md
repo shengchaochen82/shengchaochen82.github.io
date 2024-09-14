@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a Ph.D. student at Australian AI Intelligence Institute (AAII), University of Technology Sydney (UTS), working on Federated Learning for X (e.g., Time Series, Computer Vision, Science, etc.). I have worked as a Deep Learning Research Intern at Shenzhen Institue of Meteorological Innovation（Guangdong-Hong Kong-Macao Greater Bay Area Weather Research Center for Monitoring Warning and Forecasting）. Previously, I completed an MPhil at the Hainan University and a BEng at Jiangxi University of Science and Technology, both in Information and Communication Engineering. Now, my research focuses on bridging the gap between academic research and real-world applications. In addtion, I am also extremely interested in common computer vision problems such as autonomous driving, remote sensing, and healthcare. If you have any fun ideas or just want to have a chat, please feel free to drop me an email (shengchao.chen.uts AT gmail DOT com ~~pavelchen@ieee.org~~).
+I am a Ph.D. student at Australian AI Intelligence Institute (AAII), University of Technology Sydney, working on Federated Learning for X (e.g., Time Series, Computer Vision, Science, etc.). I have worked as a Deep Learning Research Intern at Shenzhen Institue of Meteorological Innovation（Guangdong-Hong Kong-Macao Greater Bay Area Weather Research Center for Monitoring Warning and Forecasting）. Previously, I completed an MPhil at the Hainan University and a BEng at Jiangxi University of Science and Technology. Now, my research focuses on bridging the gap between academic research and real-world applications. In addtion, I am also extremely interested in common computer vision problems such as remote sensing and healthcare. If you have any fun ideas or just want to have a chat, please feel free to drop me an email (shengchao.chen.uts AT gmail DOT com ~~pavelchen@ieee.org~~).
 
 *99% of the research process is frustrating, but refreshing insights may still be gleaned from it.*
 
@@ -122,7 +122,9 @@ I am a Ph.D. student at Australian AI Intelligence Institute (AAII), University 
 - NeurIPS'23, 24
 - ICLR'24, 25
 - ICML'24
+- ICASSP'25
 - FL@WWW'24
+
 
 **Membership**:
 - Institute of Electrical and Electronics Engineers, IEEE (Student Mebmber'21 -> Member'23) (I am no longer a member because I am not renewing my membership.)
