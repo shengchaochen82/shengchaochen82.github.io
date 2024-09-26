@@ -29,6 +29,7 @@ I am a Ph.D. student at Australian AI Intelligence Institute (AAII), University 
 - **Time Series**: Time Series Forecasting **(IJCAI'23,24, arXiv'23,24)**
 
 # 🔥 News
+- *2024.09*: I have one paper about LLMs on Weather Forecasting accpted by **NeurIPS 2024**.
 - *2024.06*: I have one paper about Federated Foundaion Model on Weather accpted by **AI4CI Workshop @ IJCAI 24 (Highlight)**.
 - *2024.05*: I am honour to be invited to attend and present at the **AI4CI Workshop @ IJCAI 24**, expect to get more insights.
 - *2024.05*: I have one paper about Retinal Disease Recognition accpted by **Medical & Biological Engineering & Computing** (I act as the corresponding author). Congratulations to my collaborators!
@@ -55,7 +56,7 @@ I am a Ph.D. student at Australian AI Intelligence Institute (AAII), University 
 - [Foundation Models for Weather and Climate Data Understanding: A Comprehensive Survey](www.baidu.com), **Shengchao Chen**, Guodong Long, Jing Jiang, Chengqi Zhang, **arXiv** (work in progress)
 
 **Federated Learning for Time Series**:
-- [Personalized Adapter for Large Meteorology Model on Devices: Towards Weather Foundation Models](www.baidu.com), **Shengchao Chen**, Guodong Long, Jing Jiang, Chengqi Zhang, **arXiv 2024** (work in progress)
+- [Personalized Adapter for Large Meteorology Model on Devices: Towards Weather Foundation Models](www.baidu.com), **Shengchao Chen**, Guodong Long, Jing Jiang, Chengqi Zhang, **NeurIPS 2024**
 - [Federated Prompt Learning for Weather Foundation Models on Devices](https://github.com), **Shengchao Chen**, Guodong Long, Tao Shen, Jing Jiang, Chengqi Zhang, **Main Track in IJCAI 2024 & Invited Talk on AI4CI**
 - [Prompt Federated Learning for Weather Forecasting: Toward Foundation Models on Meteorological Data](https://github.com), **Shengchao Chen**, Guodong Long, Tao Shen, Jing Jiang, **Main Track in IJCAI 2023**
 
