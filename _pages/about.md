@@ -55,7 +55,7 @@ I am a Ph.D. student at Australian AI Intelligence Institute (AAII), University 
 **Survey**:
 - [Foundation Models for Weather and Climate Data Understanding: A Comprehensive Survey](www.baidu.com), **Shengchao Chen**, Guodong Long, Jing Jiang, Chengqi Zhang, **arXiv** (work in progress)
 
-**Federated Learning for Time Series**:
+**Federated Intelligence**:
 - [Personalized Adapter for Large Meteorology Model on Devices: Towards Weather Foundation Models](www.baidu.com), **Shengchao Chen**, Guodong Long, Jing Jiang, Chengqi Zhang, **NeurIPS 2024**
 - [Federated Prompt Learning for Weather Foundation Models on Devices](https://github.com), **Shengchao Chen**, Guodong Long, Tao Shen, Jing Jiang, Chengqi Zhang, **Main Track in IJCAI 2024 & Invited Talk on AI4CI**
 - [Prompt Federated Learning for Weather Forecasting: Toward Foundation Models on Meteorological Data](https://github.com), **Shengchao Chen**, Guodong Long, Tao Shen, Jing Jiang, **Main Track in IJCAI 2023**
@@ -108,6 +108,7 @@ I am a Ph.D. student at Australian AI Intelligence Institute (AAII), University 
 
 # 🧱 Services
 **Reviewer** / **Program Chair Member**:
+*Journal*
 - IEEE Transactions on Neural Network and Learning Systems
 - IEEE Transactions on Knowledge and Data Engineering
 - IEEE Sensors Journal
@@ -116,15 +117,17 @@ I am a Ph.D. student at Australian AI Intelligence Institute (AAII), University 
 - Knowledge-Based Systems
 - Artificial Intelligence In Medicine
 - Computer Methods in Biomechanics and Biomedical Engineering: Imaging & Visualization
-- IJCAI'23, 24
-- FL@IJCAI'23
-- CVPR'23, 24
-- ECCV'23, 24
-- NeurIPS'23, 24
-- ICLR'24, 25
-- ICML'24
-- ICASSP'25
-- FL@WWW'24
+  
+*Conferece*
+- NeurIPS (2023, 2024)
+- ICLR (2024, 2025)
+- ICML (2024)
+- IJCAI (2023, 2024)
+- CVPR (2023, 2024)
+- ECCV (2023, 2024)
+- ICASSP (2025)
+- FL@IJCAI (2023)
+- FL@WWW (2024)
 
 
 **Membership**:
