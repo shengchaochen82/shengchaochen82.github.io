@@ -31,7 +31,7 @@ I primarily focus on building trustworthy AI models in the ever-changing real wo
 - **Time Series**: Time Series Forecasting **(IJCAI'23,24, NeurIPS'24, arXiv'23,24)**
 
 # 🔥 News
-- *2024.09*: I have one paper about LLMs on Weather Forecasting accpted by **NeurIPS 2024**.
+- *2024.09*: I have one paper about LLMs on Weather Modeling accpted by **NeurIPS 2024** with an average rating of 7 (8/7/7/6).
 - *2024.06*: I have one paper about Federated Foundaion Model on Weather accpted by **AI4CI Workshop @ IJCAI 24 (Highlight)**.
 - *2024.05*: I am honour to be invited to attend and present at the **AI4CI Workshop @ IJCAI 24**, expect to get more insights.
 - *2024.05*: I have one paper about Retinal Disease Recognition accpted by **Medical & Biological Engineering & Computing** (I act as the corresponding author). Congratulations to my collaborators!
