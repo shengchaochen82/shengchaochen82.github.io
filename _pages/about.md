@@ -109,7 +109,7 @@ I primarily focus on building trustworthy AI models in the ever-changing real wo
 - *2021.07 - 2021.10*, Research Intern, [Guangdong-Hong Kong-Macao Greater Bay Area Weather Research Center for Monitoring Warning and Forecasting](https://weather.sz.gov.cn/gbamwf/), China.
 
 # 🧱 Services
-**Reviewer** / **Program Chair Member**:
+**Reviewer** / **Program Committee Member**:
 
 *Journal*
 - IEEE Transactions on Neural Network and Learning Systems
