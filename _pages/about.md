@@ -24,9 +24,11 @@ I am a Ph.D. student at Australian AI Intelligence Institute (AAII), University 
 **Fun Fact**: My research during my masters was in fiber-optic sensing and I was exposed to ML/DL during my intership, which is the main reason why I have a composite background.
 
 # 💬 Research Intersts
+
+I primarily focus on building trustworthy AI models in the ever-changing real world to address potentially complex modeling scenarios.
 - **Federated Learning**: FL for X (e.g., Time Series, Computer Vision, Science, etc.)
-- **Computer Vision**: Mainly for remote sensing **(IEEE TGRS'22,23, KBS'23,24)**/medical imaging **(IEEE JBHI'24, MBEC'24, arXiv*24)**
-- **Time Series**: Time Series Forecasting **(IJCAI'23,24, arXiv'23,24)**
+- **Computer Vision**: Mainly for remote sensing **(IEEE TGRS'22,23, KBS'23,24)** / Medical imaging **(IEEE JBHI'24, MBEC'24, arXiv‘24)**
+- **Time Series**: Time Series Forecasting **(IJCAI'23,24, NeurIPS'24, arXiv'23,24)**
 
 # 🔥 News
 - *2024.09*: I have one paper about LLMs on Weather Forecasting accpted by **NeurIPS 2024**.
