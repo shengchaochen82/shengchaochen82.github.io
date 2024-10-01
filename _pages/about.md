@@ -129,6 +129,7 @@ I primarily focus on building trustworthy AI models in the ever-changing real wo
 - CVPR (2023, 2024)
 - ECCV (2023, 2024)
 - ICASSP (2025)
+- AISTATS (2025)
 - FL@IJCAI (2023)
 - FL@WWW (2024)
 
