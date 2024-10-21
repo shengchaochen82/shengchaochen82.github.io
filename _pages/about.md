@@ -116,7 +116,6 @@ I primarily focus on building trustworthy AI models in the ever-changing real wo
 - IEEE Transactions on Knowledge and Data Engineering
 - IEEE Sensors Journal
 - IEEE Information System
-- IEEE Access
 - Knowledge-Based Systems
 - Artificial Intelligence In Medicine
 - Computer Methods in Biomechanics and Biomedical Engineering: Imaging & Visualization
