@@ -31,21 +31,21 @@ I primarily focus on building trustworthy AI models in the ever-changing real wo
 - **Time Series**: Time Series Forecasting **(IJCAI'23,24, NeurIPS'24, arXiv'23,24)**
 
 # 🔥 News
-- *2024.09*: I have one paper about LLMs on Weather Modeling accpted by **NeurIPS 2024** with an average rating of 7 (8/7/7/6).
-- *2024.06*: I have one paper about Federated Foundaion Model on Weather accpted by **AI4CI Workshop @ IJCAI 24 (Highlight)**.
+- *2024.09*: I have one paper about ***LLMs on Weather Modeling*** accpted by **NeurIPS 2024** with an average rating of 7.
+- *2024.06*: I have one paper about ***Federated Foundaion Model*** on Weather accpted by **AI4CI Workshop @ IJCAI 24 (Highlight)**.
 - *2024.05*: I am honour to be invited to attend and present at the **AI4CI Workshop @ IJCAI 24**, expect to get more insights.
-- *2024.05*: I have one paper about Retinal Disease Recognition accpted by **Medical & Biological Engineering & Computing** (I act as the corresponding author). Congratulations to my collaborators!
-- *2024.04*: I have one paper about On-device Weather Foundation Model accpted by **IJCAI'24**，see you on Jeju!
-- *2024.03*: I have one paper about Federated Remote Sensing Analysis accepted by **Knowledge-Based Systems** (Top in Knowledge System, JCR Q1), which is my fourth work during my intership.
-- *2024.02*: I have two papers about Fiber-optics Demodulation accpted by **Optical Fiber Technology** (I mentor). Congratulations to my collaborators!
-- *2023.12*: Our survey: *Foundation Models for Weather and Climate Data Understanding: A Comprehensive Survey*, has appeared on arXiv, which is the first comprehensive and systematic effort to summarize DL-based understanding of weather and climate data, paving the way for the development of foundation models of weather and climate.
-- *2023.08*: I have one paper about Weather Image Analysis accepted by **Knowledge-Based Systems** (Top in Knowledge System, JCR Q1), which is my third work during my intership.
-- *2023.07*: I have one paper about Radar Spatial-temporal extrapolation accepted by **IEEE Transaction on Geoscience and Remote Sensing** (Top in RS, JCR Q1), which is my second work during my intership.
-- *2023.06*: I received my master's degree from Hainan University with distinguished honors. Looking forward to starting the my Ph.D. student journey.
-- *2023.04*: I have one paper about FL-based Weather Foundation Model accpted by **IJCAI'23**，which is my first top conference in CS domain!
+- *2024.05*: I have one paper about ***Retinal Disease Recognition*** accpted by **Medical & Biological Engineering & Computing** (I mentor). Congratulations to my collaborators!
+- *2024.04*: I have one paper about ***On-device Weather Foundation Model*** accpted by **IJCAI'24**，see you on Jeju!
+- *2024.03*: I have one paper about ***Federated Remote Sensing Analysis*** accepted by **Knowledge-Based Systems** (Top in Knowledge System, JCR Q1), which is my fourth work during my intership.
+- *2024.02*: I have two papers about ***Machine Leaning for Fiber-optics Demodulation** accpted by **Optical Fiber Technology** (I mentor). Congratulations to my collaborators!
+- *2023.12*: Our survey: ***Foundation Models for Weather and Climate Data Understanding: A Comprehensive Survey***, has appeared on arXiv, which is the first comprehensive and systematic effort to summarize DL-based understanding of weather and climate data, paving the way for the development of foundation models of weather and climate.
+- *2023.08*: I have one paper about ***Weather Image Analysis*** accepted by **Knowledge-Based Systems** (Top in Knowledge System, JCR Q1), which is my third work during my intership.
+- *2023.07*: I have one paper about ***Radar Echo Spatio-temporal Predition*** accepted by **IEEE Transaction on Geoscience and Remote Sensing** (Top in RS, JCR Q1), which is my second work during my intership.
+- *2023.06*: I received my master's degree from Hainan University with distinguished honors.
+- *2023.04*: I have one paper about ***Federated Prompt for Weather Foundation Model*** accpted by **IJCAI'23**.
 - *2023.03*: I have three papers about Fiber-optics Demodulation accpted by **IEEE Sensors Journal** (I mentor). Congratulations to my collaborators!
-- *2023.03*: I have one paper about Federated Learning-based Photonic Reverse Design accpted by **IEEE Photonic Letter**.
-- *2023.02*: I have one paper about medical image analysis accpted by **IEEE Journal of Biomedical and Health Informatics** (Top in Medical Information).
+- *2023.03*: I have one paper about ***Federated Photonic Reverse*** Design accpted by **IEEE Photonic Letter**.
+- *2023.02*: I have one paper about ***Medical Image Analysis*** accpted by **IEEE Journal of Biomedical and Health Informatics** (Top in Medical Information).
 - *2022.10*: I was honored to be awarded the **National Scholarship** with the first place overall in Hainan University.
 - *2022.07*: I have one paper about Machine Learning-based Photonic Reverse Design accepted by **IEEE Photonic Letter**.
 - *2022.06*: I have one paper about Generative Adversial Network on Radar Iamges accepted by **IEEE Transaction on Geoscience and Remote Sensing** (Top in Remote Sensing, JCR Q1), which is my first work during my intership.
