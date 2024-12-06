@@ -31,6 +31,7 @@ I primarily focus on building trustworthy AI models in the ever-changing real wo
 - **Time Series**: Time Series Forecasting **(IJCAI'23,24, NeurIPS'24, arXiv'23,24)**
 
 # 🔥 News
+- *2024.12*: Our tutorial proposal about ***Federated Intelligence in Web*** accpted by **WWW 2025* (28/04/2025, Sydney), feel free to stop by and get the latest insights.
 - *2024.09*: I have one paper about ***LLMs on Weather Modeling*** accpted by **NeurIPS 2024** with an average rating of 7.
 - *2024.06*: I have one paper about ***Federated Foundaion Model*** on Weather accpted by **AI4CI Workshop @ IJCAI 24 (Highlight)**.
 - *2024.05*: I am honour to be invited to attend and present at the **AI4CI Workshop @ IJCAI 24**, expect to get more insights.
