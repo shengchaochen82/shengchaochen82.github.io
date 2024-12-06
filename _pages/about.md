@@ -17,9 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am a Ph.D. student at Australian AI Intelligence Institute (AAII), University of Technology Sydney, working on Federated Intelligence. I have worked as a Deep Learning Research Intern at Shenzhen Institue of Meteorological Innovation（Guangdong-Hong Kong-Macao Greater Bay Area Weather Research Center for Monitoring Warning and Forecasting）. Previously, I completed an MPhil at the Hainan University and a BEng at Jiangxi University of Science and Technology. Now, my research focuses on bridging the gap between academic research and real-world applications. If you have any fun ideas or just want to have a chat, please feel free to drop me an email (shengchao.chen.uts AT gmail DOT com ~~pavelchen@ieee.org~~).
-
-*99% of the research process is frustrating, but refreshing insights may still be gleaned from it.*
+I am a Ph.D. student at Australian AI Intelligence Institute (AAII), University of Technology Sydney, working on Federated Intelligence. I have worked as a Deep Learning Research Intern at Shenzhen Institue of Meteorological Innovation（Guangdong-Hong Kong-Macao Greater Bay Area Weather Research Center for Monitoring Warning and Forecasting）. Previously, I completed an MPhil at the Hainan University and a BEng at Jiangxi University of Science and Technology. Now, my research focuses on bridging the gap between academic research and real-world applications. If you have any fun ideas or just want to have a chat, please feel free to drop me an email (shengchao.chen.uts AT gmail DOT com).
 
 **Fun Fact**: My research during my masters was in fiber-optic sensing and I was exposed to ML/DL during my intership, which is the main reason why I have a composite background.
 
@@ -31,7 +29,7 @@ I primarily focus on building trustworthy AI models in the ever-changing real wo
 - **Time Series**: Time Series Forecasting **(IJCAI'23,24, NeurIPS'24, arXiv'23,24)**
 
 # 🔥 News
-- *2024.12*: Our tutorial proposal about ***Federated Intelligence in Web*** accpted by **WWW 2025** (28/04/2025, Sydney), feel free to stop by and get the latest insights.
+- *2024.12*: Our tutorial proposal about ***Federated Intelligence in Web*** accpted by **WWW 2025** (28/04/2025, Sydney).
 - *2024.09*: I have one paper about ***LLMs on Weather Modeling*** accpted by **NeurIPS 2024** with an average rating of 7.
 - *2024.06*: I have one paper about ***Federated Foundaion Model*** on Weather accpted by **AI4CI Workshop @ IJCAI 24 (Highlight)**.
 - *2024.05*: I am honour to be invited to attend and present at the **AI4CI Workshop @ IJCAI 24**, expect to get more insights.
