@@ -26,7 +26,7 @@ I am a Ph.D. student at Australian AI Intelligence Institute (AAII), University 
 I primarily focus on building trustworthy AI models in the ever-changing real world to address potentially complex modeling scenarios.
 - **Federated Learning**: FL for X (e.g., Time Series, Computer Vision, Science, etc.)
 - **Computer Vision**: Mainly for remote sensing **(IEEE TGRS'22,23, KBS'23,24)** / Medical imaging **(IEEE JBHI'24, MBEC'24, arXiv‘24)**
-- **Time Series**: Time Series Forecasting **(IJCAI'23,24, NeurIPS'24, arXiv'23,24)**
+- **Time Series**: Time Series Forecasting **(IJCAI'23,24, NeurIPS'24, AAAI'25, arXiv'23,24)**
 
 # 🔥 News
 - *2024.12*: I have one paper about ***Federated Time Series Foundation Model*** accpted by **AAAI 2025**.
@@ -37,7 +37,7 @@ I primarily focus on building trustworthy AI models in the ever-changing real wo
 - *2024.05*: I have one paper about ***Retinal Disease Recognition*** accpted by **Medical & Biological Engineering & Computing** (I mentor). Congratulations to my collaborators!
 - *2024.04*: I have one paper about ***On-device Weather Foundation Model*** accpted by **IJCAI'24**，see you on Jeju!
 - *2024.03*: I have one paper about ***Federated Remote Sensing Analysis*** accepted by **Knowledge-Based Systems** (Top in Knowledge System, JCR Q1), which is my fourth work during my intership.
-- *2024.02*: I have two papers about ***Machine Leaning for Fiber-optics Demodulation** accpted by **Optical Fiber Technology** (I mentor). Congratulations to my collaborators!
+- *2024.02*: I have two papers about ***Machine Leaning for Fiber-optics Demodulation*** accpted by **Optical Fiber Technology** (I mentor). Congratulations to my collaborators!
 - *2023.12*: Our survey: ***Foundation Models for Weather and Climate Data Understanding: A Comprehensive Survey***, has appeared on arXiv, which is the first comprehensive and systematic effort to summarize DL-based understanding of weather and climate data, paving the way for the development of foundation models of weather and climate.
 - *2023.08*: I have one paper about ***Weather Image Analysis*** accepted by **Knowledge-Based Systems** (Top in Knowledge System, JCR Q1), which is my third work during my intership.
 - *2023.07*: I have one paper about ***Radar Echo Spatio-temporal Predition*** accepted by **IEEE Transaction on Geoscience and Remote Sensing** (Top in RS, JCR Q1), which is my second work during my intership.
@@ -58,9 +58,10 @@ I primarily focus on building trustworthy AI models in the ever-changing real wo
 - [Foundation Models for Weather and Climate Data Understanding: A Comprehensive Survey](www.baidu.com), **Shengchao Chen**, Guodong Long, Jing Jiang, Chengqi Zhang, **arXiv** (work in progress)
 
 **Federated Intelligence**:
+- [Federated Foundation Models on Heterogeneous Time Series](www.baidu.com), **Shengchao Chen**, Guodong Long, Jing Jiang, Chengqi Zhang, **AAAI 2025**
 - [Personalized Adapter for Large Meteorology Model on Devices: Towards Weather Foundation Models](www.baidu.com), **Shengchao Chen**, Guodong Long, Jing Jiang, Chengqi Zhang, **NeurIPS 2024**
-- [Federated Prompt Learning for Weather Foundation Models on Devices](https://github.com), **Shengchao Chen**, Guodong Long, Tao Shen, Jing Jiang, Chengqi Zhang, **Main Track in IJCAI 2024 & Invited Talk on AI4CI**
-- [Prompt Federated Learning for Weather Forecasting: Toward Foundation Models on Meteorological Data](https://github.com), **Shengchao Chen**, Guodong Long, Tao Shen, Jing Jiang, **Main Track in IJCAI 2023**
+- [Federated Prompt Learning for Weather Foundation Models on Devices](https://github.com), **Shengchao Chen**, Guodong Long, Tao Shen, Jing Jiang, Chengqi Zhang, **IJCAI 2024 & Invited Talk on AI4CI**
+- [Prompt Federated Learning for Weather Forecasting: Toward Foundation Models on Meteorological Data](https://github.com), **Shengchao Chen**, Guodong Long, Tao Shen, Jing Jiang, **IJCAI 2023**
 
 **Computer Vision**
 - [Free Lunch for Federated Remote Sensing Target Fine-Grained Classification: A Parameter-Efficient Framework](www.baidu.com), **Shengchao Chen**, Ting Shu, Huan Zhao, Jiahao Wang, Sufen Ren, Lina Yang, **Knowledge-Based Systems**
