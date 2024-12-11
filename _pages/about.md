@@ -22,20 +22,16 @@ I am a Ph.D. student at Australian AI Intelligence Institute (AAII), University 
 **Fun Fact**: My research during my masters was in fiber-optic sensing and I was exposed to ML/DL during my intership, which is the main reason why I have a composite background.
 
 # 💬 Research Intersts
-
-I primarily focus on building trustworthy AI models in the ever-changing real world to address potentially complex modeling scenarios.
-- **Federated Learning**: FL for X (e.g., Time Series, Computer Vision, Science, etc.)
-- **Computer Vision**: Mainly for remote sensing **(IEEE TGRS'22,23, KBS'23,24)** / Medical imaging **(IEEE JBHI'24, MBEC'24, arXiv‘24)**
-- **Time Series**: Time Series Forecasting **(IJCAI'23,24, NeurIPS'24, AAAI'25, arXiv'23,24)**
+I am heavily focused on ***Federated Intelligence and Federated Foundation Models***. Specifically, my current thinking centers on how to use **Federated Learning** to create **Time Series Foundation Model (TSFM)** for more robust and trustworthy capabilities.
 
 # 🔥 News
-- *2024.12*: I have one paper about ***Federated Time Series Foundation Model*** accpted by **AAAI 2025**.
-- *2024.12*: Our tutorial proposal about ***Federated Intelligence in Web*** accpted by **WWW 2025** (28/04/2025, Sydney).
-- *2024.09*: I have one paper about ***LLMs on Weather Modeling*** accpted by **NeurIPS 2024** with an average rating of 7.
-- *2024.06*: I have one paper about ***Federated Foundaion Model*** on Weather accpted by **AI4CI Workshop @ IJCAI 24 (Highlight)**.
-- *2024.05*: I am honour to be invited to attend and present at the **AI4CI Workshop @ IJCAI 24**, expect to get more insights.
+- *2024.12*: I have one paper about ***Federated Time Series Foundation Model*** accpted by **AAAI 2025 (Core A\*)**.
+- *2024.12*: Our tutorial proposal about ***Federated Intelligence in Web*** accpted by **WWW 2025 (Core A\*)**.
+- *2024.09*: I have one paper about ***LLMs on Weather Modeling*** accpted by **NeurIPS 2024 (Core A\*)**.
+- *2024.06*: I have one paper about ***Federated Foundaion Model on Weather*** accpted by **AI4CI Workshop @ IJCAI 24 (Highlight)**.
+- *2024.05*: I am honour to be invited to give a talk at **AI4CI Workshop @ IJCAI 24**.
 - *2024.05*: I have one paper about ***Retinal Disease Recognition*** accpted by **Medical & Biological Engineering & Computing** (I mentor). Congratulations to my collaborators!
-- *2024.04*: I have one paper about ***On-device Weather Foundation Model*** accpted by **IJCAI'24**，see you on Jeju!
+- *2024.04*: I have one paper about ***On-device Weather Foundation Model*** accpted by **IJCAI'24 (Core A\*)**.
 - *2024.03*: I have one paper about ***Federated Remote Sensing Analysis*** accepted by **Knowledge-Based Systems** (Top in Knowledge System, JCR Q1), which is my fourth work during my intership.
 - *2024.02*: I have two papers about ***Machine Leaning for Fiber-optics Demodulation*** accpted by **Optical Fiber Technology** (I mentor). Congratulations to my collaborators!
 - *2023.12*: Our survey: ***Foundation Models for Weather and Climate Data Understanding: A Comprehensive Survey***, has appeared on arXiv, which is the first comprehensive and systematic effort to summarize DL-based understanding of weather and climate data, paving the way for the development of foundation models of weather and climate.
