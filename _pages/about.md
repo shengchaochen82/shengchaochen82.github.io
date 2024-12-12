@@ -25,20 +25,20 @@ I am a Ph.D. student at Australian AI Intelligence Institute (AAII), University 
 I am heavily focused on ***Federated Intelligence and Federated Foundation Models***. Specifically, my current thinking centers on how to use **Federated Learning** to create **Time Series Foundation Model (TSFM)** for more robust and trustworthy capabilities.
 
 # 🔥 News
-- *2024.12*: I have one paper about ***Federated Time Series Foundation Model*** accpted by **AAAI 2025 (Core A\*)**.
-- *2024.12*: Our tutorial proposal about ***Federated Intelligence in Web*** accpted by **WWW 2025 (Core A\*)**.
-- *2024.09*: I have one paper about ***LLMs on Weather Modeling*** accpted by **NeurIPS 2024 (Core A\*)**.
+- *2024.12*: I have one paper about ***Federated Time Series Foundation Model*** accpted by **AAAI 2025 (Core A\*/CCF-A)**.
+- *2024.12*: Our tutorial proposal about ***Federated Intelligence in Web*** accpted by **WWW 2025 (Core A\*/CCF-A)**.
+- *2024.09*: I have one paper about ***LLMs on Weather Modeling*** accpted by **NeurIPS 2024 (Core A\*/CCF-A)**.
 - *2024.06*: I have one paper about ***Federated Foundaion Model on Weather*** accpted by **AI4CI Workshop @ IJCAI 24 (Highlight)**.
 - *2024.05*: I am honour to be invited to give a talk at **AI4CI Workshop @ IJCAI 24**.
 - *2024.05*: I have one paper about ***Retinal Disease Recognition*** accpted by **Medical & Biological Engineering & Computing** (I mentor). Congratulations to my collaborators!
-- *2024.04*: I have one paper about ***On-device Weather Foundation Model*** accpted by **IJCAI'24 (Core A\*)**.
+- *2024.04*: I have one paper about ***On-device Weather Foundation Model*** accpted by **IJCAI'24 (Core A\*/CCF-A)**.
 - *2024.03*: I have one paper about ***Federated Remote Sensing Analysis*** accepted by **Knowledge-Based Systems** (Top in Knowledge System, JCR Q1), which is my fourth work during my intership.
 - *2024.02*: I have two papers about ***Machine Leaning for Fiber-optics Demodulation*** accpted by **Optical Fiber Technology** (I mentor). Congratulations to my collaborators!
 - *2023.12*: Our survey: ***Foundation Models for Weather and Climate Data Understanding: A Comprehensive Survey***, has appeared on arXiv, which is the first comprehensive and systematic effort to summarize DL-based understanding of weather and climate data, paving the way for the development of foundation models of weather and climate.
 - *2023.08*: I have one paper about ***Weather Image Analysis*** accepted by **Knowledge-Based Systems** (Top in Knowledge System, JCR Q1), which is my third work during my intership.
 - *2023.07*: I have one paper about ***Radar Echo Spatio-temporal Predition*** accepted by **IEEE Transaction on Geoscience and Remote Sensing** (Top in RS, JCR Q1), which is my second work during my intership.
 - *2023.06*: I received my master's degree from Hainan University with distinguished honors.
-- *2023.04*: I have one paper about ***Federated Prompt for Weather Foundation Model*** accpted by **IJCAI'23**.
+- *2023.04*: I have one paper about ***Federated Prompt for Weather Foundation Model*** accpted by **IJCAI 2023 (Core A\*/CCF-A)**.
 - *2023.03*: I have three papers about Fiber-optics Demodulation accpted by **IEEE Sensors Journal** (I mentor). Congratulations to my collaborators!
 - *2023.03*: I have one paper about ***Federated Photonic Reverse*** Design accpted by **IEEE Photonic Letter**.
 - *2023.02*: I have one paper about ***Medical Image Analysis*** accpted by **IEEE Journal of Biomedical and Health Informatics** (Top in Medical Information).
