@@ -4,13 +4,13 @@ layout: homepage
 
 ## About Me
 
-I am a Ph.D. student at [Australian AI Intelligence Institute (AAII)](https://www.uts.edu.au/research/australian-artificial-intelligence-institute), [University of Technology Sydney](https://www.uts.edu.au/), working on Federated Intelligence. I have worked as a Deep Learning Research Intern at Shenzhen Institue of Meteorological Innovation (Guangdong-Hong Kong-Macao Greater Bay Area Weather Research Center for Monitoring Warning and Forecasting). Previously, I earned my Master at Hainan University. Now, my research focuses on bridging the gap between academic research and real-world applications. If you have any fun ideas or just want to have a chat, 
+I am a Ph.D. student at [Australian AI Intelligence Institute (AAII)](https://www.uts.edu.au/research/australian-artificial-intelligence-institute), [University of Technology Sydney](https://www.uts.edu.au/), working on ***Federated Intelligence***. I have worked as a Deep Learning Research Intern at Shenzhen Institue of Meteorological Innovation (Guangdong-Hong Kong-Macao Greater Bay Area Weather Research Center for Monitoring Warning and Forecasting). Previously, I earned my Master at Hainan University. My research focuses on bridging the gap between academic research and real-world applications.
 
-I believe that collaboration is essential for success, similar to the fundamental principles of federated learning. If our research areas **(see my Research Interest)** intersect, I am eager to engage in dialogue and collaboration, aiming to acquire valuable insights from others. <span style="color: blue;">***Please feel free to drop me an email***</span>.
+***<span style="color: Red;">Remark</span>*** I believe that collaboration is essential for success, similar to the fundamental principles of federated learning. If our research areas **(see Research Interest)** intersect, I am eager to engage in dialogue and collaboration, aiming to acquire valuable insights from others. ***<span style="color: blue;">Please feel free to drop me an email</span>***.
 
 ## Research Interests
 
-- **Federated Learning:** image recognition, image generation, video captioning
+- **Federated Learning:** Federated Foundation Model
 - **Machine Learning:** meta-learning, incremental learning, transfer learning
 
 ## News
