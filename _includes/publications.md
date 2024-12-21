@@ -1,10 +1,10 @@
-<h2 id="publications" style="margin: 2px 0px -15px;">Selected Publications <span style="color: blue;"><a href="https://scholar.google.com/citations?user=9R3tsmUAAAAJ&hl=en" target="_blank">Google Scholar</a></span></h2>
+<h2 id="publications" style="margin: 2px 0px -15px;">Selected Publications <span style="color: blue;"><a href="https://scholar.google.com/citations?user=9R3tsmUAAAAJ&hl=en" target="_blank">[Google Scholar]</a></span></h2>
 
-*Note: My complete list of publications is available on my Google Scholar profile.*
+
 
 <div class="publications">
 <ol class="bibliography">
-
+*Note: My complete list of publications is available on my Google Scholar profile.*
 {% for link in site.data.publications.main %}
 
 <li>
