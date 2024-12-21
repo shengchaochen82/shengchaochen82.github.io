@@ -4,33 +4,35 @@ layout: homepage
 
 ## About Me
 
-I am a Ph.D. student at Australian AI Intelligence Institute (AAII), University of Technology Sydney, working on Federated Intelligence. I have worked as a Deep Learning Research Intern at Shenzhen Institue of Meteorological Innovation (Guangdong-Hong Kong-Macao Greater Bay Area Weather Research Center for Monitoring Warning and Forecasting). Previously, I earned my Master at Hainan University. Now, my research focuses on bridging the gap between academic research and real-world applications. If you have any fun ideas or just want to have a chat, please feel free to drop me an email.
+I am a Ph.D. student at [Australian AI Intelligence Institute (AAII)](https://www.uts.edu.au/research/australian-artificial-intelligence-institute), [University of Technology Sydney](https://www.uts.edu.au/), working on Federated Intelligence. I have worked as a Deep Learning Research Intern at Shenzhen Institue of Meteorological Innovation (Guangdong-Hong Kong-Macao Greater Bay Area Weather Research Center for Monitoring Warning and Forecasting). Previously, I earned my Master at Hainan University. Now, my research focuses on bridging the gap between academic research and real-world applications. If you have any fun ideas or just want to have a chat, 
+
+I believe that collaboration is essential for success, similar to the fundamental principles of federated learning. If our research areas **(see my Research Interest)** intersect, I am eager to engage in dialogue and collaboration, aiming to acquire valuable insights from others. <span style="color: blue;">***Please feel free to drop me an email***</span>.
 
 ## Research Interests
 
-- **Computer Vision:** image recognition, image generation, video captioning
+- **Federated Learning:** image recognition, image generation, video captioning
 - **Machine Learning:** meta-learning, incremental learning, transfer learning
 
 ## News
 
 - **[Dec. 2024]** I have one paper about [***Federated Time Series Foundation Model***](https://arxiv.org/pdf/2412.08906) accpted by **AAAI-2025 (Core A*/CCF-A)**. <span style="color: red;">[First work to explore FL in training time series FM from scratch]</span>
-- **[Dec. 2024]** Our tutorial proposal about ***Federated Intelligence in Web*** accpted by **WWW-2025 (Core A*/CCF-A)**.
+- **[Dec. 2024]** Our tutorial about ***Federated Intelligence in Web*** accpted by **WWW-2025 (Core A*/CCF-A)**.
 - **[Sept. 2024]** I have one paper about [***LLMs on Weather Modeling***](https://arxiv.org/pdf/2405.20348) accpted by **NeurIPS-2024 (Core A*/CCF-A)**.
 - **[Jun. 2024]** I have one paper about [***Federated Foundaion Model on Weather***](https://openreview.net/pdf?id=VpMYKivGVE) accpted by **AI4CI Workshop @ IJCAI-24 (Core A*/CCF-A, Highlight)**.
 - **[Apr. 2024]** I have one paper about [***On-device Weather Foundation Model***](https://arxiv.org/pdf/2305.14244) accpted by **IJCAI-24 (Core A*/CCF-A)**.
-- **[Mar. 2024]** I have one paper about [***Distributed Remote Sensing Analysis***](https://www.sciencedirect.com/science/article/abs/pii/S0950705124003290) accepted by **Knowledge-Based Systems (JCR Q1, Top)**. [Work during internship]
-- **[Dec. 2023]** Our survey: [***Foundation Models for Weather and Climate Data Understanding: A Comprehensive Survey***](https://arxiv.org/pdf/2312.03014), has appeared on ArXiv. [First work to comprehensively and systematically summarize DL climate data understanding, 38 Pages, 300+ References]
-- **[Aug. 2023]** I have one paper about ***Weather Image Analysis*** accepted by **Knowledge-Based Systems (JCR Q1, Top)**. [Work during internship]
-- **[Jul. 2023]** I have one paper about ***Radar Echo Spatio-temporal Predition*** accepted by IEEE **Transaction on Geoscience and Remote Sensing (Top, JCR Q1)**. [Work during internship]
+- **[Mar. 2024]** I have one paper about [***Distributed Remote Sensing Analysis***](https://www.sciencedirect.com/science/article/abs/pii/S0950705124003290) accepted by **Knowledge-Based Systems (JCR Q1, Top)**. <span style="color: red;">[Work during internship]</span>
+- **[Dec. 2023]** Our survey: [***Foundation Models for Weather and Climate Data Understanding: A Comprehensive Survey***](https://arxiv.org/pdf/2312.03014), has appeared on ArXiv. <span style="color: red;">[First work to comprehensively and systematically summarize DL climate data understanding, 38 Pages, 300+ References]</span>
+- **[Aug. 2023]** I have one paper about ***Weather Image Analysis*** accepted by **Knowledge-Based Systems (JCR Q1, Top)**. <span style="color: red;">[Work during internship]</span>
+- **[Jul. 2023]** I have one paper about ***Radar Echo Spatio-temporal Predition*** accepted by IEEE **Transaction on Geoscience and Remote Sensing (Top, JCR Q1)**. <span style="color: red;">[Work during internship]</span>
 - **[Mar. 2023]** I have one paper about [***Federated Prompt for Weather Foundation Model***](https://www.ijcai.org/proceedings/2023/0393.pdf) accpted by IJCAI 2023 (Core A*/CCF-A).
 - **[Feb. 2023]** I have one paper about [***Interpretable Medical Image Analysis***](https://ieeexplore.ieee.org/document/10050021?denied=) accpted by **IEEE Journal of Biomedical and Health Informatics (Top, JCR Q1)**.
 - **[Oct. 2022]** I am honored to be awarded the **National Scholarship (1st, 1/1218)**.
-- **[Jun. 2022]** I have one paper about [***Generative Adversial Network on Radar Iamges***](https://ieeexplore.ieee.org/document/10050021?denied=) accepted by **IEEE Transaction on Geoscience and Remote Sensing (Top, JCR Q1)**. [Work during internship]
+- **[Jun. 2022]** I have one paper about [***Generative Adversial Network on Radar Iamges***](https://ieeexplore.ieee.org/document/10050021?denied=) accepted by **IEEE Transaction on Geoscience and Remote Sensing (Top, JCR Q1)**. <span style="color: red;">[Work during internship]</span>
 
 ## Honors and Awards
-- Outstanding Master’s Thesis (1st place), Hainan University, China.
+- Outstanding Master’s Thesis <span style="color: red;">(1st place)</span>, Hainan University, China.
 - Outstanding Graduates, Hainan University, China.
-- National Scholarship (Top 0.1%, 1/1218), Ministrt of Education, China.
+- National Scholarship <span style="color: red;">(Top 0.1%, 1/1218)</span>, Ministrt of Education, China.
 - Outstanding Graduate Student, Hainan University, China.
 
 ## Experiences
