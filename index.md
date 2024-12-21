@@ -14,12 +14,13 @@ I am a Ph.D. student at Australian AI Intelligence Institute (AAII), University 
 
 ## News
 
-- **[Dec. 2024]** I have one paper about [***Federated Time Series Foundation Model***](https://arxiv.org/pdf/2412.08906) accpted by **AAAI-2025 (Core A*/CCF-A)**.
-- **[Dec. 2024]** Our tutorial proposal about ***Federated Intelligence in Web*** accpted by **WWW 2025 (Core A*/CCF-A)**.
+- **[Dec. 2024]** I have one paper about [***Federated Time Series Foundation Model***](https://arxiv.org/pdf/2412.08906) accpted by **AAAI-2025 (Core A*/CCF-A)**. [First work to explore FL in training time series FM from scratch.]
+- **[Dec. 2024]** Our tutorial proposal about ***Federated Intelligence in Web*** accpted by **WWW-2025 (Core A*/CCF-A)**.
 - **[Sept. 2024]** I have one paper about [***LLMs on Weather Modeling accpted***](https://arxiv.org/pdf/2405.20348) by **NeurIPS-2024 (Core A*/CCF-A)**.
-- **[June. 2024]** I have one paper about [***Federated Foundaion Model on Weather***](https://openreview.net/pdf?id=VpMYKivGVE) accpted by **AI4CI Workshop @ IJCAI 24 (Highlight)**.
+- **[June. 2024]** I have one paper about [***Federated Foundaion Model on Weather***](https://openreview.net/pdf?id=VpMYKivGVE) accpted by **AI4CI Workshop @ IJCAI-24 (Core A*/CCF-A, Highlight)**.
 - **[Apr. 2024]** I have one paper about [***On-device Weather Foundation Model***](https://arxiv.org/pdf/2305.14244) accpted by **IJCAI-24 (Core A*/CCF-A)**.
-- **[Mar. 2024]** I have one paper about [***Distributed Remote Sensing Analysis***](https://www.sciencedirect.com/science/article/abs/pii/S0950705124003290) accepted by **Knowledge-Based Systems (JCR Q1)**. [During Internship]
+- **[Mar. 2024]** I have one paper about [***Distributed Remote Sensing Analysis***](https://www.sciencedirect.com/science/article/abs/pii/S0950705124003290) accepted by **Knowledge-Based Systems (JCR Q1)**. [Work during Internship]
+- **[Dec. 2023]** Our survey: [***Foundation Models for Weather and Climate Data Understanding: A Comprehensive Survey***](https://arxiv.org/pdf/2312.03014), has appeared on ArXiv. [First work tosystematically summarize DL climate data understanding, 38 Pages]
 
 {% include_relative _includes/publications.md %}
 
