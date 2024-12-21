@@ -10,8 +10,7 @@ I am a Ph.D. student at [Australian AI Intelligence Institute (AAII)](https://ww
 
 ## Research Interests
 
-- **Federated Intelligence:** Federated Foundation Model for the Dynamic World
-- **Generative Models:** Decentralized Generation for Everything (e.g., Remote Sensing and Healthcare)
+- **Federated Intelligence:** Federated Foundation Model for the Dynamic World Modeling (e.g., Time Series, Remote Sensing, and Healthcare)
 - **Scientific Machine Learning:** PDE Solver, Computational Materials
 
 ## News
