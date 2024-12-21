@@ -2,7 +2,7 @@ main:
 
   - title: "Federated Foundation Models on Heterogeneous Time Series"
     authors: <strong>Shengchao Chen</strong>, Guodong Long, Jing Jiang, Chengqi Zhang
-    conference_short: AAAI
+    conference_short: AAAI-2025
     conference: Thirty-Ninth AAAI Conference on Artificial Intelligence <strong>(AAAI)-[Core A*/CCF-A]</strong>, 2025.
     pdf: https://arxiv.org/pdf/2412.08906
     code: https://github.com/shengchaochen82/FFTS
@@ -12,7 +12,7 @@ main:
 
   - title: "Personalized Adapter for Large Meteorology Model on Devices: Towards Weather Foundation Models"
     authors: <strong>Shengchao Chen</strong>, Guodong Long, Jing Jiang, Chengqi Zhang
-    conference_short: NeurIPS
+    conference_short: NeurIPS-2024
     conference: Thirty-Eighth Annual Conference on Neural Information Processing Systems <strong>(NeurIPS)-[Core A*/CCF-A]</strong>, 2024.
     pdf: https://arxiv.org/pdf/2405.20348
     code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
@@ -23,7 +23,7 @@ main:
 
   - title: "Federated Prompt Learning for Weather Foundation Models on Devices"
     authors: <strong>Shengchao Chen</strong>, Guodong Long, Tao Shen, Jing Jiang, Chengqi Zhang
-    conference_short: IJCAI
+    conference_short: IJCAI-2024
     conference: The 33rd International Joint Conference on Artificial Intelligence <strong>(IJCAI)-[Core A*/CCF-A]</strong>, 2024.
     pdf: https://arxiv.org/pdf/2305.14244
     code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
@@ -76,7 +76,7 @@ main:
 
   - title: "Prompt Federated Learning for Weather Forecasting: Toward Foundation Models on Meteorological Data"
     authors: <strong>Shengchao Chen</strong>, Guodong Long, Tao Shen, Jing Jiang, Chengqi Zhang
-    conference_short: IJCAI
+    conference_short: IJCAI-2023
     conference: The 32rd International Joint Conference on Artificial Intelligence <strong>(IJCAI)-[Core A*/CCF-A]</strong>, 2023.
     pdf: https://www.ijcai.org/proceedings/2023/0393.pdf
     bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/

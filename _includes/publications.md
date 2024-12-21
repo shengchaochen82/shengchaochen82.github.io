@@ -1,7 +1,6 @@
 <h2 id="publications" style="margin: 2px 0px -15px;">Selected Publications <span style="color: blue;"><a href="https://scholar.google.com/citations?user=9R3tsmUAAAAJ&hl=en" target="_blank">[Google Scholar]</a></span></h2>
 
 
-
 <div class="publications">
 <ol class="bibliography">
 Note: My complete list of publications is available on my Google Scholar profile.
