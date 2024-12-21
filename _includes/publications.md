@@ -4,7 +4,7 @@
 
 <div class="publications">
 <ol class="bibliography">
-*Note: My complete list of publications is available on my Google Scholar profile.*
+Note: My complete list of publications is available on my Google Scholar profile.
 {% for link in site.data.publications.main %}
 
 <li>

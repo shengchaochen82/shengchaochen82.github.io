@@ -82,7 +82,7 @@ main:
     bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
     image: ./assets/img/metepfl.png
 
-  - title: "Dynamic multiscale fusion generative adversarial network for radar image extrapolation"
+  - title: "Dynamic Multiscale Fusion Generative Adversarial Network for Radar Image Extrapolation"
     authors: <strong>Shengchao Chen</strong>, Ting Shu, Huan Zhao, Qilin Wan, Jincan Huang, Cailing Li
     conference_short: IEEE TGRS
     conference: IEEE Transactions on Geoscience and Remote Sensing <strong>(IEEE TGRS)-[CCF-B/JCR Q1/TOP]</strong>, 2023.
