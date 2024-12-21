@@ -18,5 +18,24 @@ main:
     code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
     page: https://class-il.mpi-inf.mpg.de/mnemonics/
     bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
-    notes: Average score of 7
+    notes: Average Score of 7.
+    image: ./assets/img/teaser_example.png
+
+    - title: "Federated Prompt Learning for Weather Foundation Models on Devices"
+    authors: <strong>Shengchao Chen</strong>, Guodong Long, Tao Shen, Jing Jiang, Chengqi Zhang
+    conference_short: NeurIPS
+    conference: The 33rd International Joint Conference on Artificial Intelligence <strong>(IJCAI)</strong>, 2024.
+    pdf: https://arxiv.org/pdf/2305.14244
+    code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
+    page: https://class-il.mpi-inf.mpg.de/mnemonics/
+    bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
+    image: ./assets/img/teaser_example.png
+
+    - title: "Interpretable CNN-Multilevel Attention Transformer for Rapid Recognition of Pneumonia from Chest X-Ray Images"
+    authors: <strong>Shengchao Chen</strong>, Sufen Ren, Guanjun Wang, Mengxing Huang, Chenyang Xue
+    conference_short: IEEE JBHI
+    conference: IEEE Journal of Biomedical and Health Informatics <strong>(IEEE JBHI)</strong>, 2024.
+    pdf: https://ieeexplore.ieee.org/abstract/document/10050021/
+    code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
+    bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
     image: ./assets/img/teaser_example.png
