@@ -29,6 +29,8 @@ I am a Ph.D. student at [Australian AI Intelligence Institute (AAII)](https://ww
 - **[Oct. 2022]** I am honored to be awarded the **National Scholarship (1st, 1/1218)**.
 - **[Jun. 2022]** I have one paper about [***Generative Adversial Network on Radar Iamges***](https://ieeexplore.ieee.org/document/10050021?denied=) accepted by **IEEE Transaction on Geoscience and Remote Sensing (Top, JCR Q1)**. <span style="color: red;">[Work during internship]</span>
 
+{% include_relative _includes/publications.md %}
+
 ## Honors and Awards
 - Outstanding Master’s Thesis <span style="color: red;">(1st place)</span>, Hainan University, China.
 - Outstanding Graduates, Hainan University, China.
@@ -44,7 +46,5 @@ I am a Ph.D. student at [Australian AI Intelligence Institute (AAII)](https://ww
 Australia
 - **[Aug. 2024]** Federated Prompt Learning for Weather Foundation Models on Devices, **Main Trak & AI4CI Workshop in IJCAI-2024**, Jeju, 
 South Korea
-
-{% include_relative _includes/publications.md %}
 
 {% include_relative _includes/services.md %}
