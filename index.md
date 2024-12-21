@@ -5,7 +5,7 @@ layout: homepage
 ## About Me
 
 
-I am a Ph.D. student at Australian AI Intelligence Institute (AAII), University of Technology Sydney, working on Federated Intelligence. I have worked as a Deep Learning Research Intern at Shenzhen Institue of Meteorological Innovation（Guangdong-Hong Kong-Macao Greater Bay Area Weather Research Center for Monitoring Warning and Forecasting）. Previously, I completed an MPhil at the Hainan University and a BEng at Jiangxi University of Science and Technology. Now, my research focuses on bridging the gap between academic research and real-world applications. If you have any fun ideas or just want to have a chat, please feel free to drop me an email
+I am a Ph.D. student at Australian AI Intelligence Institute (AAII), University of Technology Sydney, working on Federated Intelligence. I have worked as a Deep Learning Research Intern at Shenzhen Institue of Meteorological Innovation(Guangdong-Hong Kong-Macao Greater Bay Area Weather Research Center for Monitoring Warning and Forecasting). Previously, I completed an MPhil at the Hainan University. Now, my research focuses on bridging the gap between academic research and real-world applications. If you have any fun ideas or just want to have a chat, please feel free to drop me an email.
 
 ## Research Interests
 
@@ -14,10 +14,12 @@ I am a Ph.D. student at Australian AI Intelligence Institute (AAII), University 
 
 ## News
 
-- **[Feb. 2020]** Our paper about incremental learning is accepted to CVPR 2020.
-- **[Feb. 2020]** We will host the ACM Multimedia Asia 2020 conference in Singapore!
-- **[Sept. 2019]** Our paper about few-shot learning is accepted to NeurIPS 2019.
-- **[Mar. 2019]** Our paper about few-shot learning is accepted to CVPR 2019.
+- **[Dec. 2024]** I have one paper about [***Federated Time Series Foundation Model***](https://arxiv.org/pdf/2412.08906) accpted by **AAAI-2025 (Core A*/CCF-A)**.
+- **[Dec. 2024]** Our tutorial proposal about ***Federated Intelligence in Web*** accpted by **WWW 2025 (Core A*/CCF-A)**.
+- **[Sept. 2024]** I have one paper about [***LLMs on Weather Modeling accpted***](https://arxiv.org/pdf/2405.20348) by **NeurIPS-2024 (Core A*/CCF-A)**.
+- **[June. 2024]** I have one paper about [***Federated Foundaion Model on Weather***](https://openreview.net/pdf?id=VpMYKivGVE) accpted by **AI4CI Workshop @ IJCAI 24 (Highlight)**.
+- **[Apr. 2024]** I have one paper about [***On-device Weather Foundation Model***](https://arxiv.org/pdf/2305.14244) accpted by **IJCAI-24 (Core A*/CCF-A)**.
+- **[Mar. 2024]** I have one paper about [***Distributed Remote Sensing Analysis***](https://www.sciencedirect.com/science/article/abs/pii/S0950705124003290) accepted by **Knowledge-Based Systems (JCR Q1)**. [During Internship]
 
 {% include_relative _includes/publications.md %}
 
