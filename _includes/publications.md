@@ -1,5 +1,7 @@
-<h2 id="publications" style="margin: 2px 0px -15px;">Selected Publications</h2>
+<h2 id="publications" style="margin: 2px 0px -15px;">Selected Publications <span style="color: blue;">[Google Scholar](https://scholar.google.com/citations?user=9R3tsmUAAAAJ&hl=en)</span></h2>
 
+
+sss
 <div class="publications">
 <ol class="bibliography">
 
