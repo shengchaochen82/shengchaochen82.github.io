@@ -2,7 +2,7 @@ main:
 
   - title: "Federated Foundation Models on Heterogeneous Time Series"
     authors: <strong>Shengchao Chen</strong>, Guodong Long, Jing Jiang, Chengqi Zhang
-    conference_short: AAAI-2025
+    conference_short: AAAI
     conference: Thirty-Ninth AAAI Conference on Artificial Intelligence <strong>(AAAI)-[Core A*/CCF-A]</strong>, 2025.
     pdf: https://arxiv.org/pdf/2412.08906
     code: https://github.com/shengchaochen82/FFTS
@@ -12,7 +12,7 @@ main:
 
   - title: "Personalized Adapter for Large Meteorology Model on Devices: Towards Weather Foundation Models"
     authors: <strong>Shengchao Chen</strong>, Guodong Long, Jing Jiang, Chengqi Zhang
-    conference_short: NeurIPS-2024
+    conference_short: NeurIPS
     conference: Thirty-Eighth Annual Conference on Neural Information Processing Systems <strong>(NeurIPS)-[Core A*/CCF-A]</strong>, 2024.
     pdf: https://arxiv.org/pdf/2405.20348
     code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
@@ -23,7 +23,7 @@ main:
 
   - title: "Federated Prompt Learning for Weather Foundation Models on Devices"
     authors: <strong>Shengchao Chen</strong>, Guodong Long, Tao Shen, Jing Jiang, Chengqi Zhang
-    conference_short: IJCAI-2024
+    conference_short: IJCAI
     conference: The 33rd International Joint Conference on Artificial Intelligence <strong>(IJCAI)-[Core A*/CCF-A]</strong>, 2024.
     pdf: https://arxiv.org/pdf/2305.14244
     code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
@@ -49,10 +49,19 @@ main:
     bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
     image: ./assets/img/freelunch.png
 
+  - title: "Federated Distillation for Medical Image Classification: Towards Trustworthy Computer-Aided Diagnosis"
+    authors: Sufen Ren, Yule Hu, <strong>Shengchao Chen* (Corresponding Author)</strong>, Guanjun Wang*
+    conference_short: Preprint
+    conference: ArXiv Preprint Version, 2023.
+    pdf: https://arxiv.org/pdf/2407.02261
+    code: https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training
+    bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
+    image: ./assets/img/medical_fl.png
+
   - title: "Foundation Models for Weather and Climate Data Understanding: A Comprehensive Survey"
     authors: <strong>Shengchao Chen</strong>, Guodong Long, Jing Jiang, Dikai Liu, Chengqi Zhang
     conference_short: Preprint
-    conference: Knowledge-Based Systems <strong>(KBS)-[JCR Q1/TOP]</strong>, 2023.
+    conference: ArXiv Preprint Version, 2023.
     pdf: https://arxiv.org/pdf/2312.03014
     code: https://github.com/shengchaochen82/Awesome-Foundation-Models-for-Weather-and-Climate
     bibtex: https://class-il.mpi-inf.mpg.de/mnemonics/
