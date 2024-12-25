@@ -17,7 +17,7 @@ I am a Ph.D. student at [Australian AI Intelligence Institute (AAII)](https://ww
 
 - **[Dec. 2024]** I have one paper about [***Federated Time Series Foundation Model***](https://arxiv.org/pdf/2412.08906) accpted by **AAAI-2025 (Core A*/CCF-A)**. <span style="color: red;">[First work to explore FL in training time series FM from scratch]</span>
 - **[Dec. 2024]** Our tutorial about ***Federated Intelligence in Web*** accpted by **WWW-2025 (Core A*/CCF-A)**.
-- **[Sept. 2024]** I have one paper about [***LLMs on Weather Modeling***](https://arxiv.org/pdf/2405.20348) accpted by **NeurIPS-2024 (Core A*/CCF-A)**.
+- **[Sept. 2024]** I have one paper about [***LLMs on Weather Modeling***](https://arxiv.org/pdf/2405.20348) accpted by **NeurIPS-2024 (Core A*/CCF-A)**. <span style="color: red;">[First work to tame Language Models in Weather Modeling]</span>
 - **[Jun. 2024]** I have one paper about [***Federated Foundaion Model on Weather***](https://openreview.net/pdf?id=VpMYKivGVE) accpted by **AI4CI Workshop @ IJCAI-24 (Core A*/CCF-A, Highlight)**.
 - **[Apr. 2024]** I have one paper about [***On-device Weather Foundation Model***](https://arxiv.org/pdf/2305.14244) accpted by **IJCAI-24 (Core A*/CCF-A)**.
 - **[Mar. 2024]** I have one paper about [***Distributed Remote Sensing Analysis***](https://www.sciencedirect.com/science/article/abs/pii/S0950705124003290) accepted by **Knowledge-Based Systems (Top, JCR Q1)**. <span style="color: red;">[Work during internship]</span>
