@@ -25,7 +25,7 @@ I am a Ph.D. student at [Australian AI Intelligence Institute (AAII)](https://ww
 - **[Aug. 2023]** I have one paper about ***Weather Image Analysis*** accepted by **Knowledge-Based Systems (Top, JCR Q1)**. <span style="color: red;">[Work during internship]</span>
 - **[Jul. 2023]** I have one paper about ***Radar Echo Spatio-temporal Predition*** accepted by IEEE **Transaction on Geoscience and Remote Sensing (Top, JCR Q1)**. <span style="color: red;">[Work during internship]</span>
 - **[Mar. 2023]** I have one paper about [***Federated Prompt for Weather Foundation Model***](https://www.ijcai.org/proceedings/2023/0393.pdf) accpted by **IJCAI 2023 (Core A*/CCF-A)**.
-- **[Feb. 2023]** I have one paper about [***Interpretable Medical Image Analysis***](https://ieeexplore.ieee.org/document/10050021?denied=) accpted by **IEEE Journal of Biomedical and Health Informatics (Top, JCR Q1)**.
+- **[Feb. 2023]** I have one paper about [***Interpretable Medical Image Analysis***](https://ieeexplore.ieee.org/document/10050021?denied=) accpted by **IEEE Journal of Biomedical and Health Informatics (Top, Core A*/JCR Q1)**.
 - **[Oct. 2022]** I am honored to be awarded the **National Scholarship (1st, 1/1218)**.
 - **[Jun. 2022]** I have one paper about [***Generative Adversial Network on Radar Iamges***](https://ieeexplore.ieee.org/document/10050021?denied=) accepted by **IEEE Transaction on Geoscience and Remote Sensing (Top, JCR Q1)**. <span style="color: red;">[Work during internship]</span>
 
@@ -38,8 +38,7 @@ I am a Ph.D. student at [Australian AI Intelligence Institute (AAII)](https://ww
 - Outstanding Graduate Student, Hainan University, China.
 
 ## Experiences
-- **[Mar. 2023 - Jun. 2024]** Research Internship (Machine Learning), Shenzhen Institue of Meteorological Innovation, China.
-- **[Jul. 2021 - Jan. 2023]** Research Internship (Machine Learning), Shenzhen Institue of Meteorological Innovation, China.
+- **[Jul. 2021 - Jan. 2023 & Mar. 2023 - Jun. 2024]** Research Internship (Machine Learning), Shenzhen Institue of Meteorological Innovation, China.
 
 ## Talks
 - **[Nov. 2024]** Personalized Adapter for Large Meteorology Model on Devices: Towards Weather Foundation Models, **FLFM Workshop in AJCAI-2024**, Melbourne, 
