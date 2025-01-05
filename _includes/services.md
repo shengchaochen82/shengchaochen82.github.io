@@ -1,5 +1,12 @@
 ## Services
 
+<h4 style="margin:0 10px 0;">Conference Area Chair</h4>
+
+<ul style="margin:0 0 5px;">
+  <li><a href="http://cvpr2023.thecvf.com/"><autocolor>International Joint Conference on Neural Networks (IJCNN) 2025</autocolor></a></li>
+</ul>
+
+
 <h4 style="margin:0 10px 0;">Conference Reviewers</h4>
 
 <ul style="margin:0 0 5px;">
