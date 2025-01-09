@@ -29,4 +29,5 @@
   <li><a href="https://www.computer.org/csdl/journal/tp"><autocolor>Knowledge-Based Systems (KBS)</autocolor></a></li>
   <li><a href="https://www.computer.org/csdl/journal/tp"><autocolor>Artificial Intelligence In Medicine (AIM)</autocolor></a></li>
   <li><a href="https://www.computer.org/csdl/journal/tp"><autocolor>IEEE Information System (InSys)</autocolor></a></li>
+  <li><a href="https://www.computer.org/csdl/journal/tp"><autocolor>Computer Network - Elsevier</autocolor></a></li>
 </ul>
