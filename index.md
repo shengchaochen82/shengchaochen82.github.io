@@ -14,7 +14,7 @@ I am a Ph.D. student at [Australian AI Intelligence Institute (AAII)](https://ww
 - **Scientific Machine Learning:** PDE Solver, Computational Materials
 
 ## News
-- **[Mar. 2025]** <span style="color: red;">I GOT MARRIED to the love of my life.</span>
+- **[Mar. 2025]** <span style="color: red;">I ***GOT MARRIED*** to the love of my life.</span>
 - **[Dec. 2024]** I have one paper about [***Federated Time Series Foundation Model***](https://arxiv.org/pdf/2412.08906) accpted by **AAAI-2025 (Core A*/CCF-A)**. <span style="color: red;">[First work to explore FL in training time series FM from scratch]</span>
 - **[Dec. 2024]** Our tutorial about ***Federated Intelligence in Web*** accpted by **WWW-2025 (Core A*/CCF-A)**.
 - **[Sept. 2024]** I have one paper about [***LLMs on Weather Modeling***](https://arxiv.org/pdf/2405.20348) accpted by **NeurIPS-2024 (Core A*/CCF-A)**. <span style="color: red;">[First work to tame Language Models in Weather Modeling]</span>
