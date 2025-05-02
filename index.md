@@ -14,7 +14,8 @@ I am a Ph.D. student at [Australian AI Intelligence Institute (AAII)](https://ww
 - **Scientific Machine Learning:** PDE Solver, Computational Materials
 
 ## News
-- **[Mar. 2025]** I ***GOT MARRIED*** to the love of my life.
+- **[Apr. 2025]** I am honored to deliver a lecture-style tutorial on [***Federtaed Intelligence in Web: A Tutorial***](https://www2025.thewebconf.org/accepted-tutorials) at **WWW-2025 (CORE A*/CCF-A)**.
+- **[Apr. 2025]** One paper (I serve as the corresponding author) about [***Cross Medical Imaging Modalities Adaption***](https://arxiv.org/pdf/2412.08906) accpted by **ICMR-2025 (CCF-B/Core B)**
 - **[Dec. 2024]** I have one paper about [***Federated Time Series Foundation Model***](https://arxiv.org/pdf/2412.08906) accpted by **AAAI-2025 (Core A*/CCF-A)**. <span style="color: red;">[First work to explore FL in training time series FM from scratch]</span>
 - **[Dec. 2024]** Our tutorial about ***Federated Intelligence in Web*** accpted by **WWW-2025 (Core A*/CCF-A)**.
 - **[Sept. 2024]** I have one paper about [***LLMs on Weather Modeling***](https://arxiv.org/pdf/2405.20348) accpted by **NeurIPS-2024 (Core A*/CCF-A)**. <span style="color: red;">[First work to tame Language Models in Weather Modeling]</span>
@@ -38,9 +39,10 @@ I am a Ph.D. student at [Australian AI Intelligence Institute (AAII)](https://ww
 - Outstanding Graduate Student, Hainan University, China.
 
 ## Experiences
-- **[Jul. 2021 - Jan. 2023 & Mar. 2023 - Jun. 2024]** Research Internship (Machine Learning), Shenzhen Institue of Meteorological Innovation, China.
+- **[Jul. 2021 - Jan. 2023 & Mar. 2023 - Jun. 2024]** Research Intern (Machine Learning), Shenzhen Institue of Meteorological Innovation, China.
 
 ## Talks
+- **[Apr. 2025]** Federtaed Intelligence in Web: A Tutorial, **WWW-2025**, Sydney, Australia
 - **[Nov. 2024]** Personalized Adapter for Large Meteorology Model on Devices: Towards Weather Foundation Models, **FLFM Workshop in AJCAI-2024**, Melbourne, 
 Australia
 - **[Aug. 2024]** Federated Prompt Learning for Weather Foundation Models on Devices, **Main Trak & AI4CI Workshop in IJCAI-2024**, Jeju, 
