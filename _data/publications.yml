@@ -9,7 +9,7 @@ main:
     image: ./assets/img/tutor.png
 
   - title: "Taming Vision-Language Models for Foundation Models on Heterogeneous Medical Imaging Modalities"
-    authors: Lulu Feng, <strong>Shengchao Chen</strong> <span style="position:relative; display:inline-block;"><span style="position:absolute; top:-20px; left:100%; font-size:1.5em;">✉️</span></span>
+    authors: Lulu Feng, <strong>Shengchao Chen</strong> <span style="position:relative; display:inline-block;"><span style="position:absolute; top:-20px; left:100%; font-size:0.75em;">✉️</span></span>
     conference_short: ICMR
     conference: The 15th ACM International Conference on Multimedia Retrieval (Full-length)<strong>(ICMR)-[Core B/CCF-B]</strong>, 2025.
     pdf: https://dl.acm.org/doi/abs/10.1145/3701716.3715864
