@@ -3,7 +3,7 @@
 
 <div class="publications">
 <ol class="bibliography">
-Note: My complete list of publications is available on my Google Scholar profile. * indicates contributed equally and ✉️ is corresponding author.
+Note: My complete list of publications is available on my Google Scholar profile. * indicates contributed equally and <sup><i class="fa-regular fa-envelope fa-xs"></i></sup> is corresponding author.
 {% for link in site.data.publications.main %}
 
 <li>
