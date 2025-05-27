@@ -1,7 +1,7 @@
 main:
 
   - title: "Federated Intelligence in Web: A Tutorial"
-    authors: Peng Yan, <strong>Shengchao Chen</strong>, Guodong Long
+    authors: Peng Yan, <strong>Shengchao Chen*</strong>, Guodong Long
     conference_short: WWW
     conference: Proceedings of the ACM on Web Conference <strong>(WWW)-[Core A*/CCF-A]</strong>, 2025.
     pdf: https://dl.acm.org/doi/abs/10.1145/3701716.3715864
@@ -67,7 +67,7 @@ main:
     image: ./assets/img/freelunch.png
 
   - title: "Federated Distillation for Medical Image Classification: Towards Trustworthy Computer-Aided Diagnosis"
-    authors: Sufen Ren, Yule Hu, <strong>Shengchao Chen* (Corresponding Author)</strong>, Guanjun Wang*
+    authors: Sufen Ren, Yule Hu, <strong>Shengchao Chen</strong><span style="position:relative; display:inline-block;"><span style="position:absolute; top:-20px; left:100%; font-size:1em;">✉️</span></span>, Guanjun Wang<span style="position:relative; display:inline-block;"><span style="position:absolute; top:-20px; left:100%; font-size:1em;">✉️</span></span>
     conference_short: Preprint
     conference: ArXiv Preprint Version, 2024.
     pdf: https://arxiv.org/pdf/2407.02261
