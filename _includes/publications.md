@@ -4,6 +4,8 @@
 <div class="publications">
 <ol class="bibliography">
 Note: My complete list of publications is available on my Google Scholar profile.
+
+* indicates contributed equally and <span style="position:relative; display:inline-block;"><span style="position:absolute; top:-20px; left:100%; font-size:1em;">✉️</span></span> is corresponding author.
 {% for link in site.data.publications.main %}
 
 <li>
