@@ -30,6 +30,7 @@
   <li><a href="https://www.computer.org/csdl/journal/tp"><autocolor>IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)</autocolor></a></li>
   <li><a href="https://www.computer.org/csdl/journal/tp"><autocolor>IEEE Transactions on Neural Network and Learning Systems (TNNLS)</autocolor></a></li>
   <li><a href="https://www.computer.org/csdl/journal/tp"><autocolor>IEEE Transactions on Knowledge and Data Engineering (TKDE)</autocolor></a></li>
+  <li><a href="https://www.computer.org/csdl/journal/tp"><autocolor>IEEE Transaction on Geoscience and Remote Sensing (TGRS)</autocolor></a></li>
   <li><a href="https://www.computer.org/csdl/journal/tp"><autocolor>Knowledge-Based Systems (KBS)</autocolor></a></li>
   <li><a href="https://www.computer.org/csdl/journal/tp"><autocolor>Artificial Intelligence In Medicine (AIM)</autocolor></a></li>
   <li><a href="https://www.computer.org/csdl/journal/tp"><autocolor>IEEE Information System (InSys)</autocolor></a></li>
