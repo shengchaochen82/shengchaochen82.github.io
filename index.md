@@ -14,7 +14,6 @@ I am a Ph.D. researcher at [Australian AI Intelligence Institute (AAII)](https:/
 - **Scientific Machine Learning:** PDE Solver, Computational Materials
 
 ## News
-- **[Jun. 2025]** One paper about [**<span style="color: #6699cc; font-weight: bold;">VLMs for Medical Imaging</span>**](https://arxiv.org/pdf/2412.08906) accepted by **<span style="color: #6699cc; font-weight: bold;">MICCAI-2025 (CCF-B/Core A, Top-tier Conf. in Computational Medical Imaging)</span>**
 - **[Apr. 2025]** I am honored to deliver a lecture-style tutorial on [**<span style="color: #6699cc; font-weight: bold;">Federtaed Intelligence in Web: A Tutorial</span>**](https://www2025.thewebconf.org/accepted-tutorials) at **<span style="color: #6699cc; font-weight: bold;">WWW-2025 (CORE A*/CCF-A)</span>**.
 - **[Apr. 2025]** One paper (I serve as the corresponding author) about [**<span style="color: #6699cc; font-weight: bold;">Cross Medical Imaging Modalities Adaption</span>**](https://arxiv.org/pdf/2412.08906) accepted as the full-length paper by **<span style="color: #6699cc; font-weight: bold;">ICMR-2025 (CCF-B/Core B)</span>**
 - **[Dec. 2024]** I have one paper about [**<span style="color: #6699cc; font-weight: bold;">Federated Time Series Foundation Model</span>**](https://arxiv.org/pdf/2412.08906) accepted by **<span style="color: #6699cc; font-weight: bold;">AAAI-2025 (Core A*/CCF-A)</span>**. <span style="color: red;">[First work to explore FL in training time series FM from scratch]</span>
