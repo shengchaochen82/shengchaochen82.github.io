@@ -10,8 +10,8 @@ I am a Ph.D. researcher at [Australian AI Intelligence Institute (AAII)](https:/
 
 ## Research Interests
 
-- **Federated Intelligence:** Federated Foundation Model for the Dynamic World Modeling (e.g., Time Series, Climate Change, Remote Sensing, and Healthcare)
-- **Scientific Machine Learning:** PDE Solver, Computational Materials
+- **Federated Intelligence:** Generalist Representation Learning for Heterogeneous [Time Series, Remote Sensing, and Healthcare]
+- **Scientific Machine Learning:** Computational Materials
 
 ## News
 - **[Jun. 2025]** One paper about [**<span style="color: #6699cc; font-weight: bold;">Medical Image Alignment</span>**](https://www2025.thewebconf.org/accepted-tutorials) accepted by **<span style="color: #6699cc; font-weight: bold;">MICCAI-2025 (CORE A/CCF-B/Top in Medical Imaging)</span>**.

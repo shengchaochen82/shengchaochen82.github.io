@@ -11,7 +11,7 @@
 
 <ul style="margin:0 0 5px;">
   <li><a href="http://cvpr2023.thecvf.com/"><autocolor>European Conference on Artificial Intelligence (ECAI) 2025</autocolor></a></li>
-  <li><a href="http://cvpr2023.thecvf.com/"><autocolor>ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD) 2025</autocolor></a></li>
+  <li><a href="http://cvpr2023.thecvf.com/"><autocolor>ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD) 2025, 2026</autocolor></a></li>
   <li><a href="http://cvpr2023.thecvf.com/"><autocolor>Conference on Neural Information Processing Systems (NeurIPS) 2023, 2024, 2025</autocolor></a></li>
   <li><a href="http://iccv2021.thecvf.com/"><autocolor> International Conference on Learning Representations (ICLR) 2024, 2025</autocolor></a></li>
   <li><a href="https://eccv2022.ecva.net/"><autocolor>International Conference on Machine Learning (ICML) 2024, 2025</autocolor></a></li>
