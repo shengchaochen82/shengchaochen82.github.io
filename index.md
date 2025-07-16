@@ -34,6 +34,7 @@ I am a Ph.D. researcher at [Australian AI Intelligence Institute (AAII)](https:/
 {% include_relative _includes/publications.md %}
 
 ## Honors and Awards
+- Outstanding Master's Thesis of Hainan Province
 - Outstanding Master’s Thesis <span style="color: red;">(1st place)</span>, Hainan University, China.
 - Outstanding Graduates, Hainan University, China.
 - National Scholarship <span style="color: red;">(Top 0.1%, 1/1218)</span>, Ministrt of Education, China.
