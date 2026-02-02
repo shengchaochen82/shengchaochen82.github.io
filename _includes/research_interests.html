@@ -1,0 +1,264 @@
+<div class="research-interests-section">
+  <h2 style="margin: 2px 0px 20px;">Research Interests</h2>
+  
+  <div class="interests-grid">
+    <div class="interest-card federated">
+      <div class="interest-icon">
+        <i class="fas fa-network-wired"></i>
+        <div class="icon-pulse"></div>
+      </div>
+      <div class="interest-content">
+        <h3>Federated Intelligence</h3>
+        <p>Representation Learning for Heterogeneous Data</p>
+        <div class="interest-tags">
+          <span class="tag">Time Series</span>
+          <span class="tag">Remote Sensing</span>
+          <span class="tag">Healthcare</span>
+        </div>
+      </div>
+      <div class="interest-glow"></div>
+    </div>
+    
+    <div class="interest-card science">
+      <div class="interest-icon">
+        <i class="fas fa-flask"></i>
+        <div class="icon-pulse"></div>
+      </div>
+      <div class="interest-content">
+        <h3>Scientific Machine Learning</h3>
+        <p>Foundation Models for Scientific Discovery</p>
+        <div class="interest-tags">
+          <span class="tag">Weather Forecasting</span>
+          <span class="tag">Climate Modeling</span>
+          <span class="tag">Materials</span>
+        </div>
+      </div>
+      <div class="interest-glow"></div>
+    </div>
+  </div>
+</div>
+
+<style>
+.research-interests-section {
+  margin: 30px 0;
+}
+
+.interests-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .interests-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.interest-card {
+  position: relative;
+  background: linear-gradient(145deg, #ffffff, #f8f9fa);
+  border-radius: 20px;
+  padding: 25px;
+  display: flex;
+  gap: 20px;
+  box-shadow: 8px 8px 16px #d1d5db, -8px -8px 16px #ffffff;
+  transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.interest-card:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 12px 12px 24px #c4c9d0, -12px -12px 24px #ffffff;
+}
+
+.interest-card.federated::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(90deg, #3b82f6, #8b5cf6);
+}
+
+.interest-card.science::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(90deg, #10b981, #06b6d4);
+}
+
+.interest-icon {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+  font-size: 1.8rem;
+  z-index: 2;
+}
+
+.interest-card.federated .interest-icon {
+  background: linear-gradient(135deg, #3b82f620, #3b82f640);
+  color: #3b82f6;
+}
+
+.interest-card.science .interest-icon {
+  background: linear-gradient(135deg, #10b98120, #10b98140);
+  color: #10b981;
+}
+
+.icon-pulse {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 16px;
+  opacity: 0;
+  z-index: -1;
+}
+
+.interest-card.federated .icon-pulse {
+  background: #3b82f6;
+  animation: pulse-blue 2s ease-in-out infinite;
+}
+
+.interest-card.science .icon-pulse {
+  background: #10b981;
+  animation: pulse-green 2s ease-in-out infinite;
+}
+
+@keyframes pulse-blue {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1.2);
+    opacity: 0.3;
+  }
+}
+
+@keyframes pulse-green {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 0;
+  }
+  50% {
+    transform: scale(1.2);
+    opacity: 0.3;
+  }
+}
+
+.interest-content {
+  flex: 1;
+  z-index: 2;
+}
+
+.interest-content h3 {
+  margin: 0 0 8px 0;
+  font-size: 1.2rem;
+  color: #333;
+  font-weight: 700;
+}
+
+.interest-content p {
+  margin: 0 0 12px 0;
+  font-size: 0.95rem;
+  color: #666;
+}
+
+.interest-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.tag {
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.interest-card.federated .tag {
+  background: rgba(59, 130, 246, 0.15);
+  color: #3b82f6;
+}
+
+.interest-card.federated .tag:hover {
+  background: rgba(59, 130, 246, 0.25);
+}
+
+.interest-card.science .tag {
+  background: rgba(16, 185, 129, 0.15);
+  color: #10b981;
+}
+
+.interest-card.science .tag:hover {
+  background: rgba(16, 185, 129, 0.25);
+}
+
+.interest-glow {
+  position: absolute;
+  top: -50%;
+  right: -50%;
+  width: 200%;
+  height: 200%;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  pointer-events: none;
+}
+
+.interest-card.federated .interest-glow {
+  background: radial-gradient(circle, rgba(59, 130, 246, 0.1) 0%, transparent 70%);
+}
+
+.interest-card.science .interest-glow {
+  background: radial-gradient(circle, rgba(16, 185, 129, 0.1) 0%, transparent 70%);
+}
+
+.interest-card:hover .interest-glow {
+  opacity: 1;
+}
+
+@media (prefers-color-scheme: dark) {
+  .interest-card {
+    background: linear-gradient(145deg, #2d3748, #1a202c);
+    box-shadow: 8px 8px 16px #1a202c, -8px -8px 16px #3d4856;
+  }
+  
+  .interest-card:hover {
+    box-shadow: 12px 12px 24px #151b24, -12px -12px 24px #3d4856;
+  }
+  
+  .interest-content h3 {
+    color: #e2e8f0;
+  }
+  
+  .interest-content p {
+    color: #a0aec0;
+  }
+}
+</style>
+
+<script>
+document.querySelectorAll('.interest-card').forEach(card => {
+  card.addEventListener('mouseenter', function() {
+    this.style.transform = 'translateY(-8px) scale(1.02)';
+  });
+  
+  card.addEventListener('mouseleave', function() {
+    this.style.transform = 'translateY(0) scale(1)';
+  });
+});
+</script>

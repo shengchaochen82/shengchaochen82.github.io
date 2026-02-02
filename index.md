@@ -6,10 +6,7 @@ layout: homepage
 
 I affiliated with [Australian AI Intelligence Institute (AAII)](https://www.uts.edu.au/research/australian-artificial-intelligence-institute), [University of Technology Sydney](https://www.uts.edu.au/), working on ***Federated Intelligence*** and ***LLMs for Sciences***.
 
-## Research Interests
-
-- **Federated Intelligence:** Representation Learning for Heterogeneous [Time Series, Remote Sensing, and Healthcare] Datasets
-- **Scientific Machine Learning:** Computational Materials
+{% include_relative _includes/research_interests.html %}
 
 {% include_relative _includes/news.html %}
 

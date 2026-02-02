@@ -1,11 +1,18 @@
-# Publications organized by research categories
-
 federated_tsfm:
   title: "Federated Time Series Foundation Model"
   icon: "fa-network-wired"
   color: "#3b82f6"
   description: "Exploring federated learning approaches for training and deploying time series foundation models across heterogeneous devices and datasets."
   papers:
+    - title: "FeDaL: Federated Dataset Learning for Time Series Foundation Models"
+      authors: "<strong>Shengchao Chen</strong>, Guodong Long, Jing Jiang"
+      conference_short: arXiv
+      conference: "arXiv preprint arXiv:2508.04045, 2025."
+      pdf: "https://arxiv.org/abs/2508.04045"
+      bibtex: "https://bib.yliu.me/MICCAI23.txt"
+      image: "./assets/img/TSFM.png"
+      notes: "Latest work on federated dataset learning for TSFMs."
+
     - title: "Federated Foundation Models on Heterogeneous Time Series"
       authors: "<strong>Shengchao Chen</strong>, Guodong Long, Jing Jiang, Chengqi Zhang"
       conference_short: AAAI
@@ -39,12 +46,21 @@ federated_tsfm:
       image: "./assets/img/FedPoD.png"
 
     - title: "Prompt Federated Learning for Weather Forecasting: Toward Foundation Models on Meteorological Data"
-      authors: "<strong>Shengchao Chen</strong>, Guodong Long, Tao Shen, Jing Jiang"
+      authors: "<strong>Shengchao Chen</strong>, Guodong Long, Tao Shen, Jing Jiang, Chengqi Zhang"
       conference_short: IJCAI-2023
       conference: "The 32rd International Joint Conference on Artificial Intelligence <strong>(IJCAI)-[Core A*/CCF-A]</strong>, 2023."
       pdf: "https://www.ijcai.org/proceedings/2023/0393.pdf"
       bibtex: "https://bib.yliu.me/MICCAI23.txt"
       image: "./assets/img/metepfl.png"
+
+    - title: "Federated Intelligence in Web: A Tutorial"
+      authors: "Peng Yan*, <strong>Shengchao Chen*</strong>, Guodong Long*"
+      conference_short: WWW
+      conference: "Companion Proceedings of the ACM on Web Conference <strong>(WWW)-[Core A*/CCF-A]</strong>, 2025."
+      pdf: "https://dl.acm.org/doi/abs/10.1145/3701716.3715864"
+      bibtex: "https://bib.yliu.me/MICCAI23.txt"
+      image: "./assets/img/tutor.png"
+      notes: "Tutorial on Federated Intelligence."
 
 ai4science:
   title: "AI for Science"
@@ -77,6 +93,23 @@ ai4science:
       bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
       image: "./assets/img/mask.png"
 
+    - title: "Towards scalable and accurate property prediction for photonic crystal fibers with federated learning"
+      authors: "Guanjun Wang, Jiacheng Liu, <strong>Shengchao Chen</strong>, Sufen Ren"
+      conference_short: Optics Express
+      conference: "Optics Express 33 (16), 33421-33434, 2025."
+      pdf: "https://opg.optica.org/oe/fulltext.cfm?uri=oe-33-16-33421&id=570612"
+      bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
+      image: "./assets/img/survey.png"
+      notes: "Federated learning for optical fiber property prediction."
+
+    - title: "Optimizing low-resolution spectral demodulation for long-period fiber gratings using residual convolutional neural networks"
+      authors: "Guanjun Wang, Jiacheng Liu, <strong>Shengchao Chen</strong>, Sufen Ren"
+      conference_short: Optics Express
+      conference: "Optics Express 33 (4), 8225-8238, 2025."
+      pdf: "https://opg.optica.org/oe/fulltext.cfm?uri=oe-33-4-8225&id=569153"
+      bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
+      image: "./assets/img/survey.png"
+
 remote_sensing:
   title: "Remote Sensing Intelligence"
   icon: "fa-satellite"
@@ -99,6 +132,14 @@ remote_sensing:
       pdf: "https://ieeexplore.ieee.org/abstract/document/9837952"
       bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
       image: "./assets/img/mask.png"
+
+    - title: "A distributed photonic crystal fiber reverse design framework based on multi-source knowledge fusion"
+      authors: "Sufen Ren, <strong>Shengchao Chen</strong>, Jiahao Wang, Haoyang Xu, Xinyi Hou, Mengxing Huang, Jiacheng Liu, Guanjun Wang"
+      conference_short: Opt. Fiber Technol.
+      conference: "Optical Fiber Technology 84, 103718, 2024."
+      pdf: "https://www.sciencedirect.com/science/article/abs/pii/S1068520024001834"
+      bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
+      image: "./assets/img/freelunch.png"
 
 medical_imaging:
   title: "Medical Imaging"
@@ -132,22 +173,23 @@ medical_imaging:
       bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
       image: "./assets/img/medical_fl.png"
 
-# Additional publications not categorized above
-other:
-  title: "Other Publications"
-  icon: "fa-book"
-  color: "#8b5cf6"
-  description: "Additional research contributions in tutorials, optical sensing, and related domains."
-  papers:
-    - title: "Federated Intelligence in Web: A Tutorial"
-      authors: "Peng Yan*, <strong>Shengchao Chen*</strong>, Guodong Long*"
-      conference_short: WWW
-      conference: "Companion Proceedings of the ACM on Web Conference <strong>(WWW)-[Core A*/CCF-A]</strong>, 2025."
-      pdf: "https://dl.acm.org/doi/abs/10.1145/3701716.3715864"
-      bibtex: "https://bib.yliu.me/MICCAI23.txt"
-      image: "./assets/img/tutor.png"
+    - title: "Ensemble learning for retinal disease recognition under limited resources"
+      authors: "Jian Wang, Hui Peng, <strong>Shengchao Chen</strong>, Sufen Ren"
+      conference_short: Med. Biol. Eng. Comput.
+      conference: "Medical & Biological Engineering & Computing 62 (9), 2839-2852, 2024."
+      pdf: "https://link.springer.com/article/10.1007/s11517-024-03050-8"
+      bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
+      image: "./assets/img/medical.png"
+      notes: "Ensemble learning for retinal disease diagnosis."
 
-# Legacy format for backward compatibility
+    - title: "Boosting Sclera Segmentation through Semi-supervised Learning with Fewer Labels"
+      authors: "Guanjun Wang, Lai Wang, Nannan Niu, Qi Yao, Yunlu Wang, Sufen Ren, <strong>Shengchao Chen</strong>"
+      conference_short: arXiv
+      conference: "arXiv preprint arXiv:2501.07750, 2025."
+      pdf: "https://arxiv.org/abs/2501.07750"
+      bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
+      image: "./assets/img/medical_fl.png"
+
 main:
   - title: "Federated Intelligence in Web: A Tutorial"
     authors: "Peng Yan*, <strong>Shengchao Chen*</strong>, Guodong Long*"
@@ -254,7 +296,7 @@ main:
     conference_short: IJCAI-2023
     conference: "The 32rd International Joint Conference on Artificial Intelligence <strong>(IJCAI)-[Core A*/CCF-A]</strong>, 2023."
     pdf: "https://www.ijcai.org/proceedings/2023/0393.pdf"
-    bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
+    bibtex: "https://bib.yliu.me/MICCAI23.txt"
     image: "./assets/img/metepfl.png"
 
   - title: "Dynamic Multiscale Fusion Generative Adversarial Network for Radar Image Extrapolation"
