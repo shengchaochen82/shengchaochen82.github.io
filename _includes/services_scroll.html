@@ -1,0 +1,312 @@
+<div class="services-section">
+  <h2 style="margin: 2px 0px 15px;">Academic Services</h2>
+  
+  <div class="services-scroll-container">
+    <div class="services-track">
+      <div class="service-card area-chair">
+        <div class="service-badge">Area Chair</div>
+        <div class="service-icon">
+          <i class="fas fa-microphone-alt"></i>
+        </div>
+        <div class="service-name">IJCNN</div>
+        <div class="service-year">2025</div>
+      </div>
+      
+      <div class="service-card reviewer">
+        <div class="service-badge">Reviewer</div>
+        <div class="service-icon neurips">
+          <i class="fas fa-brain"></i>
+        </div>
+        <div class="service-name">NeurIPS</div>
+        <div class="service-year">2023-25</div>
+      </div>
+      
+      <div class="service-card reviewer">
+        <div class="service-badge">Reviewer</div>
+        <div class="service-icon icml">
+          <i class="fas fa-robot"></i>
+        </div>
+        <div class="service-name">ICML</div>
+        <div class="service-year">2024-25</div>
+      </div>
+      
+      <div class="service-card reviewer">
+        <div class="service-badge">Reviewer</div>
+        <div class="service-icon iclr">
+          <i class="fas fa-lightbulb"></i>
+        </div>
+        <div class="service-name">ICLR</div>
+        <div class="service-year">2024-25</div>
+      </div>
+      
+      <div class="service-card reviewer">
+        <div class="service-badge">Reviewer</div>
+        <div class="service-icon aaai">
+          <i class="fas fa-star"></i>
+        </div>
+        <div class="service-name">AAAI</div>
+        <div class="service-year">2025</div>
+      </div>
+      
+      <div class="service-card reviewer">
+        <div class="service-badge">Reviewer</div>
+        <div class="service-icon ijcai">
+          <i class="fas fa-globe"></i>
+        </div>
+        <div class="service-name">IJCAI</div>
+        <div class="service-year">2023-25</div>
+      </div>
+      
+      <div class="service-card reviewer">
+        <div class="service-badge">Reviewer</div>
+        <div class="service-icon cvpr">
+          <i class="fas fa-eye"></i>
+        </div>
+        <div class="service-name">CVPR</div>
+        <div class="service-year">2023-24</div>
+      </div>
+      
+      <div class="service-card reviewer">
+        <div class="service-badge">Reviewer</div>
+        <div class="service-icon eccv">
+          <i class="fas fa-camera"></i>
+        </div>
+        <div class="service-name">ECCV</div>
+        <div class="service-year">2023-24</div>
+      </div>
+      
+      <div class="service-card reviewer">
+        <div class="service-badge">Reviewer</div>
+        <div class="service-icon miccai">
+          <i class="fas fa-heartbeat"></i>
+        </div>
+        <div class="service-name">MICCAI</div>
+        <div class="service-year">2025</div>
+      </div>
+      
+      <div class="service-card reviewer">
+        <div class="service-badge">Reviewer</div>
+        <div class="service-icon kdd">
+          <i class="fas fa-database"></i>
+        </div>
+        <div class="service-name">KDD</div>
+        <div class="service-year">2025-26</div>
+      </div>
+      
+      <div class="service-card reviewer">
+        <div class="service-badge">Reviewer</div>
+        <div class="service-icon ecai">
+          <i class="fas fa-brain"></i>
+        </div>
+        <div class="service-name">ECAI</div>
+        <div class="service-year">2025</div>
+      </div>
+      
+      <div class="service-card reviewer">
+        <div class="service-badge">Reviewer</div>
+        <div class="service-icon icassp">
+          <i class="fas fa-volume-up"></i>
+        </div>
+        <div class="service-name">ICASSP</div>
+        <div class="service-year">2025</div>
+      </div>
+      
+      <div class="service-card journal">
+        <div class="service-badge">Journal</div>
+        <div class="service-icon journal-icon">
+          <i class="fas fa-book"></i>
+        </div>
+        <div class="service-name">TPAMI</div>
+        <div class="service-year">Reviewer</div>
+      </div>
+      
+      <div class="service-card journal">
+        <div class="service-badge">Journal</div>
+        <div class="service-icon journal-icon">
+          <i class="fas fa-book"></i>
+        </div>
+        <div class="service-name">TNNLS</div>
+        <div class="service-year">Reviewer</div>
+      </div>
+      
+      <div class="service-card journal">
+        <div class="service-badge">Journal</div>
+        <div class="service-icon journal-icon">
+          <i class="fas fa-book"></i>
+        </div>
+        <div class="service-name">TKDE</div>
+        <div class="service-year">Reviewer</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+.services-section {
+  margin: 30px 0;
+}
+
+.services-scroll-container {
+  position: relative;
+  overflow: hidden;
+  padding: 10px 0;
+}
+
+.services-track {
+  display: flex;
+  gap: 12px;
+  animation: scrollServices 30s linear infinite;
+  width: max-content;
+}
+
+.services-scroll-container:hover .services-track {
+  animation-play-state: paused;
+}
+
+@keyframes scrollServices {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.service-card {
+  flex-shrink: 0;
+  width: 110px;
+  padding: 12px 8px;
+  background: white;
+  border-radius: 14px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+  border: 1px solid rgba(0, 0, 0, 0.04);
+  text-align: center;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.service-card:hover {
+  transform: translateY(-5px) scale(1.05);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+.service-badge {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  padding: 2px 6px;
+  background: linear-gradient(135deg, #f59e0b, #d97706);
+  color: white;
+  font-size: 0.6rem;
+  font-weight: 700;
+  border-radius: 6px;
+}
+
+.service-card.area-chair .service-badge {
+  background: linear-gradient(135deg, #ef4444, #dc2626);
+}
+
+.service-card.journal .service-badge {
+  background: linear-gradient(135deg, #8b5cf6, #7c3aed);
+}
+
+.service-icon {
+  width: 45px;
+  height: 45px;
+  margin: 8px auto 6px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.4rem;
+}
+
+.service-icon.neurips {
+  background: linear-gradient(135deg, #10b98120, #10b98140);
+  color: #10b981;
+}
+
+.service-icon.icml {
+  background: linear-gradient(135deg, #3b82f620, #3b82f640);
+  color: #3b82f6;
+}
+
+.service-icon.iclr {
+  background: linear-gradient(135deg, #f59e0b20, #f59e0b40);
+  color: #f59e0b;
+}
+
+.service-icon.aaai {
+  background: linear-gradient(135deg, #8b5cf620, #8b5cf640);
+  color: #8b5cf6;
+}
+
+.service-icon.ijcai {
+  background: linear-gradient(135deg, #ec489920, #ec489940);
+  color: #ec4899;
+}
+
+.service-icon.cvpr {
+  background: linear-gradient(135deg, #06b6d420, #06b6d440);
+  color: #06b6d4;
+}
+
+.service-icon.eccv {
+  background: linear-gradient(135deg, #84cc1620, #84cc1640);
+  color: #84cc16;
+}
+
+.service-icon.miccai {
+  background: linear-gradient(135deg, #ef444420, #ef444440);
+  color: #ef4444;
+}
+
+.service-icon.kdd {
+  background: linear-gradient(135deg, #f9731620, #f9731640);
+  color: #f97316;
+}
+
+.service-icon.ecai {
+  background: linear-gradient(135deg, #14b8a620, #14b8a640);
+  color: #14b8a6;
+}
+
+.service-icon.icassp {
+  background: linear-gradient(135deg, #6366f120, #6366f140);
+  color: #6366f1;
+}
+
+.service-icon.journal-icon {
+  background: linear-gradient(135deg, #64748b20, #64748b40);
+  color: #64748b;
+}
+
+.service-name {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 2px;
+}
+
+.service-year {
+  font-size: 0.65rem;
+  color: #888;
+  font-weight: 500;
+}
+
+@media (prefers-color-scheme: dark) {
+  .service-card {
+    background: #2d3748;
+    border-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .service-name {
+    color: #e2e8f0;
+  }
+  
+  .service-year {
+    color: #a0aec0;
+  }
+}
+</style>

@@ -1,0 +1,247 @@
+<div class="about-research-section">
+  <h2 style="margin: 2px 0px 15px;">About & Research</h2>
+  
+  <div class="about-card">
+    <div class="about-icon">
+      <i class="fas fa-user-graduate"></i>
+    </div>
+    <div class="about-content">
+      <p>I am affiliated with <a href="https://www.uts.edu.au/research/australian-artificial-intelligence-institute" target="_blank">Australian AI Intelligence Institute (AAII)</a>, <a href="https://www.uts.edu.au/" target="_blank">University of Technology Sydney</a>, working on <strong>Federated Intelligence</strong> and <strong>LLMs for Sciences</strong>.</p>
+    </div>
+  </div>
+  
+  <div class="interests-row">
+    <div class="interest-mini-card federated">
+      <div class="interest-mini-icon">
+        <i class="fas fa-network-wired"></i>
+      </div>
+      <div class="interest-mini-content">
+        <h4>Federated Intelligence</h4>
+        <p>Representation Learning for Heterogeneous Data</p>
+        <div class="mini-tags">
+          <span>Time Series</span>
+          <span>Remote Sensing</span>
+          <span>Healthcare</span>
+        </div>
+      </div>
+    </div>
+    
+    <div class="interest-mini-card science">
+      <div class="interest-mini-icon">
+        <i class="fas fa-flask"></i>
+      </div>
+      <div class="interest-mini-content">
+        <h4>Scientific ML</h4>
+        <p>Foundation Models for Scientific Discovery</p>
+        <div class="mini-tags">
+          <span>Weather</span>
+          <span>Climate</span>
+          <span>Materials</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+.about-research-section {
+  margin: 30px 0;
+}
+
+.about-card {
+  display: flex;
+  gap: 15px;
+  padding: 18px 20px;
+  background: linear-gradient(145deg, #ffffff, #f8f9fa);
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.04);
+  margin-bottom: 15px;
+  transition: all 0.3s ease;
+}
+
+.about-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+}
+
+.about-icon {
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(135deg, #6699cc, #4477aa);
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.4rem;
+  flex-shrink: 0;
+  box-shadow: 0 8px 20px rgba(102, 153, 204, 0.3);
+}
+
+.about-content {
+  flex: 1;
+}
+
+.about-content p {
+  margin: 0;
+  line-height: 1.6;
+  color: #444;
+}
+
+.about-content a {
+  color: #6699cc;
+  text-decoration: none;
+  border-bottom: 1px dashed #6699cc;
+  transition: all 0.2s;
+}
+
+.about-content a:hover {
+  color: #4477aa;
+  border-bottom-style: solid;
+}
+
+.interests-row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+
+@media (max-width: 600px) {
+  .interests-row {
+    grid-template-columns: 1fr;
+  }
+}
+
+.interest-mini-card {
+  display: flex;
+  gap: 12px;
+  padding: 15px 18px;
+  border-radius: 14px;
+  background: white;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+  border: 1px solid rgba(0, 0, 0, 0.04);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.interest-mini-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+.interest-mini-card.federated::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 100%;
+  background: linear-gradient(to bottom, #3b82f6, #8b5cf6);
+}
+
+.interest-mini-card.science::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 100%;
+  background: linear-gradient(to bottom, #10b981, #06b6d4);
+}
+
+.interest-mini-icon {
+  width: 42px;
+  height: 42px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+  flex-shrink: 0;
+}
+
+.interest-mini-card.federated .interest-mini-icon {
+  background: linear-gradient(135deg, #3b82f620, #3b82f640);
+  color: #3b82f6;
+}
+
+.interest-mini-card.science .interest-mini-icon {
+  background: linear-gradient(135deg, #10b98120, #10b98140);
+  color: #10b981;
+}
+
+.interest-mini-content {
+  flex: 1;
+}
+
+.interest-mini-content h4 {
+  margin: 0 0 4px 0;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #333;
+}
+
+.interest-mini-content p {
+  margin: 0 0 8px 0;
+  font-size: 0.85rem;
+  color: #666;
+  line-height: 1.4;
+}
+
+.mini-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.mini-tags span {
+  padding: 2px 8px;
+  border-radius: 10px;
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+
+.interest-mini-card.federated .mini-tags span {
+  background: rgba(59, 130, 246, 0.12);
+  color: #3b82f6;
+}
+
+.interest-mini-card.science .mini-tags span {
+  background: rgba(16, 185, 129, 0.12);
+  color: #10b981;
+}
+
+@media (prefers-color-scheme: dark) {
+  .about-card {
+    background: linear-gradient(145deg, #2d3748, #1a202c);
+  }
+  
+  .about-content p {
+    color: #e2e8f0;
+  }
+  
+  .about-content a {
+    color: #63b3ed;
+    border-bottom-color: #63b3ed;
+  }
+  
+  .about-content a:hover {
+    color: #90cdf4;
+  }
+  
+  .interest-mini-card {
+    background: #2d3748;
+    border-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .interest-mini-content h4 {
+    color: #e2e8f0;
+  }
+  
+  .interest-mini-content p {
+    color: #a0aec0;
+  }
+}
+</style>

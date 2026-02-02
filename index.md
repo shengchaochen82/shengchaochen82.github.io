@@ -2,11 +2,7 @@
 layout: homepage
 ---
 
-## About Me
-
-I affiliated with [Australian AI Intelligence Institute (AAII)](https://www.uts.edu.au/research/australian-artificial-intelligence-institute), [University of Technology Sydney](https://www.uts.edu.au/), working on ***Federated Intelligence*** and ***LLMs for Sciences***.
-
-{% include_relative _includes/research_interests.html %}
+{% include_relative _includes/about_research.html %}
 
 {% include_relative _includes/news.html %}
 
@@ -29,4 +25,4 @@ Australia
 - **[Aug. 2024]** Federated Prompt Learning for Weather Foundation Models on Devices, **Main Trak & AI4CI Workshop in IJCAI-2024**, Jeju, 
 South Korea
 
-{% include_relative _includes/services.md %}
+{% include_relative _includes/services_scroll.html %}

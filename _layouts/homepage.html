@@ -147,14 +147,12 @@
       .research-topic {
         position: absolute;
         top: 0;
-        left: 0;
-        width: 100%;
-        text-align: center;
-        font-size: 0.95rem;
+        left: 50%;
+        transform: translateX(-50%) translateY(30px);
+        font-size: 0.85rem;
         font-weight: 600;
         color: #3b82f6;
         opacity: 0;
-        transform: translateY(30px);
         transition: all 0.5s ease;
         background: linear-gradient(135deg, #3b82f620, #3b82f640);
         padding: 4px 12px;
@@ -162,11 +160,12 @@
         backdrop-filter: blur(10px);
         border: 1px solid rgba(59, 130, 246, 0.3);
         box-shadow: 0 4px 12px rgba(59, 130, 246, 0.15);
+        white-space: nowrap;
       }
       
       .research-topic.active {
         opacity: 1;
-        transform: translateY(0);
+        transform: translateX(-50%) translateY(0);
       }
       
       @keyframes topicSlide {
