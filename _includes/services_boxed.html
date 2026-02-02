@@ -186,23 +186,9 @@
   list-style: none;
   padding: 0;
   margin: 0;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  display: flex;
+  flex-direction: column;
   gap: 8px;
-}
-
-.service-list.journal-list {
-  grid-template-columns: repeat(2, 1fr);
-}
-
-@media (max-width: 768px) {
-  .service-list {
-    grid-template-columns: 1fr;
-  }
-  
-  .service-list.journal-list {
-    grid-template-columns: 1fr;
-  }
 }
 
 .service-list li {

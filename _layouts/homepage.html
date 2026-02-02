@@ -45,18 +45,6 @@
 
         <h1>{{ site.title }}</h1>
 
-        
-        <div class="research-topics-container">
-          <div class="research-topics-wrapper">
-            <span class="research-topic active">Federated Learning</span>
-            <span class="research-topic">Foundation Models</span>
-            <span class="research-topic">Time Series</span>
-            <span class="research-topic">AI for Science</span>
-            <span class="research-topic">Medical Imaging</span>
-            <span class="research-topic">Remote Sensing</span>
-          </div>
-        </div>
-
         {% if site.position %}
         <position style="font-size:1.10rem;">{{ site.position }}</position>
         <br>
@@ -131,61 +119,6 @@
       </footer>
     </div>
     <style>
-      /* Research Topics Animation */
-      .research-topics-container {
-        margin: 12px auto;
-        padding: 10px 16px;
-        max-width: 280px;
-        background: linear-gradient(145deg, #f8f9fa, #e9ecef);
-        border-radius: 12px;
-        box-shadow: 6px 6px 12px #d1d5db, -6px -6px 12px #ffffff;
-        position: relative;
-        overflow: hidden;
-        min-height: 36px;
-      }
-      
-      .research-topics-wrapper {
-        position: relative;
-        height: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-      
-      .research-topic {
-        position: absolute;
-        font-size: 0.9rem;
-        font-weight: 700;
-        color: #3b82f6;
-        opacity: 0;
-        transform: translateY(20px);
-        transition: all 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
-        white-space: nowrap;
-        text-shadow: 0 2px 4px rgba(59, 130, 246, 0.2);
-      }
-      
-      .research-topic.active {
-        opacity: 1;
-        transform: translateY(0);
-      }
-      
-      .research-topic::before {
-        content: '✦';
-        margin-right: 6px;
-        color: #f59e0b;
-      }
-      
-      @keyframes topicSlide {
-        0%, 16.66% {
-          opacity: 1;
-          transform: translateY(0);
-        }
-        20%, 100% {
-          opacity: 0;
-          transform: translateY(-30px);
-        }
-      }
-      
       /* Visitor Info Styles */
       .visitor-info {
         display: inline-flex;
@@ -211,16 +144,6 @@
       }
       
       @media (prefers-color-scheme: dark) {
-        .research-topics-container {
-          background: linear-gradient(145deg, #2d3748, #1a202c);
-          box-shadow: 6px 6px 12px #1a202c, -6px -6px 12px #3d4856;
-        }
-        
-        .research-topic {
-          color: #63b3ed;
-          text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-        }
-        
         .visitor-info {
           background: linear-gradient(145deg, #2d3748, #1a202c);
           color: #a0aec0;
@@ -234,26 +157,7 @@
     </style>
     
     <script>
-      // Research Topics Rotation
       document.addEventListener('DOMContentLoaded', function() {
-        const topics = document.querySelectorAll('.research-topic');
-        let currentIndex = 0;
-        
-        function rotateTopics() {
-          topics.forEach((topic, index) => {
-            topic.classList.remove('active');
-          });
-          
-          currentIndex = (currentIndex + 1) % topics.length;
-          topics[currentIndex].classList.add('active');
-        }
-        
-        // Initial activation
-        topics[0].classList.add('active');
-        
-        // Rotate every 3 seconds
-        setInterval(rotateTopics, 3000);
-        
         // Visitor Location Detection
         const locationElement = document.getElementById('visitor-location');
         
