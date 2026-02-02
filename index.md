@@ -25,4 +25,4 @@ Australia
 - **[Aug. 2024]** Federated Prompt Learning for Weather Foundation Models on Devices, **Main Trak & AI4CI Workshop in IJCAI-2024**, Jeju, 
 South Korea
 
-{% include_relative _includes/services_scroll.html %}
+{% include_relative _includes/services_boxed.html %}

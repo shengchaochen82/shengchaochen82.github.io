@@ -1,5 +1,5 @@
 federated_tsfm:
-  title: "Federated Time Series Foundation Model"
+  title: "Federated Foundation Model"
   icon: "fa-network-wired"
   color: "#3b82f6"
   description: "Exploring federated learning approaches for training and deploying time series foundation models across heterogeneous devices and datasets."
