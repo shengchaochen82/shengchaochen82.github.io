@@ -1,0 +1,266 @@
+# Publications organized by research categories
+
+federated_tsfm:
+  title: "Federated Time Series Foundation Model"
+  icon: "fa-network-wired"
+  color: "#3b82f6"
+  description: "Exploring federated learning approaches for training and deploying time series foundation models across heterogeneous devices and datasets."
+  papers:
+    - title: "Federated Foundation Models on Heterogeneous Time Series"
+      authors: "<strong>Shengchao Chen</strong>, Guodong Long, Jing Jiang, Chengqi Zhang"
+      conference_short: AAAI
+      conference: "Thirty-Ninth AAAI Conference on Artificial Intelligence <strong>(AAAI)-[Core A*/CCF-A]</strong>, 2025."
+      pdf: "https://arxiv.org/pdf/2412.08906"
+      code: "https://github.com/shengchaochen82/FFTS"
+      bibtex: "https://bib.yliu.me/MICCAI23.txt"
+      image: "./assets/img/TSFM.png"
+      notes: "First work to explore FL in training TSFMs from scratch."
+
+    - title: "Personalized Adapter for Large Meteorology Model on Devices: Towards Weather Foundation Models"
+      authors: "<strong>Shengchao Chen</strong>, Guodong Long, Jing Jiang, Chengqi Zhang"
+      conference_short: NeurIPS
+      conference: "Thirty-Eighth Annual Conference on Neural Information Processing Systems <strong>(NeurIPS)-[Core A*/CCF-A]</strong>, 2024."
+      pdf: "https://arxiv.org/pdf/2405.20348"
+      code: "https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training"
+      page: "https://class-il.mpi-inf.mpg.de/mnemonics/"
+      bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
+      notes: "Average Score of 7."
+      image: "./assets/img/LMWeather.png"
+
+    - title: "Federated Prompt Learning for Weather Foundation Models on Devices"
+      authors: "<strong>Shengchao Chen</strong>, Guodong Long, Tao Shen, Jing Jiang, Chengqi Zhang"
+      conference_short: IJCAI
+      conference: "The 33rd International Joint Conference on Artificial Intelligence <strong>(IJCAI)-[Core A*/CCF-A]</strong>, 2024."
+      pdf: "https://arxiv.org/pdf/2305.14244"
+      code: "https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training"
+      page: "https://class-il.mpi-inf.mpg.de/mnemonics/"
+      bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
+      notes: "Highlight & Oral @ AI4CI"
+      image: "./assets/img/FedPoD.png"
+
+    - title: "Prompt Federated Learning for Weather Forecasting: Toward Foundation Models on Meteorological Data"
+      authors: "<strong>Shengchao Chen</strong>, Guodong Long, Tao Shen, Jing Jiang"
+      conference_short: IJCAI-2023
+      conference: "The 32rd International Joint Conference on Artificial Intelligence <strong>(IJCAI)-[Core A*/CCF-A]</strong>, 2023."
+      pdf: "https://www.ijcai.org/proceedings/2023/0393.pdf"
+      bibtex: "https://bib.yliu.me/MICCAI23.txt"
+      image: "./assets/img/metepfl.png"
+
+ai4science:
+  title: "AI for Science"
+  icon: "fa-flask"
+  color: "#10b981"
+  description: "Applying artificial intelligence and machine learning to scientific domains, particularly weather forecasting, climate modeling, and computational materials."
+  papers:
+    - title: "Foundation Models for Weather and Climate Data Understanding: A Comprehensive Survey"
+      authors: "<strong>Shengchao Chen</strong>, Guodong Long, Jing Jiang, Dikai Liu, Chengqi Zhang"
+      conference_short: Preprint
+      conference: "ArXiv Preprint Version, 2023."
+      pdf: "https://arxiv.org/pdf/2312.03014"
+      code: "https://github.com/shengchaochen82/Awesome-Foundation-Models-for-Weather-and-Climate"
+      bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
+      image: "./assets/img/survey.png"
+
+    - title: "TempEE: Temporal-Spatial Parallel Transformer for Radar Echo Extrapolation Beyond Auto-Regression"
+      authors: "<strong>Shengchao Chen</strong>, Ting Shu<sup><i class='fa-regular fa-envelope fa-xs'></i></sup>, Huan Zhao, Guo Zhong, Xunlai Chen"
+      conference_short: IEEE TGRS
+      conference: "IEEE Transactions on Geoscience and Remote Sensing <strong>(IEEE TGRS)-[CCF-B/JCR Q1/TOP]</strong>, 2023."
+      pdf: "https://ieeexplore.ieee.org/abstract/document/10238744"
+      bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
+      image: "./assets/img/tempee.png"
+
+    - title: "MASK-CNN-Transformer for Real-time Multi-label Weather Recognition"
+      authors: "<strong>Shengchao Chen</strong>, Ting Shu<sup><i class='fa-regular fa-envelope fa-xs'></i></sup>, Huan Zhao, Yuan Yan Tang"
+      conference_short: KBS
+      conference: "Knowledge-Based Systems <strong>(KBS)-[JCR Q1/TOP]</strong>, 2023."
+      pdf: "https://www.sciencedirect.com/science/article/abs/pii/S0950705123006317"
+      bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
+      image: "./assets/img/mask.png"
+
+remote_sensing:
+  title: "Remote Sensing Intelligence"
+  icon: "fa-satellite"
+  color: "#f59e0b"
+  description: "Intelligent analysis and processing of remote sensing data, including satellite imagery, radar data, and fine-grained classification."
+  papers:
+    - title: "Free Lunch for Federated Remote Sensing Target Fine-Grained Classification: A Parameter-Efficient Framework"
+      authors: "<strong>Shengchao Chen</strong>, Ting Shu<sup><i class='fa-regular fa-envelope fa-xs'></i></sup>, Huan Zhao, Jiahao Wang, Sufen Ren, Lina Yang"
+      conference_short: KBS
+      conference: "Knowledge-Based Systems <strong>(KBS)-[JCR Q1/TOP]</strong>, 2024."
+      pdf: "https://ieeexplore.ieee.org/abstract/document/10050021/"
+      code: "https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training"
+      bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
+      image: "./assets/img/freelunch.png"
+
+    - title: "Dynamic Multiscale Fusion Generative Adversarial Network for Radar Image Extrapolation"
+      authors: "<strong>Shengchao Chen</strong>, Ting Shu<sup><i class='fa-regular fa-envelope fa-xs'></i></sup>, Huan Zhao, Qilin Wan, Jincan Huang, Cailing Li"
+      conference_short: IEEE TGRS
+      conference: "IEEE Transactions on Geoscience and Remote Sensing <strong>(IEEE TGRS)-[CCF-B/JCR Q1/TOP]</strong>, 2023."
+      pdf: "https://ieeexplore.ieee.org/abstract/document/9837952"
+      bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
+      image: "./assets/img/mask.png"
+
+medical_imaging:
+  title: "Medical Imaging"
+  icon: "fa-heart-pulse"
+  color: "#ef4444"
+  description: "AI-driven solutions for medical image analysis, including multi-modal learning, federated medical imaging, and interpretable diagnosis systems."
+  papers:
+    - title: "Taming Vision-Language Models for Foundation Models on Heterogeneous Medical Imaging Modalities"
+      authors: "Lulu Feng, <strong>Shengchao Chen</strong><sup><i class='fa-regular fa-envelope fa-xs'></i></sup>"
+      conference_short: ICMR
+      conference: "The 15th ACM International Conference on Multimedia Retrieval (Full-length)<strong>(ICMR)-[Core B/CCF-B]</strong>, 2025."
+      pdf: "https://dl.acm.org/doi/abs/10.1145/3701716.3715864"
+      bibtex: "https://bib.yliu.me/MICCAI23.txt"
+      image: "./assets/img/icmr.png"
+
+    - title: "Interpretable CNN-Multilevel Attention Transformer for Rapid Recognition of Pneumonia from Chest X-Ray Images"
+      authors: "<strong>Shengchao Chen</strong>, Sufen Ren, Guanjun Wang<sup><i class='fa-regular fa-envelope fa-xs'></i></sup>, Mengxing Huang, Chenyang Xue"
+      conference_short: IEEE JBHI
+      conference: "IEEE Journal of Biomedical and Health Informatics <strong>(IEEE JBHI)-[Core A*/JCR Q1/TOP]</strong>, 2024."
+      pdf: "https://ieeexplore.ieee.org/abstract/document/10050021/"
+      code: "https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training"
+      bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
+      image: "./assets/img/medical.png"
+
+    - title: "Federated Distillation for Medical Image Classification: Towards Trustworthy Computer-Aided Diagnosis"
+      authors: "Sufen Ren, Yule Hu, <strong>Shengchao Chen</strong><sup><i class='fa-regular fa-envelope fa-xs'></i></sup>, Guanjun Wang<sup><i class='fa-regular fa-envelope fa-xs'></i></sup>"
+      conference_short: Preprint
+      conference: "ArXiv Preprint Version, 2024."
+      pdf: "https://arxiv.org/pdf/2407.02261"
+      code: "https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training"
+      bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
+      image: "./assets/img/medical_fl.png"
+
+# Additional publications not categorized above
+other:
+  title: "Other Publications"
+  icon: "fa-book"
+  color: "#8b5cf6"
+  description: "Additional research contributions in tutorials, optical sensing, and related domains."
+  papers:
+    - title: "Federated Intelligence in Web: A Tutorial"
+      authors: "Peng Yan*, <strong>Shengchao Chen*</strong>, Guodong Long*"
+      conference_short: WWW
+      conference: "Companion Proceedings of the ACM on Web Conference <strong>(WWW)-[Core A*/CCF-A]</strong>, 2025."
+      pdf: "https://dl.acm.org/doi/abs/10.1145/3701716.3715864"
+      bibtex: "https://bib.yliu.me/MICCAI23.txt"
+      image: "./assets/img/tutor.png"
+
+# Legacy format for backward compatibility
+main:
+  - title: "Federated Intelligence in Web: A Tutorial"
+    authors: "Peng Yan*, <strong>Shengchao Chen*</strong>, Guodong Long*"
+    conference_short: WWW
+    conference: "Companion Proceedings of the ACM on Web Conference <strong>(WWW)-[Core A*/CCF-A]</strong>, 2025."
+    pdf: "https://dl.acm.org/doi/abs/10.1145/3701716.3715864"
+    bibtex: "https://bib.yliu.me/MICCAI23.txt"
+    image: "./assets/img/tutor.png"
+
+  - title: "Taming Vision-Language Models for Foundation Models on Heterogeneous Medical Imaging Modalities"
+    authors: "Lulu Feng, <strong>Shengchao Chen</strong><sup><i class='fa-regular fa-envelope fa-xs'></i></sup>"
+    conference_short: ICMR
+    conference: "The 15th ACM International Conference on Multimedia Retrieval (Full-length)<strong>(ICMR)-[Core B/CCF-B]</strong>, 2025."
+    pdf: "https://dl.acm.org/doi/abs/10.1145/3701716.3715864"
+    bibtex: "https://bib.yliu.me/MICCAI23.txt"
+    image: "./assets/img/icmr.png"
+
+  - title: "Federated Foundation Models on Heterogeneous Time Series"
+    authors: "<strong>Shengchao Chen</strong>, Guodong Long, Jing Jiang, Chengqi Zhang"
+    conference_short: AAAI
+    conference: "Thirty-Ninth AAAI Conference on Artificial Intelligence <strong>(AAAI)-[Core A*/CCF-A]</strong>, 2025."
+    pdf: "https://arxiv.org/pdf/2412.08906"
+    code: "https://github.com/shengchaochen82/FFTS"
+    bibtex: "https://bib.yliu.me/MICCAI23.txt"
+    image: "./assets/img/TSFM.png"
+    notes: "First work to explore FL in training TSFMs from scratch."
+
+  - title: "Personalized Adapter for Large Meteorology Model on Devices: Towards Weather Foundation Models"
+    authors: "<strong>Shengchao Chen</strong>, Guodong Long, Jing Jiang, Chengqi Zhang"
+    conference_short: NeurIPS
+    conference: "Thirty-Eighth Annual Conference on Neural Information Processing Systems <strong>(NeurIPS)-[Core A*/CCF-A]</strong>, 2024."
+    pdf: "https://arxiv.org/pdf/2405.20348"
+    code: "https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training"
+    page: "https://class-il.mpi-inf.mpg.de/mnemonics/"
+    bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
+    notes: "Average Score of 7."
+    image: "./assets/img/LMWeather.png"
+
+  - title: "Federated Prompt Learning for Weather Foundation Models on Devices"
+    authors: "<strong>Shengchao Chen</strong>, Guodong Long, Tao Shen, Jing Jiang, Chengqi Zhang"
+    conference_short: IJCAI
+    conference: "The 33rd International Joint Conference on Artificial Intelligence <strong>(IJCAI)-[Core A*/CCF-A]</strong>, 2024."
+    pdf: "https://arxiv.org/pdf/2305.14244"
+    code: "https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training"
+    page: "https://class-il.mpi-inf.mpg.de/mnemonics/"
+    bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
+    notes: "Highlight & Oral @ AI4CI"
+    image: "./assets/img/FedPoD.png"
+
+  - title: "Interpretable CNN-Multilevel Attention Transformer for Rapid Recognition of Pneumonia from Chest X-Ray Images"
+    authors: "<strong>Shengchao Chen</strong>, Sufen Ren, Guanjun Wang<sup><i class='fa-regular fa-envelope fa-xs'></i></sup>, Mengxing Huang, Chenyang Xue"
+    conference_short: IEEE JBHI
+    conference: "IEEE Journal of Biomedical and Health Informatics <strong>(IEEE JBHI)-[Core A*/JCR Q1/TOP]</strong>, 2024."
+    pdf: "https://ieeexplore.ieee.org/abstract/document/10050021/"
+    code: "https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training"
+    bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
+    image: "./assets/img/medical.png"
+
+  - title: "Free Lunch for Federated Remote Sensing Target Fine-Grained Classification: A Parameter-Efficient Framework"
+    authors: "<strong>Shengchao Chen</strong>, Ting Shu<sup><i class='fa-regular fa-envelope fa-xs'></i></sup>, Huan Zhao, Jiahao Wang, Sufen Ren, Lina Yang"
+    conference_short: KBS
+    conference: "Knowledge-Based Systems <strong>(KBS)-[JCR Q1/TOP]</strong>, 2024."
+    pdf: "https://ieeexplore.ieee.org/abstract/document/10050021/"
+    code: "https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training"
+    bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
+    image: "./assets/img/freelunch.png"
+
+  - title: "Federated Distillation for Medical Image Classification: Towards Trustworthy Computer-Aided Diagnosis"
+    authors: "Sufen Ren, Yule Hu, <strong>Shengchao Chen</strong><sup><i class='fa-regular fa-envelope fa-xs'></i></sup>, Guanjun Wang<sup><i class='fa-regular fa-envelope fa-xs'></i></sup>"
+    conference_short: Preprint
+    conference: "ArXiv Preprint Version, 2024."
+    pdf: "https://arxiv.org/pdf/2407.02261"
+    code: "https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training"
+    bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
+    image: "./assets/img/medical_fl.png"
+
+  - title: "Foundation Models for Weather and Climate Data Understanding: A Comprehensive Survey"
+    authors: "<strong>Shengchao Chen</strong>, Guodong Long, Jing Jiang, Dikai Liu, Chengqi Zhang"
+    conference_short: Preprint
+    conference: "ArXiv Preprint Version, 2023."
+    pdf: "https://arxiv.org/pdf/2312.03014"
+    code: "https://github.com/shengchaochen82/Awesome-Foundation-Models-for-Weather-and-Climate"
+    bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
+    image: "./assets/img/survey.png"
+
+  - title: "MASK-CNN-Transformer for Real-time Multi-label Weather Recognition"
+    authors: "<strong>Shengchao Chen</strong>, Ting Shu<sup><i class='fa-regular fa-envelope fa-xs'></i></sup>, Huan Zhao, Yuan Yan Tang"
+    conference_short: KBS
+    conference: "Knowledge-Based Systems <strong>(KBS)-[JCR Q1/TOP]</strong>, 2023."
+    pdf: "https://www.sciencedirect.com/science/article/abs/pii/S0950705123006317"
+    bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
+    image: "./assets/img/mask.png"
+
+  - title: "TempEE: Temporal-Spatial Parallel Transformer for Radar Echo Extrapolation Beyond Auto-Regression"
+    authors: "<strong>Shengchao Chen</strong>, Ting Shu<sup><i class='fa-regular fa-envelope fa-xs'></i></sup>, Huan Zhao, Guo Zhong, Xunlai Chen"
+    conference_short: IEEE TGRS
+    conference: "IEEE Transactions on Geoscience and Remote Sensing <strong>(IEEE TGRS)-[CCF-B/JCR Q1/TOP]</strong>, 2023."
+    pdf: "https://ieeexplore.ieee.org/abstract/document/10238744"
+    bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
+    image: "./assets/img/tempee.png"
+
+  - title: "Prompt Federated Learning for Weather Forecasting: Toward Foundation Models on Meteorological Data"
+    authors: "<strong>Shengchao Chen</strong>, Guodong Long, Tao Shen, Jing Jiang, Chengqi Zhang"
+    conference_short: IJCAI-2023
+    conference: "The 32rd International Joint Conference on Artificial Intelligence <strong>(IJCAI)-[Core A*/CCF-A]</strong>, 2023."
+    pdf: "https://www.ijcai.org/proceedings/2023/0393.pdf"
+    bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
+    image: "./assets/img/metepfl.png"
+
+  - title: "Dynamic Multiscale Fusion Generative Adversarial Network for Radar Image Extrapolation"
+    authors: "<strong>Shengchao Chen</strong>, Ting Shu<sup><i class='fa-regular fa-envelope fa-xs'></i></sup>, Huan Zhao, Qilin Wan, Jincan Huang, Cailing Li"
+    conference_short: IEEE TGRS
+    conference: "IEEE Transactions on Geoscience and Remote Sensing <strong>(IEEE TGRS)-[CCF-B/JCR Q1/TOP]</strong>, 2023."
+    pdf: "https://ieeexplore.ieee.org/abstract/document/9837952"
+    bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
+    image: "./assets/img/mask.png"
