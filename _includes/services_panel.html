@@ -1,0 +1,702 @@
+<div id="services-wrapper" class="services-wrapper">
+  <div id="services-main" class="services-main">
+    <div class="pub-header">
+      <h2>Academic Services</h2>
+    </div>
+    
+    <div class="category-bars" id="services-bars">
+      <div class="category-bar" data-category="area_chair" style="--bar-color: #ef4444">
+        <div class="bar-content">
+          <div class="bar-icon-wrapper">
+            <div class="bar-icon">
+              <i class="fas fa-microphone-alt"></i>
+            </div>
+            <div class="bar-badge" style="background: #ef4444">1</div>
+          </div>
+          <div class="bar-info">
+            <div class="bar-title">Area Chair</div>
+            <div class="bar-desc">IJCNN 2025</div>
+          </div>
+          <div class="bar-arrow">
+            <i class="fas fa-chevron-right"></i>
+          </div>
+        </div>
+      </div>
+      
+      <div class="category-bar" data-category="conference_reviewer" style="--bar-color: #f59e0b">
+        <div class="bar-content">
+          <div class="bar-icon-wrapper">
+            <div class="bar-icon">
+              <i class="fas fa-clipboard-check"></i>
+            </div>
+            <div class="bar-badge" style="background: #f59e0b">10</div>
+          </div>
+          <div class="bar-info">
+            <div class="bar-title">Conference Reviewer / PC Member</div>
+            <div class="bar-desc">NeurIPS, ICML, ICLR, AAAI, IJCAI, CVPR, ECCV, MICCAI, KDD, ECAI, ICASSP, ICME</div>
+          </div>
+          <div class="bar-arrow">
+            <i class="fas fa-chevron-right"></i>
+          </div>
+        </div>
+      </div>
+      
+      <div class="category-bar" data-category="journal_reviewer" style="--bar-color: #8b5cf6">
+        <div class="bar-content">
+          <div class="bar-icon-wrapper">
+            <div class="bar-icon">
+              <i class="fas fa-book-open"></i>
+            </div>
+            <div class="bar-badge" style="background: #8b5cf6">10</div>
+          </div>
+          <div class="bar-info">
+            <div class="bar-title">Journal Reviewer</div>
+            <div class="bar-desc">JMLR, TPAMI, TNNLS, TKDE, TGRS, TETC, KBS, AIM, InSys, Computer Networks</div>
+          </div>
+          <div class="bar-arrow">
+            <i class="fas fa-chevron-right"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div id="services-panel" class="category-panel">
+    <div class="panel-header">
+      <button class="back-btn" id="services-back-btn">
+        <i class="fas fa-arrow-left"></i>
+        Back
+      </button>
+      <div class="panel-title">
+        <i id="services-panel-icon" class="fas"></i>
+        <span id="services-panel-title-text"></span>
+      </div>
+      <div class="panel-count">
+        <span id="services-panel-count-num">0</span> venues
+      </div>
+    </div>
+    
+    <div class="panel-content">
+      <div id="services-panel-description" class="panel-description"></div>
+      <div id="services-venues-list" class="venues-scrollable"></div>
+    </div>
+  </div>
+</div>
+
+<script>
+window.servicesData = {
+  area_chair: {
+    title: "Area Chair",
+    icon: "fa-microphone-alt",
+    color: "#ef4444",
+    description: "Conference Area Chair Responsibilities",
+    venues: [
+      { name: "IJCNN 2025", full: "International Joint Conference on Neural Networks", link: "http://cvpr2023.thecvf.com/", badge: "ijcnn" },
+      { name: "IJCNN 2025", full: "International Joint Conference on Neural Networks", link: "http://cvpr2023.thecvf.com/", badge: "ijcnn" }
+    ]
+  },
+  conference_reviewer: {
+    title: "Conference Reviewer / PC Member",
+    icon: "fa-clipboard-check",
+    color: "#f59e0b",
+    description: "Conference Reviewer and Program Committee Member",
+    venues: [
+      { name: "NeurIPS", full: "Neural Information Processing Systems", years: "2023, 2024, 2025", link: "http://cvpr2023.thecvf.com/", badge: "neurips" },
+      { name: "ICML", full: "International Conference on Machine Learning", years: "2024, 2025", link: "https://iccv2021.thecvf.com/", badge: "icml" },
+      { name: "ICLR", full: "International Conference on Learning Representations", years: "2024, 2025", link: "http://iccv2021.thecvf.com/", badge: "iclr" },
+      { name: "AAAI", full: "AAAI Conference on Artificial Intelligence", years: "2025", link: "http://cvpr2023.thecvf.com/", badge: "aaai" },
+      { name: "IJCAI", full: "International Joint Conference on Artificial Intelligence", years: "2023, 2024, 2025", link: "http://cvpr2023.thecvf.com/", badge: "ijcai" },
+      { name: "CVPR", full: "Computer Vision and Pattern Recognition", years: "2023, 2024", link: "https://eccv2022.ecva.net/", badge: "cvpr" },
+      { name: "ECCV", full: "European Conference on Computer Vision", years: "2023, 2024", link: "https://eccv2022.ecva.net/", badge: "eccv" },
+      { name: "MICCAI", full: "Medical Image Computing and Computer Assisted Intervention", years: "2025", link: "https://eccv2022.ecva.net/", badge: "miccai" },
+      { name: "KDD", full: "Knowledge Discovery and Data Mining", years: "2025, 2026", link: "http://cvpr2023.thecvf.com/", badge: "kdd" },
+      { name: "ECAI", full: "European Conference on Artificial Intelligence", years: "2025", link: "https://eccv2022.ecva.net/", badge: "ecai" },
+      { name: "ICASSP", full: "International Conference on Acoustics, Speech, and Signal Processing", years: "2025", link: "https://eccv2022.ecva.net/", badge: "icassp" },
+      { name: "ICME", full: "IEEE International Conference on Multimedia & Expo", years: "2025", link: "https://eccv2022.ecva.net/", badge: "icme" }
+    ]
+  },
+  journal_reviewer: {
+    title: "Journal Reviewer",
+    icon: "fa-book-open",
+    color: "#8b5cf6",
+    description: "Journal Reviewer Responsibilities",
+    venues: [
+      { name: "JMLR", full: "Journal of Machine Learning Research", link: "https://www.computer.org/csdl/journal/tp", badge: "journal-badge" },
+      { name: "TPAMI", full: "IEEE Transactions on Pattern Analysis and Machine Intelligence", link: "https://www.computer.org/csdl/journal/tp", badge: "journal-badge" },
+      { name: "TNNLS", full: "IEEE Transactions on Neural Networks and Learning Systems", link: "https://www.computer.org/csdl/journal/tp", badge: "journal-badge" },
+      { name: "TKDE", full: "IEEE Transactions on Knowledge and Data Engineering", link: "https://www.computer.org/csdl/journal/tp", badge: "journal-badge" },
+      { name: "TGRS", full: "IEEE Transactions on Geoscience and Remote Sensing", link: "https://www.computer.org/csdl/journal/tp", badge: "journal-badge" },
+      { name: "TETC", full: "IEEE Transactions on Emerging Topics in Computing", link: "https://www.computer.org/csdl/journal/tp", badge: "journal-badge" },
+      { name: "KBS", full: "Knowledge-Based Systems", link: "https://www.computer.org/csdl/journal/tp", badge: "journal-badge" },
+      { name: "AIM", full: "Artificial Intelligence in Medicine", link: "https://www.computer.org/csdl/journal/tp", badge: "journal-badge" },
+      { name: "InSys", full: "IEEE Information Systems", link: "https://www.computer.org/csdl/journal/tp", badge: "journal-badge" },
+      { name: "Computer Networks", full: "Computer Networks - Elsevier", link: "https://www.computer.org/csdl/journal/tp", badge: "journal-badge" }
+    ]
+  }
+};
+
+document.addEventListener('DOMContentLoaded', function() {
+  const wrapper = document.getElementById('services-wrapper');
+  const panel = document.getElementById('services-panel');
+  const backBtn = document.getElementById('services-back-btn');
+  const bars = document.querySelectorAll('#services-bars .category-bar');
+  
+  bars.forEach(function(bar) {
+    bar.addEventListener('click', function() {
+      const category = this.getAttribute('data-category');
+      openServicesPanel(category, this);
+    });
+  });
+  
+  backBtn.addEventListener('click', closeServicesPanel);
+  
+  document.addEventListener('keydown', function(event) {
+    if (event.key === 'Escape' && panel.classList.contains('active')) {
+      closeServicesPanel();
+    }
+  });
+  
+  document.addEventListener('click', function(event) {
+    if (panel.classList.contains('active') && 
+        !panel.contains(event.target) && 
+        !event.target.closest('#services-bars .category-bar')) {
+      closeServicesPanel();
+    }
+  });
+  
+  function openServicesPanel(category, clickedBar) {
+    const data = window.servicesData[category];
+    if (!data) return;
+    
+    // Hide all other bars, show only clicked one
+    bars.forEach(function(bar) {
+      if (bar === clickedBar) {
+        bar.classList.add('active-bar');
+        bar.classList.remove('hidden-bar');
+      } else {
+        bar.classList.add('hidden-bar');
+        bar.classList.remove('active-bar');
+      }
+    });
+    
+    // Update panel
+    document.getElementById('services-panel-title-text').textContent = data.title;
+    const panelIcon = document.getElementById('services-panel-icon');
+    panelIcon.className = 'fas ' + data.icon;
+    panelIcon.style.color = data.color;
+    document.getElementById('services-panel-count-num').textContent = data.venues.length;
+    
+    const descEl = document.getElementById('services-panel-description');
+    descEl.textContent = data.description;
+    descEl.style.borderLeftColor = data.color;
+    
+    // Generate venues
+    const venuesList = document.getElementById('services-venues-list');
+    venuesList.innerHTML = '';
+    
+    data.venues.forEach(function(venue, index) {
+      const venueEl = document.createElement('div');
+      venueEl.className = 'venue-item';
+      venueEl.style.setProperty('--item-accent', data.color);
+      venueEl.style.animationDelay = (index * 0.05) + 's';
+      
+      let html = '<div class="venue-details">';
+      
+      if (venue.badge) {
+        html += '<span class="venue-badge ' + venue.badge + '">' + venue.name + '</span>';
+      } else {
+        html += '<span class="venue-name">' + venue.name + '</span>';
+      }
+      
+      if (venue.full) {
+        html += '<div class="venue-full">' + venue.full + '</div>';
+      }
+      
+      if (venue.years) {
+        html += '<span class="venue-years">' + venue.years + '</span>';
+      }
+      
+      html += '</div>';
+      
+      if (venue.link) {
+        html += '<a href="' + venue.link + '" class="venue-link" target="_blank"><i class="fas fa-external-link-alt"></i></a>';
+      }
+      
+      venueEl.innerHTML = html;
+      venuesList.appendChild(venueEl);
+    });
+    
+    // Show panel
+    panel.classList.add('active');
+    wrapper.classList.add('panel-open');
+    document.body.style.overflow = 'hidden';
+  }
+  
+  function closeServicesPanel() {
+    panel.classList.remove('active');
+    wrapper.classList.remove('panel-open');
+    
+    // Restore all bars
+    setTimeout(function() {
+      bars.forEach(function(bar) {
+        bar.classList.remove('hidden-bar', 'active-bar');
+      });
+    }, 300);
+    
+    document.body.style.overflow = '';
+  }
+});
+</script>
+
+<style>
+.services-wrapper {
+  position: relative;
+  margin: 25px 0;
+}
+
+.services-main {
+  transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+.pub-header {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  margin-bottom: 15px;
+}
+
+.pub-header h2 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.category-bars {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.category-bar {
+  background: linear-gradient(145deg, #ffffff, #f8f9fa);
+  border-radius: 12px;
+  padding: 14px 16px;
+  box-shadow: 4px 4px 8px #d1d5db, -4px -4px 8px #ffffff;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+  position: relative;
+  border-left: 3px solid var(--bar-color);
+  overflow: hidden;
+}
+
+.category-bar::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.4), transparent);
+  transition: left 0.5s;
+}
+
+.category-bar:hover::before {
+  left: 100%;
+}
+
+.category-bar:hover {
+  transform: translateX(6px);
+  box-shadow: 6px 6px 12px #c4c9d0, -6px -6px 12px #ffffff;
+}
+
+.category-bar.hidden-bar {
+  opacity: 0;
+  transform: scale(0.9);
+  pointer-events: none;
+  height: 0;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+.category-bar.active-bar {
+  box-shadow: 0 0 0 2px var(--bar-color), 6px 6px 15px rgba(0,0,0,0.15);
+  transform: scale(1.02);
+}
+
+.bar-content {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.bar-icon-wrapper {
+  position: relative;
+  flex-shrink: 0;
+}
+
+.bar-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+  background: linear-gradient(135deg, var(--bar-color)15, var(--bar-color)30);
+  color: var(--bar-color);
+  box-shadow: 0 3px 8px var(--bar-color)25;
+}
+
+.bar-badge {
+  position: absolute;
+  top: -6px;
+  right: -6px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.7rem;
+  font-weight: 800;
+  color: white;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+  border: 2px solid white;
+}
+
+.bar-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.bar-title {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 3px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.bar-desc {
+  font-size: 0.75rem;
+  color: #888;
+  line-height: 1.3;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.bar-arrow {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(145deg, #f8f9fa, #e9ecef);
+  color: var(--bar-color);
+  box-shadow: 2px 2px 4px #d1d5db, -2px -2px 4px #ffffff;
+  transition: all 0.3s ease;
+  font-size: 0.8rem;
+  flex-shrink: 0;
+}
+
+.category-bar:hover .bar-arrow,
+.category-bar.active-bar .bar-arrow {
+  background: var(--bar-color);
+  color: white;
+}
+
+.category-panel {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 75%;
+  max-width: 800px;
+  height: 100vh;
+  background: rgba(255, 255, 255, 0.98);
+  backdrop-filter: blur(20px);
+  box-shadow: -8px 0 30px rgba(0, 0, 0, 0.12);
+  transform: translateX(110%);
+  transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+}
+
+.category-panel.active {
+  transform: translateX(0);
+}
+
+.panel-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px 20px;
+  background: linear-gradient(145deg, #f8f9fa, #ffffff);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  flex-shrink: 0;
+}
+
+.back-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 14px;
+  background: linear-gradient(145deg, #f8f9fa, #e9ecef);
+  border: none;
+  border-radius: 10px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #555;
+  cursor: pointer;
+  box-shadow: 2px 2px 4px #d1d5db, -2px -2px 4px #ffffff;
+  transition: all 0.3s ease;
+}
+
+.back-btn:hover {
+  transform: translateX(-2px);
+  box-shadow: 3px 3px 6px #c4c9d0, -3px -3px 6px #ffffff;
+}
+
+.panel-title {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #333;
+}
+
+.panel-title i {
+  font-size: 1.2rem;
+}
+
+.panel-count {
+  padding: 5px 12px;
+  background: linear-gradient(135deg, #3b82f6, #2563eb);
+  color: white;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+
+.panel-content {
+  flex: 1;
+  overflow-y: auto;
+  padding: 20px 28px;
+}
+
+.panel-description {
+  padding: 12px 15px;
+  background: linear-gradient(145deg, #f8f9fa, #ffffff);
+  border-radius: 10px;
+  margin-bottom: 16px;
+  font-size: 0.85rem;
+  color: #666;
+  line-height: 1.5;
+  border-left: 3px solid;
+}
+
+.venues-scrollable {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.venue-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 16px;
+  background: white;
+  border-radius: 14px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.04);
+  transition: all 0.3s ease;
+  animation: slideInRight 0.35s ease forwards;
+  opacity: 0;
+  border-left: 2px solid var(--item-accent);
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(25px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.venue-item:hover {
+  transform: translateX(4px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  border-left-width: 3px;
+}
+
+.venue-details {
+  flex: 1;
+  min-width: 0;
+}
+
+.venue-badge {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  font-weight: 800;
+  color: white;
+  flex-shrink: 0;
+}
+
+.venue-badge.neurips { background: linear-gradient(135deg, #10b981, #059669); }
+.venue-badge.icml { background: linear-gradient(135deg, #3b82f6, #2563eb); }
+.venue-badge.iclr { background: linear-gradient(135deg, #f59e0b, #d97706); }
+.venue-badge.aaai { background: linear-gradient(135deg, #8b5cf6, #7c3aed); }
+.venue-badge.ijcai { background: linear-gradient(135deg, #ec4899, #db2777); }
+.venue-badge.cvpr { background: linear-gradient(135deg, #06b6d4, #0891b2); }
+.venue-badge.eccv { background: linear-gradient(135deg, #84cc16, #65a30d); }
+.venue-badge.miccai { background: linear-gradient(135deg, #ef4444, #dc2626); }
+.venue-badge.kdd { background: linear-gradient(135deg, #f97316, #ea580c); }
+.venue-badge.ecai { background: linear-gradient(135deg, #14b8a6, #0d9488); }
+.venue-badge.icassp { background: linear-gradient(135deg, #6366f1, #4f46e5); }
+.venue-badge.icme { background: linear-gradient(135deg, #0ea5e9, #0284c7); }
+.venue-badge.ijcnn { background: linear-gradient(135deg, #ec4899, #db2777); }
+.venue-badge.journal-badge { background: linear-gradient(135deg, #64748b, #475569); }
+
+.venue-name {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 8px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: white;
+  background: linear-gradient(135deg, #666, #555);
+  flex-shrink: 0;
+}
+
+.venue-full {
+  font-size: 0.95rem;
+  color: #444;
+  margin-top: 4px;
+  font-weight: 500;
+}
+
+.venue-years {
+  font-size: 0.85rem;
+  color: #888;
+  margin-left: auto;
+  font-weight: 600;
+  flex-shrink: 0;
+}
+
+.venue-link {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f0f0f0;
+  color: #6699cc;
+  text-decoration: none;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.05);
+  transition: all 0.2s;
+}
+
+.venue-link:hover {
+  background: #e8e8e8;
+  color: #4477aa;
+  transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+  .category-panel {
+    width: 90%;
+    max-width: none;
+  }
+  
+  .bar-desc {
+    display: none;
+  }
+  
+  .venue-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  
+  .venue-link {
+    margin-top: 8px;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .category-bar {
+    background: linear-gradient(145deg, #2d3748, #1a202c);
+    box-shadow: 4px 4px 8px #1a202c, -4px -4px 8px #3d4856;
+  }
+  
+  .category-bar:hover,
+  .category-bar.active-bar {
+    box-shadow: 0 0 0 2px var(--bar-color), 6px 6px 15px rgba(0,0,0,0.3);
+  }
+  
+  .bar-title {
+    color: #e2e8f0;
+  }
+  
+  .bar-desc {
+    color: #a0aec0;
+  }
+  
+  .bar-arrow {
+    background: linear-gradient(145deg, #2d3748, #1a202c);
+    box-shadow: 2px 2px 4px #1a202c, -2px -2px 4px #3d4856;
+  }
+  
+  .category-panel {
+    background: rgba(26, 32, 44, 0.98);
+  }
+  
+  .panel-header {
+    background: linear-gradient(145deg, #2d3748, #1a202c);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .back-btn {
+    background: linear-gradient(145deg, #2d3748, #1a202c);
+    color: #a0aec0;
+    box-shadow: 2px 2px 4px #1a202c, -2px -2px 4px #3d4856;
+  }
+  
+  .panel-title {
+    color: #e2e8f0;
+  }
+  
+  .panel-description {
+    background: linear-gradient(145deg, #2d3748, #1a202c);
+    color: #a0aec0;
+  }
+  
+  .venue-item {
+    background: #2d3748;
+    border-color: rgba(255, 255, 255, 0.05);
+  }
+  
+  .venue-full {
+    color: #e2e8f0;
+  }
+  
+  .venue-years {
+    color: #718096;
+  }
+}
+</style>
