@@ -567,6 +567,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 .paper-item {
   display: flex;
+  align-items: center;
   gap: 16px;
   padding: 16px;
   background: white;
@@ -574,25 +575,13 @@ document.addEventListener('DOMContentLoaded', function() {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
   border: 1px solid rgba(0, 0, 0, 0.04);
   transition: all 0.3s ease;
-  animation: slideInRight 0.35s ease forwards;
-  opacity: 0;
-}
-
-@keyframes slideInRight {
-  from {
-    opacity: 0;
-    transform: translateX(25px);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
+  border-left: 2px solid var(--item-accent);
 }
 
 .paper-item:hover {
   transform: translateX(4px);
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
-  border-left: 2px solid var(--item-accent);
+  border-left-width: 3px;
 }
 
 .paper-thumb {
