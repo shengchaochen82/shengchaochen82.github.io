@@ -5,31 +5,7 @@
     <p>I am affiliated with <a href="https://www.uts.edu.au/research/australian-artificial-intelligence-institute" target="_blank">Australian AI Intelligence Institute (AAII)</a> at <a href="https://www.uts.edu.au/" target="_blank">University of Technology Sydney</a>. My research focuses on <strong>Federated Intelligence</strong> and <strong>LLMs for Sciences</strong>, developing innovative approaches to enable collaborative learning across distributed systems while preserving privacy and efficiency.</p>
   </div>
   
-  <div class="interests-row">
-    <div class="interest-mini-card federated">
-      <div class="interest-mini-content">
-        <h4>Federated Intelligence</h4>
-        <p>Representation Learning for Heterogeneous Data</p>
-        <div class="mini-tags">
-          <span>Time Series</span>
-          <span>Remote Sensing</span>
-          <span>Healthcare</span>
-        </div>
-      </div>
-    </div>
-    
-    <div class="interest-mini-card science">
-      <div class="interest-mini-content">
-        <h4>Scientific ML</h4>
-        <p>Foundation Models for Scientific Discovery</p>
-        <div class="mini-tags">
-          <span>Weather</span>
-          <span>Climate</span>
-          <span>Materials</span>
-        </div>
-      </div>
-    </div>
-  </div>
+
 </div>
 
 <style>
@@ -71,121 +47,6 @@
   border-bottom-color: #4477aa;
 }
 
-.interests-row {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 15px;
-}
-
-@media (max-width: 600px) {
-  .interests-row {
-    grid-template-columns: 1fr;
-  }
-}
-
-.interest-mini-card {
-  display: flex;
-  gap: 12px;
-  padding: 18px;
-  border-radius: 12px;
-  background: white;
-  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
-  border: 1px solid rgba(0, 0, 0, 0.04);
-  transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
-  position: relative;
-  overflow: hidden;
-}
-
-.interest-mini-card::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: -100%;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.5), transparent);
-  transition: left 0.5s ease;
-}
-
-.interest-mini-card:hover::before {
-  left: 100%;
-}
-
-.interest-mini-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 30px rgba(102, 153, 204, 0.12);
-  border-color: rgba(102, 153, 204, 0.3);
-}
-
-.interest-mini-card.federated::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 4px;
-  height: 100%;
-  background: linear-gradient(to bottom, #3b82f6, #8b5cf6);
-  z-index: 1;
-}
-
-.interest-mini-card.science::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 4px;
-  height: 100%;
-  background: linear-gradient(to bottom, #10b981, #06b6d4);
-  z-index: 1;
-}
-
-.interest-mini-content {
-  flex: 1;
-  z-index: 2;
-}
-
-.interest-mini-content h4 {
-  margin: 0 0 4px 0;
-  font-size: 1rem;
-  font-weight: 700;
-  color: #333;
-}
-
-.interest-mini-content p {
-  margin: 0 0 8px 0;
-  font-size: 0.85rem;
-  color: #666;
-  line-height: 1.4;
-}
-
-.mini-tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 4px;
-}
-
-.mini-tags span {
-  padding: 2px 8px;
-  border-radius: 10px;
-  font-size: 0.7rem;
-  font-weight: 600;
-  transition: all 0.3s ease;
-}
-
-.mini-tags span:hover {
-  transform: scale(1.1);
-}
-
-.interest-mini-card.federated .mini-tags span {
-  background: rgba(59, 130, 246, 0.12);
-  color: #3b82f6;
-}
-
-.interest-mini-card.science .mini-tags span {
-  background: rgba(16, 185, 129, 0.12);
-  color: #10b981;
-}
-
 /* Dark Mode */
 @media (prefers-color-scheme: dark) {
   .about-research-section {
@@ -208,27 +69,6 @@
   
   .about-intro a:hover {
     color: #90cdf4;
-  }
-  
-  .interest-mini-card {
-    background: #2d3748;
-    border-color: rgba(255, 255, 255, 0.1);
-  }
-  
-  .interest-mini-content h4 {
-    color: #e2e8f0;
-  }
-  
-  .interest-mini-content p {
-    color: #a0aec0;
-  }
-  
-  .interest-mini-card.federated::before {
-    background: linear-gradient(to bottom, #63b3ed, #3b82f6);
-  }
-  
-  .interest-mini-card.science::before {
-    background: linear-gradient(to bottom, #90cdf4, #63b3ed);
   }
 }
 </style>

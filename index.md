@@ -46,10 +46,9 @@ layout: homepage
       <div class="talk-marker"></div>
       <div class="talk-content">
         <div class="talk-header">
-          <div class="talk-icon"><i class="fas fa-microphone"></i></div>
           <div class="talk-meta">
             <span class="talk-date">Apr. 2025</span>
-            <span class="talk-venue"><i class="fas fa-globe"></i> WWW-2025, Sydney, Australia</span>
+            <span class="talk-venue">WWW-2025, Sydney, Australia</span>
           </div>
         </div>
         <h3 class="talk-title">Federated Intelligence in Web: A Tutorial</h3>
@@ -60,10 +59,9 @@ layout: homepage
       <div class="talk-marker"></div>
       <div class="talk-content">
         <div class="talk-header">
-          <div class="talk-icon"><i class="fas fa-chalkboard-teacher"></i></div>
           <div class="talk-meta">
             <span class="talk-date">Nov. 2024</span>
-            <span class="talk-venue"><i class="fas fa-map-marker-alt"></i> FLFM Workshop in AJCAI-2024, Melbourne, Australia</span>
+            <span class="talk-venue">FLFM Workshop in AJCAI-2024, Melbourne, Australia</span>
           </div>
         </div>
         <h3 class="talk-title">Personalized Adapter for Large Meteorology Model on Devices</h3>
@@ -74,10 +72,9 @@ layout: homepage
       <div class="talk-marker"></div>
       <div class="talk-content">
         <div class="talk-header">
-          <div class="talk-icon"><i class="fas fa-presentation"></i></div>
           <div class="talk-meta">
             <span class="talk-date">Aug. 2024</span>
-            <span class="talk-venue"><i class="fas fa-plane"></i> Main Track & AI4CI Workshop in IJCAI-2024, Jeju, South Korea</span>
+            <span class="talk-venue">Main Track & AI4CI Workshop in IJCAI-2024, Jeju, South Korea</span>
           </div>
         </div>
         <h3 class="talk-title">Federated Prompt Learning for Weather Foundation Models on Devices</h3>
@@ -278,7 +275,7 @@ layout: homepage
 .talk-card {
   background: white;
   border-radius: 12px;
-  padding: 25px;
+  padding: 18px 20px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
   border: 1px solid rgba(0, 0, 0, 0.04);
   transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
@@ -333,22 +330,9 @@ layout: homepage
   display: flex;
   align-items: center;
   gap: 10px;
-  padding-bottom: 15px;
+  padding-bottom: 10px;
   border-bottom: 2px solid #f0f0f0;
-  margin-bottom: 12px;
-}
-
-.talk-icon {
-  width: 38px;
-  height: 38px;
-  background: linear-gradient(135deg, #6699cc, #4477aa);
-  border-radius: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  font-size: 1rem;
-  flex-shrink: 0;
+  margin-bottom: 10px;
 }
 
 .talk-meta {
@@ -372,10 +356,6 @@ layout: homepage
   display: flex;
   align-items: center;
   gap: 4px;
-}
-
-.talk-venue i {
-  color: #10b981;
 }
 
 .talk-title {
@@ -442,11 +422,6 @@ layout: homepage
     background: linear-gradient(135deg, #1e3a5f, #1a365d);
   }
 
-  .experience-icon,
-  .talk-icon {
-    background: linear-gradient(135deg, #63b3ed, #3b82f6);
-  }
-
   .talk-title {
     color: #e2e8f0;
   }
@@ -457,10 +432,6 @@ layout: homepage
 
   .talk-venue {
     color: #a0aec0;
-  }
-
-  .talk-venue i {
-    color: #10b981;
   }
 }
 
