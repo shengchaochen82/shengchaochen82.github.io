@@ -2,6 +2,8 @@
 layout: homepage
 ---
 
+<canvas id="dynamic-world-bg" aria-hidden="true"></canvas>
+
 {% include_relative _includes/about_research.html %}
 
 {% include_relative _includes/news.html %}
@@ -35,97 +37,45 @@ html {
   scroll-behavior: smooth;
 }
 
-/* Hero Gradient Background - "Dynamic World Understanding" theme */
-body::before {
-  content: '';
+#dynamic-world-bg {
   position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: -9999;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
   pointer-events: none;
-  background: 
-    radial-gradient(at 40% 20%, rgba(102, 153, 204, 0.03)0px, transparent 50%),
-    radial-gradient(at 20% 40%, rgba(139, 92, 246, 0.04)0px, transparent 50%),
-    radial-gradient(at 0% 50%, rgba(16, 185, 129, 0.06) 0px, transparent 50%);
-  animation: dynamicWorldShift 30s ease-in-out infinite;
-  background-size: 400% 400%;
-  background-position: center;
+  opacity: 0.28;
 }
 
-/* Subtle particle effect using CSS */
-body::after {
-  content: '';
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  z-index: -9998;
-  pointer-events: none;
+.about-research-section > h2,
+.news-header > h2,
+#publications-wrapper .pub-header h2,
+#services-wrapper .pub-header h2 {
+  animation: heading-breath 8s ease-in-out infinite;
 }
 
-.particle-particle {
-  position: absolute;
-  border-radius: 50%;
-  opacity: 0;
-  animation: particleFloat 20s linear infinite;
-}
-
-@keyframes particleFloat {
-  0% {
-    transform: translateY(100vh) rotate(0deg);
-    opacity: 0;
-  }
+@keyframes heading-breath {
+  0%,
   100% {
-    transform: translateY(-100vh) rotate(360deg);
-    opacity: 0;
+    text-shadow: 0 0 0 rgba(102, 153, 204, 0.0);
+  }
+  50% {
+    text-shadow: 0 0 7px rgba(102, 153, 204, 0.16);
   }
 }
 
-/* Generate multiple particles */
-.article-particle:nth-child(1) { animation-delay: 0s; left: 10%; top: 20%; width: 6px; height: 6px; background: rgba(102, 153, 204, 0.15); animation-duration: 18s; }
-.article-particle:nth-child(2) { animation-delay: 2s; left: 20%; top: 30%; width: 8px; height: 8px; background: rgba(102, 153, 204, 0.2); animation-duration: 22s; }
-.article-particle:nth-child(3) { animation-delay: 4s; left: 30%; top: 40%; width: 4px; height: 4px; background: rgba(102, 153, 204, 0.1); animation-duration: 25s; }
-.article-particle:nth-child(4) { animation-delay: 6s; left: 70%; top: 25%; width: 10px; height: 10px; background: rgba(102, 153, 204, 0.15); animation-duration: 28s; }
-.article-particle:nth-child(5) { animation-delay: 8s; left: 10%; top: 60%; width: 6px; height: 6px; background: rgba(102, 153, 204, 0.2); animation-duration: 20s; }
-.article-particle:nth-child(6) { animation-delay: 10s; left: 40%; top: 30%; width: 8px; height: 8px; background: rgba(102, 153, 204, 0.08); animation-duration: 24s; }
-.article-particle:nth-child(7) { animation-delay: 12s; left: 60%; top: 50%; width: 10px; height: 10px; background: rgba(102, 153, 204, 0.1); animation-duration: 26s; }
-.article-particle:nth-child(8) { animation-delay: 14s; left: 80%; top: 70%; width: 4px; height: 4px; background: rgba(102, 153, 204, 0.05); animation-duration: 22s; }
-.article-particle:nth-child(9) { animation-delay: 16s; left: 90%; top: 40%; width: 6px; height: 6px; background: rgba(102, 153, 204, 0.08); animation-duration:30s; }
-.article-particle:nth-child(10) { animation-delay: 18s; left: 20%; top: 50%; width: 8px; height: 8px; background: rgba(102, 153, 204, 0.12); animation-duration: 24s; }
-.article-particle:nth-child(11) { animation-delay: 20s; left: 70%; top: 30%; width: 10px; height: 10px; background: rgba(102, 153, 204, 0.06); animation-duration: 28s; }
-.article-particle:nth-child(12) { animation-delay: 22s; left: 30%; top: 60%; width: 4px; height: 4px; background: rgba(102, 15, 153, 204, 0.08); animation-duration: 22s; }
+.about-icon,
+.news-icon {
+  animation: icon-breath 7s ease-in-out infinite;
 }
 
-@keyframes dynamicWorldShift {
-  0% {
-    background-position: 0% 0%;
-  }
- 33% {
-    background-position: 33% 0%;
-  }
-  66% {
-    background-position: 66% 0%;
-  }
+@keyframes icon-breath {
+  0%,
   100% {
-    background-position: 100% 0%;
+    box-shadow: 0 8px 18px rgba(102, 153, 204, 0.2);
   }
-}
-
-@keyframes dynamicWorldShift {
-  0% {
-    background-position: 0% 0%;
-  }
-  33% {
-    background-position: 33% 0%;
-  }
-  66% {
-    background-position: 66% 0%;
-  }
-  100% {
-    background-position: 100% 0%;
+  50% {
+    box-shadow: 0 10px 22px rgba(102, 153, 204, 0.3);
   }
 }
 
@@ -169,17 +119,6 @@ strong:hover, b:hover {
 
 /* Dark mode scrollbar */
 @media (prefers-color-scheme: dark) {
-  body::before {
-    background: 
-      radial-gradient(at 40% 20%, rgba(99, 102, 241, 0.04)0px, transparent 50%),
-      radial-gradient(at 20% 40%, rgba(139, 92, 246, 0.04)0px, transparent 50%),
-      radial-gradient(at 0% 50%, rgba(16, 185, 129, 0.06) 0px, transparent 50%);
-  }
-
-  .article-particle {
-    background: rgba(99, 102, 241, 0.15);
-  }
-
   ::-webkit-scrollbar-track {
     background: #1a202c;
   }
@@ -192,36 +131,20 @@ strong:hover, b:hover {
     background: rgba(102, 153, 204, 0.3);
     color: #e2e8f0;
   }
-
-  /* Reduce motion for accessibility */
-  body::before {
-    animation: dynamicWorldShift 60s ease-in-out infinite;
-  }
-
-  .article-particle:nth-child(n) {
-    animation-duration: calc(var(--particle-duration, 30s));
-  }
 }
 
-  /* Reduce hover effects */
-  .about-card:hover,
-  .news-card:hover,
-  .paper-item:hover,
-  .venue-item:hover,
-  .category-bar:hover {
-    animation-duration: 0.5s;
-    transition-duration: 0.2s;
-  }
-}
-}
-
-/* Disable animations on user preference */
 @media (prefers-reduced-motion: reduce) {
+  #dynamic-world-bg {
+    display: none;
+  }
+
   *,
   *::before,
   *::after {
-    animation-duration: 0.01s !important;
-    transition-duration: 0.01s !important;
+    animation: none !important;
+    transition: none !important;
   }
 }
 </style>
+
+<script src="{{ '/assets/js/dynamic-world-bg.js' | relative_url }}"></script>
