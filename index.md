@@ -11,55 +11,11 @@ layout: homepage
 <div class="honors-section">
   <h2 style="margin: 2px 0px 15px;">Honors and Awards</h2>
   <div class="honors-container">
-    <div class="honor-card">
-      <div class="honor-icon">
-        <i class="fas fa-trophy"></i>
-      </div>
-      <div class="honor-content">
-        <p><strong>Outstanding Master's Thesis of Hainan Province</strong></p>
-        <p class="honor-detail">Hainan University, China</p>
-      </div>
-    </div>
-    
-    <div class="honor-card highlight">
-      <div class="honor-icon">
-        <i class="fas fa-medal"></i>
-      </div>
-      <div class="honor-content">
-        <p><strong>Outstanding Master's Thesis <span class="honor-rank">(1st place)</span></strong></p>
-        <p class="honor-detail">Hainan University, China</p>
-      </div>
-    </div>
-    
-    <div class="honor-card">
-      <div class="honor-icon">
-        <i class="fas fa-graduation-cap"></i>
-      </div>
-      <div class="honor-content">
-        <p><strong>Outstanding Graduates</strong></p>
-        <p class="honor-detail">Hainan University, China</p>
-      </div>
-    </div>
-    
-    <div class="honor-card highlight">
-      <div class="honor-icon">
-        <i class="fas fa-star"></i>
-      </div>
-      <div class="honor-content">
-        <p><strong>National Scholarship <span class="honor-rank">(Top 0.1%, 1/1218)</span></strong></p>
-        <p class="honor-detail">Ministry of Education, China</p>
-      </div>
-    </div>
-    
-    <div class="honor-card">
-      <div class="honor-icon">
-        <i class="fas fa-award"></i>
-      </div>
-      <div class="honor-content">
-        <p><strong>Outstanding Graduate Student</strong></p>
-        <p class="honor-detail">Hainan University, China</p>
-      </div>
-    </div>
+    <div class="honor-item">Outstanding Master's Thesis of Hainan Province</div>
+    <div class="honor-item highlight">Outstanding Master's Thesis (1st place)</div>
+    <div class="honor-item">Outstanding Graduates</div>
+    <div class="honor-item highlight">National Scholarship (Top 0.1%, 1/1218)</div>
+    <div class="honor-item">Outstanding Graduate Student</div>
   </div>
 </div>
 
@@ -97,7 +53,6 @@ layout: homepage
           </div>
         </div>
         <h3 class="talk-title">Federated Intelligence in Web: A Tutorial</h3>
-        <p class="talk-desc">Delivered a comprehensive tutorial session on federated learning techniques for web applications, covering privacy-preserving algorithms and efficient model aggregation strategies.</p>
       </div>
     </div>
     
@@ -112,7 +67,6 @@ layout: homepage
           </div>
         </div>
         <h3 class="talk-title">Personalized Adapter for Large Meteorology Model on Devices</h3>
-        <p class="talk-desc">Presented novel approach for adapting large-scale weather foundation models to resource-constrained edge devices, enabling personalized weather prediction.</p>
       </div>
     </div>
     
@@ -127,7 +81,6 @@ layout: homepage
           </div>
         </div>
         <h3 class="talk-title">Federated Prompt Learning for Weather Foundation Models on Devices</h3>
-        <p class="talk-desc">Discussed efficient prompt learning methods for foundation models across distributed weather stations, achieving state-of-the-art performance with minimal communication overhead.</p>
       </div>
     </div>
   </div>
@@ -136,7 +89,7 @@ layout: homepage
 {% include_relative _includes/services_panel.html %}
 
 <style>
-/* Honors Section Styles */
+/* Honors Section Styles - Horizontal Row Layout */
 .honors-section {
   margin: 40px 0;
   background: linear-gradient(145deg, #ffffff, #f8f9fa);
@@ -146,71 +99,35 @@ layout: homepage
 }
 
 .honors-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 20px;
-}
-
-.honor-card {
-  background: white;
-  border-radius: 12px;
-  padding: 20px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
-  border: 1px solid rgba(0, 0, 0, 0.04);
-  transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
   display: flex;
-  gap: 15px;
+  flex-wrap: wrap;
+  gap: 12px;
   align-items: center;
 }
 
-.honor-card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 8px 24px rgba(102, 153, 204, 0.15);
+.honor-item {
+  background: white;
+  border-radius: 25px;
+  padding: 10px 18px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #333;
+  white-space: nowrap;
+  cursor: default;
+}
+
+.honor-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(102, 153, 204, 0.15);
   border-color: rgba(102, 153, 204, 0.3);
 }
 
-.honor-card.highlight {
+.honor-item.highlight {
   background: linear-gradient(135deg, #fff5eb, #e0e7ff);
-  border-color: rgba(102, 153, 204, 0.2);
-}
-
-.honor-icon {
-  width: 45px;
-  height: 45px;
-  background: linear-gradient(135deg, #6699cc, #4477aa);
-  border-radius: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  font-size: 1.2rem;
-  flex-shrink: 0;
-}
-
-.honor-content {
-  flex: 1;
-}
-
-.honor-content p {
-  margin: 0 0 8px 0;
-  font-size: 0.95rem;
-  font-weight: 600;
-  color: #333;
-}
-
-.honor-detail {
-  font-size: 0.85rem;
-  color: #666;
-  margin-bottom: 4px;
-}
-
-.honor-rank {
-  background: linear-gradient(135deg, #ef4444, #dc2626);
-  color: white;
-  padding: 2px 6px;
-  border-radius: 4px;
-  font-size: 0.8rem;
-  font-weight: 700;
+  border-color: rgba(102, 153, 204, 0.3);
 }
 
 /* Experiences Section Styles */
@@ -502,24 +419,29 @@ layout: homepage
     background: linear-gradient(145deg, #2d3748, #1a202c);
   }
   
-  .honor-card,
+  .honor-item,
   .experience-card,
   .talk-card {
     background: #2d3748;
     border-color: rgba(255, 255, 255, 0.1);
+    color: #e2e8f0;
   }
-  
+
+  .honor-item:hover {
+    box-shadow: 0 4px 12px rgba(102, 153, 204, 0.2);
+    border-color: rgba(102, 153, 204, 0.4);
+  }
+
   .experience-card::before,
   .talk-card::before {
     background: linear-gradient(90deg, transparent, rgba(102, 153, 204, 0.08), transparent);
   }
-  
-  .honor-card.highlight,
+
+  .honor-item.highlight,
   .talk-card.highlight {
     background: linear-gradient(135deg, #1e3a5f, #1a365d);
   }
-  
-  .honor-icon,
+
   .experience-icon,
   .talk-icon {
     background: linear-gradient(135deg, #63b3ed, #3b82f6);
@@ -527,7 +449,7 @@ layout: homepage
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .honor-card,
+  .honor-item,
   .experience-card,
   .talk-card {
     transition: none;
@@ -546,6 +468,13 @@ html {
 /* Background color that will show through or behind canvas */
 body {
   background-color: #f8f9fa;
+  transition: background-color 0.3s ease;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #1a202c;
+  }
 }
 
 .wrapper {
