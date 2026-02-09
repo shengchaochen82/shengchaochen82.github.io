@@ -157,5 +157,3 @@ strong:hover, b:hover {
   }
 }
 </style>
-
-<script src="{{ "/assets/js/dynamic-world-bg.js" | relative_url }}"></script>
