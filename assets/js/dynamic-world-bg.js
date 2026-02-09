@@ -17,6 +17,8 @@
   const mouse = { x: 0, y: 0, active: false, pulse: 0 };
   const waves = [];
   const numWaves = 3;
+  const nebulae = [];
+  const numNebulae = 4;
 
   function resize() {
     const width = window.innerWidth;
@@ -41,6 +43,7 @@
     }
     
     initWaves();
+    initNebulae();
   }
 
   console.log("Initializing particle system with", particles.length, "particles");
@@ -57,6 +60,56 @@
         offset: Math.random() * Math.PI * 2,
         y: Math.random() * height,
       });
+    }
+  }
+
+  function initNebulae() {
+    const width = window.innerWidth;
+    const height = window.innerHeight;
+    nebulae.length = 0;
+    const colors = [
+      { r: 102, g: 153, b: 204 },
+      { r: 147, g: 112, b: 219 },
+      { r: 70, g: 130, b: 180 },
+      { r: 138, g: 180, b: 248 },
+    ];
+    for (let i = 0; i < numNebulae; i += 1) {
+      nebulae.push({
+        x: Math.random() * width,
+        y: Math.random() * height,
+        radius: 150 + Math.random() * 250,
+        color: colors[i % colors.length],
+        alpha: 0.03 + Math.random() * 0.04,
+        pulseSpeed: 0.0005 + Math.random() * 0.001,
+        pulseOffset: Math.random() * Math.PI * 2,
+        driftX: (Math.random() - 0.5) * 0.1,
+        driftY: (Math.random() - 0.5) * 0.1,
+      });
+    }
+  }
+
+  function drawNebulae() {
+    const time = Date.now();
+    for (let i = 0; i < nebulae.length; i += 1) {
+      const n = nebulae[i];
+      const pulse = Math.sin(time * n.pulseSpeed + n.pulseOffset) * 0.5 + 0.5;
+      const currentAlpha = n.alpha * (0.7 + pulse * 0.3);
+      n.x += n.driftX;
+      n.y += n.driftY;
+      const width = window.innerWidth;
+      const height = window.innerHeight;
+      if (n.x < -n.radius) n.x = width + n.radius;
+      if (n.x > width + n.radius) n.x = -n.radius;
+      if (n.y < -n.radius) n.y = height + n.radius;
+      if (n.y > height + n.radius) n.y = -n.radius;
+      const gradient = ctx.createRadialGradient(n.x, n.y, 0, n.x, n.y, n.radius);
+      gradient.addColorStop(0, `rgba(${n.color.r}, ${n.color.g}, ${n.color.b}, ${currentAlpha})`);
+      gradient.addColorStop(0.5, `rgba(${n.color.r}, ${n.color.g}, ${n.color.b}, ${currentAlpha * 0.5})`);
+      gradient.addColorStop(1, `rgba(${n.color.r}, ${n.color.g}, ${n.color.b}, 0)`);
+      ctx.fillStyle = gradient;
+      ctx.beginPath();
+      ctx.arc(n.x, n.y, n.radius, 0, Math.PI * 2);
+      ctx.fill();
     }
   }
   
@@ -88,6 +141,7 @@
 
     ctx.clearRect(0, 0, width, height);
 
+    drawNebulae();
     drawWaves();
     
     for (let i = 0; i < particles.length; i += 1) {

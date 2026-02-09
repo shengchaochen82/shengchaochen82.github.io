@@ -446,6 +446,22 @@ layout: homepage
   .talk-icon {
     background: linear-gradient(135deg, #63b3ed, #3b82f6);
   }
+
+  .talk-title {
+    color: #e2e8f0;
+  }
+
+  .talk-date {
+    color: #63b3ed;
+  }
+
+  .talk-venue {
+    color: #a0aec0;
+  }
+
+  .talk-venue i {
+    color: #10b981;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
