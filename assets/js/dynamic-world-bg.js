@@ -11,9 +11,12 @@
 
   const dpr = Math.min(window.devicePixelRatio || 1, 2);
   const particles = [];
+  const trails = [];
   const baseCount = 70;
   const maxLinkDistance = 180;
   const mouse = { x: 0, y: 0, active: false, pulse: 0 };
+  const waves = [];
+  const numWaves = 3;
 
   function resize() {
     const width = window.innerWidth;
@@ -36,10 +39,48 @@
         r: Math.random() * 2.0 + 1.5,
       });
     }
+    
+    initWaves();
   }
 
   console.log("Initializing particle system with", particles.length, "particles");
-
+  
+  function initWaves() {
+    const width = window.innerWidth;
+    const height = window.innerHeight;
+    waves.length = 0;
+    for (let i = 0; i < numWaves; i += 1) {
+      waves.push({
+        amplitude: 20 + Math.random() * 15,
+        wavelength: 300 + Math.random() * 200,
+        speed: 0.5 + Math.random() * 0.3,
+        offset: Math.random() * Math.PI * 2,
+        y: Math.random() * height,
+      });
+    }
+  }
+  
+  function drawWaves() {
+    const width = window.innerWidth;
+    const height = window.innerHeight;
+    const time = Date.now() / 1000;
+    
+    for (let i = 0; i < waves.length; i += 1) {
+      const wave = waves[i];
+      const yOffset = Math.sin(time * wave.speed + wave.offset) * wave.amplitude;
+      const y = wave.y + yOffset;
+      
+      ctx.beginPath();
+      ctx.moveTo(0, y);
+      for (let x = 0; x <= width; x += 10) {
+        const localY = y + Math.sin((x + time * 50) / wave.wavelength * Math.PI * 2) * wave.amplitude * 0.5;
+        ctx.lineTo(x, localY);
+      }
+      ctx.strokeStyle = `rgba(102, 153, 204, 0.04)`;
+      ctx.lineWidth = 1.5;
+      ctx.stroke();
+    }
+  }
 
   function step() {
     const width = window.innerWidth;
@@ -52,11 +93,13 @@
       gradient.addColorStop(0, "rgba(102, 153, 204, 0.15)");
       gradient.addColorStop(1, "rgba(102, 153, 204, 0)");
       ctx.fillStyle = gradient;
-      ctx.fillRect(mouse.x - pulseSize, mouse.y - pulseSize, pulseSize * 2, pulseSize * 2);
+    ctx.fillRect(mouse.x - pulseSize, mouse.y - pulseSize, pulseSize * 2, pulseSize * 2);
     }
-
+    
+    drawWaves();
+    
     ctx.clearRect(0, 0, width, height);
-
+    
     for (let i = 0; i < particles.length; i += 1) {
       const p = particles[i];
       p.x += p.vx;
