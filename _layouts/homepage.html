@@ -34,6 +34,26 @@
     <link rel="stylesheet" href="./assets/css/publications-no-dark-mode.css">
     {% endif %}
 
+    <script>
+      // Inline test for canvas animation
+      window.addEventListener('DOMContentLoaded', function() {
+        const canvas = document.getElementById('dynamic-world-bg');
+        if (!canvas) {
+          console.error('Canvas not found (inline test)!');
+          return;
+        }
+        const ctx = canvas.getContext('2d');
+        if (!ctx) {
+          console.error('Failed to get context (inline test)!');
+          return;
+        }
+        // Draw a test rectangle to verify canvas works
+        ctx.fillStyle = 'rgba(102, 153, 204, 0.5)';
+        ctx.fillRect(0, 0, canvas.width || 100, canvas.height || 100);
+        console.log('Canvas test - drew rectangle on', canvas);
+      });
+    </script>
+
   </head>
   <body>
     <canvas id="dynamic-world-bg" aria-hidden="true"></canvas>
