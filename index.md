@@ -2,8 +2,6 @@
 layout: homepage
 ---
 
-<canvas id="dynamic-world-bg" aria-hidden="true"></canvas>
-
 {% include_relative _includes/about_research.html %}
 
 {% include_relative _includes/news.html %}
