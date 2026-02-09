@@ -11,6 +11,7 @@ layout: homepage
 <div class="honors-section">
   <h2 style="margin: 2px 0px 15px;">Honors and Awards</h2>
   <div class="honors-container">
+    <div class="honor-item highlight">AAII Best Student Paper Award @ UTS</div>
     <div class="honor-item">Outstanding Master's Thesis of Hainan Province</div>
     <div class="honor-item highlight">Outstanding Master's Thesis (1st place)</div>
     <div class="honor-item">Outstanding Graduates</div>
