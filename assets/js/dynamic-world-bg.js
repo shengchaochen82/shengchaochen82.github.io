@@ -1,11 +1,24 @@
 (() => {
   const canvas = document.getElementById("dynamic-world-bg");
-  if (!canvas || window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+  console.log("Canvas element:", canvas);
+
+  if (!canvas) {
+    console.error("Canvas element not found!");
+    return;
+  }
+
+  if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    console.log("Reduced motion preferred, skipping animation");
     return;
   }
 
   const ctx = canvas.getContext("2d", { alpha: true });
-  if (!ctx) return;
+  console.log("Canvas context:", ctx);
+
+  if (!ctx) {
+    console.error("Failed to get 2d context!");
+    return;
+  }
 
   const dpr = Math.min(window.devicePixelRatio || 1, 2);
   const particles = [];
@@ -35,6 +48,9 @@
       });
     }
   }
+
+  console.log("Initializing particle system with", particles.length, "particles");
+
 
   function step() {
     const width = window.innerWidth;
