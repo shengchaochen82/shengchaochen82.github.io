@@ -147,8 +147,8 @@ layout: homepage
 
 .honors-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 15px;
 }
 
 .honor-card {
@@ -239,7 +239,8 @@ layout: homepage
 
 .experience-item {
   position: relative;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+  max-width: 280px;
 }
 
 .experience-marker {
@@ -258,12 +259,13 @@ layout: homepage
 .experience-card {
   background: white;
   border-radius: 12px;
-  padding: 25px;
+  padding: 20px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
   border: 1px solid rgba(0, 0, 0, 0.04);
   transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
   position: relative;
   overflow: hidden;
+  max-width: 280px;
 }
 
 .experience-card::before {
@@ -282,17 +284,18 @@ layout: homepage
 }
 
 .experience-card:hover {
-  transform: translateX(12px);
-  box-shadow: 0 8px 32px rgba(102, 153, 204, 0.15);
-  border-color: rgba(102, 153, 204, 0.3);
+  transform: translateY(-6px);
+  box-shadow: 0 6px 24px rgba(102, 153, 204, 0.12);
+  border-color: rgba(102, 153, 204, 0.25);
 }
 
 .experience-period {
   display: flex;
   align-items: center;
-  gap: 12px;
-  padding-bottom: 15px;
+  gap: 10px;
+  padding-bottom: 12px;
   border-bottom: 2px solid #f0f0f0;
+  max-width: 280px;
 }
 
 .experience-icon {
@@ -361,12 +364,13 @@ layout: homepage
 .talk-card {
   background: white;
   border-radius: 12px;
-  padding: 25px;
+  padding: 20px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
   border: 1px solid rgba(0, 0, 0, 0.04);
   transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
   position: relative;
   overflow: hidden;
+  max-width: 280px;
 }
 
 .talk-card::before {
@@ -385,9 +389,9 @@ layout: homepage
 }
 
 .talk-card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 8px 32px rgba(102, 153, 204, 0.15);
-  border-color: rgba(102, 153, 204, 0.3);
+  transform: translateY(-6px);
+  box-shadow: 0 6px 24px rgba(102, 153, 204, 0.12);
+  border-color: rgba(102, 153, 204, 0.25);
 }
 
 .talk-card.highlight {
@@ -421,62 +425,40 @@ layout: homepage
   margin-bottom: 12px;
 }
 
-.talk-icon {
-  width: 38px;
-  height: 38px;
-  background: linear-gradient(135deg, #6699cc, #4477aa);
-  border-radius: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  font-size: 1rem;
-  flex-shrink: 0;
-}
-
 .talk-meta {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
-  font-size: 0.85rem;
+  gap: 15px;
   align-items: center;
+  font-size: 0.9rem;
 }
 
 .talk-date {
   color: #6699cc;
-  font-weight: 700;
+  font-weight: 600;
   display: flex;
   align-items: center;
-  gap: 4px;
+  gap: 6px;
 }
 
 .talk-venue {
   color: #555;
   display: flex;
   align-items: center;
-  gap: 4px;
+  gap: 6px;
 }
 
 .talk-venue i {
   color: #10b981;
-}
-
-.talk-title {
-  margin: 0 0 12px 0;
-  font-size: 1.1rem;
-  font-weight: 700;
-  color: #333;
-}
-
-.talk-desc {
-  font-size: 0.9rem;
-  color: #555;
-  line-height: 1.5;
+  font-size: 0.85rem;
 }
 
 /* Responsive Design */
 @media (max-width: 768px) {
-  .honors-container,
+  .honors-container {
+    grid-template-columns: 1fr;
+  }
+  
   .talks-container {
     grid-template-columns: 1fr;
   }
@@ -521,9 +503,12 @@ layout: homepage
   
   .honor-icon,
   .experience-icon,
-  .talk-icon {
-    background: linear-gradient(135deg, #63b3ed, #3b82f6);
-  }
+.talk-header:hover .talk-meta {
+  transform: scale(1.05);
+}
+
+/* Dark Mode */
+@media (prefers-color-scheme: dark) {
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -571,6 +556,17 @@ section {
 #publications-wrapper .pub-header h2,
 #services-wrapper .pub-header h2 {
   animation: heading-breath 8s ease-in-out infinite;
+}
+
+/* Services Panel Icon Hiding */
+#services-wrapper .pub-header i,
+#services-wrapper .pub-content i {
+  display: none;
+}
+
+/* Hide Research Cards */
+.about-research-section .interests-row {
+  display: none;
 }
 
 @keyframes heading-breath {
