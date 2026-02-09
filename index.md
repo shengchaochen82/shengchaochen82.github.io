@@ -35,6 +35,19 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Ensure transparent background to show canvas */
+body {
+  background-color: transparent;
+}
+
+.wrapper {
+  background-color: transparent;
+}
+
+section {
+  background-color: transparent;
+}
+
 #dynamic-world-bg {
   position: fixed;
   inset: 0;
@@ -145,4 +158,4 @@ strong:hover, b:hover {
 }
 </style>
 
-<script src="{{ '/assets/js/dynamic-world-bg.js' | relative_url }}"></script>
+<script src="{{ "/assets/js/dynamic-world-bg.js" | relative_url }}"></script>
