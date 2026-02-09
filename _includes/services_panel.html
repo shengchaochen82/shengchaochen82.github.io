@@ -251,6 +251,19 @@ document.addEventListener('DOMContentLoaded', function() {
 .services-wrapper {
   position: relative;
   margin: 25px 0;
+  opacity: 0;
+  animation: fadeInUp 0.8s ease 0.6s forwards;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(25px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .services-main {
@@ -262,11 +275,40 @@ document.addEventListener('DOMContentLoaded', function() {
   align-items: baseline;
   gap: 12px;
   margin-bottom: 15px;
+  position: relative;
+}
+
+.pub-header::after {
+  content: '';
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(90deg, #6699cc, transparent);
+  transition: width 0.6s ease 0.3s;
+}
+
+.services-wrapper:hover .pub-header::after {
+  width: 100%;
 }
 
 .pub-header h2 {
   margin: 0;
   font-size: 1.5rem;
+  opacity: 0;
+  animation: fadeInRight 0.6s ease 0.4s forwards;
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
 .category-bars {
@@ -281,7 +323,7 @@ document.addEventListener('DOMContentLoaded', function() {
   padding: 14px 16px;
   box-shadow: 4px 4px 8px #d1d5db, -4px -4px 8px #ffffff;
   cursor: pointer;
-  transition: all 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+  transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
   position: relative;
   border-left: 3px solid var(--bar-color);
   overflow: hidden;
@@ -294,8 +336,8 @@ document.addEventListener('DOMContentLoaded', function() {
   left: -100%;
   width: 100%;
   height: 100%;
-  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.4), transparent);
-  transition: left 0.5s;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.5), transparent);
+  transition: left 0.6s ease;
 }
 
 .category-bar:hover::before {
@@ -303,8 +345,9 @@ document.addEventListener('DOMContentLoaded', function() {
 }
 
 .category-bar:hover {
-  transform: translateX(6px);
-  box-shadow: 6px 6px 12px #c4c9d0, -6px -6px 12px #ffffff;
+  transform: translateX(8px) scale(1.01);
+  box-shadow: 6px 6px 16px #c4c9d0, -6px -6px 16px #ffffff;
+  border-left-width: 4px;
 }
 
 .category-bar.hidden-bar {
@@ -344,6 +387,12 @@ document.addEventListener('DOMContentLoaded', function() {
   background: linear-gradient(135deg, var(--bar-color)15, var(--bar-color)30);
   color: var(--bar-color);
   box-shadow: 0 3px 8px var(--bar-color)25;
+  transition: all 0.3s ease;
+}
+
+.category-bar:hover .bar-icon {
+  transform: scale(1.1) rotate(5deg);
+  box-shadow: 0 5px 15px var(--bar-color)35;
 }
 
 .bar-badge {
@@ -361,6 +410,11 @@ document.addEventListener('DOMContentLoaded', function() {
   color: white;
   box-shadow: 0 2px 5px rgba(0,0,0,0.3);
   border: 2px solid white;
+  transition: all 0.3s ease;
+}
+
+.category-bar:hover .bar-badge {
+  transform: scale(1.15);
 }
 
 .bar-info {
@@ -386,6 +440,11 @@ document.addEventListener('DOMContentLoaded', function() {
   -webkit-line-clamp: 1;
   -webkit-box-orient: vertical;
   overflow: hidden;
+  transition: color 0.3s ease;
+}
+
+.category-bar:hover .bar-desc {
+  color: #666;
 }
 
 .bar-arrow {
@@ -398,7 +457,7 @@ document.addEventListener('DOMContentLoaded', function() {
   background: linear-gradient(145deg, #f8f9fa, #e9ecef);
   color: var(--bar-color);
   box-shadow: 2px 2px 4px #d1d5db, -2px -2px 4px #ffffff;
-  transition: all 0.3s ease;
+  transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
   font-size: 0.8rem;
   flex-shrink: 0;
 }
@@ -407,6 +466,8 @@ document.addEventListener('DOMContentLoaded', function() {
 .category-bar.active-bar .bar-arrow {
   background: var(--bar-color);
   color: white;
+  transform: translateX(3px);
+  box-shadow: 0 4px 12px var(--bar-color)40;
 }
 
 .category-panel {

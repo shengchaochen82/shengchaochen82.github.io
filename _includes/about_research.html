@@ -43,9 +43,23 @@
   </div>
 </div>
 
-<style>
+ <style>
+/* Page Loading Animations */
 .about-research-section {
   margin: 30px 0;
+  opacity: 0;
+  animation: fadeInUp 0.6s ease forwards;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .about-card {
@@ -57,12 +71,29 @@
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
   border: 1px solid rgba(0, 0, 0, 0.04);
   margin-bottom: 15px;
-  transition: all 0.3s ease;
+  transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+.about-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(102, 153, 204, 0.05), transparent);
+  transition: left 0.6s ease;
+}
+
+.about-card:hover::before {
+  left: 100%;
 }
 
 .about-card:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+  transform: translateY(-5px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.12);
 }
 
 .about-icon {
@@ -77,6 +108,12 @@
   font-size: 1.4rem;
   flex-shrink: 0;
   box-shadow: 0 8px 20px rgba(102, 153, 204, 0.3);
+  transition: all 0.3s ease;
+}
+
+.about-card:hover .about-icon {
+  transform: scale(1.1) rotate(5deg);
+  box-shadow: 0 12px 30px rgba(102, 153, 204, 0.4);
 }
 
 .about-content {
@@ -93,12 +130,27 @@
   color: #6699cc;
   text-decoration: none;
   border-bottom: 1px dashed #6699cc;
-  transition: all 0.2s;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.about-content a::after {
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: #6699cc;
+  transition: width 0.3s ease;
+}
+
+.about-content a:hover::after {
+  width: 100%;
 }
 
 .about-content a:hover {
   color: #4477aa;
-  border-bottom-style: solid;
 }
 
 .interests-row {
@@ -121,14 +173,29 @@
   background: white;
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
   border: 1px solid rgba(0, 0, 0, 0.04);
-  transition: all 0.3s ease;
+  transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
   position: relative;
   overflow: hidden;
 }
 
+.interest-mini-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.5), transparent);
+  transition: left 0.5s ease;
+}
+
+.interest-mini-card:hover::before {
+  left: 100%;
+}
+
 .interest-mini-card:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+  transform: translateY(-5px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
 }
 
 .interest-mini-card.federated::before {
@@ -139,6 +206,7 @@
   width: 4px;
   height: 100%;
   background: linear-gradient(to bottom, #3b82f6, #8b5cf6);
+  z-index: 1;
 }
 
 .interest-mini-card.science::before {
@@ -149,6 +217,7 @@
   width: 4px;
   height: 100%;
   background: linear-gradient(to bottom, #10b981, #06b6d4);
+  z-index: 1;
 }
 
 .interest-mini-icon {
@@ -160,6 +229,12 @@
   justify-content: center;
   font-size: 1.3rem;
   flex-shrink: 0;
+  transition: all 0.3s ease;
+  z-index: 2;
+}
+
+.interest-mini-card:hover .interest-mini-icon {
+  transform: scale(1.1) rotate(-5deg);
 }
 
 .interest-mini-card.federated .interest-mini-icon {
@@ -174,6 +249,7 @@
 
 .interest-mini-content {
   flex: 1;
+  z-index: 2;
 }
 
 .interest-mini-content h4 {
@@ -201,6 +277,11 @@
   border-radius: 10px;
   font-size: 0.7rem;
   font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.mini-tags span:hover {
+  transform: scale(1.1);
 }
 
 .interest-mini-card.federated .mini-tags span {
