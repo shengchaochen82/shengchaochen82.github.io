@@ -35,9 +35,9 @@ html {
   scroll-behavior: smooth;
 }
 
-/* Ensure transparent background to show canvas */
+/* Background color that will show through or behind canvas */
 body {
-  background-color: transparent;
+  background-color: #f8f9fa;
 }
 
 .wrapper {
