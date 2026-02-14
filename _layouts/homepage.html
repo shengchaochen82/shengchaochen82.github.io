@@ -61,9 +61,11 @@
         <br>
         
         
-        <div class="visitor-info">
-          <i class="fas fa-globe"></i>
-          <span id="visitor-location">Detecting location...</span>
+        <div class="visitor-stats">
+          <div class="stats-title"><i class="fas fa-chart-bar"></i> Visitor Statistics</div>
+          <a href="https://info.flagcounter.com/skLf">
+            <img src="https://s11.flagcounter.com/count2/skLf/bg_FFFFFF/txt_000000/border_CCCCCC/columns_3/maxflags_12/viewers_0/labels_1/pageviews_1/flags_0/percent_0/" alt="Flag Counter" border="0" class="flag-counter">
+          </a>
         </div>
         
         <br>
@@ -120,84 +122,57 @@
       </footer>
     </div>
     <style>
-      /* Visitor Info Styles */
-      .visitor-info {
-        display: inline-flex;
+      /* Visitor Stats Styles */
+      .visitor-stats {
+        display: flex;
+        flex-direction: column;
         align-items: center;
-        gap: 6px;
-        padding: 6px 12px;
+        gap: 8px;
+        padding: 12px;
         background: linear-gradient(145deg, #f8f9fa, #e9ecef);
-        border-radius: 20px;
+        border-radius: 12px;
         font-size: 0.8rem;
-        color: #666;
-        box-shadow: inset 2px 2px 4px #d1d5db, inset -2px -2px 4px #ffffff;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
         transition: all 0.3s ease;
       }
       
-      .visitor-info:hover {
-        box-shadow: 2px 2px 8px #d1d5db, -2px -2px 8px #ffffff;
-        transform: translateY(-1px);
+      .visitor-stats:hover {
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        transform: translateY(-2px);
       }
       
-      .visitor-info i {
+      .stats-title {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        color: #6699cc;
+        font-weight: 600;
+      }
+      
+      .stats-title i {
         color: #10b981;
-        font-size: 0.75rem;
+      }
+      
+      .flag-counter {
+        border-radius: 8px;
+        max-width: 180px;
+        height: auto;
       }
       
       @media (prefers-color-scheme: dark) {
-        .visitor-info {
+        .visitor-stats {
           background: linear-gradient(145deg, #2d3748, #1a202c);
-          color: #a0aec0;
-          box-shadow: inset 2px 2px 4px #1a202c, inset -2px -2px 4px #3d4856;
         }
         
-        .visitor-info:hover {
-          box-shadow: 2px 2px 8px #1a202c, -2px -2px 8px #3d4856;
+        .stats-title {
+          color: #63b3ed;
+        }
+        
+        .flag-counter {
+          filter: brightness(0.9);
         }
       }
     </style>
-    
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        // Visitor Location Detection
-        const locationElement = document.getElementById('visitor-location');
-        
-        // Try to get approximate location from timezone
-        const timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
-        const timezoneParts = timezone.split('/');
-        let locationText = 'Global Visitor';
-        
-        if (timezoneParts.length >= 2) {
-          const region = timezoneParts[0];
-          const city = timezoneParts[1].replace(/_/g, ' ');
-          locationText = `${city}, ${region}`;
-        }
-        
-        // Try to use geolocation API for better accuracy (with user consent)
-        if (navigator.geolocation) {
-          navigator.geolocation.getCurrentPosition(
-            function(position) {
-              // Location accessed - show generic message for privacy
-              locationElement.textContent = `Visitor from ${locationText}`;
-            },
-            function(error) {
-              // Location denied or error - use timezone-based location
-              locationElement.textContent = `Visitor from ${locationText}`;
-            },
-            { timeout: 5000 }
-          );
-        } else {
-          locationElement.textContent = `Visitor from ${locationText}`;
-        }
-        
-        // Fallback after 3 seconds if geolocation takes too long
-        setTimeout(function() {
-          if (locationElement.textContent === 'Detecting location...') {
-            locationElement.textContent = `Visitor from ${locationText}`;
-          }
-        }, 3000);
-      });
-    </script>
 
     <script src="{{ "/assets/js/dynamic-world-bg.js" | relative_url }}"></script>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
