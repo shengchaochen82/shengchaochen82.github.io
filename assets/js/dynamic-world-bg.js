@@ -14,7 +14,7 @@
   const flowingLines = [];
   const auroras = [];
   const stars = [];
-  const baseCount = 50;
+  const baseCount = 80;
   const mouse = { x: 0, y: 0, active: false };
 
   function resize() {
@@ -55,7 +55,7 @@
         frequency: 0.002 + Math.random() * 0.003,
         speed: 0.5 + Math.random() * 1,
         offset: Math.random() * Math.PI * 2,
-        color: `rgba(102, 153, 204, ${0.02 + Math.random() * 0.03})`,
+        color: `rgba(102, 153, 204, ${0.08 + Math.random() * 0.08})`,
         width: 1 + Math.random() * 2,
       });
     }
@@ -76,7 +76,7 @@
         width: 200 + Math.random() * 300,
         height: 100 + Math.random() * 150,
         color: colors[i % colors.length],
-        alpha: 0.03 + Math.random() * 0.03,
+        alpha: 0.08 + Math.random() * 0.08,
         speed: 0.2 + Math.random() * 0.3,
         phase: Math.random() * Math.PI * 2,
       });
@@ -85,12 +85,12 @@
 
   function initStars() {
     stars.length = 0;
-    const numStars = 30;
+    const numStars = 50;
     for (let i = 0; i < numStars; i += 1) {
       stars.push({
         x: Math.random() * window.innerWidth,
         y: Math.random() * window.innerHeight,
-        r: Math.random() * 1.2 + 0.3,
+        r: Math.random() * 1.5 + 0.5,
         twinkleSpeed: 0.002 + Math.random() * 0.003,
         phase: Math.random() * Math.PI * 2,
       });
@@ -223,12 +223,12 @@
         const b = particles[j];
         const dist = Math.hypot(a.x - b.x, a.y - b.y);
         if (dist < 120) {
-          const alpha = (1 - dist / 120) * 0.08;
+          const alpha = (1 - dist / 120) * 0.15;
           ctx.beginPath();
           ctx.moveTo(a.x, a.y);
           ctx.lineTo(b.x, b.y);
           ctx.strokeStyle = `rgba(150, 180, 220, ${alpha})`;
-          ctx.lineWidth = 0.5;
+          ctx.lineWidth = 0.8;
           ctx.stroke();
         }
       }

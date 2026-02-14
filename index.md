@@ -480,7 +480,7 @@ section {
   height: 100vh;
   z-index: -1;
   pointer-events: none;
-  opacity: 0.6;
+  opacity: 1;
 }
 
 .about-research-section > h2,
