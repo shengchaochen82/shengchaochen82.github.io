@@ -1,6 +1,7 @@
 /**
- * SVG Wave Background - Real flowing wave elements with CSS animations
- * Creates elegant, organic wave animations using SVG paths
+ * Interactive Full-Screen Background - Immersive academic homepage experience
+ * Creates a multi-layered, mouse-responsive background with flowing particles,
+ * dynamic gradients, and sophisticated visual effects for a professional academic look.
  */
 (() => {
   const container = document.getElementById('dynamic-world-bg');
@@ -10,18 +11,10 @@
     return;
   }
 
-  // Replace canvas with SVG container
   const isDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
   
-  // Create SVG element
-  const svgNS = "http://www.w3.org/2000/svg";
-  const svg = document.createElementNS(svgNS, "svg");
-  svg.setAttribute("class", "wave-bg-svg");
-  svg.setAttribute("preserveAspectRatio", "none");
-  svg.setAttribute("aria-hidden", "true");
-  
-  // SVG styles
-  svg.style.cssText = `
+  const canvas = document.createElement('canvas');
+  canvas.style.cssText = `
     position: fixed;
     top: 0;
     left: 0;
@@ -30,214 +23,244 @@
     pointer-events: none;
     z-index: -1;
   `;
-
-  // Wave definitions with natural curves
-  const waves = [
-    {
-      id: 'wave1',
-      paths: [
-        'M0,300 C150,200 350,400 500,300 S850,200 1000,300 L1000,800 L0,800 Z',
-        'M0,320 C180,220 320,420 500,320 S820,220 1000,320 L1000,800 L0,800 Z'
-      ],
-      color: isDark ? 'rgba(100, 140, 200, 0.08)' : 'rgba(100, 160, 220, 0.06)',
-      speed: '25s',
-      offset: '0'
-    },
-    {
-      id: 'wave2',
-      paths: [
-        'M0,400 C200,300 300,500 500,400 S800,300 1000,400 L1000,800 L0,800 Z',
-        'M0,380 C220,280 280,480 500,380 S820,280 1000,380 L1000,800 L0,800 Z'
-      ],
-      color: isDark ? 'rgba(130, 120, 190, 0.06)' : 'rgba(140, 130, 200, 0.05)',
-      speed: '30s',
-      offset: '-5s'
-    },
-    {
-      id: 'wave3',
-      paths: [
-        'M0,500 C120,400 380,600 500,500 S880,400 1000,500 L1000,800 L0,800 Z',
-        'M0,520 C140,420 360,620 500,520 S860,420 1000,520 L1000,800 L0,800 Z'
-      ],
-      color: isDark ? 'rgba(80, 160, 180, 0.05)' : 'rgba(80, 180, 200, 0.04)',
-      speed: '35s',
-      offset: '-10s'
-    },
-    {
-      id: 'wave4',
-      paths: [
-        'M0,580 C180,500 320,660 500,580 S820,500 1000,580 L1000,800 L0,800 Z',
-        'M0,560 C160,480 340,640 500,560 S840,480 1000,560 L1000,800 L0,800 Z'
-      ],
-      color: isDark ? 'rgba(150, 130, 180, 0.04)' : 'rgba(160, 140, 190, 0.03)',
-      speed: '40s',
-      offset: '-15s'
-    }
-  ];
-
-  // Create defs for animations
-  const defs = document.createElementNS(svgNS, "defs");
   
-  // Add CSS animations inside SVG
-  const style = document.createElementNS(svgNS, "style");
-  style.textContent = `
-    .wave-path {
-      animation: wave-flow var(--wave-speed, 25s) ease-in-out infinite;
-      animation-delay: var(--wave-delay, 0s);
+  const ctx = canvas.getContext('2d');
+  let width, height;
+  let mouseX = 0, mouseY = 0;
+  let targetMouseX = 0, targetMouseY = 0;
+  let time = 0;
+  
+  class Particle {
+    constructor() {
+      this.reset();
+      this.y = Math.random() * height;
     }
     
-    @keyframes wave-flow {
-      0%, 100% { d: path(var(--wave-path-1)); }
-      50% { d: path(var(--wave-path-2)); }
+    reset() {
+      this.x = Math.random() * width;
+      this.y = height + Math.random() * 100;
+      this.size = Math.random() * 3 + 1;
+      this.speedX = (Math.random() - 0.5) * 0.5;
+      this.speedY = -Math.random() * 1.5 - 0.5;
+      this.opacity = Math.random() * 0.5 + 0.2;
+      this.pulsePhase = Math.random() * Math.PI * 2;
+      this.pulseSpeed = Math.random() * 0.02 + 0.01;
+      this.hue = isDark ? 200 + Math.random() * 40 : 190 + Math.random() * 30;
     }
     
-    .floating-particle {
-      animation: float-up var(--float-speed, 20s) linear infinite;
-      animation-delay: var(--float-delay, 0s);
-      opacity: 0;
-    }
-    
-    @keyframes float-up {
-      0% {
-        transform: translateY(100vh) translateX(0);
-        opacity: 0;
+    update() {
+      const dx = this.x - mouseX;
+      const dy = this.y - mouseY;
+      const distance = Math.sqrt(dx * dx + dy * dy);
+      
+      if (distance < 150) {
+        const force = (150 - distance) / 150;
+        this.speedX += (dx / distance) * force * 0.2;
+        this.speedY += (dy / distance) * force * 0.1;
       }
-      10% {
-        opacity: var(--particle-opacity, 0.3);
-      }
-      90% {
-        opacity: var(--particle-opacity, 0.3);
-      }
-      100% {
-        transform: translateY(-100px) translateX(var(--drift, 30px));
-        opacity: 0;
-      }
-    }
-    
-    .glow-orb {
-      animation: glow-pulse var(--glow-speed, 8s) ease-in-out infinite;
-      animation-delay: var(--glow-delay, 0s);
-    }
-    
-    @keyframes glow-pulse {
-      0%, 100% { 
-        opacity: var(--glow-min, 0.3);
-        transform: scale(1);
-      }
-      50% { 
-        opacity: var(--glow-max, 0.6);
-        transform: scale(1.1);
+      
+      this.x += this.speedX;
+      this.y += this.speedY;
+      this.speedX *= 0.98;
+      this.speedY *= 0.995;
+      
+      this.pulsePhase += this.pulseSpeed;
+      
+      if (this.y < -50 || this.x < -50 || this.x > width + 50) {
+        this.reset();
       }
     }
-  `;
-  defs.appendChild(style);
-  svg.appendChild(defs);
-
-  // Create wave paths
-  waves.forEach(wave => {
-    const path = document.createElementNS(svgNS, "path");
-    path.setAttribute("id", wave.id);
-    path.setAttribute("class", "wave-path");
-    path.setAttribute("d", wave.paths[0]);
-    path.setAttribute("fill", wave.color);
-    path.style.setProperty('--wave-path-1', `"${wave.paths[0]}"`);
-    path.style.setProperty('--wave-path-2', `"${wave.paths[1]}"`);
-    path.style.setProperty('--wave-speed', wave.speed);
-    path.style.setProperty('--wave-delay', wave.offset);
-    svg.appendChild(path);
-  });
-
-  // Create floating particles
-  const numParticles = 15;
-  for (let i = 0; i < numParticles; i++) {
-    const circle = document.createElementNS(svgNS, "circle");
-    const x = 5 + Math.random() * 90; // 5% to 95% width
-    const size = 2 + Math.random() * 4;
-    const floatSpeed = 15 + Math.random() * 20;
-    const floatDelay = Math.random() * 20;
-    const drift = (Math.random() - 0.5) * 100;
-    const opacity = 0.15 + Math.random() * 0.25;
     
-    circle.setAttribute("cx", `${x}%`);
-    circle.setAttribute("cy", "0");
-    circle.setAttribute("r", size);
-    circle.setAttribute("class", "floating-particle");
-    circle.setAttribute("fill", isDark ? 'rgba(150, 180, 220, 0.6)' : 'rgba(100, 150, 200, 0.5)');
-    circle.style.setProperty('--float-speed', `${floatSpeed}s`);
-    circle.style.setProperty('--float-delay', `${floatDelay}s`);
-    circle.style.setProperty('--drift', `${drift}px`);
-    circle.style.setProperty('--particle-opacity', opacity);
-    
-    svg.appendChild(circle);
+    draw() {
+      const pulse = Math.sin(this.pulsePhase) * 0.3 + 0.7;
+      const actualOpacity = this.opacity * pulse;
+      
+      const gradient = ctx.createRadialGradient(this.x, this.y, 0, this.x, this.y, this.size * 3);
+      gradient.addColorStop(0, `hsla(${this.hue}, 70%, 60%, ${actualOpacity})`);
+      gradient.addColorStop(0.3, `hsla(${this.hue}, 70%, 50%, ${actualOpacity * 0.5})`);
+      gradient.addColorStop(1, `hsla(${this.hue}, 70%, 40%, 0)`);
+      
+      ctx.fillStyle = gradient;
+      ctx.beginPath();
+      ctx.arc(this.x, this.y, this.size * 3, 0, Math.PI * 2);
+      ctx.fill();
+      
+      ctx.fillStyle = `hsla(${this.hue}, 70%, 80%, ${actualOpacity})`;
+      ctx.beginPath();
+      ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+      ctx.fill();
+    }
   }
-
-  // Create ambient glow orbs
-  const glowPositions = [
-    { x: 15, y: 30, size: 150 },
-    { x: 45, y: 50, size: 180 },
-    { x: 75, y: 35, size: 160 },
-    { x: 30, y: 70, size: 140 },
-    { x: 85, y: 60, size: 170 }
-  ];
-
-  glowPositions.forEach((pos, i) => {
-    const defs2 = document.createElementNS(svgNS, "defs");
-    const gradientId = `glow-gradient-${i}`;
-    const gradient = document.createElementNS(svgNS, "radialGradient");
-    gradient.setAttribute("id", gradientId);
-    gradient.setAttribute("cx", "50%");
-    gradient.setAttribute("cy", "50%");
-    gradient.setAttribute("r", "50%");
+  
+  class Orb {
+    constructor(index) {
+      this.index = index;
+      this.reset();
+    }
     
-    const stop1 = document.createElementNS(svgNS, "stop");
-    stop1.setAttribute("offset", "0%");
-    stop1.setAttribute("stop-color", isDark ? "rgba(100, 150, 200, 0.15)" : "rgba(120, 170, 220, 0.12)");
+    reset() {
+      this.x = Math.random() * width;
+      this.y = Math.random() * height;
+      this.size = Math.random() * 80 + 40;
+      this.speedX = (Math.random() - 0.5) * 0.3;
+      this.speedY = (Math.random() - 0.5) * 0.2;
+      this.opacity = Math.random() * 0.1 + 0.05;
+      this.phase = Math.random() * Math.PI * 2;
+      this.hue = isDark ? 180 + Math.random() * 60 : 200 + Math.random() * 40;
+    }
     
-    const stop2 = document.createElementNS(svgNS, "stop");
-    stop2.setAttribute("offset", "50%");
-    stop2.setAttribute("stop-color", isDark ? "rgba(100, 150, 200, 0.05)" : "rgba(120, 170, 220, 0.04)");
+    update() {
+      this.x += this.speedX + Math.sin(time * 0.001 + this.phase) * 0.2;
+      this.y += this.speedY + Math.cos(time * 0.001 + this.phase * 0.7) * 0.1;
+      this.phase += 0.01;
+      
+      if (this.x < -this.size || this.x > width + this.size) this.speedX *= -1;
+      if (this.y < -this.size || this.y > height + this.size) this.speedY *= -1;
+      
+      this.x = Math.max(-this.size, Math.min(width + this.size, this.x));
+      this.y = Math.max(-this.size, Math.min(height + this.size, this.y));
+    }
     
-    const stop3 = document.createElementNS(svgNS, "stop");
-    stop3.setAttribute("offset", "100%");
-    stop3.setAttribute("stop-color", "rgba(100, 150, 200, 0)");
+    draw() {
+      const gradient = ctx.createRadialGradient(this.x, this.y, 0, this.x, this.y, this.size);
+      gradient.addColorStop(0, `hsla(${this.hue}, 60%, 50%, ${this.opacity})`);
+      gradient.addColorStop(0.4, `hsla(${this.hue}, 60%, 40%, ${this.opacity * 0.6})`);
+      gradient.addColorStop(1, `hsla(${this.hue}, 60%, 30%, 0)`);
+      
+      ctx.fillStyle = gradient;
+      ctx.beginPath();
+      ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+      ctx.fill();
+    }
+  }
+  
+  class WaveLayer {
+    constructor(amplitude, frequency, speed, yOffset, hue) {
+      this.amplitude = amplitude;
+      this.frequency = frequency;
+      this.speed = speed;
+      this.yOffset = yOffset;
+      this.hue = hue;
+      this.phase = Math.random() * Math.PI * 2;
+    }
     
-    gradient.appendChild(stop1);
-    gradient.appendChild(stop2);
-    gradient.appendChild(stop3);
-    defs2.appendChild(gradient);
-    svg.insertBefore(defs2, svg.firstChild.nextSibling);
+    draw() {
+      ctx.strokeStyle = `hsla(${this.hue}, 50%, 50%, 0.1)`;
+      ctx.lineWidth = 2;
+      ctx.beginPath();
+      
+      for (let x = 0; x <= width; x += 5) {
+        const mouseInfluence = Math.exp(-Math.pow(x - mouseX, 2) / 100000) * 30;
+        const y = this.yOffset + 
+                  Math.sin((x * this.frequency) + (time * this.speed) + this.phase) * this.amplitude +
+                  mouseInfluence;
+        
+        if (x === 0) {
+          ctx.moveTo(x, y);
+        } else {
+          ctx.lineTo(x, y);
+        }
+      }
+      
+      ctx.stroke();
+      
+      const gradient = ctx.createLinearGradient(0, this.yOffset - this.amplitude, 0, height);
+      gradient.addColorStop(0, `hsla(${this.hue}, 50%, 40%, 0.05)`);
+      gradient.addColorStop(1, `hsla(${this.hue}, 50%, 30%, 0)`);
+      
+      ctx.fillStyle = gradient;
+      ctx.lineTo(width, height);
+      ctx.lineTo(0, height);
+      ctx.closePath();
+      ctx.fill();
+    }
+  }
+  
+  const particles = [];
+  const orbs = [];
+  const waves = [];
+  
+  function init() {
+    width = canvas.width = window.innerWidth;
+    height = canvas.height = window.innerHeight;
     
-    const ellipse = document.createElementNS(svgNS, "ellipse");
-    ellipse.setAttribute("cx", `${pos.x}%`);
-    ellipse.setAttribute("cy", `${pos.y}%`);
-    ellipse.setAttribute("rx", pos.size);
-    ellipse.setAttribute("ry", pos.size * 0.6);
-    ellipse.setAttribute("fill", `url(#${gradientId})`);
-    ellipse.setAttribute("class", "glow-orb");
-    ellipse.style.setProperty('--glow-speed', `${6 + Math.random() * 6}s`);
-    ellipse.style.setProperty('--glow-delay', `${Math.random() * 5}s`);
-    ellipse.style.setProperty('--glow-min', '0.4');
-    ellipse.style.setProperty('--glow-max', '0.8');
+    particles.length = 0;
+    for (let i = 0; i < 50; i++) {
+      particles.push(new Particle());
+    }
     
-    svg.appendChild(ellipse);
-  });
-
-  // Replace canvas with SVG
-  container.replaceWith(svg);
-
-  // Handle resize
+    orbs.length = 0;
+    for (let i = 0; i < 5; i++) {
+      orbs.push(new Orb(i));
+    }
+    
+    waves.length = 0;
+    waves.push(new WaveLayer(50, 0.003, 0.0005, height * 0.3, isDark ? 200 : 210));
+    waves.push(new WaveLayer(30, 0.005, 0.0007, height * 0.5, isDark ? 190 : 200));
+    waves.push(new WaveLayer(40, 0.004, 0.0003, height * 0.7, isDark ? 210 : 220));
+  }
+  
+  function animate() {
+    time++;
+    
+    mouseX += (targetMouseX - mouseX) * 0.1;
+    mouseY += (targetMouseY - mouseY) * 0.1;
+    
+    ctx.fillStyle = isDark ? 'rgba(15, 15, 25, 0.1)' : 'rgba(245, 248, 255, 0.1)';
+    ctx.fillRect(0, 0, width, height);
+    
+    waves.forEach(wave => wave.draw());
+    
+    orbs.forEach(orb => {
+      orb.update();
+      orb.draw();
+    });
+    
+    particles.forEach(particle => {
+      particle.update();
+      particle.draw();
+    });
+    
+    if (Math.abs(targetMouseX - mouseX) > 1 || Math.abs(targetMouseY - mouseY) > 1) {
+      const trailGradient = ctx.createRadialGradient(mouseX, mouseY, 0, mouseX, mouseY, 100);
+      trailGradient.addColorStop(0, `hsla(${isDark ? 200 : 210}, 70%, 60%, 0.1)`);
+      trailGradient.addColorStop(1, 'rgba(255, 255, 255, 0)');
+      
+      ctx.fillStyle = trailGradient;
+      ctx.beginPath();
+      ctx.arc(mouseX, mouseY, 100, 0, Math.PI * 2);
+      ctx.fill();
+    }
+    
+    requestAnimationFrame(animate);
+  }
+  
   function handleResize() {
-    const width = window.innerWidth;
-    const height = window.innerHeight;
-    svg.setAttribute("viewBox", `0 0 ${width} ${height}`);
+    init();
   }
-
-  handleResize();
+  
+  function handleMouseMove(e) {
+    targetMouseX = e.clientX;
+    targetMouseY = e.clientY;
+  }
+  
+  function handleTouchMove(e) {
+    if (e.touches.length > 0) {
+      targetMouseX = e.touches[0].clientX;
+      targetMouseY = e.touches[0].clientY;
+    }
+  }
+  
+  init();
+  animate();
+  
   window.addEventListener("resize", handleResize, { passive: true });
-
-  // Handle dark mode change
+  window.addEventListener("mousemove", handleMouseMove, { passive: true });
+  window.addEventListener("touchmove", handleTouchMove, { passive: true });
+  
   window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
-    // Reload to update colors for new theme
     location.reload();
   });
+  
+  container.replaceWith(canvas);
 })();
