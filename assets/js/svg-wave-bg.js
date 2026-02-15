@@ -1,33 +1,27 @@
 /**
  * Interactive Full-Screen Background - Immersive academic homepage experience
- * Creates a multi-layered, mouse-responsive background with flowing particles,
- * dynamic gradients, and sophisticated visual effects for a professional academic look.
  */
 (() => {
   const container = document.getElementById('dynamic-world-bg');
   if (!container) return;
-
-  if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
-    return;
-  }
+  if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
 
   const isDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const dpr = Math.min(window.devicePixelRatio || 1, 2);
   
   const canvas = document.createElement('canvas');
-  canvas.style.cssText = `
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    pointer-events: none;
-    z-index: -1;
-  `;
+  canvas.id = 'bg-canvas';
+  canvas.setAttribute('aria-hidden', 'true');
   
-  const ctx = canvas.getContext('2d');
-  let width, height;
-  let mouseX = 0, mouseY = 0;
-  let targetMouseX = 0, targetMouseY = 0;
+  const ctx = canvas.getContext('2d', { alpha: true });
+  if (!ctx) return;
+  
+  let width = window.innerWidth;
+  let height = window.innerHeight;
+  let mouseX = width / 2;
+  let mouseY = height / 2;
+  let targetMouseX = width / 2;
+  let targetMouseY = height / 2;
   let time = 0;
   
   class Particle {
@@ -180,10 +174,22 @@
   const orbs = [];
   const waves = [];
   
-  function init() {
-    width = canvas.width = window.innerWidth;
-    height = canvas.height = window.innerHeight;
+  function resize() {
+    width = window.innerWidth;
+    height = window.innerHeight;
     
+    // Set pixel dimensions (actual drawing surface)
+    canvas.width = Math.floor(width * dpr);
+    canvas.height = Math.floor(height * dpr);
+    
+    // Set CSS dimensions (display size)
+    canvas.style.width = width + 'px';
+    canvas.style.height = height + 'px';
+    
+    // Scale context for high DPI
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    
+    // Reinitialize elements with new dimensions
     particles.length = 0;
     for (let i = 0; i < 50; i++) {
       particles.push(new Particle());
@@ -198,6 +204,22 @@
     waves.push(new WaveLayer(50, 0.003, 0.0005, height * 0.3, isDark ? 200 : 210));
     waves.push(new WaveLayer(30, 0.005, 0.0007, height * 0.5, isDark ? 190 : 200));
     waves.push(new WaveLayer(40, 0.004, 0.0003, height * 0.7, isDark ? 210 : 220));
+  }
+  
+  function init() {
+    // Set initial canvas styles
+    canvas.style.cssText = `
+      position: fixed !important;
+      top: 0 !important;
+      left: 0 !important;
+      width: 100vw !important;
+      height: 100vh !important;
+      pointer-events: none;
+      z-index: -1;
+      display: block;
+    `;
+    
+    resize();
   }
   
   function animate() {
@@ -236,7 +258,7 @@
   }
   
   function handleResize() {
-    init();
+    resize();
   }
   
   function handleMouseMove(e) {
