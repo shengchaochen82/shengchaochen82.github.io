@@ -36,7 +36,7 @@
 
   </head>
   <body>
-    <canvas id="dynamic-world-bg" aria-hidden="true"></canvas>
+    <div id="dynamic-world-bg" aria-hidden="true"></div>
     <div class="wrapper">
       <header>
         
@@ -113,7 +113,10 @@
       <br>
 
       {% if site.enable_footnote %}
-      <p><small>Powered by Jekyll and <a href="https://github.com/yaoyao-liu/minimal-light" target="_blank" rel="noopener">Minimal Light</a> theme.</small></p>
+      <div class="footer-info">
+        <p><small><strong>Shengchao Chen</strong> © 2024-2025</small></p>
+        <p><small>Last updated: Feb 2026</small></p>
+      </div>
       {% endif %}
 
       </section>
@@ -159,6 +162,41 @@
         height: auto;
       }
       
+      /* Footer Styles */
+      .footer-info {
+        text-align: center;
+        padding: 15px 0;
+        margin-top: 20px;
+        border-top: 1px solid rgba(102, 153, 204, 0.2);
+      }
+      
+      .footer-info p {
+        margin: 5px 0;
+        color: #666;
+      }
+      
+      .footer-info small {
+        font-size: 0.85rem;
+      }
+      
+      .footer-info strong {
+        color: #6699cc;
+      }
+      
+      @media (prefers-color-scheme: dark) {
+        .footer-info {
+          border-top-color: rgba(102, 153, 204, 0.3);
+        }
+        
+        .footer-info p {
+          color: #a0aec0;
+        }
+        
+        .footer-info strong {
+          color: #63b3ed;
+        }
+      }
+      
       @media (prefers-color-scheme: dark) {
         .visitor-stats {
           background: linear-gradient(145deg, #2d3748, #1a202c);
@@ -174,7 +212,7 @@
       }
     </style>
 
-    <script src="{{ "/assets/js/dynamic-world-bg.js" | relative_url }}"></script>
+    <script src="{{ "/assets/js/svg-wave-bg.js" | relative_url }}"></script>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
     {% if site.google_analytics %}
     <script>
