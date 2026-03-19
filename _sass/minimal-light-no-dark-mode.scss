@@ -1,32 +1,14 @@
 /* Pixel-style cursors (Minecraft weapon style) */
-:root {
-  --cursor-default: url("/assets/img/cursors/cursor-default.svg");
-  --cursor-pointer: url("/assets/img/cursors/cursor-pointer.svg");
-  --cursor-text: url("/assets/img/cursors/cursor-text.svg");
-}
-
 html {
-  cursor: var(--cursor-default);
+  cursor: url("/assets/img/cursors/cursor-default.svg") 12 4, auto;
 }
 
 a, button, .icon-button, input[type="submit"], input[type="button"], [role="button"], .fakelink {
-  cursor: var(--cursor-pointer) !important;
+  cursor: url("/assets/img/cursors/cursor-pointer.svg") 12 4, pointer !important;
 }
 
 input[type="text"], input[type="email"], input[type="password"], input[type="search"], textarea, [contenteditable="true"] {
-  cursor: var(--cursor-text);
-}
-
-html {
-  cursor: var(--cursor-default);
-}
-
-a, button, .icon-button, input[type="submit"], input[type="button"], [role="button"], .fakelink {
-  cursor: var(--cursor-pointer) !important;
-}
-
-input[type="text"], input[type="email"], input[type="password"], input[type="search"], textarea, [contenteditable="true"] {
-  cursor: var(--cursor-text);
+  cursor: url("/assets/img/cursors/cursor-text.svg") 8 12, text;
 }
 
 .pub-row {
