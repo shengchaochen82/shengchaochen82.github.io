@@ -23,6 +23,11 @@
   let targetMouseX = width / 2;
   let targetMouseY = height / 2;
   let time = 0;
+  const particles = [];
+  const orbs = [];
+  const waves = [];
+  const fireflies = [];
+  const ripples = [];
   
   class Particle {
     constructor() {
@@ -47,8 +52,8 @@
       const dy = this.y - mouseY;
       const distance = Math.sqrt(dx * dx + dy * dy);
       
-      if (distance < 150) {
-        const force = (150 - distance) / 150;
+      if (distance > 0.001 && distance < 170) {
+        const force = (170 - distance) / 170;
         this.speedX += (dx / distance) * force * 0.2;
         this.speedY += (dy / distance) * force * 0.1;
       }
@@ -100,7 +105,7 @@
       this.speedY = (Math.random() - 0.5) * 0.2;
       this.opacity = Math.random() * 0.1 + 0.05;
       this.phase = Math.random() * Math.PI * 2;
-      this.hue = isDark ? 180 + Math.random() * 60 : 200 + Math.random() * 40;
+      this.hue = isDark ? 190 + Math.random() * 70 : 205 + Math.random() * 75;
     }
     
     update() {
@@ -169,10 +174,19 @@
       ctx.fill();
     }
   }
-  
-  const particles = [];
-  const orbs = [];
-  const waves = [];
+
+  function createFirefly() {
+    return {
+      x: Math.random() * width,
+      y: Math.random() * height,
+      r: 0.8 + Math.random() * 1.7,
+      vx: (Math.random() - 0.5) * 0.25,
+      vy: (Math.random() - 0.5) * 0.2,
+      phase: Math.random() * Math.PI * 2,
+      speed: 0.01 + Math.random() * 0.02,
+      hue: isDark ? 40 + Math.random() * 20 : 48 + Math.random() * 24
+    };
+  }
   
   function resize() {
     width = window.innerWidth;
@@ -191,19 +205,28 @@
     
     // Reinitialize elements with new dimensions
     particles.length = 0;
-    for (let i = 0; i < 50; i++) {
+    for (let i = 0; i < 80; i++) {
       particles.push(new Particle());
     }
     
     orbs.length = 0;
-    for (let i = 0; i < 5; i++) {
+    for (let i = 0; i < 7; i++) {
       orbs.push(new Orb(i));
     }
     
     waves.length = 0;
-    waves.push(new WaveLayer(50, 0.003, 0.0005, height * 0.3, isDark ? 200 : 210));
-    waves.push(new WaveLayer(30, 0.005, 0.0007, height * 0.5, isDark ? 190 : 200));
-    waves.push(new WaveLayer(40, 0.004, 0.0003, height * 0.7, isDark ? 210 : 220));
+    waves.push(new WaveLayer(34, 0.003, 0.00045, height * 0.2, isDark ? 205 : 210));
+    waves.push(new WaveLayer(46, 0.0025, 0.00035, height * 0.35, isDark ? 220 : 226));
+    waves.push(new WaveLayer(30, 0.0048, 0.0008, height * 0.5, isDark ? 238 : 244));
+    waves.push(new WaveLayer(40, 0.0035, 0.00055, height * 0.65, isDark ? 255 : 262));
+    waves.push(new WaveLayer(26, 0.0053, 0.00095, height * 0.8, isDark ? 272 : 280));
+
+    fireflies.length = 0;
+    for (let i = 0; i < 20; i++) {
+      fireflies.push(createFirefly());
+    }
+
+    ripples.length = 0;
   }
   
   function init() {
@@ -228,7 +251,7 @@
     mouseX += (targetMouseX - mouseX) * 0.1;
     mouseY += (targetMouseY - mouseY) * 0.1;
     
-    ctx.fillStyle = isDark ? 'rgba(15, 15, 25, 0.1)' : 'rgba(245, 248, 255, 0.1)';
+    ctx.fillStyle = isDark ? 'rgba(14, 14, 30, 0.12)' : 'rgba(244, 247, 255, 0.1)';
     ctx.fillRect(0, 0, width, height);
     
     waves.forEach(wave => wave.draw());
@@ -237,11 +260,48 @@
       orb.update();
       orb.draw();
     });
+
+    for (let i = 0; i < fireflies.length; i++) {
+      const f = fireflies[i];
+      f.phase += f.speed;
+      f.x += f.vx + Math.cos(time * 0.002 + f.phase) * 0.12;
+      f.y += f.vy + Math.sin(time * 0.0025 + f.phase) * 0.1;
+
+      if (f.x < -8) f.x = width + 8;
+      if (f.x > width + 8) f.x = -8;
+      if (f.y < -8) f.y = height + 8;
+      if (f.y > height + 8) f.y = -8;
+
+      const glow = 0.35 + Math.sin(f.phase) * 0.25;
+      const g = ctx.createRadialGradient(f.x, f.y, 0, f.x, f.y, f.r * 7);
+      g.addColorStop(0, `hsla(${f.hue}, 86%, 72%, ${0.38 + glow * 0.35})`);
+      g.addColorStop(1, `hsla(${f.hue}, 86%, 60%, 0)`);
+      ctx.fillStyle = g;
+      ctx.beginPath();
+      ctx.arc(f.x, f.y, f.r * 7, 0, Math.PI * 2);
+      ctx.fill();
+    }
     
     particles.forEach(particle => {
       particle.update();
       particle.draw();
     });
+
+    for (let i = ripples.length - 1; i >= 0; i--) {
+      const ripple = ripples[i];
+      ripple.r += 2.4;
+      ripple.alpha -= 0.012;
+      if (ripple.alpha <= 0) {
+        ripples.splice(i, 1);
+        continue;
+      }
+
+      ctx.strokeStyle = `hsla(${isDark ? 212 : 220}, 88%, 72%, ${ripple.alpha})`;
+      ctx.lineWidth = 1.8;
+      ctx.beginPath();
+      ctx.arc(ripple.x, ripple.y, ripple.r, 0, Math.PI * 2);
+      ctx.stroke();
+    }
     
     if (Math.abs(targetMouseX - mouseX) > 1 || Math.abs(targetMouseY - mouseY) > 1) {
       const trailGradient = ctx.createRadialGradient(mouseX, mouseY, 0, mouseX, mouseY, 100);
@@ -272,6 +332,17 @@
       targetMouseY = e.touches[0].clientY;
     }
   }
+
+  function handleClick(e) {
+    ripples.push({ x: e.clientX, y: e.clientY, r: 8, alpha: 0.42 });
+  }
+
+  function handleTouchStart(e) {
+    if (e.touches.length > 0) {
+      const touch = e.touches[0];
+      ripples.push({ x: touch.clientX, y: touch.clientY, r: 8, alpha: 0.42 });
+    }
+  }
   
   init();
   animate();
@@ -279,6 +350,8 @@
   window.addEventListener("resize", handleResize, { passive: true });
   window.addEventListener("mousemove", handleMouseMove, { passive: true });
   window.addEventListener("touchmove", handleTouchMove, { passive: true });
+  window.addEventListener("click", handleClick, { passive: true });
+  window.addEventListener("touchstart", handleTouchStart, { passive: true });
   
   window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
     location.reload();

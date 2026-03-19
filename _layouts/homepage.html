@@ -19,6 +19,7 @@
     <script src="./assets/js/favicon-switcher.js" type="application/javascript"></script>
 
     <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin=anonymous>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.1.0/style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
     {% if site.font == "Sans Serif" %}
@@ -46,6 +47,12 @@
 
         <h1>{{ site.title }}</h1>
 
+        <div class="personal-motto">
+          <span class="motto-line">保持学习</span>
+          <span class="motto-line">知行合一</span>
+          <span class="motto-line">专注自身</span>
+        </div>
+
         {% if site.position %}
         <position style="font-size:1.10rem;">{{ site.position }}</position>
         <br>
@@ -59,7 +66,6 @@
         {% endif %}
 
         <br>
-        
         
         <div class="visitor-stats">
           <div class="stats-title"><i class="fas fa-chart-bar"></i> Visitor Statistics</div>
@@ -125,6 +131,70 @@
       </footer>
     </div>
     <style>
+      .personal-motto {
+        margin: 0.4rem 0 0.9rem;
+        padding: 0.5rem 0.2rem;
+        background: transparent;
+        position: relative;
+      }
+
+      .personal-motto::before,
+      .personal-motto::after {
+        content: "";
+        display: block;
+        width: 72%;
+        margin: 0 auto;
+        height: 1px;
+        background: linear-gradient(90deg, transparent, rgba(4, 51, 97, 0.35), transparent);
+      }
+
+      .personal-motto::before {
+        margin-bottom: 0.45rem;
+      }
+
+      .personal-motto::after {
+        margin-top: 0.45rem;
+      }
+
+      .motto-line {
+        display: block;
+        font-family: "LXGW WenKai", "STKaiti", "KaiTi", serif;
+        font-size: 1.02rem;
+        line-height: 1.5;
+        letter-spacing: 0.08em;
+        color: #043361;
+        opacity: 0.95;
+      }
+
+      .motto-line:nth-child(2) {
+        font-size: 1.08rem;
+      }
+
+      .section-reveal {
+        opacity: 0;
+        transform: translateY(16px);
+        transition: opacity 0.55s ease, transform 0.55s ease;
+      }
+
+      .section-reveal.is-visible {
+        opacity: 1;
+        transform: translateY(0);
+      }
+
+      .news-item,
+      .talk-item,
+      .experience-item,
+      .award-item {
+        transition: transform 0.28s ease, box-shadow 0.28s ease;
+      }
+
+      .news-item:hover,
+      .talk-item:hover,
+      .experience-item:hover,
+      .award-item:hover {
+        transform: translateY(-2px);
+      }
+
       /* Visitor Stats Styles */
       .visitor-stats {
         display: flex;
@@ -184,6 +254,15 @@
       }
       
       @media (prefers-color-scheme: dark) {
+        .personal-motto::before,
+        .personal-motto::after {
+          background: linear-gradient(90deg, transparent, rgba(62, 183, 240, 0.45), transparent);
+        }
+
+        .motto-line {
+          color: #3eb7f0;
+        }
+
         .footer-info {
           border-top-color: rgba(102, 153, 204, 0.3);
         }
@@ -211,6 +290,32 @@
         }
       }
     </style>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const targets = Array.from(document.querySelectorAll("section > *"));
+        if (!targets.length) return;
+
+        for (let i = 0; i < targets.length; i++) {
+          targets[i].classList.add("section-reveal");
+        }
+
+        const observer = new IntersectionObserver(
+          (entries) => {
+            for (let i = 0; i < entries.length; i++) {
+              if (entries[i].isIntersecting) {
+                entries[i].target.classList.add("is-visible");
+              }
+            }
+          },
+          { threshold: 0.12, rootMargin: "0px 0px -10% 0px" }
+        );
+
+        for (let i = 0; i < targets.length; i++) {
+          observer.observe(targets[i]);
+        }
+      });
+    </script>
 
     <script src="{{ "/assets/js/svg-wave-bg.js" | relative_url }}"></script>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
