@@ -154,13 +154,13 @@ layout: homepage
 
 .experience-item {
   position: relative;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .experience-marker {
   position: absolute;
   left: -28px;
-  top: 12px;
+  top: 10px;
   width: 16px;
   height: 16px;
   background: #6699cc;
@@ -173,7 +173,7 @@ layout: homepage
 .experience-card {
   background: white;
   border-radius: 12px;
-  padding: 25px;
+  padding: 16px 18px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
   border: 1px solid rgba(0, 0, 0, 0.04);
   transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
@@ -206,7 +206,7 @@ layout: homepage
   display: flex;
   align-items: center;
   gap: 12px;
-  padding-bottom: 15px;
+  padding-bottom: 10px;
   border-bottom: 2px solid #f0f0f0;
 }
 
@@ -237,7 +237,7 @@ layout: homepage
 }
 
 .experience-title {
-  margin: 0 0 12px 0;
+  margin: 8px 0 6px 0;
   font-size: 1.1rem;
   font-weight: 700;
   color: #333;
@@ -246,7 +246,7 @@ layout: homepage
 .experience-org {
   font-size: 0.9rem;
   color: #666;
-  margin-bottom: 8px;
+  margin: 0 0 6px 0;
   display: flex;
   align-items: center;
   gap: 6px;
@@ -256,6 +256,7 @@ layout: homepage
   font-size: 0.9rem;
   color: #555;
   line-height: 1.5;
+  margin: 0;
 }
 
 /* Talks Section Styles */
@@ -276,7 +277,7 @@ layout: homepage
 .talk-card {
   background: white;
   border-radius: 12px;
-  padding: 18px 20px;
+  padding: 14px 16px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
   border: 1px solid rgba(0, 0, 0, 0.04);
   transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
@@ -300,7 +301,7 @@ layout: homepage
 }
 
 .talk-card:hover {
-  transform: translateY(-8px);
+  transform: translateY(-5px);
   box-shadow: 0 8px 32px rgba(102, 153, 204, 0.15);
   border-color: rgba(102, 153, 204, 0.3);
 }
@@ -313,7 +314,7 @@ layout: homepage
 .talk-marker {
   position: absolute;
   left: -28px;
-  top: 16px;
+  top: 14px;
   width: 14px;
   height: 14px;
   background: #6699cc;
@@ -324,22 +325,22 @@ layout: homepage
 }
 
 .talk-content {
-  padding-left: 20px;
+  padding-left: 14px;
 }
 
 .talk-header {
   display: flex;
   align-items: center;
   gap: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 8px;
   border-bottom: 2px solid #f0f0f0;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 
 .talk-meta {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 8px;
   font-size: 0.85rem;
   align-items: center;
 }
@@ -360,7 +361,7 @@ layout: homepage
 }
 
 .talk-title {
-  margin: 0 0 12px 0;
+  margin: 0;
   font-size: 1.1rem;
   font-weight: 700;
   color: #333;

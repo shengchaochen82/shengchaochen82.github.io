@@ -51,13 +51,12 @@
         <h1>{{ site.title }}</h1>
 
         <div class="personal-motto">
-          <span class="motto-line">保持学习</span>
-          <span class="motto-line">知行合一</span>
-          <span class="motto-line">专注自身</span>
+          <span class="motto-line">保持学习，知行合一，专注自身</span>
         </div>
 
-        {% if site.position %}
-        <position style="font-size:1.10rem;">{{ site.position }}</position>
+        {% assign position_text = site.position | default: "" | strip | downcase %}
+        {% if position_text != "" and position_text != "human" %}
+        <position style="font-size:1.10rem;">{{ site.position | strip }}</position>
         <br>
         {% endif %}
         {% if site.affiliation %}
@@ -162,25 +161,21 @@
       .motto-line {
         display: block;
         font-family: "Ma Shan Zheng", "LXGW WenKai", "STKaiti", "KaiTi", cursive;
-        font-size: 1.24rem;
-        line-height: 1.28;
-        letter-spacing: 0.12em;
+        font-size: 1.34rem;
+        line-height: 1.22;
+        letter-spacing: 0.1em;
         color: #043361;
         opacity: 0.97;
-        text-shadow: 0 1px 0 rgba(255, 255, 255, 0.25), 0 0 12px rgba(4, 51, 97, 0.08);
+        text-shadow: 0 1px 0 rgba(255, 255, 255, 0.32), 0 0 12px rgba(4, 51, 97, 0.16);
+        transform: rotate(-0.5deg);
       }
 
-      .motto-line:nth-child(2) {
-        font-size: 1.34rem;
-        letter-spacing: 0.16em;
-      }
-
-      .motto-line:nth-child(1) {
-        transform: translateX(-2px) rotate(-1deg);
-      }
-
-      .motto-line:nth-child(3) {
-        transform: translateX(2px) rotate(0.8deg);
+      @media (max-width: 768px) {
+        .motto-line {
+          font-size: 1.2rem;
+          letter-spacing: 0.06em;
+          transform: none;
+        }
       }
 
       /* Visitor Stats Styles */
