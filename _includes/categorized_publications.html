@@ -224,7 +224,11 @@ document.addEventListener('DOMContentLoaded', function() {
 <style>
 .publications-wrapper {
   position: relative;
-  margin: 25px 0;
+  margin: 40px 0;
+  background: linear-gradient(145deg, #ffffff, #f8f9fa);
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
 }
 
 .publications-main {
@@ -724,6 +728,11 @@ document.addEventListener('DOMContentLoaded', function() {
 }
 
 @media (prefers-color-scheme: dark) {
+  .publications-wrapper {
+    background: linear-gradient(145deg, #2d3748, #1a202c);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+  }
+
   .category-bar {
     background: linear-gradient(145deg, #2d3748, #1a202c);
     box-shadow: 4px 4px 8px #1a202c, -4px -4px 8px #3d4856;

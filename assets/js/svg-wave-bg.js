@@ -41,7 +41,7 @@
       this.size = Math.random() * 3 + 1;
       this.speedX = (Math.random() - 0.5) * 0.5;
       this.speedY = -Math.random() * 1.5 - 0.5;
-      this.opacity = Math.random() * 0.5 + 0.2;
+      this.opacity = Math.random() * 0.32 + 0.14;
       this.pulsePhase = Math.random() * Math.PI * 2;
       this.pulseSpeed = Math.random() * 0.02 + 0.01;
       this.hue = isDark ? 200 + Math.random() * 40 : 190 + Math.random() * 30;
@@ -103,7 +103,7 @@
       this.size = Math.random() * 80 + 40;
       this.speedX = (Math.random() - 0.5) * 0.3;
       this.speedY = (Math.random() - 0.5) * 0.2;
-      this.opacity = Math.random() * 0.1 + 0.05;
+      this.opacity = Math.random() * 0.07 + 0.035;
       this.phase = Math.random() * Math.PI * 2;
       this.hue = isDark ? 190 + Math.random() * 70 : 205 + Math.random() * 75;
     }
@@ -144,7 +144,7 @@
     }
     
     draw() {
-      ctx.strokeStyle = `hsla(${this.hue}, 50%, 50%, 0.1)`;
+      ctx.strokeStyle = `hsla(${this.hue}, 50%, 52%, 0.072)`;
       ctx.lineWidth = 2;
       ctx.beginPath();
       
@@ -164,7 +164,7 @@
       ctx.stroke();
       
       const gradient = ctx.createLinearGradient(0, this.yOffset - this.amplitude, 0, height);
-      gradient.addColorStop(0, `hsla(${this.hue}, 50%, 40%, 0.05)`);
+      gradient.addColorStop(0, `hsla(${this.hue}, 50%, 42%, 0.034)`);
       gradient.addColorStop(1, `hsla(${this.hue}, 50%, 30%, 0)`);
       
       ctx.fillStyle = gradient;
@@ -251,7 +251,7 @@
     mouseX += (targetMouseX - mouseX) * 0.1;
     mouseY += (targetMouseY - mouseY) * 0.1;
     
-    ctx.fillStyle = isDark ? 'rgba(14, 14, 30, 0.12)' : 'rgba(244, 247, 255, 0.1)';
+    ctx.fillStyle = isDark ? 'rgba(16, 16, 34, 0.082)' : 'rgba(246, 249, 255, 0.072)';
     ctx.fillRect(0, 0, width, height);
     
     waves.forEach(wave => wave.draw());
@@ -274,7 +274,7 @@
 
       const glow = 0.35 + Math.sin(f.phase) * 0.25;
       const g = ctx.createRadialGradient(f.x, f.y, 0, f.x, f.y, f.r * 7);
-      g.addColorStop(0, `hsla(${f.hue}, 86%, 72%, ${0.38 + glow * 0.35})`);
+      g.addColorStop(0, `hsla(${f.hue}, 86%, 74%, ${0.29 + glow * 0.26})`);
       g.addColorStop(1, `hsla(${f.hue}, 86%, 60%, 0)`);
       ctx.fillStyle = g;
       ctx.beginPath();
@@ -305,7 +305,7 @@
     
     if (Math.abs(targetMouseX - mouseX) > 1 || Math.abs(targetMouseY - mouseY) > 1) {
       const trailGradient = ctx.createRadialGradient(mouseX, mouseY, 0, mouseX, mouseY, 100);
-      trailGradient.addColorStop(0, `hsla(${isDark ? 200 : 210}, 70%, 60%, 0.1)`);
+      trailGradient.addColorStop(0, `hsla(${isDark ? 200 : 210}, 70%, 62%, 0.068)`);
       trailGradient.addColorStop(1, 'rgba(255, 255, 255, 0)');
       
       ctx.fillStyle = trailGradient;
