@@ -1,3 +1,22 @@
+/* Pixel-style cursors (Minecraft weapon style) */
+:root {
+  --cursor-default: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Crect x='10' y='0' width='4' height='4' fill='%234a9eff'/%3E%3Crect x='10' y='4' width='4' height='4' fill='%236bb3ff'/%3E%3Crect x='10' y='8' width='4' height='4' fill='%234a9eff'/%3E%3Crect x='6' y='12' width='4' height='4' fill='%238b8b8b'/%3E%3Crect x='10' y='12' width='4' height='4' fill='%23a0a0a0'/%3E%3Crect x='14' y='12' width='4' height='4' fill='%238b8b8b'/%3E%3Crect x='10' y='16' width='4' height='4' fill='%236d6d6d'/%3E%3Crect x='10' y='20' width='4' height='4' fill='%23585858'/%3E%3C/svg%3E") 12 4, auto;
+  --cursor-pointer: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Crect x='10' y='0' width='4' height='4' fill='%23ffcc00'/%3E%3Crect x='10' y='4' width='4' height='4' fill='%23ffdd44'/%3E%3Crect x='10' y='8' width='4' height='4' fill='%23ffcc00'/%3E%3Crect x='6' y='12' width='4' height='4' fill='%23ff9933'/%3E%3Crect x='10' y='12' width='4' height='4' fill='%23ffaa55'/%3E%3Crect x='14' y='12' width='4' height='4' fill='%23ff9933'/%3E%3Crect x='10' y='16' width='4' height='4' fill='%23ff7722'/%3E%3Crect x='10' y='20' width='4' height='4' fill='%23ff5500'/%3E%3C/svg%3E") 12 4, pointer;
+  --cursor-text: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='24' viewBox='0 0 16 24'%3E%3Crect x='6' y='0' width='4' height='4' fill='%2333cc33'/%3E%3Crect x='6' y='4' width='4' height='4' fill='%2344dd44'/%3E%3Crect x='6' y='8' width='4' height='4' fill='%2333cc33'/%3E%3Crect x='6' y='12' width='4' height='4' fill='%2322bb22'/%3E%3Crect x='6' y='16' width='4' height='4' fill='%2311aa11'/%3E%3Crect x='2' y='8' width='4' height='4' fill='%2322bb22'/%3E%3Crect x='10' y='8' width='4' height='4' fill='%2322bb22'/%3E%3Crect x='6' y='20' width='4' height='4' fill='%23009900'/%3E%3C/svg%3E") 8 12, text;
+}
+
+html {
+  cursor: var(--cursor-default);
+}
+
+a, button, .icon-button, input[type="submit"], input[type="button"], [role="button"], .fakelink {
+  cursor: var(--cursor-pointer) !important;
+}
+
+input[type="text"], input[type="email"], input[type="password"], input[type="search"], textarea, [contenteditable="true"] {
+  cursor: var(--cursor-text);
+}
+
 .pub-row {
   display: flex; 
   align-items: center;}
