@@ -1,5 +1,5 @@
 ---
-layout: homepage
+layout: blog
 title: "Welcome to My Blog"
 tags: [update, note]
 ---
