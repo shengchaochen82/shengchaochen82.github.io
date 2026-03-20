@@ -90,6 +90,12 @@
         </a>
         {% endif %}
 
+        {% if site.blog_link %}
+        <a style="margin: 0 5px 0 0" href="{{ site.blog_link | relative_url }}" title="Blog">
+          <i class="fa-solid fa-blog"></i>
+        </a>
+        {% endif %}
+
         {% if site.github_link %}
         <a style="margin: 0 5px 0 0" href="{{ site.github_link }}">
           <i class="fab fa-github"></i>
