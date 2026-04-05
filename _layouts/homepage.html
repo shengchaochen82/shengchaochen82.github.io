@@ -72,6 +72,13 @@
           <span>PhD @ UTS · Sydney</span>
         </div>
 
+        <div class="visitor-stats">
+          <div class="stats-title"><i class="fas fa-chart-bar"></i> Visitor Statistics</div>
+          <a href="https://info.flagcounter.com/skLf">
+            <img src="https://s11.flagcounter.com/count2/skLf/bg_FFFFFF/txt_000000/border_CCCCCC/columns_3/maxflags_12/viewers_0/labels_1/pageviews_1/flags_0/percent_0/" alt="Flag Counter" border="0" class="flag-counter">
+          </a>
+        </div>
+
         <br>
         <div class="social-icons">
         {% if site.google_scholar %}
@@ -203,6 +210,43 @@
         }
       }
 
+      .visitor-stats {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+        margin: 10px 0;
+        padding: 12px;
+        background: linear-gradient(145deg, #f8f9fa, #e9ecef);
+        border-radius: 12px;
+        font-size: 0.8rem;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+        transition: all 0.3s ease;
+      }
+
+      .visitor-stats:hover {
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        transform: translateY(-2px);
+      }
+
+      .stats-title {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        color: #6699cc;
+        font-weight: 600;
+      }
+
+      .stats-title i {
+        color: #10b981;
+      }
+
+      .flag-counter {
+        border-radius: 8px;
+        max-width: 180px;
+        height: auto;
+      }
+
       @media (prefers-color-scheme: dark) {
         .status-pill {
           background: rgba(16, 185, 129, 0.15);
@@ -270,8 +314,20 @@
         .footer-info strong {
           color: #63b3ed;
         }
+
+        .visitor-stats {
+          background: linear-gradient(145deg, #2d3748, #1a202c);
+        }
+
+        .stats-title {
+          color: #63b3ed;
+        }
+
+        .flag-counter {
+          filter: brightness(0.9);
+        }
       }
-      
+
     </style>
 
     <script src="{{ "/assets/js/svg-wave-bg.js" | relative_url }}"></script>
