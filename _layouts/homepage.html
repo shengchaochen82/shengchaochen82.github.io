@@ -69,7 +69,7 @@
 
         <div class="status-pill">
           <span class="status-dot"></span>
-          <span class="status-text">PhD @ UTS · Sydney</span>
+          <span>PhD @ UTS · Sydney</span>
         </div>
 
         <br>
@@ -189,13 +189,18 @@
         height: 7px;
         background: #10b981;
         border-radius: 50%;
-        animation: pulse-dot 2s ease-in-out infinite;
         flex-shrink: 0;
       }
 
-      @keyframes pulse-dot {
-        0%, 100% { opacity: 1; transform: scale(1); }
-        50% { opacity: 0.6; transform: scale(0.85); }
+      @media (prefers-reduced-motion: no-preference) {
+        .status-dot {
+          animation: pulse-dot 2s ease-in-out infinite;
+        }
+
+        @keyframes pulse-dot {
+          0%, 100% { opacity: 1; transform: scale(1); }
+          50% { opacity: 0.6; transform: scale(0.85); }
+        }
       }
 
       @media (prefers-color-scheme: dark) {
