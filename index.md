@@ -44,7 +44,6 @@ layout: homepage
   <h2 style="margin: 2px 0px 15px;">Talks</h2>
   <div class="talks-container">
     <div class="talk-card">
-      <div class="talk-marker"></div>
       <div class="talk-content">
         <div class="talk-header">
           <div class="talk-meta">
@@ -57,7 +56,6 @@ layout: homepage
     </div>
     
     <div class="talk-card highlight">
-      <div class="talk-marker"></div>
       <div class="talk-content">
         <div class="talk-header">
           <div class="talk-meta">
@@ -70,7 +68,6 @@ layout: homepage
     </div>
     
     <div class="talk-card">
-      <div class="talk-marker"></div>
       <div class="talk-content">
         <div class="talk-header">
           <div class="talk-meta">
@@ -311,19 +308,6 @@ layout: homepage
   border-color: rgba(102, 153, 204, 0.2);
 }
 
-.talk-marker {
-  position: absolute;
-  left: -28px;
-  top: 14px;
-  width: 14px;
-  height: 14px;
-  background: #6699cc;
-  border-radius: 50%;
-  border: 2px solid white;
-  box-shadow: 0 2px 6px rgba(102, 153, 204, 0.3);
-  z-index: 2;
-}
-
 .talk-content {
   padding-left: 14px;
 }
@@ -385,10 +369,6 @@ layout: homepage
   }
   
   .experience-marker {
-    left: -20px;
-  }
-  
-  .talk-marker {
     left: -20px;
   }
 }
@@ -474,16 +454,6 @@ section {
   background-color: transparent;
 }
 
-#dynamic-world-bg {
-  position: fixed;
-  inset: 0;
-  width: 100vw;
-  height: 100vh;
-  z-index: -1;
-  pointer-events: none;
-  opacity: 1;
-}
-
 .about-research-section > h2,
 .news-header > h2,
 #publications-wrapper .pub-header h2,
@@ -549,9 +519,7 @@ header a:hover i {
 /* Selection animation for important text */
 strong:hover, b:hover {
   color: #6699cc;
-  transform: scale(1.02);
-  transition: all 0.2s ease;
-  display: inline-block;
+  transition: color 0.2s ease;
 }
 
 /* Dark mode scrollbar */
@@ -571,10 +539,6 @@ strong:hover, b:hover {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  #dynamic-world-bg {
-    display: none;
-  }
-
   *,
   *::before,
   *::after {
