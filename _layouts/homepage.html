@@ -67,15 +67,11 @@
         <email>{{ site.email }}</email>
         {% endif %}
 
-        <br>
-        
-        <div class="visitor-stats">
-          <div class="stats-title"><i class="fas fa-chart-bar"></i> Visitor Statistics</div>
-          <a href="https://info.flagcounter.com/skLf">
-            <img src="https://s11.flagcounter.com/count2/skLf/bg_FFFFFF/txt_000000/border_CCCCCC/columns_3/maxflags_12/viewers_0/labels_1/pageviews_1/flags_0/percent_0/" alt="Flag Counter" border="0" class="flag-counter">
-          </a>
+        <div class="status-pill">
+          <span class="status-dot"></span>
+          <span class="status-text">PhD @ UTS · Sydney</span>
         </div>
-        
+
         <br>
         <div class="social-icons">
         {% if site.google_scholar %}
@@ -174,43 +170,59 @@
         }
       }
 
-      /* Visitor Stats Styles */
-      .visitor-stats {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 8px;
-        padding: 12px;
-        background: linear-gradient(145deg, #f8f9fa, #e9ecef);
-        border-radius: 12px;
-        font-size: 0.8rem;
-        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
-        transition: all 0.3s ease;
-      }
-      
-      .visitor-stats:hover {
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-        transform: translateY(-2px);
-      }
-      
-      .stats-title {
-        display: flex;
+      .status-pill {
+        display: inline-flex;
         align-items: center;
         gap: 6px;
-        color: #6699cc;
+        margin: 10px 0;
+        padding: 5px 12px;
+        background: rgba(16, 185, 129, 0.1);
+        border: 1px solid rgba(16, 185, 129, 0.25);
+        border-radius: 20px;
+        font-size: 0.78rem;
         font-weight: 600;
+        color: #065f46;
       }
-      
-      .stats-title i {
-        color: #10b981;
+
+      .status-dot {
+        width: 7px;
+        height: 7px;
+        background: #10b981;
+        border-radius: 50%;
+        animation: pulse-dot 2s ease-in-out infinite;
+        flex-shrink: 0;
       }
-      
-      .flag-counter {
-        border-radius: 8px;
-        max-width: 180px;
-        height: auto;
+
+      @keyframes pulse-dot {
+        0%, 100% { opacity: 1; transform: scale(1); }
+        50% { opacity: 0.6; transform: scale(0.85); }
       }
-      
+
+      @media (prefers-color-scheme: dark) {
+        .status-pill {
+          background: rgba(16, 185, 129, 0.15);
+          border-color: rgba(16, 185, 129, 0.3);
+          color: #6ee7b7;
+        }
+      }
+
+      @media (prefers-reduced-motion: no-preference) {
+        header {
+          animation: header-enter 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+        }
+
+        @keyframes header-enter {
+          from {
+            opacity: 0;
+            transform: translateY(-12px);
+          }
+          to {
+            opacity: 1;
+            transform: translateY(0);
+          }
+        }
+      }
+
       /* Footer Styles */
       .footer-info {
         text-align: center;
@@ -255,19 +267,6 @@
         }
       }
       
-      @media (prefers-color-scheme: dark) {
-        .visitor-stats {
-          background: linear-gradient(145deg, #2d3748, #1a202c);
-        }
-        
-        .stats-title {
-          color: #63b3ed;
-        }
-        
-        .flag-counter {
-          filter: brightness(0.9);
-        }
-      }
     </style>
 
     <script src="{{ "/assets/js/svg-wave-bg.js" | relative_url }}"></script>
