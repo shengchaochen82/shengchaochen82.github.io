@@ -15,12 +15,14 @@
   const style = document.createElement('style');
   style.textContent = `
     .scroll-hidden {
+      will-change: opacity, transform;
       opacity: 0;
       transform: translateY(20px);
       transition: opacity 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94),
                   transform 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
     }
     .scroll-visible {
+      will-change: auto;
       opacity: 1;
       transform: translateY(0);
     }
@@ -30,7 +32,10 @@
   function initObserver() {
     const sections = document.querySelectorAll(SELECTOR);
     sections.forEach(function (el) {
-      el.classList.add('scroll-hidden');
+      // Only hide sections that start below the fold to avoid above-fold flash
+      if (el.getBoundingClientRect().top > window.innerHeight) {
+        el.classList.add('scroll-hidden');
+      }
     });
 
     const observer = new IntersectionObserver(
