@@ -9,7 +9,7 @@ layout: homepage
 {% include_relative _includes/categorized_publications.html %}
 
 <div class="honors-section">
-  <h2 style="margin: 2px 0px 15px;">Honors and Awards</h2>
+  <h2>Honors and Awards</h2>
   <div class="honors-container">
     <div class="honor-item highlight">AAII Best Student Paper Award @ UTS</div>
     <div class="honor-item">Outstanding Master's Thesis of Hainan Province</div>
@@ -21,7 +21,7 @@ layout: homepage
 </div>
 
 <div class="experiences-section">
-  <h2 style="margin: 2px 0px 15px;">Experiences</h2>
+  <h2>Experiences</h2>
   <div class="experience-timeline">
     <div class="experience-item">
       <div class="experience-marker"></div>
@@ -41,7 +41,7 @@ layout: homepage
 </div>
 
 <div class="talks-section">
-  <h2 style="margin: 2px 0px 15px;">Talks</h2>
+  <h2>Talks</h2>
   <div class="talks-container">
     <div class="talk-card">
       <div class="talk-content">
@@ -91,6 +91,11 @@ layout: homepage
   border-radius: 20px;
   padding: 30px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  border-top: 3px solid #ca8a04;
+}
+
+.honors-section > h2 {
+  color: #92400e;
 }
 
 .honors-container {
@@ -132,6 +137,11 @@ layout: homepage
   border-radius: 20px;
   padding: 30px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  border-top: 3px solid #ea580c;
+}
+
+.experiences-section > h2 {
+  color: #c2410c;
 }
 
 .experience-timeline {
@@ -263,6 +273,11 @@ layout: homepage
   border-radius: 20px;
   padding: 30px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  border-top: 3px solid #9333ea;
+}
+
+.talks-section > h2 {
+  color: #7e22ce;
 }
 
 .talks-container {
@@ -379,6 +394,30 @@ layout: homepage
   .experiences-section,
   .talks-section {
     background: linear-gradient(145deg, #2d3748, #1a202c);
+  }
+
+  .honors-section {
+    border-top-color: #fbbf24;
+  }
+
+  .honors-section > h2 {
+    color: #fbbf24;
+  }
+
+  .experiences-section {
+    border-top-color: #fb923c;
+  }
+
+  .experiences-section > h2 {
+    color: #fb923c;
+  }
+
+  .talks-section {
+    border-top-color: #c084fc;
+  }
+
+  .talks-section > h2 {
+    color: #c084fc;
   }
   
   .honor-item,
