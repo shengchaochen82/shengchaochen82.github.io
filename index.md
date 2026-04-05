@@ -492,6 +492,7 @@ body {
   height: 100vh;
   z-index: -1;
   pointer-events: none;
+  opacity: 1;
 }
 
 .wrapper {
@@ -587,6 +588,10 @@ strong:hover, b:hover {
 }
 
 @media (prefers-reduced-motion: reduce) {
+  #dynamic-world-bg {
+    display: none;
+  }
+
   *,
   *::before,
   *::after {
