@@ -8,595 +8,133 @@ layout: homepage
 
 {% include_relative _includes/categorized_publications.html %}
 
-<div class="honors-section">
-  <h2>Honors and Awards</h2>
-  <div class="honors-container">
-    <div class="honor-item highlight">AAII Best Student Paper Award @ UTS</div>
-    <div class="honor-item">Outstanding Master's Thesis of Hainan Province</div>
-    <div class="honor-item highlight">Outstanding Master's Thesis (1st place)</div>
-    <div class="honor-item">Outstanding Graduates</div>
-    <div class="honor-item highlight">National Scholarship (Top 0.1%, 1/1218)</div>
-    <div class="honor-item">Outstanding Graduate Student</div>
-  </div>
-</div>
+<section class="ed-section">
+  <h2>Honors &amp; Awards</h2>
+  <ul class="ed-honors">
+    <li><strong>AAII Best Student Paper Award</strong> &nbsp;·&nbsp; University of Technology Sydney</li>
+    <li><strong>National Scholarship</strong> &nbsp;·&nbsp; Top 0.1% (1 / 1218)</li>
+    <li><strong>Outstanding Master's Thesis</strong> &nbsp;·&nbsp; Hainan Province, China</li>
+    <li><strong>Outstanding Master's Thesis</strong> &nbsp;·&nbsp; 1st place (institution)</li>
+    <li>Outstanding Graduate Student</li>
+    <li>Outstanding Graduates</li>
+  </ul>
+</section>
 
-<div class="experiences-section">
-  <h2>Experiences</h2>
-  <div class="experience-timeline">
-    <div class="experience-item">
-      <div class="experience-marker"></div>
-      <div class="experience-card">
-        <div class="experience-period">
-          <div class="experience-icon"><i class="fas fa-calendar-alt"></i></div>
-          <span class="experience-date">Jul. 2021 - Jan. 2023 & Mar. 2023 - Jun. 2024</span>
-        </div>
-        <div class="experience-details">
-          <h3 class="experience-title">Research Intern (Machine Learning)</h3>
-          <p class="experience-org"><i class="fas fa-building"></i> Shenzhen Institute of Meteorological Innovation, China</p>
-          <p class="experience-desc">Conducted research on machine learning applications for meteorological prediction and climate modeling. Developed novel algorithms for time-series analysis and remote sensing data processing.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+<section class="ed-section">
+  <h2>Experience</h2>
+  <ul class="ed-experience">
+    <li>
+      <span class="ed-exp-date">Jul 2021 – Jan 2023, Mar 2023 – Jun 2024</span>
+      <span class="ed-exp-body">
+        <strong>Research Intern, Machine Learning</strong><br>
+        Shenzhen Institute of Meteorological Innovation, China.
+        Conducted research on machine-learning applications for meteorological prediction and climate modeling — time-series analysis and remote-sensing data processing.
+      </span>
+    </li>
+  </ul>
+</section>
 
-<div class="talks-section">
+<section class="ed-section">
   <h2>Talks</h2>
-  <div class="talks-container">
-    <div class="talk-card">
-      <div class="talk-content">
-        <div class="talk-header">
-          <div class="talk-meta">
-            <span class="talk-date">Apr. 2025</span>
-            <span class="talk-venue">WWW-2025, Sydney, Australia</span>
-          </div>
-        </div>
-        <h3 class="talk-title">Federated Intelligence in Web: A Tutorial</h3>
-      </div>
-    </div>
-    
-    <div class="talk-card highlight">
-      <div class="talk-content">
-        <div class="talk-header">
-          <div class="talk-meta">
-            <span class="talk-date">Nov. 2024</span>
-            <span class="talk-venue">FLFM Workshop in AJCAI-2024, Melbourne, Australia</span>
-          </div>
-        </div>
-        <h3 class="talk-title">Personalized Adapter for Large Meteorology Model on Devices</h3>
-      </div>
-    </div>
-    
-    <div class="talk-card">
-      <div class="talk-content">
-        <div class="talk-header">
-          <div class="talk-meta">
-            <span class="talk-date">Aug. 2024</span>
-            <span class="talk-venue">Main Track & AI4CI Workshop in IJCAI-2024, Jeju, South Korea</span>
-          </div>
-        </div>
-        <h3 class="talk-title">Federated Prompt Learning for Weather Foundation Models on Devices</h3>
-      </div>
-    </div>
-  </div>
-</div>
+  <ul class="ed-talks">
+    <li>
+      <span class="ed-talk-date">Apr 2025</span>
+      <span class="ed-talk-body">
+        <strong>Federated Intelligence in Web: A Tutorial</strong><br>
+        <em>WWW 2025</em>, Sydney, Australia.
+      </span>
+    </li>
+    <li>
+      <span class="ed-talk-date">Nov 2024</span>
+      <span class="ed-talk-body">
+        <strong>Personalized Adapter for Large Meteorology Models on Devices</strong><br>
+        <em>FLFM Workshop @ AJCAI 2024</em>, Melbourne, Australia.
+      </span>
+    </li>
+    <li>
+      <span class="ed-talk-date">Aug 2024</span>
+      <span class="ed-talk-body">
+        <strong>Federated Prompt Learning for Weather Foundation Models on Devices</strong><br>
+        <em>Main Track &amp; AI4CI Workshop @ IJCAI 2024</em>, Jeju, South Korea.
+      </span>
+    </li>
+  </ul>
+</section>
 
 {% include_relative _includes/services_panel.html %}
 
 <style>
-/* Honors Section Styles - Horizontal Row Layout */
-.honors-section {
-  margin: 40px 0;
-  background: linear-gradient(145deg, #ffffff, #f8f9fa);
-  border-radius: 20px;
-  padding: 30px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
-  border-top: 3px solid #ca8a04;
-}
-
-.honors-section > h2 {
-  color: #92400e;
-}
-
-.honors-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
-  align-items: center;
-}
-
-.honor-item {
-  background: white;
-  border-radius: 25px;
-  padding: 10px 18px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
-  border: 1px solid rgba(0, 0, 0, 0.06);
-  transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-  font-size: 0.9rem;
-  font-weight: 600;
-  color: #333;
-  white-space: nowrap;
-  cursor: default;
-}
-
-.honor-item:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 4px 12px rgba(102, 153, 204, 0.15);
-  border-color: rgba(102, 153, 204, 0.3);
-}
-
-.honor-item.highlight {
-  background: linear-gradient(135deg, #fff5eb, #e0e7ff);
-  border-color: rgba(102, 153, 204, 0.3);
-}
-
-/* Experiences Section Styles */
-.experiences-section {
-  margin: 40px 0;
-  background: linear-gradient(145deg, #ffffff, #f8f9fa);
-  border-radius: 20px;
-  padding: 30px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
-  border-top: 3px solid #ea580c;
-}
-
-.experiences-section > h2 {
-  color: #c2410c;
-}
-
-.experience-timeline {
-  position: relative;
-  padding-left: 30px;
-}
-
-.experience-timeline::before {
-  content: '';
-  position: absolute;
-  left: 20px;
-  top: 0;
-  bottom: 0;
-  width: 3px;
-  background: linear-gradient(to bottom, #6699cc, rgba(102, 153, 204, 0.2));
-}
-
-.experience-item {
-  position: relative;
-  margin-bottom: 20px;
-}
-
-.experience-marker {
-  position: absolute;
-  left: -28px;
-  top: 10px;
-  width: 16px;
-  height: 16px;
-  background: #6699cc;
-  border-radius: 50%;
-  border: 2px solid white;
-  box-shadow: 0 2px 6px rgba(102, 153, 204, 0.3);
-  z-index: 2;
-}
-
-.experience-card {
-  background: white;
-  border-radius: 12px;
-  padding: 16px 18px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
-  border: 1px solid rgba(0, 0, 0, 0.04);
-  transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-  position: relative;
-  overflow: hidden;
-}
-
-.experience-card::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: -100%;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(90deg, transparent, rgba(102, 153, 204, 0.04), transparent);
-  transition: left 0.6s ease;
-}
-
-.experience-card:hover::before {
-  left: 100%;
-}
-
-.experience-card:hover {
-  transform: translateX(12px);
-  box-shadow: 0 8px 32px rgba(102, 153, 204, 0.15);
-  border-color: rgba(102, 153, 204, 0.3);
-}
-
-.experience-period {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  padding-bottom: 10px;
-  border-bottom: 2px solid #f0f0f0;
-}
-
-.experience-icon {
-  width: 40px;
-  height: 40px;
-  background: linear-gradient(135deg, #6699cc, #4477aa);
-  border-radius: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  font-size: 1.1rem;
-  flex-shrink: 0;
-}
-
-.experience-date {
-  font-size: 0.9rem;
-  font-weight: 700;
-  color: #6699cc;
-  display: flex;
-  align-items: center;
-  gap: 6px;
-}
-
-.experience-details {
-  flex: 1;
-}
-
-.experience-title {
-  margin: 8px 0 6px 0;
-  font-size: 1.1rem;
-  font-weight: 700;
-  color: #333;
-}
-
-.experience-org {
-  font-size: 0.9rem;
-  color: #666;
-  margin: 0 0 6px 0;
-  display: flex;
-  align-items: center;
-  gap: 6px;
-}
-
-.experience-desc {
-  font-size: 0.9rem;
-  color: #555;
-  line-height: 1.5;
-  margin: 0;
-}
-
-/* Talks Section Styles */
-.talks-section {
-  margin: 40px 0;
-  background: linear-gradient(145deg, #ffffff, #f8f9fa);
-  border-radius: 20px;
-  padding: 30px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
-  border-top: 3px solid #9333ea;
-}
-
-.talks-section > h2 {
-  color: #7e22ce;
-}
-
-.talks-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 20px;
-}
-
-.talk-card {
-  background: white;
-  border-radius: 12px;
-  padding: 14px 16px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
-  border: 1px solid rgba(0, 0, 0, 0.04);
-  transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-  position: relative;
-  overflow: hidden;
-}
-
-.talk-card::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: -100%;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(90deg, transparent, rgba(102, 153, 204, 0.04), transparent);
-  transition: left 0.6s ease;
-}
-
-.talk-card:hover::before {
-  left: 100%;
-}
-
-.talk-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 32px rgba(102, 153, 204, 0.15);
-  border-color: rgba(102, 153, 204, 0.3);
-}
-
-.talk-card.highlight {
-  background: linear-gradient(135deg, #fff5eb, #e0e7ff);
-  border-color: rgba(102, 153, 204, 0.2);
-}
-
-.talk-content {
-  padding-left: 14px;
-}
-
-.talk-header {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  padding-bottom: 8px;
-  border-bottom: 2px solid #f0f0f0;
-  margin-bottom: 8px;
-}
-
-.talk-meta {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  font-size: 0.85rem;
-  align-items: center;
-}
-
-.talk-date {
-  color: #6699cc;
-  font-weight: 700;
-  display: flex;
-  align-items: center;
-  gap: 4px;
-}
-
-.talk-venue {
-  color: #555;
-  display: flex;
-  align-items: center;
-  gap: 4px;
-}
-
-.talk-title {
-  margin: 0;
-  font-size: 1.1rem;
-  font-weight: 700;
-  color: #333;
-}
-
-.talk-desc {
-  font-size: 0.9rem;
-  color: #555;
-  line-height: 1.5;
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-  .honors-container,
-  .talks-container {
-    grid-template-columns: 1fr;
-  }
-  
-  .experience-timeline {
-    padding-left: 20px;
-  }
-  
-  .experience-marker {
-    left: -20px;
-  }
-}
-
-/* Dark Mode */
-@media (prefers-color-scheme: dark) {
-  .honors-section,
-  .experiences-section,
-  .talks-section {
-    background: linear-gradient(145deg, #2d3748, #1a202c);
+  .ed-honors {
+    list-style: none;
+    margin: 0;
+    padding: 0;
   }
 
-  .honors-section {
-    border-top-color: #fbbf24;
+  .ed-honors li {
+    padding: 11px 0;
+    border-bottom: 1px dotted #e5e7eb;
+    font-size: 0.97rem;
+    color: #1f2937;
   }
 
-  .honors-section > h2 {
-    color: #fbbf24;
+  .ed-honors li:last-child { border-bottom: none; }
+
+  .ed-experience,
+  .ed-talks {
+    list-style: none;
+    margin: 0;
+    padding: 0;
   }
 
-  .experiences-section {
-    border-top-color: #fb923c;
+  .ed-experience li,
+  .ed-talks li {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    gap: 22px;
+    padding: 16px 0;
+    border-bottom: 1px dotted #e5e7eb;
+    align-items: baseline;
   }
 
-  .experiences-section > h2 {
-    color: #fb923c;
+  .ed-experience li:last-child,
+  .ed-talks li:last-child {
+    border-bottom: none;
   }
 
-  .talks-section {
-    border-top-color: #c084fc;
+  .ed-exp-date,
+  .ed-talk-date {
+    color: #6b7280;
+    font-size: 0.86rem;
+    font-variant-numeric: tabular-nums;
+    letter-spacing: 0.02em;
   }
 
-  .talks-section > h2 {
-    color: #c084fc;
-  }
-  
-  .honor-item,
-  .experience-card,
-  .talk-card {
-    background: #2d3748;
-    border-color: rgba(255, 255, 255, 0.1);
-    color: #e2e8f0;
+  .ed-exp-body,
+  .ed-talk-body {
+    color: #1f2937;
+    font-size: 0.97rem;
+    line-height: 1.6;
   }
 
-  .honor-item:hover {
-    box-shadow: 0 4px 12px rgba(102, 153, 204, 0.2);
-    border-color: rgba(102, 153, 204, 0.4);
+  .ed-exp-body strong,
+  .ed-talk-body strong {
+    color: #0a0a0a;
   }
 
-  .experience-card::before,
-  .talk-card::before {
-    background: linear-gradient(90deg, transparent, rgba(102, 153, 204, 0.08), transparent);
+  @media (max-width: 600px) {
+    .ed-experience li,
+    .ed-talks li {
+      grid-template-columns: 1fr;
+      gap: 4px;
+    }
   }
 
-  .honor-item.highlight,
-  .talk-card.highlight {
-    background: linear-gradient(135deg, #1e3a5f, #1a365d);
+  @media (prefers-color-scheme: dark) {
+    .ed-honors li,
+    .ed-experience li,
+    .ed-talks li { border-bottom-color: #292929; color: #d4d4d4; }
+    .ed-exp-date, .ed-talk-date { color: #9ca3af; }
+    .ed-exp-body, .ed-talk-body { color: #d4d4d4; }
+    .ed-exp-body strong, .ed-talk-body strong { color: #fafafa; }
   }
-
-  .talk-title {
-    color: #e2e8f0;
-  }
-
-  .talk-date {
-    color: #63b3ed;
-  }
-
-  .talk-venue {
-    color: #a0aec0;
-  }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .honor-item,
-  .experience-card,
-  .talk-card {
-    transition: none;
-  }
-}
-</style>
-
-<style>
-/* Global Page Animations - scoped to avoid conflicts */
-
-/* Smooth scroll behavior */
-html {
-  scroll-behavior: smooth;
-}
-
-/* Background color that will show through or behind canvas */
-body {
-  background-color: #f8f9fa;
-  transition: background-color 0.3s ease;
-}
-
-@media (prefers-color-scheme: dark) {
-  body {
-    background-color: #1a202c;
-  }
-}
-
-#dynamic-world-bg {
-  position: fixed;
-  inset: 0;
-  width: 100vw;
-  height: 100vh;
-  z-index: -1;
-  pointer-events: none;
-  opacity: 1;
-}
-
-.wrapper {
-  background-color: transparent;
-}
-
-section {
-  background-color: transparent;
-}
-
-.about-research-section > h2,
-.news-header > h2,
-#publications-wrapper .pub-header h2,
-#services-wrapper .pub-header h2 {
-  animation: heading-breath 8s ease-in-out infinite;
-}
-
-@keyframes heading-breath {
-  0%,
-  100% {
-    text-shadow: 0 0 0 rgba(102, 153, 204, 0.0);
-  }
-  50% {
-    text-shadow: 0 0 7px rgba(102, 153, 204, 0.16);
-  }
-}
-
-.about-icon,
-.news-icon {
-  animation: icon-breath 7s ease-in-out infinite;
-}
-
-@keyframes icon-breath {
-  0%,
-  100% {
-    box-shadow: 0 8px 18px rgba(102, 153, 204, 0.2);
-  }
-  50% {
-    box-shadow: 0 10px 22px rgba(102, 153, 204, 0.3);
-  }
-}
-
-/* Header hover effect */
-header a:hover i {
-  transform: scale(1.15) rotate(10deg);
-  transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-}
-
-/* Text selection styling */
-::selection {
-  background: rgba(102, 153, 204, 0.2);
-  color: #333;
-}
-
-/* Scrollbar styling */
-::-webkit-scrollbar {
-  width: 8px;
-}
-
-::-webkit-scrollbar-track {
-  background: #f1f1f1;
-}
-
-::-webkit-scrollbar-thumb {
-  background: linear-gradient(135deg, #6699cc, #4477aa);
-  border-radius: 4px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: linear-gradient(135deg, #4477aa, #336699);
-}
-
-/* Selection animation for important text */
-strong:hover, b:hover {
-  color: #6699cc;
-  transition: color 0.2s ease;
-}
-
-/* Dark mode scrollbar */
-@media (prefers-color-scheme: dark) {
-  ::-webkit-scrollbar-track {
-    background: #1a202c;
-  }
-
-  ::-webkit-scrollbar-thumb {
-    background: linear-gradient(135deg, #4477aa, #6699cc);
-  }
-
-  ::selection {
-    background: rgba(102, 153, 204, 0.3);
-    color: #e2e8f0;
-  }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  #dynamic-world-bg {
-    display: none;
-  }
-
-  *,
-  *::before,
-  *::after {
-    animation: none !important;
-    transition: none !important;
-  }
-}
 </style>
