@@ -288,6 +288,11 @@
           {% if site.blog_link %}<a href="{{ site.blog_link | relative_url }}">Blog</a>{% endif %}
         </nav>
         <p class="page-motto">保持学习<br>知行合一<br>专注自身</p>
+        <div class="page-stats">
+          <a href="https://info.flagcounter.com/skLf" aria-label="Visitor statistics">
+            <img src="https://s11.flagcounter.com/count2/skLf/bg_FFFFFF/txt_000000/border_CCCCCC/columns_3/maxflags_12/viewers_0/labels_1/pageviews_1/flags_0/percent_0/" alt="Flag Counter" />
+          </a>
+        </div>
       </aside>
 
       <main class="page-content">
@@ -297,14 +302,7 @@
 
     {% if site.enable_footnote %}
     <div class="page-bottom">
-      <div class="page-bottom-inner">
-        <div class="footer-stats">
-          <a href="https://info.flagcounter.com/skLf" aria-label="Visitor statistics">
-            <img src="https://s11.flagcounter.com/count2/skLf/bg_FFFFFF/txt_000000/border_CCCCCC/columns_3/maxflags_12/viewers_0/labels_1/pageviews_1/flags_0/percent_0/" alt="Flag Counter" />
-          </a>
-        </div>
-        <p class="footer-copy">© 2020–2026 Shengchao Chen &nbsp;·&nbsp; Last updated Feb 2026</p>
-      </div>
+      <p class="footer-copy">© 2020–2026 Shengchao Chen &nbsp;·&nbsp; Last updated Feb 2026</p>
     </div>
     {% endif %}
 
@@ -425,6 +423,18 @@
         letter-spacing: 0.12em;
       }
 
+      .page-stats {
+        margin-top: 26px;
+      }
+
+      .page-stats img {
+        max-width: 200px;
+        height: auto;
+        opacity: 0.82;
+        border-radius: 4px;
+        display: block;
+      }
+
       /* ─── Content column ─── */
       .page-content {
         min-width: 0;
@@ -497,28 +507,12 @@
         padding-top: 0;
       }
 
-      /* ─── Bottom bar (full width, at the very end of page) ─── */
+      /* ─── Bottom bar (full width, copyright only) ─── */
       .page-bottom {
         border-top: 1px solid #e5e7eb;
-        margin-top: 60px;
-        padding: 36px 24px 56px;
+        margin-top: 48px;
+        padding: 24px 24px 40px;
         text-align: center;
-      }
-
-      .page-bottom-inner {
-        max-width: 1080px;
-        margin: 0 auto;
-      }
-
-      .footer-stats {
-        margin-bottom: 16px;
-      }
-
-      .footer-stats img {
-        max-width: 220px;
-        height: auto;
-        opacity: 0.85;
-        border-radius: 4px;
       }
 
       .footer-copy {
@@ -565,8 +559,14 @@
           max-width: none;
         }
 
+        .page-stats {
+          display: flex;
+          justify-content: center;
+          margin-top: 22px;
+        }
+
         .page-bottom {
-          padding: 28px 22px 44px;
+          padding: 22px 22px 32px;
         }
       }
 
@@ -588,7 +588,7 @@
         .page-content strong { color: #fafafa; }
         .page-bottom { border-top-color: #292929; }
         .footer-copy { color: #9ca3af; }
-        .footer-stats img { filter: brightness(0.85); }
+        .page-stats img { filter: brightness(0.85); }
       }
 
       @media (prefers-reduced-motion: reduce) {
