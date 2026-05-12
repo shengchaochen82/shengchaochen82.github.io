@@ -272,41 +272,47 @@
     {% assign email_clean = site.email | replace: ' (AT) ', '@' | replace: '(AT)', '@' %}
 
     <div class="page">
-      <header class="page-header">
+      <aside class="page-sidebar">
         {% if site.avatar %}
         <img class="page-avatar" src="{{ site.avatar }}" alt="{{ site.title }}" />
         {% endif %}
         <h1 class="page-name">{{ site.title }}</h1>
-        <p class="page-subtitle">AI Researcher &nbsp;·&nbsp; <a href="{{ site.affiliation_link }}" class="page-affil">{{ site.affiliation }}</a></p>
+        <p class="page-subtitle">AI Researcher</p>
+        <p class="page-affil"><a href="{{ site.affiliation_link }}">{{ site.affiliation }}</a></p>
         <nav class="page-links" aria-label="Profile links">
           {% if site.email %}<a href="mailto:{{ email_clean }}">Email</a>{% endif %}
-          {% if site.google_scholar %}<a href="{{ site.google_scholar }}">Scholar</a>{% endif %}
+          {% if site.google_scholar %}<a href="{{ site.google_scholar }}">Google Scholar</a>{% endif %}
           {% if site.github_link %}<a href="{{ site.github_link }}">GitHub</a>{% endif %}
           {% if site.linkedin %}<a href="{{ site.linkedin }}">LinkedIn</a>{% endif %}
           {% if site.cv_link %}<a href="{{ site.cv_link }}">CV</a>{% endif %}
           {% if site.blog_link %}<a href="{{ site.blog_link | relative_url }}">Blog</a>{% endif %}
         </nav>
-        <p class="page-motto">保持学习 · 知行合一 · 专注自身</p>
-      </header>
+        <p class="page-motto">保持学习<br>知行合一<br>专注自身</p>
+      </aside>
 
-      <main class="page-main">
+      <main class="page-content">
         {{ content }}
       </main>
+    </div>
 
-      {% if site.enable_footnote %}
-      <footer class="page-footer">
+    {% if site.enable_footnote %}
+    <div class="page-bottom">
+      <div class="page-bottom-inner">
         <div class="footer-stats">
           <a href="https://info.flagcounter.com/skLf" aria-label="Visitor statistics">
             <img src="https://s11.flagcounter.com/count2/skLf/bg_FFFFFF/txt_000000/border_CCCCCC/columns_3/maxflags_12/viewers_0/labels_1/pageviews_1/flags_0/percent_0/" alt="Flag Counter" />
           </a>
         </div>
-        <p>© 2020–2026 Shengchao Chen &nbsp;·&nbsp; Last updated Feb 2026</p>
-      </footer>
-      {% endif %}
+        <p class="footer-copy">© 2020–2026 Shengchao Chen &nbsp;·&nbsp; Last updated Feb 2026</p>
+      </div>
     </div>
+    {% endif %}
 
     <style>
-      /* === Editorial Minimal Theme === */
+      /* ===========================
+         Editorial Minimal Theme
+         (overrides minimal-light theme bare-tag selectors)
+         =========================== */
       html, body {
         overflow-x: hidden;
         min-height: 100vh;
@@ -323,67 +329,87 @@
         -moz-osx-font-smoothing: grayscale;
       }
 
+      /* ─── Page grid ─── */
       .page {
-        max-width: 720px;
+        max-width: 1080px;
         margin: 0 auto;
-        padding: 72px 28px 80px;
+        padding: 64px 36px 32px;
+        display: grid;
+        grid-template-columns: 240px 1fr;
+        gap: 72px;
+        align-items: start;
       }
 
-      @media (max-width: 720px) {
-        .page { padding: 44px 22px 60px; }
-      }
-
-      /* ─── Header ─── */
-      .page-header {
-        text-align: center;
-        margin-bottom: 60px;
+      /* ─── Sidebar (sticky) ─── */
+      .page-sidebar {
+        position: sticky;
+        top: 48px;
+        align-self: start;
+        width: auto;
+        max-width: 240px;
+        float: none;
+        padding: 0;
+        text-align: left;
       }
 
       .page-avatar {
-        width: 92px;
-        height: 92px;
+        width: 96px;
+        height: 96px;
         border-radius: 50%;
         object-fit: cover;
-        margin: 0 auto 22px;
         display: block;
+        margin: 0 0 22px;
         box-shadow: 0 1px 0 rgba(0, 0, 0, 0.04);
+        padding: 0;
       }
 
       .page-name {
-        font-size: 2.4rem;
+        font-size: 1.75rem;
         font-weight: 700;
-        margin: 0 0 6px;
-        letter-spacing: -0.018em;
-        line-height: 1.1;
+        margin: 0 0 4px;
+        line-height: 1.12;
+        letter-spacing: -0.012em;
         color: #0a0a0a;
       }
 
       .page-subtitle {
-        font-size: 1.02rem;
-        color: #4b5563;
-        margin: 0 0 20px;
+        font-size: 0.95rem;
         font-style: italic;
+        color: #4b5563;
+        margin: 0 0 2px;
       }
 
-      .page-subtitle .page-affil {
+      .page-affil {
+        font-size: 0.88rem;
+        color: #6b7280;
+        margin: 0 0 24px;
+      }
+
+      .page-affil a {
         color: inherit;
-        border-bottom: 1px solid rgba(75, 85, 99, 0.3);
+        text-decoration: none;
+        border-bottom: 1px solid rgba(107, 114, 128, 0.35);
+        transition: border-color 0.2s;
+      }
+
+      .page-affil a:hover {
+        border-bottom-color: #0a0a0a;
       }
 
       .page-links {
         display: flex;
-        flex-wrap: wrap;
-        gap: 18px;
-        justify-content: center;
-        margin-bottom: 22px;
-        font-size: 0.92rem;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 7px;
+        margin: 0 0 26px;
+        font-size: 0.93rem;
       }
 
       .page-links a {
         color: #1e3a8a;
         text-decoration: none;
         border-bottom: 1px solid transparent;
-        transition: border-color 0.2s, color 0.2s;
+        transition: border-color 0.2s;
       }
 
       .page-links a:hover {
@@ -395,16 +421,36 @@
         font-size: 1.05rem;
         color: #9ca3af;
         margin: 0;
+        line-height: 1.55;
         letter-spacing: 0.12em;
       }
 
-      /* ─── Main ─── */
-      .page-main {
-        font-size: 1rem;
+      /* ─── Content column ─── */
+      .page-content {
+        min-width: 0;
+        width: auto;
+        max-width: 720px;
+        float: none;
+        padding: 0;
       }
 
-      /* ─── Editorial Section base — used by all includes ─── */
+      .page-content h2,
+      .page-content h3,
+      .page-content h4 {
+        color: inherit;
+        font-weight: 700;
+      }
+
+      .page-content strong {
+        color: #0a0a0a;
+        font-weight: 700;
+      }
+
+      /* ─── Editorial section base ─── */
       .ed-section {
+        width: auto;
+        float: none;
+        position: static;
         margin: 0;
         padding: 44px 0;
         border-top: 1px solid #e5e7eb;
@@ -441,49 +487,97 @@
 
       .ed-section p:last-child { margin-bottom: 0; }
 
-      /* Reset minimal-light theme overrides */
-      .page-main h2,
-      .page-main h3,
-      .page-main h4 {
-        color: inherit;
-        font-weight: 700;
+      /* Reset any leaked <header> styles inside content (e.g. panel head) */
+      .page-content header,
+      .ed-pub-panel header,
+      .ed-pub-panel-head {
+        position: static;
+        width: auto;
+        float: none;
+        padding-top: 0;
       }
 
-      .page-main strong {
-        color: #0a0a0a;
-        font-weight: 700;
-      }
-
-      /* ─── Footer ─── */
-      .page-footer {
-        margin-top: 64px;
-        padding-top: 28px;
+      /* ─── Bottom bar (full width, at the very end of page) ─── */
+      .page-bottom {
         border-top: 1px solid #e5e7eb;
+        margin-top: 60px;
+        padding: 36px 24px 56px;
         text-align: center;
-        font-size: 0.82rem;
-        color: #6b7280;
       }
 
-      .page-footer p {
-        margin: 14px 0 0;
+      .page-bottom-inner {
+        max-width: 1080px;
+        margin: 0 auto;
+      }
+
+      .footer-stats {
+        margin-bottom: 16px;
       }
 
       .footer-stats img {
-        max-width: 180px;
+        max-width: 220px;
         height: auto;
         opacity: 0.85;
         border-radius: 4px;
       }
 
-      /* ─── Dark Mode ─── */
-      @media (prefers-color-scheme: dark) {
-        body {
-          background: #0f0f0e;
-          color: #d4d4d4;
+      .footer-copy {
+        margin: 0;
+        font-size: 0.82rem;
+        color: #6b7280;
+      }
+
+      /* ─── Mobile / Tablet (stack sidebar above content) ─── */
+      @media (max-width: 880px) {
+        .page {
+          grid-template-columns: 1fr;
+          gap: 36px;
+          padding: 44px 22px 24px;
         }
+
+        .page-sidebar {
+          position: static;
+          max-width: none;
+          text-align: center;
+        }
+
+        .page-avatar {
+          margin: 0 auto 18px;
+        }
+
+        .page-affil {
+          margin-bottom: 16px;
+        }
+
+        .page-links {
+          flex-direction: row;
+          flex-wrap: wrap;
+          justify-content: center;
+          gap: 16px;
+          margin-bottom: 20px;
+        }
+
+        .page-motto {
+          text-align: center;
+        }
+
+        .page-content {
+          max-width: none;
+        }
+
+        .page-bottom {
+          padding: 28px 22px 44px;
+        }
+      }
+
+      /* ─── Dark mode ─── */
+      @media (prefers-color-scheme: dark) {
+        body { background: #0f0f0e; color: #d4d4d4; }
         .page-name { color: #fafafa; }
         .page-subtitle { color: #9ca3af; }
-        .page-subtitle .page-affil { border-bottom-color: rgba(156, 163, 175, 0.35); }
+        .page-affil { color: #9ca3af; }
+        .page-affil a { border-bottom-color: rgba(156, 163, 175, 0.35); }
+        .page-affil a:hover { border-bottom-color: #fafafa; }
         .page-links a { color: #93c5fd; }
         .page-links a:hover { border-bottom-color: #93c5fd; }
         .page-motto { color: #6b7280; }
@@ -491,12 +585,12 @@
         .ed-section > h2 { color: #fafafa; }
         .ed-section a { color: #93c5fd; border-bottom-color: rgba(147, 197, 253, 0.35); }
         .ed-section a:hover { border-bottom-color: #93c5fd; }
-        .page-main strong { color: #fafafa; }
-        .page-footer { border-top-color: #292929; color: #9ca3af; }
+        .page-content strong { color: #fafafa; }
+        .page-bottom { border-top-color: #292929; }
+        .footer-copy { color: #9ca3af; }
         .footer-stats img { filter: brightness(0.85); }
       }
 
-      /* Suppress reduce-motion oddities */
       @media (prefers-reduced-motion: reduce) {
         *, *::before, *::after {
           animation-duration: 0.01ms !important;

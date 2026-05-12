@@ -8,7 +8,7 @@ layout: homepage
 
 {% include_relative _includes/categorized_publications.html %}
 
-<section class="ed-section">
+<div class="ed-section">
   <h2>Honors &amp; Awards</h2>
   <ul class="ed-honors">
     <li><strong>AAII Best Student Paper Award</strong> &nbsp;·&nbsp; University of Technology Sydney</li>
@@ -18,9 +18,9 @@ layout: homepage
     <li>Outstanding Graduate Student</li>
     <li>Outstanding Graduates</li>
   </ul>
-</section>
+</div>
 
-<section class="ed-section">
+<div class="ed-section">
   <h2>Experience</h2>
   <ul class="ed-experience">
     <li>
@@ -32,9 +32,9 @@ layout: homepage
       </span>
     </li>
   </ul>
-</section>
+</div>
 
-<section class="ed-section">
+<div class="ed-section">
   <h2>Talks</h2>
   <ul class="ed-talks">
     <li>
@@ -59,7 +59,7 @@ layout: homepage
       </span>
     </li>
   </ul>
-</section>
+</div>
 
 {% include_relative _includes/services_panel.html %}
 
