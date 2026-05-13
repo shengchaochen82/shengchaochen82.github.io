@@ -13,8 +13,8 @@ layout: homepage
   <ul class="ed-honors">
     <li><strong>AAII Best Student Paper Award</strong> &nbsp;·&nbsp; University of Technology Sydney</li>
     <li><strong>National Scholarship</strong> &nbsp;·&nbsp; Top 0.1% (1 / 1218)</li>
-    <li><strong>Outstanding Master's Thesis</strong> &nbsp;·&nbsp; Hainan Province, China</li>
-    <li><strong>Outstanding Master's Thesis</strong> &nbsp;·&nbsp; 1st place (institution)</li>
+    <li><strong>Outstanding Master's Thesis</strong></li>
+    <li><strong>Outstanding Master's Thesis</strong> &nbsp;·&nbsp; 1st place</li>
     <li>Outstanding Graduate Student</li>
     <li>Outstanding Graduates</li>
   </ul>
