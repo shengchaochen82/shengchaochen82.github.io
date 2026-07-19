@@ -3,6 +3,11 @@
     <h2>Academic Services</h2>
 
     <ul class="ed-pub-list" id="services-bars">
+      <li class="ed-pub-row category-bar" data-category="associate_editor">
+        <span class="ed-pub-row-title">Associate Editor</span>
+        <span class="ed-pub-row-count">1</span>
+        <span class="ed-pub-row-arrow" aria-hidden="true">→</span>
+      </li>
       <li class="ed-pub-row category-bar" data-category="area_chair">
         <span class="ed-pub-row-title">Area Chair</span>
         <span class="ed-pub-row-count">1</span>
@@ -10,12 +15,12 @@
       </li>
       <li class="ed-pub-row category-bar" data-category="conference_reviewer">
         <span class="ed-pub-row-title">Conference Reviewer / PC Member</span>
-        <span class="ed-pub-row-count">12</span>
+        <span class="ed-pub-row-count">15</span>
         <span class="ed-pub-row-arrow" aria-hidden="true">→</span>
       </li>
       <li class="ed-pub-row category-bar" data-category="journal_reviewer">
         <span class="ed-pub-row-title">Journal Reviewer</span>
-        <span class="ed-pub-row-count">10</span>
+        <span class="ed-pub-row-count">15</span>
         <span class="ed-pub-row-arrow" aria-hidden="true">→</span>
       </li>
     </ul>
@@ -36,6 +41,13 @@
 
 <script>
 window.servicesData = {
+  associate_editor: {
+    title: "Associate Editor",
+    description: "Editorial board responsibilities.",
+    venues: [
+      { name: "JESIT", full: "Journal of Electrical Systems and Information Technology", link: "https://jesit.springeropen.com/" }
+    ]
+  },
   area_chair: {
     title: "Area Chair",
     description: "Conference Area Chair responsibilities.",
@@ -58,7 +70,10 @@ window.servicesData = {
       { name: "KDD",     full: "ACM SIGKDD Conference on Knowledge Discovery and Data Mining", years: "2024 – 2026", link: "https://www.kdd.org/" },
       { name: "ECAI",    full: "European Conference on Artificial Intelligence", years: "2024 – 2026", link: "https://ecai2024.eu/" },
       { name: "ICASSP",  full: "IEEE Int. Conf. on Acoustics, Speech and Signal Processing", years: "2024 – 2026", link: "https://2025.ieeeicassp.org/" },
-      { name: "ICME",    full: "IEEE Int. Conf. on Multimedia and Expo", years: "2024 – 2026", link: "https://2025.ieee-icme.org/" }
+      { name: "ICME",    full: "IEEE Int. Conf. on Multimedia and Expo", years: "2024 – 2026", link: "https://2025.ieee-icme.org/" },
+      { name: "ICCV",    full: "International Conference on Computer Vision", link: "https://iccv.thecvf.com/" },
+      { name: "WWW",     full: "The Web Conference", link: "https://www.iw3c2.org/" },
+      { name: "MM",      full: "ACM International Conference on Multimedia", link: "https://www.acmmm.org/" }
     ]
   },
   journal_reviewer: {
@@ -74,7 +89,12 @@ window.servicesData = {
       { name: "KBS",    full: "Knowledge-Based Systems", link: "https://www.sciencedirect.com/journal/knowledge-based-systems" },
       { name: "AIM",    full: "Artificial Intelligence in Medicine", link: "https://www.sciencedirect.com/journal/artificial-intelligence-in-medicine" },
       { name: "Information Systems", full: "Information Systems (Elsevier)", link: "https://www.sciencedirect.com/journal/information-systems" },
-      { name: "Computer Networks", full: "Computer Networks (Elsevier)", link: "https://www.sciencedirect.com/journal/computer-networks" }
+      { name: "Computer Networks", full: "Computer Networks (Elsevier)", link: "https://www.sciencedirect.com/journal/computer-networks" },
+      { name: "TMI",    full: "IEEE Transactions on Medical Imaging", link: "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=42" },
+      { name: "TDSC",   full: "IEEE Transactions on Dependable and Secure Computing", link: "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=8858" },
+      { name: "TCE",    full: "IEEE Transactions on Consumer Electronics", link: "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=30" },
+      { name: "TII",    full: "IEEE Transactions on Industrial Informatics", link: "https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=41" },
+      { name: "TMLR",   full: "Transactions on Machine Learning Research", link: "https://jmlr.org/tmlr/" }
     ]
   }
 };
