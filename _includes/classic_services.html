@@ -1,0 +1,16 @@
+<section class="classic-section" id="academia-services">
+  <h1>Academia Services</h1>
+  {% assign service_order = "associate_editor,area_chair,conference_reviewer,journal_reviewer" | split: "," %}
+  {% for key in service_order %}
+    {% assign cat = site.data.services[key] %}
+    <h2>{{ cat.title }}</h2>
+    <ul>
+      {% for venue in cat.venues %}
+      <li>
+        {% if venue.link %}<a href="{{ venue.link }}" target="_blank">{{ venue.name }}</a>{% else %}{{ venue.name }}{% endif %}{% if venue.full %}, {{ venue.full }}{% endif %}{% if venue.years %} <small>({{ venue.years }})</small>{% endif %}.
+      </li>
+      {% endfor %}
+    </ul>
+  {% endfor %}
+  <p class="classic-goto"><a href="#top">[go top]</a></p>
+</section>
