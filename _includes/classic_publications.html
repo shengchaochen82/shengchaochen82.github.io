@@ -1,0 +1,28 @@
+<section class="classic-section" id="publications">
+  <h1>Publications &nbsp;<small><a href="https://scholar.google.com/citations?user=9R3tsmUAAAAJ&hl=en" target="_blank">Google Scholar →</a></small></h1>
+  {% for category in site.data.publications %}
+    {% if category[0] != 'main' and category[0] != 'other' %}
+      {% assign cat = category[1] %}
+      <h2>{{ cat.title }}</h2>
+      {% if cat.description %}<p><em>{{ cat.description }}</em></p>{% endif %}
+      <ul>
+        {% for paper in cat.papers %}
+        <li class="classic-pub">
+          <span class="classic-pub-title">
+            {% if paper.pdf %}<a href="{{ paper.pdf }}" target="_blank">{{ paper.title }}</a>{% else %}{{ paper.title }}{% endif %}
+          </span><br>
+          {{ paper.authors }}<br>
+          <span class="classic-pub-meta">{{ paper.conference }}</span>
+          {% if paper.code or paper.page or paper.notes %}
+          <br>
+          {% if paper.code %}<a href="{{ paper.code }}" target="_blank">Code</a>{% endif %}
+          {% if paper.page %}{% if paper.code %} &nbsp;·&nbsp; {% endif %}<a href="{{ paper.page }}" target="_blank">Project page</a>{% endif %}
+          {% if paper.notes %}{% if paper.code or paper.page %} &nbsp;·&nbsp; {% endif %}<span class="classic-pub-meta">{{ paper.notes }}</span>{% endif %}
+          {% endif %}
+        </li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  {% endfor %}
+  <p class="classic-goto"><a href="#top">[go top]</a></p>
+</section>
