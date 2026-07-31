@@ -11,7 +11,6 @@ federated_tsfm:
       pdf: "https://arxiv.org/abs/2508.04045"
       bibtex: "https://bib.yliu.me/MICCAI23.txt"
       image: "./assets/img/fedal.png"
-      thumbnail: true
 
     - title: "Federated Foundation Models on Heterogeneous Time Series"
       authors: "<strong>Shengchao Chen</strong>, Guodong Long, Jing Jiang, Chengqi Zhang"
@@ -199,7 +198,6 @@ medical_imaging:
       conference_short: ACMMM
       conference: "The 34th ACM International Conference on Multimedia <strong>(ACM MM)</strong> <span class='classic-tag'>[Core A/CCF-A]</span>, 2026."
       image: "./assets/img/fm2.png"
-      thumbnail: true
 
     - title: "Restyled, Tuning, and Alignment: Taming VLMs for Federated Non-IID Medical Image Analysis"
       authors: "<strong>Shengchao Chen</strong>, Ting Shu"
@@ -224,7 +222,7 @@ medical_imaging:
       image: "./assets/img/medical.png"
 
     - title: "Ensemble learning for retinal disease recognition under limited resources"
-      authors: "Jian Wang, Hui Peng, <strong>Shengchao Chen</strong>, Sufen Ren"
+      authors: "Jian Wang, Hui Peng, <strong>Shengchao Chen</strong><sup><i class='fa-regular fa-envelope fa-xs'></i></sup>, Sufen Ren"
       conference_short: Med. Biol. Eng. Comput.
       conference: "Medical & Biological Engineering & Computing 62 (9), 2839-2852, 2024. <span class='classic-tag'>[JCR Q2]</span>"
       pdf: "https://link.springer.com/article/10.1007/s11517-024-03050-8"
