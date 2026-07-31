@@ -68,6 +68,12 @@ ai4science:
   color: "#10b981"
   description: "Applying artificial intelligence and machine learning to scientific domains, particularly optical fiber sensing, weather forecasting, climate modeling, and computational materials."
   papers:
+    - title: "Learning Design Skills as Memory Policies for Agentic Photonic Inverse Design"
+      authors: "<strong>Shengchao Chen</strong>, Ting Shu, Sufen Ren"
+      conference_short: KBS
+      conference: "Knowledge-Based Systems <strong>(KBS)</strong> <span class='classic-tag'>[JCR Q1/TOP]</span>, 2026."
+      notes: "Preliminary version presented at the ICML 2026 Workshop on AI for Physics."
+
     - title: "PCF-LLM: Scaling LLMs for Multimodal Understanding of Structured Scientific Data in Photonic Crystal Fiber Sensors"
       authors: "<strong>Shengchao Chen</strong>, Geyao Hu, Sufen Ren, Ting Shu"
       conference_short: Information Fusion
