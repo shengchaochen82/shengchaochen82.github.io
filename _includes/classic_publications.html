@@ -1,8 +1,9 @@
 <section class="classic-section" id="publications">
-  <h1>Publications &nbsp;<small><a href="https://scholar.google.com/citations?user=9R3tsmUAAAAJ&hl=en" target="_blank">Google Scholar →</a></small></h1>
-  {% for category in site.data.publications %}
-    {% if category[0] != 'main' and category[0] != 'other' %}
-      {% assign cat = category[1] %}
+  <h1>Selected Publications &nbsp;<small><a href="https://scholar.google.com/citations?user=9R3tsmUAAAAJ&hl=en" target="_blank">Google Scholar →</a></small></h1>
+  {% assign pub_order = "federated_tsfm,medical_imaging,remote_sensing,ai4science" | split: "," %}
+  {% for key in pub_order %}
+    {% assign cat = site.data.publications[key] %}
+    {% if cat %}
       <h2>{{ cat.title }}</h2>
       {% if cat.description %}<p><em>{{ cat.description }}</em></p>{% endif %}
       <ul>
