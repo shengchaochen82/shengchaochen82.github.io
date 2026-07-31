@@ -7,7 +7,7 @@ federated_tsfm:
     - title: "FeDaL: Federated Dataset Learning for General Time Series Foundation Models"
       authors: "<strong>Shengchao Chen</strong>, Guodong Long, Michael Blumenstein, Jing Jiang"
       conference_short: ICLR
-      conference: "The Fourteenth International Conference on Learning Representations <strong>(ICLR)-[Core A*]</strong>, 2026."
+      conference: "The Fourteenth International Conference on Learning Representations <strong>(ICLR)</strong> <span class='classic-tag'>[Core A*]</span>, 2026."
       pdf: "https://arxiv.org/abs/2508.04045"
       bibtex: "https://bib.yliu.me/MICCAI23.txt"
       image: "./assets/img/TSFM.png"
@@ -16,7 +16,7 @@ federated_tsfm:
     - title: "Federated Foundation Models on Heterogeneous Time Series"
       authors: "<strong>Shengchao Chen</strong>, Guodong Long, Jing Jiang, Chengqi Zhang"
       conference_short: AAAI
-      conference: "Thirty-Ninth AAAI Conference on Artificial Intelligence <strong>(AAAI)-[Core A*/CCF-A]</strong>, 2025."
+      conference: "Thirty-Ninth AAAI Conference on Artificial Intelligence <strong>(AAAI)</strong> <span class='classic-tag'>[Core A*/CCF-A]</span>, 2025."
       pdf: "https://arxiv.org/pdf/2412.08906"
       code: "https://github.com/shengchaochen82/FFTS"
       bibtex: "https://bib.yliu.me/MICCAI23.txt"
@@ -26,7 +26,7 @@ federated_tsfm:
     - title: "Personalized Adapter for Large Meteorology Model on Devices: Towards Weather Foundation Models"
       authors: "<strong>Shengchao Chen</strong>, Guodong Long, Jing Jiang, Chengqi Zhang"
       conference_short: NeurIPS
-      conference: "Thirty-Eighth Annual Conference on Neural Information Processing Systems <strong>(NeurIPS)-[Core A*/CCF-A]</strong>, 2024."
+      conference: "Thirty-Eighth Annual Conference on Neural Information Processing Systems <strong>(NeurIPS)</strong> <span class='classic-tag'>[Core A*/CCF-A]</span>, 2024."
       pdf: "https://arxiv.org/pdf/2405.20348"
       code: "https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training"
       page: "https://class-il.mpi-inf.mpg.de/mnemonics/"
@@ -37,7 +37,7 @@ federated_tsfm:
     - title: "Federated Prompt Learning for Weather Foundation Models on Devices"
       authors: "<strong>Shengchao Chen</strong>, Guodong Long, Tao Shen, Jing Jiang, Chengqi Zhang"
       conference_short: IJCAI
-      conference: "The 33rd International Joint Conference on Artificial Intelligence <strong>(IJCAI)-[Core A*/CCF-A]</strong>, 2024."
+      conference: "The 33rd International Joint Conference on Artificial Intelligence <strong>(IJCAI)</strong> <span class='classic-tag'>[Core A*/CCF-A]</span>, 2024."
       pdf: "https://arxiv.org/pdf/2305.14244"
       code: "https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training"
       page: "https://class-il.mpi-inf.mpg.de/mnemonics/"
@@ -48,7 +48,7 @@ federated_tsfm:
     - title: "Prompt Federated Learning for Weather Forecasting: Toward Foundation Models on Meteorological Data"
       authors: "<strong>Shengchao Chen</strong>, Guodong Long, Tao Shen, Jing Jiang, Chengqi Zhang"
       conference_short: IJCAI-2023
-      conference: "The 32rd International Joint Conference on Artificial Intelligence <strong>(IJCAI)-[Core A*/CCF-A]</strong>, 2023."
+      conference: "The 32rd International Joint Conference on Artificial Intelligence <strong>(IJCAI)</strong> <span class='classic-tag'>[Core A*/CCF-A]</span>, 2023."
       pdf: "https://www.ijcai.org/proceedings/2023/0393.pdf"
       bibtex: "https://bib.yliu.me/MICCAI23.txt"
       image: "./assets/img/metepfl.png"
@@ -56,7 +56,7 @@ federated_tsfm:
     - title: "Federated Intelligence in Web: A Tutorial"
       authors: "Peng Yan*, <strong>Shengchao Chen*</strong>, Guodong Long*"
       conference_short: WWW
-      conference: "Companion Proceedings of the ACM on Web Conference <strong>(WWW)-[Core A*/CCF-A]</strong>, 2025."
+      conference: "Companion Proceedings of the ACM on Web Conference <strong>(WWW)</strong> <span class='classic-tag'>[Core A*/CCF-A]</span>, 2025."
       pdf: "https://dl.acm.org/doi/abs/10.1145/3701716.3715864"
       bibtex: "https://bib.yliu.me/MICCAI23.txt"
       image: "./assets/img/tutor.png"
@@ -71,7 +71,7 @@ ai4science:
     - title: "MASK-CNN-Transformer for Real-time Multi-label Weather Recognition"
       authors: "<strong>Shengchao Chen</strong>, Ting Shu<sup><i class='fa-regular fa-envelope fa-xs'></i></sup>, Huan Zhao, Yuan Yan Tang"
       conference_short: KBS
-      conference: "Knowledge-Based Systems <strong>(KBS)-[JCR Q1/TOP]</strong>, 2023."
+      conference: "Knowledge-Based Systems <strong>(KBS)</strong> <span class='classic-tag'>[JCR Q1/TOP]</span>, 2023."
       pdf: "https://www.sciencedirect.com/science/article/abs/pii/S0950705123006317"
       bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
       image: "./assets/img/mask.png"
@@ -79,7 +79,7 @@ ai4science:
     - title: "Towards scalable and accurate property prediction for photonic crystal fibers with federated learning"
       authors: "Guanjun Wang, Jiacheng Liu, <strong>Shengchao Chen</strong>, Sufen Ren"
       conference_short: Optics Express
-      conference: "Optics Express 33 (16), 33421-33434, 2025."
+      conference: "Optics Express 33 (16), 33421-33434, 2025. <span class='classic-tag'>[JCR Q1]</span>"
       pdf: "https://opg.optica.org/oe/fulltext.cfm?uri=oe-33-16-33421&id=570612"
       bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
       image: "./assets/img/survey.png"
@@ -88,7 +88,7 @@ ai4science:
     - title: "Optimizing low-resolution spectral demodulation for long-period fiber gratings using residual convolutional neural networks"
       authors: "Guanjun Wang, Jiacheng Liu, <strong>Shengchao Chen</strong>, Sufen Ren"
       conference_short: Optics Express
-      conference: "Optics Express 33 (4), 8225-8238, 2025."
+      conference: "Optics Express 33 (4), 8225-8238, 2025. <span class='classic-tag'>[JCR Q1]</span>"
       pdf: "https://opg.optica.org/oe/fulltext.cfm?uri=oe-33-4-8225&id=569153"
       bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
       image: "./assets/img/survey.png"
@@ -96,7 +96,7 @@ ai4science:
     - title: "Efficient calculation of optical properties of suspended-core fiber via a machine learning algorithm"
       authors: "Shuyu Yuan*, <strong>Shengchao Chen*</strong>, Jianli Yang, Qian Yang, Sufen Ren, Guanjun Wang, Benguo Yu"
       conference_short: Applied Optics
-      conference: "Applied Optics 61 (19), 5714-5721, 2022."
+      conference: "Applied Optics 61 (19), 5714-5721, 2022. <span class='classic-tag'>[JCR Q2]</span>"
       pdf: "https://opg.optica.org/ao/fulltext.cfm?uri=ao-61-19-5714&id=475801"
       bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
       image: "./assets/img/survey.png"
@@ -104,7 +104,7 @@ ai4science:
     - title: "Fabry-Perot interferometric sensor demodulation system utilizing multi-peak wavelength tracking and neural network algorithm"
       authors: "<strong>Shengchao Chen</strong>, Feifan Yao, Sufen Ren, Jianli Yang, Qian Yang, Shuyu Yuan, Guanjun Wang, Mengxing Huang"
       conference_short: Optics Express
-      conference: "Optics Express 30 (14), 24461-24480, 2022."
+      conference: "Optics Express 30 (14), 24461-24480, 2022. <span class='classic-tag'>[JCR Q1]</span>"
       pdf: "https://opg.optica.org/oe/fulltext.cfm?uri=oe-30-14-24461&id=475800"
       bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
       image: "./assets/img/survey.png"
@@ -112,7 +112,7 @@ ai4science:
     - title: "Cost-effective improvement of the performance of AWG-based FBG wavelength interrogation via a cascaded neural network"
       authors: "<strong>Shengchao Chen</strong>, Feifan Yao, Sufen Ren, Guanjun Wang, Mengxing Huang"
       conference_short: Optics Express
-      conference: "Optics Express 30 (5), 7647-7663, 2022."
+      conference: "Optics Express 30 (5), 7647-7663, 2022. <span class='classic-tag'>[JCR Q1]</span>"
       pdf: "https://opg.optica.org/oe/fulltext.cfm?uri=oe-30-5-7647&id=470104"
       bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
       image: "./assets/img/survey.png"
@@ -128,7 +128,7 @@ ai4science:
     - title: "Reconstruction of Fabry-Perot interferometric sensor spectrum from extremely sparse sampling points using dense neural network"
       authors: "<strong>Shengchao Chen</strong>, Sufen Ren, Jianli Yang, Feifan Yao, Qian Yang, Lu Wang, Guanjun Wang, Mengxing Huang"
       conference_short: IEEE PTL
-      conference: "IEEE Photonics Technology Letters 34 (24), 1337-1340, 2022."
+      conference: "IEEE Photonics Technology Letters 34 (24), 1337-1340, 2022. <span class='classic-tag'>[JCR Q2]</span>"
       pdf: "https://ieeexplore.ieee.org/abstract/document/9950429"
       bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
       image: "./assets/img/survey.png"
@@ -136,7 +136,7 @@ ai4science:
     - title: "Collaborative photonic crystal fiber property optimization: A new paradigm for reverse design"
       authors: "<strong>Shengchao Chen</strong>, Xinchen Wang, Sufen Ren, Jianli Yang, Yaqian Zhang, Guanjun Wang"
       conference_short: IEEE PTL
-      conference: "IEEE Photonics Technology Letters 35 (19), 1035-1038, 2023."
+      conference: "IEEE Photonics Technology Letters 35 (19), 1035-1038, 2023. <span class='classic-tag'>[JCR Q2]</span>"
       pdf: "https://ieeexplore.ieee.org/abstract/document/10260931"
       bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
       image: "./assets/img/survey.png"
@@ -144,7 +144,7 @@ ai4science:
     - title: "Federated learning-based wavelength demodulation system for multi-point distributed multi-peak FBG sensors"
       authors: "Xuan Hou, Sufen Ren, Kebei Yu, Yule Hu, Haoyang Xu, Chenyang Xue, <strong>Shengchao Chen</strong>, Guanjun Wang"
       conference_short: Optics Express
-      conference: "Optics Express 32 (23), 41297-41313, 2024."
+      conference: "Optics Express 32 (23), 41297-41313, 2024. <span class='classic-tag'>[JCR Q1]</span>"
       pdf: "https://opg.optica.org/oe/fulltext.cfm?uri=oe-32-23-41297&id=534040"
       bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
       image: "./assets/img/survey.png"
@@ -152,7 +152,7 @@ ai4science:
     - title: "Towards robust machine learning-based LPFG temperature sensing demodulation with limited data via diffusion models"
       authors: "Guanjun Wang, Jianxun Liu, <strong>Shengchao Chen</strong>, Sufen Ren"
       conference_short: Optics Commun.
-      conference: "Optics Communications, 132263, 2025."
+      conference: "Optics Communications, 132263, 2025. <span class='classic-tag'>[JCR Q2]</span>"
       pdf: "https://www.sciencedirect.com/science/article/abs/pii/S0030401825000634"
       bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
       image: "./assets/img/survey.png"
@@ -166,7 +166,7 @@ remote_sensing:
     - title: "Free Lunch for Federated Remote Sensing Target Fine-Grained Classification: A Parameter-Efficient Framework"
       authors: "<strong>Shengchao Chen</strong>, Ting Shu<sup><i class='fa-regular fa-envelope fa-xs'></i></sup>, Huan Zhao, Jiahao Wang, Sufen Ren, Lina Yang"
       conference_short: KBS
-      conference: "Knowledge-Based Systems <strong>(KBS)-[JCR Q1/TOP]</strong>, 2024."
+      conference: "Knowledge-Based Systems <strong>(KBS)</strong> <span class='classic-tag'>[JCR Q1/TOP]</span>, 2024."
       pdf: "https://ieeexplore.ieee.org/abstract/document/10050021/"
       code: "https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training"
       bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
@@ -175,7 +175,7 @@ remote_sensing:
     - title: "Dynamic Multiscale Fusion Generative Adversarial Network for Radar Image Extrapolation"
       authors: "<strong>Shengchao Chen</strong>, Ting Shu<sup><i class='fa-regular fa-envelope fa-xs'></i></sup>, Huan Zhao, Qilin Wan, Jincan Huang, Cailing Li"
       conference_short: IEEE TGRS
-      conference: "IEEE Transactions on Geoscience and Remote Sensing <strong>(IEEE TGRS)-[CCF-B/JCR Q1/TOP]</strong>, 2023."
+      conference: "IEEE Transactions on Geoscience and Remote Sensing <strong>(IEEE TGRS)</strong> <span class='classic-tag'>[CCF-B/JCR Q1/TOP]</span>, 2023."
       pdf: "https://ieeexplore.ieee.org/abstract/document/9837952"
       bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
       image: "./assets/img/mask.png"
@@ -183,7 +183,7 @@ remote_sensing:
     - title: "TempEE: Temporal-Spatial Parallel Transformer for Radar Echo Extrapolation Beyond Auto-Regression"
       authors: "<strong>Shengchao Chen</strong>, Ting Shu<sup><i class='fa-regular fa-envelope fa-xs'></i></sup>, Huan Zhao, Guo Zhong, Xunlai Chen"
       conference_short: IEEE TGRS
-      conference: "IEEE Transactions on Geoscience and Remote Sensing <strong>(IEEE TGRS)-[CCF-B/JCR Q1/TOP]</strong>, 2023."
+      conference: "IEEE Transactions on Geoscience and Remote Sensing <strong>(IEEE TGRS)</strong> <span class='classic-tag'>[CCF-B/JCR Q1/TOP]</span>, 2023."
       pdf: "https://ieeexplore.ieee.org/abstract/document/10238744"
       bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
       image: "./assets/img/tempee.png"
@@ -197,7 +197,7 @@ medical_imaging:
     - title: "Taming Vision-Language Models for Foundation Models on Heterogeneous Medical Imaging Modalities"
       authors: "Lulu Feng, <strong>Shengchao Chen</strong><sup><i class='fa-regular fa-envelope fa-xs'></i></sup>"
       conference_short: ICMR
-      conference: "The 15th ACM International Conference on Multimedia Retrieval (Full-length)<strong>(ICMR)-[Core B/CCF-B]</strong>, 2025."
+      conference: "The 15th ACM International Conference on Multimedia Retrieval (Full-length)<strong>(ICMR)</strong> <span class='classic-tag'>[Core B/CCF-B]</span>, 2025."
       pdf: "https://dl.acm.org/doi/abs/10.1145/3701716.3715864"
       bibtex: "https://bib.yliu.me/MICCAI23.txt"
       image: "./assets/img/icmr.png"
@@ -205,7 +205,7 @@ medical_imaging:
     - title: "Interpretable CNN-Multilevel Attention Transformer for Rapid Recognition of Pneumonia from Chest X-Ray Images"
       authors: "<strong>Shengchao Chen</strong>, Sufen Ren, Guanjun Wang<sup><i class='fa-regular fa-envelope fa-xs'></i></sup>, Mengxing Huang, Chenyang Xue"
       conference_short: IEEE JBHI
-      conference: "IEEE Journal of Biomedical and Health Informatics <strong>(IEEE JBHI)-[Core A*/JCR Q1/TOP]</strong>, 2024."
+      conference: "IEEE Journal of Biomedical and Health Informatics <strong>(IEEE JBHI)</strong> <span class='classic-tag'>[Core A*/JCR Q1/TOP]</span>, 2024."
       pdf: "https://ieeexplore.ieee.org/abstract/document/10050021/"
       code: "https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training"
       bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
@@ -214,7 +214,7 @@ medical_imaging:
     - title: "Ensemble learning for retinal disease recognition under limited resources"
       authors: "Jian Wang, Hui Peng, <strong>Shengchao Chen</strong>, Sufen Ren"
       conference_short: Med. Biol. Eng. Comput.
-      conference: "Medical & Biological Engineering & Computing 62 (9), 2839-2852, 2024."
+      conference: "Medical & Biological Engineering & Computing 62 (9), 2839-2852, 2024. <span class='classic-tag'>[JCR Q2]</span>"
       pdf: "https://link.springer.com/article/10.1007/s11517-024-03050-8"
       bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
       image: "./assets/img/medical.png"
@@ -224,7 +224,7 @@ main:
   - title: "Federated Intelligence in Web: A Tutorial"
     authors: "Peng Yan*, <strong>Shengchao Chen*</strong>, Guodong Long*"
     conference_short: WWW
-    conference: "Companion Proceedings of the ACM on Web Conference <strong>(WWW)-[Core A*/CCF-A]</strong>, 2025."
+    conference: "Companion Proceedings of the ACM on Web Conference <strong>(WWW)</strong> <span class='classic-tag'>[Core A*/CCF-A]</span>, 2025."
     pdf: "https://dl.acm.org/doi/abs/10.1145/3701716.3715864"
     bibtex: "https://bib.yliu.me/MICCAI23.txt"
     image: "./assets/img/tutor.png"
@@ -232,7 +232,7 @@ main:
   - title: "Taming Vision-Language Models for Foundation Models on Heterogeneous Medical Imaging Modalities"
     authors: "Lulu Feng, <strong>Shengchao Chen</strong><sup><i class='fa-regular fa-envelope fa-xs'></i></sup>"
     conference_short: ICMR
-    conference: "The 15th ACM International Conference on Multimedia Retrieval (Full-length)<strong>(ICMR)-[Core B/CCF-B]</strong>, 2025."
+    conference: "The 15th ACM International Conference on Multimedia Retrieval (Full-length)<strong>(ICMR)</strong> <span class='classic-tag'>[Core B/CCF-B]</span>, 2025."
     pdf: "https://dl.acm.org/doi/abs/10.1145/3701716.3715864"
     bibtex: "https://bib.yliu.me/MICCAI23.txt"
     image: "./assets/img/icmr.png"
@@ -240,7 +240,7 @@ main:
   - title: "Federated Foundation Models on Heterogeneous Time Series"
     authors: "<strong>Shengchao Chen</strong>, Guodong Long, Jing Jiang, Chengqi Zhang"
     conference_short: AAAI
-    conference: "Thirty-Ninth AAAI Conference on Artificial Intelligence <strong>(AAAI)-[Core A*/CCF-A]</strong>, 2025."
+    conference: "Thirty-Ninth AAAI Conference on Artificial Intelligence <strong>(AAAI)</strong> <span class='classic-tag'>[Core A*/CCF-A]</span>, 2025."
     pdf: "https://arxiv.org/pdf/2412.08906"
     code: "https://github.com/shengchaochen82/FFTS"
     bibtex: "https://bib.yliu.me/MICCAI23.txt"
@@ -250,7 +250,7 @@ main:
   - title: "Personalized Adapter for Large Meteorology Model on Devices: Towards Weather Foundation Models"
     authors: "<strong>Shengchao Chen</strong>, Guodong Long, Jing Jiang, Chengqi Zhang"
     conference_short: NeurIPS
-    conference: "Thirty-Eighth Annual Conference on Neural Information Processing Systems <strong>(NeurIPS)-[Core A*/CCF-A]</strong>, 2024."
+    conference: "Thirty-Eighth Annual Conference on Neural Information Processing Systems <strong>(NeurIPS)</strong> <span class='classic-tag'>[Core A*/CCF-A]</span>, 2024."
     pdf: "https://arxiv.org/pdf/2405.20348"
     code: "https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training"
     page: "https://class-il.mpi-inf.mpg.de/mnemonics/"
@@ -261,7 +261,7 @@ main:
   - title: "Federated Prompt Learning for Weather Foundation Models on Devices"
     authors: "<strong>Shengchao Chen</strong>, Guodong Long, Tao Shen, Jing Jiang, Chengqi Zhang"
     conference_short: IJCAI
-    conference: "The 33rd International Joint Conference on Artificial Intelligence <strong>(IJCAI)-[Core A*/CCF-A]</strong>, 2024."
+    conference: "The 33rd International Joint Conference on Artificial Intelligence <strong>(IJCAI)</strong> <span class='classic-tag'>[Core A*/CCF-A]</span>, 2024."
     pdf: "https://arxiv.org/pdf/2305.14244"
     code: "https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training"
     page: "https://class-il.mpi-inf.mpg.de/mnemonics/"
@@ -272,7 +272,7 @@ main:
   - title: "Interpretable CNN-Multilevel Attention Transformer for Rapid Recognition of Pneumonia from Chest X-Ray Images"
     authors: "<strong>Shengchao Chen</strong>, Sufen Ren, Guanjun Wang<sup><i class='fa-regular fa-envelope fa-xs'></i></sup>, Mengxing Huang, Chenyang Xue"
     conference_short: IEEE JBHI
-    conference: "IEEE Journal of Biomedical and Health Informatics <strong>(IEEE JBHI)-[Core A*/JCR Q1/TOP]</strong>, 2024."
+    conference: "IEEE Journal of Biomedical and Health Informatics <strong>(IEEE JBHI)</strong> <span class='classic-tag'>[Core A*/JCR Q1/TOP]</span>, 2024."
     pdf: "https://ieeexplore.ieee.org/abstract/document/10050021/"
     code: "https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training"
     bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
@@ -281,7 +281,7 @@ main:
   - title: "Free Lunch for Federated Remote Sensing Target Fine-Grained Classification: A Parameter-Efficient Framework"
     authors: "<strong>Shengchao Chen</strong>, Ting Shu<sup><i class='fa-regular fa-envelope fa-xs'></i></sup>, Huan Zhao, Jiahao Wang, Sufen Ren, Lina Yang"
     conference_short: KBS
-    conference: "Knowledge-Based Systems <strong>(KBS)-[JCR Q1/TOP]</strong>, 2024."
+    conference: "Knowledge-Based Systems <strong>(KBS)</strong> <span class='classic-tag'>[JCR Q1/TOP]</span>, 2024."
     pdf: "https://ieeexplore.ieee.org/abstract/document/10050021/"
     code: "https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training"
     bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
@@ -290,7 +290,7 @@ main:
   - title: "MASK-CNN-Transformer for Real-time Multi-label Weather Recognition"
     authors: "<strong>Shengchao Chen</strong>, Ting Shu<sup><i class='fa-regular fa-envelope fa-xs'></i></sup>, Huan Zhao, Yuan Yan Tang"
     conference_short: KBS
-    conference: "Knowledge-Based Systems <strong>(KBS)-[JCR Q1/TOP]</strong>, 2023."
+    conference: "Knowledge-Based Systems <strong>(KBS)</strong> <span class='classic-tag'>[JCR Q1/TOP]</span>, 2023."
     pdf: "https://www.sciencedirect.com/science/article/abs/pii/S0950705123006317"
     bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
     image: "./assets/img/mask.png"
@@ -298,7 +298,7 @@ main:
   - title: "TempEE: Temporal-Spatial Parallel Transformer for Radar Echo Extrapolation Beyond Auto-Regression"
     authors: "<strong>Shengchao Chen</strong>, Ting Shu<sup><i class='fa-regular fa-envelope fa-xs'></i></sup>, Huan Zhao, Guo Zhong, Xunlai Chen"
     conference_short: IEEE TGRS
-    conference: "IEEE Transactions on Geoscience and Remote Sensing <strong>(IEEE TGRS)-[CCF-B/JCR Q1/TOP]</strong>, 2023."
+    conference: "IEEE Transactions on Geoscience and Remote Sensing <strong>(IEEE TGRS)</strong> <span class='classic-tag'>[CCF-B/JCR Q1/TOP]</span>, 2023."
     pdf: "https://ieeexplore.ieee.org/abstract/document/10238744"
     bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
     image: "./assets/img/tempee.png"
@@ -306,7 +306,7 @@ main:
   - title: "Prompt Federated Learning for Weather Forecasting: Toward Foundation Models on Meteorological Data"
     authors: "<strong>Shengchao Chen</strong>, Guodong Long, Tao Shen, Jing Jiang, Chengqi Zhang"
     conference_short: IJCAI-2023
-    conference: "The 32rd International Joint Conference on Artificial Intelligence <strong>(IJCAI)-[Core A*/CCF-A]</strong>, 2023."
+    conference: "The 32rd International Joint Conference on Artificial Intelligence <strong>(IJCAI)</strong> <span class='classic-tag'>[Core A*/CCF-A]</span>, 2023."
     pdf: "https://www.ijcai.org/proceedings/2023/0393.pdf"
     bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
     image: "./assets/img/metepfl.png"
@@ -314,7 +314,7 @@ main:
   - title: "Dynamic Multiscale Fusion Generative Adversarial Network for Radar Image Extrapolation"
     authors: "<strong>Shengchao Chen</strong>, Ting Shu<sup><i class='fa-regular fa-envelope fa-xs'></i></sup>, Huan Zhao, Qilin Wan, Jincan Huang, Cailing Li"
     conference_short: IEEE TGRS
-    conference: "IEEE Transactions on Geoscience and Remote Sensing <strong>(IEEE TGRS)-[CCF-B/JCR Q1/TOP]</strong>, 2023."
+    conference: "IEEE Transactions on Geoscience and Remote Sensing <strong>(IEEE TGRS)</strong> <span class='classic-tag'>[CCF-B/JCR Q1/TOP]</span>, 2023."
     pdf: "https://ieeexplore.ieee.org/abstract/document/9837952"
     bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
     image: "./assets/img/mask.png"

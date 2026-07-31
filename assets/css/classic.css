@@ -138,6 +138,12 @@ body {
   color: var(--classic-muted);
 }
 
+.classic-tag {
+  color: var(--classic-link);
+  font-size: 0.82em;
+  font-weight: 600;
+}
+
 .classic-goto {
   font-size: 13px;
   margin-top: 14px !important;
