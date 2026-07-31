@@ -4,6 +4,12 @@ federated_tsfm:
   color: "#3b82f6"
   description: "Exploring federated learning approaches for training and deploying time series foundation models across heterogeneous devices and datasets."
   papers:
+    - title: "Bi-Level Heterogeneous Learning for Time Series Foundation Models: A Federated Learning Approach"
+      authors: "<strong>Shengchao Chen</strong>, Guodong Long, Dikai Liu, Jing Jiang"
+      conference_short: arXiv
+      conference: "arXiv preprint arXiv:2604.06727, 2026."
+      pdf: "https://arxiv.org/abs/2604.06727"
+
     - title: "FeDaL: Federated Dataset Learning for General Time Series Foundation Models"
       authors: "<strong>Shengchao Chen</strong>, Guodong Long, Michael Blumenstein, Jing Jiang"
       conference_short: ICLR
@@ -11,12 +17,6 @@ federated_tsfm:
       pdf: "https://arxiv.org/abs/2508.04045"
       bibtex: "https://bib.yliu.me/MICCAI23.txt"
       image: "./assets/img/fedal.png"
-
-    - title: "Bi-Level Heterogeneous Learning for Time Series Foundation Models: A Federated Learning Approach"
-      authors: "<strong>Shengchao Chen</strong>, Guodong Long, Dikai Liu, Jing Jiang"
-      conference_short: arXiv
-      conference: "arXiv preprint arXiv:2604.06727, 2026."
-      pdf: "https://arxiv.org/abs/2604.06727"
 
     - title: "Federated Foundation Models on Heterogeneous Time Series"
       authors: "<strong>Shengchao Chen</strong>, Guodong Long, Jing Jiang, Chengqi Zhang"
