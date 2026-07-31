@@ -7,7 +7,7 @@ federated_tsfm:
     - title: "FeDaL: Federated Dataset Learning for General Time Series Foundation Models"
       authors: "<strong>Shengchao Chen</strong>, Guodong Long, Michael Blumenstein, Jing Jiang"
       conference_short: ICLR
-      conference: "The Fourteenth International Conference on Learning Representations <strong>(ICLR)</strong> <span class='classic-tag'>[Core A*]</span>, 2026."
+      conference: "The Fourteenth International Conference on Learning Representations <strong>(ICLR)</strong> <span class='classic-tag'>[Core A*/CCF-A]</span>, 2026."
       pdf: "https://arxiv.org/abs/2508.04045"
       bibtex: "https://bib.yliu.me/MICCAI23.txt"
       image: "./assets/img/TSFM.png"
