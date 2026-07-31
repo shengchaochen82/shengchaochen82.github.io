@@ -21,6 +21,15 @@ federated_tsfm:
       bibtex: "https://bib.yliu.me/MICCAI23.txt"
       image: "./assets/img/TSFM.png"
 
+    - title: "Federated Intelligence in Web: A Tutorial"
+      authors: "Peng Yan*, <strong>Shengchao Chen*</strong>, Guodong Long*"
+      conference_short: WWW
+      conference: "Companion Proceedings of the ACM on Web Conference <strong>(WWW)</strong> <span class='classic-tag'>[Core A*/CCF-A]</span>, 2025."
+      pdf: "https://dl.acm.org/doi/abs/10.1145/3701716.3715864"
+      bibtex: "https://bib.yliu.me/MICCAI23.txt"
+      image: "./assets/img/tutor.png"
+      notes: "Tutorial on Federated Intelligence."
+
     - title: "Personalized Adapter for Large Meteorology Model on Devices: Towards Weather Foundation Models"
       authors: "<strong>Shengchao Chen</strong>, Guodong Long, Jing Jiang, Chengqi Zhang"
       conference_short: NeurIPS
@@ -46,15 +55,6 @@ federated_tsfm:
       pdf: "https://www.ijcai.org/proceedings/2023/0393.pdf"
       bibtex: "https://bib.yliu.me/MICCAI23.txt"
       image: "./assets/img/metepfl.png"
-
-    - title: "Federated Intelligence in Web: A Tutorial"
-      authors: "Peng Yan*, <strong>Shengchao Chen*</strong>, Guodong Long*"
-      conference_short: WWW
-      conference: "Companion Proceedings of the ACM on Web Conference <strong>(WWW)</strong> <span class='classic-tag'>[Core A*/CCF-A]</span>, 2025."
-      pdf: "https://dl.acm.org/doi/abs/10.1145/3701716.3715864"
-      bibtex: "https://bib.yliu.me/MICCAI23.txt"
-      image: "./assets/img/tutor.png"
-      notes: "Tutorial on Federated Intelligence."
 
 ai4science:
   title: "AI for Science"
@@ -90,6 +90,30 @@ ai4science:
       bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
       image: "./assets/img/survey.png"
 
+    - title: "Towards robust machine learning-based LPFG temperature sensing demodulation with limited data via diffusion models"
+      authors: "Guanjun Wang, Jianxun Liu, <strong>Shengchao Chen</strong><sup><i class='fa-regular fa-envelope fa-xs'></i></sup>, Sufen Ren"
+      conference_short: Optics Commun.
+      conference: "Optics Communications, 132263, 2025. <span class='classic-tag'>[JCR Q2]</span>"
+      pdf: "https://www.sciencedirect.com/science/article/abs/pii/S0030401825000634"
+      bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
+      image: "./assets/img/survey.png"
+
+    - title: "Federated learning-based wavelength demodulation system for multi-point distributed multi-peak FBG sensors"
+      authors: "Xuan Hou, Sufen Ren, Kebei Yu, Yule Hu, Haoyang Xu, Chenyang Xue, <strong>Shengchao Chen</strong><sup><i class='fa-regular fa-envelope fa-xs'></i></sup>, Guanjun Wang"
+      conference_short: Optics Express
+      conference: "Optics Express 32 (23), 41297-41313, 2024. <span class='classic-tag'>[JCR Q1]</span>"
+      pdf: "https://opg.optica.org/oe/fulltext.cfm?uri=oe-32-23-41297&id=534040"
+      bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
+      image: "./assets/img/survey.png"
+
+    - title: "Collaborative photonic crystal fiber property optimization: A new paradigm for reverse design"
+      authors: "<strong>Shengchao Chen</strong>, Xinchen Wang, Sufen Ren, Jianli Yang, Yaqian Zhang, Guanjun Wang"
+      conference_short: IEEE PTL
+      conference: "IEEE Photonics Technology Letters 35 (19), 1035-1038, 2023. <span class='classic-tag'>[JCR Q2]</span>"
+      pdf: "https://ieeexplore.ieee.org/abstract/document/10260931"
+      bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
+      image: "./assets/img/survey.png"
+
     - title: "Efficient calculation of optical properties of suspended-core fiber via a machine learning algorithm"
       authors: "Shuyu Yuan*, <strong>Shengchao Chen*</strong>, Jianli Yang, Qian Yang, Sufen Ren, Guanjun Wang, Benguo Yu"
       conference_short: Applied Optics
@@ -122,44 +146,12 @@ ai4science:
       bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
       image: "./assets/img/survey.png"
 
-    - title: "Collaborative photonic crystal fiber property optimization: A new paradigm for reverse design"
-      authors: "<strong>Shengchao Chen</strong>, Xinchen Wang, Sufen Ren, Jianli Yang, Yaqian Zhang, Guanjun Wang"
-      conference_short: IEEE PTL
-      conference: "IEEE Photonics Technology Letters 35 (19), 1035-1038, 2023. <span class='classic-tag'>[JCR Q2]</span>"
-      pdf: "https://ieeexplore.ieee.org/abstract/document/10260931"
-      bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
-      image: "./assets/img/survey.png"
-
-    - title: "Federated learning-based wavelength demodulation system for multi-point distributed multi-peak FBG sensors"
-      authors: "Xuan Hou, Sufen Ren, Kebei Yu, Yule Hu, Haoyang Xu, Chenyang Xue, <strong>Shengchao Chen</strong><sup><i class='fa-regular fa-envelope fa-xs'></i></sup>, Guanjun Wang"
-      conference_short: Optics Express
-      conference: "Optics Express 32 (23), 41297-41313, 2024. <span class='classic-tag'>[JCR Q1]</span>"
-      pdf: "https://opg.optica.org/oe/fulltext.cfm?uri=oe-32-23-41297&id=534040"
-      bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
-      image: "./assets/img/survey.png"
-
-    - title: "Towards robust machine learning-based LPFG temperature sensing demodulation with limited data via diffusion models"
-      authors: "Guanjun Wang, Jianxun Liu, <strong>Shengchao Chen</strong><sup><i class='fa-regular fa-envelope fa-xs'></i></sup>, Sufen Ren"
-      conference_short: Optics Commun.
-      conference: "Optics Communications, 132263, 2025. <span class='classic-tag'>[JCR Q2]</span>"
-      pdf: "https://www.sciencedirect.com/science/article/abs/pii/S0030401825000634"
-      bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
-      image: "./assets/img/survey.png"
-
 remote_sensing:
   title: "Remote Sensing Intelligence"
   icon: "fa-satellite"
   color: "#f59e0b"
   description: "Intelligent analysis and processing of remote sensing data, including satellite imagery, radar echo data, and fine-grained classification."
   papers:
-    - title: "MASK-CNN-Transformer for Real-time Multi-label Weather Recognition"
-      authors: "<strong>Shengchao Chen</strong>, Ting Shu, Huan Zhao, Yuan Yan Tang"
-      conference_short: KBS
-      conference: "Knowledge-Based Systems <strong>(KBS)</strong> <span class='classic-tag'>[JCR Q1/TOP]</span>, 2023."
-      pdf: "https://www.sciencedirect.com/science/article/abs/pii/S0950705123006317"
-      bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
-      image: "./assets/img/mask.png"
-
     - title: "Free Lunch for Federated Remote Sensing Target Fine-Grained Classification: A Parameter-Efficient Framework"
       authors: "<strong>Shengchao Chen</strong>, Ting Shu, Huan Zhao, Jiahao Wang, Sufen Ren, Lina Yang"
       conference_short: KBS
@@ -168,6 +160,14 @@ remote_sensing:
       code: "https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training"
       bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
       image: "./assets/img/freelunch.png"
+
+    - title: "MASK-CNN-Transformer for Real-time Multi-label Weather Recognition"
+      authors: "<strong>Shengchao Chen</strong>, Ting Shu, Huan Zhao, Yuan Yan Tang"
+      conference_short: KBS
+      conference: "Knowledge-Based Systems <strong>(KBS)</strong> <span class='classic-tag'>[JCR Q1/TOP]</span>, 2023."
+      pdf: "https://www.sciencedirect.com/science/article/abs/pii/S0950705123006317"
+      bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
+      image: "./assets/img/mask.png"
 
     - title: "Dynamic Multiscale Fusion Generative Adversarial Network for Radar Image Extrapolation"
       authors: "<strong>Shengchao Chen</strong>, Ting Shu, Huan Zhao, Qilin Wan, Jincan Huang, Cailing Li"
@@ -226,6 +226,7 @@ medical_imaging:
       bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
       image: "./assets/img/medical.png"
       notes: "Ensemble learning for retinal disease diagnosis."
+
 
 main:
   - title: "Federated Intelligence in Web: A Tutorial"
