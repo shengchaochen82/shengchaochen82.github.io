@@ -142,14 +142,6 @@ ai4science:
       bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
       image: "./assets/img/survey.png"
 
-    - title: "High-efficiency FBG array sensor interrogation system via a neural network working with sparse data"
-      authors: "Sufen Ren, <strong>Shengchao Chen</strong>, Jianli Yang, Jiahao Wang, Qian Yang, Chenyang Xue, Guanjun Wang, Mengxing Huang"
-      conference_short: Optics Express
-      conference: "Optics Express 31 (5), 8937-8952, 2023."
-      pdf: "https://opg.optica.org/oe/fulltext.cfm?uri=oe-31-5-8937&id=527041"
-      bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
-      image: "./assets/img/survey.png"
-
     - title: "Collaborative photonic crystal fiber property optimization: A new paradigm for reverse design"
       authors: "<strong>Shengchao Chen</strong>, Xinchen Wang, Sufen Ren, Jianli Yang, Yaqian Zhang, Guanjun Wang"
       conference_short: IEEE PTL
