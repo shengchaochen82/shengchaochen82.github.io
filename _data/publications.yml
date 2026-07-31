@@ -120,14 +120,6 @@ ai4science:
       bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
       image: "./assets/img/survey.png"
 
-    - title: "High-performance and low-cost FBG strain sensor demodulation system assisted by artificial neural network algorithm"
-      authors: "<strong>Shengchao Chen</strong>, Feifan Yao, Sufen Ren, Jianli Yang, Qian Yang, Guanjun Wang, Mengxing Huang"
-      conference_short: Optical Fiber Sensors
-      conference: "Optical Fiber Sensors, W4-12, 2022."
-      pdf: "https://opg.optica.org/ofs/fulltext.cfm?uri=ofs-2022-W4.12&id=475798"
-      bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
-      image: "./assets/img/survey.png"
-
     - title: "Reconstruction of Fabry-Perot interferometric sensor spectrum from extremely sparse sampling points using dense neural network"
       authors: "<strong>Shengchao Chen</strong>, Sufen Ren, Jianli Yang, Feifan Yao, Qian Yang, Lu Wang, Guanjun Wang, Mengxing Huang"
       conference_short: IEEE PTL
@@ -186,7 +178,7 @@ remote_sensing:
     - title: "Dynamic Multiscale Fusion Generative Adversarial Network for Radar Image Extrapolation"
       authors: "<strong>Shengchao Chen</strong>, Ting Shu<sup><i class='fa-regular fa-envelope fa-xs'></i></sup>, Huan Zhao, Qilin Wan, Jincan Huang, Cailing Li"
       conference_short: IEEE TGRS
-      conference: "IEEE Transactions on Geoscience and Remote Sensing <strong>(IEEE TGRS)</strong> <span class='classic-tag'>[CCF-B/JCR Q1/TOP]</span>, 2023."
+      conference: "IEEE Transactions on Geoscience and Remote Sensing <strong>(IEEE TGRS)</strong> <span class='classic-tag'>[JCR Q1/TOP]</span>, 2023."
       pdf: "https://ieeexplore.ieee.org/abstract/document/9837952"
       bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
       image: "./assets/img/mask.png"
@@ -194,7 +186,7 @@ remote_sensing:
     - title: "TempEE: Temporal-Spatial Parallel Transformer for Radar Echo Extrapolation Beyond Auto-Regression"
       authors: "<strong>Shengchao Chen</strong>, Ting Shu<sup><i class='fa-regular fa-envelope fa-xs'></i></sup>, Huan Zhao, Guo Zhong, Xunlai Chen"
       conference_short: IEEE TGRS
-      conference: "IEEE Transactions on Geoscience and Remote Sensing <strong>(IEEE TGRS)</strong> <span class='classic-tag'>[CCF-B/JCR Q1/TOP]</span>, 2023."
+      conference: "IEEE Transactions on Geoscience and Remote Sensing <strong>(IEEE TGRS)</strong> <span class='classic-tag'>[JCR Q1/TOP]</span>, 2023."
       pdf: "https://ieeexplore.ieee.org/abstract/document/10238744"
       bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
       image: "./assets/img/tempee.png"
@@ -319,7 +311,7 @@ main:
   - title: "TempEE: Temporal-Spatial Parallel Transformer for Radar Echo Extrapolation Beyond Auto-Regression"
     authors: "<strong>Shengchao Chen</strong>, Ting Shu<sup><i class='fa-regular fa-envelope fa-xs'></i></sup>, Huan Zhao, Guo Zhong, Xunlai Chen"
     conference_short: IEEE TGRS
-    conference: "IEEE Transactions on Geoscience and Remote Sensing <strong>(IEEE TGRS)</strong> <span class='classic-tag'>[CCF-B/JCR Q1/TOP]</span>, 2023."
+    conference: "IEEE Transactions on Geoscience and Remote Sensing <strong>(IEEE TGRS)</strong> <span class='classic-tag'>[JCR Q1/TOP]</span>, 2023."
     pdf: "https://ieeexplore.ieee.org/abstract/document/10238744"
     bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
     image: "./assets/img/tempee.png"
@@ -335,7 +327,7 @@ main:
   - title: "Dynamic Multiscale Fusion Generative Adversarial Network for Radar Image Extrapolation"
     authors: "<strong>Shengchao Chen</strong>, Ting Shu<sup><i class='fa-regular fa-envelope fa-xs'></i></sup>, Huan Zhao, Qilin Wan, Jincan Huang, Cailing Li"
     conference_short: IEEE TGRS
-    conference: "IEEE Transactions on Geoscience and Remote Sensing <strong>(IEEE TGRS)</strong> <span class='classic-tag'>[CCF-B/JCR Q1/TOP]</span>, 2023."
+    conference: "IEEE Transactions on Geoscience and Remote Sensing <strong>(IEEE TGRS)</strong> <span class='classic-tag'>[JCR Q1/TOP]</span>, 2023."
     pdf: "https://ieeexplore.ieee.org/abstract/document/9837952"
     bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
     image: "./assets/img/mask.png"
