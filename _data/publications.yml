@@ -71,6 +71,7 @@ ai4science:
       authors: "<strong>Shengchao Chen</strong>, Geyao Hu, Sufen Ren, Ting Shu"
       conference_short: Information Fusion
       conference: "Information Fusion, 104022, 2025. <span class='classic-tag'>[JCR Q1/TOP]</span>"
+      pdf: "https://www.sciencedirect.com/science/article/pii/S156625352501084X"
 
     - title: "Towards scalable and accurate property prediction for photonic crystal fibers with federated learning"
       authors: "Guanjun Wang, Jiacheng Liu, <strong>Shengchao Chen</strong><sup><i class='fa-regular fa-envelope fa-xs'></i></sup>, Sufen Ren"
