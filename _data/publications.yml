@@ -62,7 +62,7 @@ federated_tsfm:
       image: "./assets/img/metepfl.png"
 
 ai4science:
-  title: "AI for Science"
+  title: "AI for Scientific Design and Problem Solving"
   icon: "fa-flask"
   color: "#10b981"
   description: "Applying artificial intelligence and machine learning to scientific domains, particularly optical fiber sensing, weather forecasting, climate modeling, and computational materials."
