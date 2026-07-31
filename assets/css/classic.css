@@ -137,7 +137,7 @@ body {
 }
 
 .classic-pub-thumb {
-  width: 160px;
+  width: 280px;
   height: auto;
   flex-shrink: 0;
   border-radius: 4px;
@@ -150,14 +150,14 @@ body {
   min-width: 0;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   .classic-pub-with-thumb {
     flex-direction: column;
   }
 
   .classic-pub-thumb {
     width: 100%;
-    max-width: 280px;
+    max-width: 360px;
   }
 }
 
