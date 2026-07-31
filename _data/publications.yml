@@ -65,6 +65,7 @@ ai4science:
       authors: "<strong>Shengchao Chen</strong>, Ting Shu, Sufen Ren"
       conference_short: KBS
       conference: "Knowledge-Based Systems <strong>(KBS)</strong> <span class='classic-tag'>[JCR Q1/TOP]</span>, 2026."
+      pdf: "https://arxiv.org/abs/2605.29421"
 
     - title: "PCF-LLM: Scaling LLMs for Multimodal Understanding of Structured Scientific Data in Photonic Crystal Fiber Sensors"
       authors: "<strong>Shengchao Chen</strong>, Geyao Hu, Sufen Ren, Ting Shu"
