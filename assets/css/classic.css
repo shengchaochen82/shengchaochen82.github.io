@@ -82,7 +82,12 @@ body {
   color: var(--classic-title);
   font-weight: 700;
   margin-top: 10px !important;
-  max-width: 520px;
+}
+
+.classic-name-link {
+  font-size: 15px;
+  font-weight: 400;
+  margin-left: 6px;
 }
 
 .classic-name {

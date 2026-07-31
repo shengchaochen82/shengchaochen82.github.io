@@ -261,7 +261,7 @@
         <img class="classic-avatar" src="{{ site.avatar }}" alt="{{ site.title }}" />
         {% endif %}
         <div class="classic-info">
-          <p class="classic-name">{{ site.title }}</p>
+          <p class="classic-name">{{ site.title }}{% if site.google_scholar %} <a class="classic-name-link" href="{{ site.google_scholar }}" target="_blank">[Google Scholar]</a>{% endif %}</p>
           <p><a href="{{ site.affiliation_link }}" target="_blank">{{ site.affiliation }}</a></p>
           <p>Sydney, Australia</p>
           <p>Email: <a href="mailto:{{ email_clean }}">{{ email_clean }}</a></p>
