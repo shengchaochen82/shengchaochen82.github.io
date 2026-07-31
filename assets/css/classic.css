@@ -78,6 +78,13 @@ body {
   font-size: 15px;
 }
 
+.classic-seeking {
+  color: var(--classic-title);
+  font-weight: 700;
+  margin-top: 10px !important;
+  max-width: 520px;
+}
+
 .classic-name {
   font-size: 22px;
   font-weight: 700;
