@@ -191,6 +191,11 @@ medical_imaging:
   color: "#ef4444"
   description: "AI-driven solutions for medical image analysis, including multi-modal learning, federated medical imaging, and interpretable diagnosis systems."
   papers:
+    - title: "Visual and Textual Spaces Both Matter: Taming CLIP for Non-IID Federated Medical Image Classification"
+      authors: "Lulu Feng, <strong>Shengchao Chen</strong><sup><i class='fa-regular fa-envelope fa-xs'></i></sup>"
+      conference_short: KBS
+      conference: "Knowledge-Based Systems <strong>(KBS)</strong> <span class='classic-tag'>[JCR Q1/TOP]</span>, 2026."
+
     - title: "FM²: Unified Federated Foundation Models for Heterogeneous Multimodal Medical Imaging"
       authors: "<strong>Shengchao Chen</strong>, Ting Shu"
       conference_short: ACMMM
