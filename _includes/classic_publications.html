@@ -8,17 +8,20 @@
       {% if cat.description %}<p><em>{{ cat.description }}</em></p>{% endif %}
       <ul>
         {% for paper in cat.papers %}
-        <li class="classic-pub">
-          <span class="classic-pub-title">
-            {% if paper.pdf %}<a href="{{ paper.pdf }}" target="_blank">{{ paper.title }}</a>{% else %}{{ paper.title }}{% endif %}
-          </span><br>
-          {{ paper.authors }}<br>
-          <span class="classic-pub-meta">{{ paper.conference }}</span>
-          {% if paper.page or paper.notes %}
-          <br>
-          {% if paper.page %}<a href="{{ paper.page }}" target="_blank">Project page</a>{% endif %}
-          {% if paper.notes %}{% if paper.page %} &nbsp;·&nbsp; {% endif %}<span class="classic-pub-meta">{{ paper.notes }}</span>{% endif %}
-          {% endif %}
+        <li class="classic-pub{% if paper.thumbnail and paper.image %} classic-pub-with-thumb{% endif %}">
+          {% if paper.thumbnail and paper.image %}<img class="classic-pub-thumb" src="{{ paper.image }}" alt="{{ paper.title }}" />{% endif %}
+          <div class="classic-pub-body">
+            <span class="classic-pub-title">
+              {% if paper.pdf %}<a href="{{ paper.pdf }}" target="_blank">{{ paper.title }}</a>{% else %}{{ paper.title }}{% endif %}
+            </span><br>
+            {{ paper.authors }}<br>
+            <span class="classic-pub-meta">{{ paper.conference }}</span>
+            {% if paper.page or paper.notes %}
+            <br>
+            {% if paper.page %}<a href="{{ paper.page }}" target="_blank">Project page</a>{% endif %}
+            {% if paper.notes %}{% if paper.page %} &nbsp;·&nbsp; {% endif %}<span class="classic-pub-meta">{{ paper.notes }}</span>{% endif %}
+            {% endif %}
+          </div>
         </li>
         {% endfor %}
       </ul>

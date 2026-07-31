@@ -10,7 +10,8 @@ federated_tsfm:
       conference: "The Fourteenth International Conference on Learning Representations <strong>(ICLR)</strong> <span class='classic-tag'>[Core A*/CCF-A]</span>, 2026."
       pdf: "https://arxiv.org/abs/2508.04045"
       bibtex: "https://bib.yliu.me/MICCAI23.txt"
-      image: "./assets/img/TSFM.png"
+      image: "./assets/img/fedal.png"
+      thumbnail: true
 
     - title: "Federated Foundation Models on Heterogeneous Time Series"
       authors: "<strong>Shengchao Chen</strong>, Guodong Long, Jing Jiang, Chengqi Zhang"
