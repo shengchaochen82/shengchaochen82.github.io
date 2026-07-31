@@ -225,7 +225,6 @@ medical_imaging:
       pdf: "https://link.springer.com/article/10.1007/s11517-024-03050-8"
       bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
       image: "./assets/img/medical.png"
-      notes: "Ensemble learning for retinal disease diagnosis."
 
 
 main:
