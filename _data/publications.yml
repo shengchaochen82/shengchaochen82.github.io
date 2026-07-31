@@ -194,6 +194,7 @@ medical_imaging:
       authors: "Lulu Feng, <strong>Shengchao Chen</strong><sup><i class='fa-regular fa-envelope fa-xs'></i></sup>"
       conference_short: KBS
       conference: "Knowledge-Based Systems <strong>(KBS)</strong> <span class='classic-tag'>[JCR Q1/TOP]</span>, 2026."
+      pdf: "https://www.sciencedirect.com/science/article/abs/pii/S0950705126002662"
 
     - title: "FM²: Unified Federated Foundation Models for Heterogeneous Multimodal Medical Imaging"
       authors: "<strong>Shengchao Chen</strong>, Ting Shu"
