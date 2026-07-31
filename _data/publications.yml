@@ -191,7 +191,7 @@ remote_sensing:
       image: "./assets/img/mask.png"
 
 medical_imaging:
-  title: "Medical Imaging"
+  title: "Trustworthy Medical Imaging AI"
   icon: "fa-heart-pulse"
   color: "#ef4444"
   description: "AI-driven solutions for medical image analysis, including multi-modal learning, federated medical imaging, and interpretable diagnosis systems."
