@@ -68,15 +68,6 @@ ai4science:
   color: "#10b981"
   description: "Applying artificial intelligence and machine learning to scientific domains, particularly optical fiber sensing, weather forecasting, climate modeling, and computational materials."
   papers:
-    - title: "Foundation Models for Weather and Climate Data Understanding: A Comprehensive Survey"
-      authors: "<strong>Shengchao Chen</strong>, Guodong Long, Jing Jiang, Dikai Liu, Chengqi Zhang"
-      conference_short: Preprint
-      conference: "ArXiv Preprint Version, 2023."
-      pdf: "https://arxiv.org/pdf/2312.03014"
-      code: "https://github.com/shengchaochen82/Awesome-Foundation-Models-for-Weather-and-Climate"
-      bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
-      image: "./assets/img/survey.png"
-
     - title: "MASK-CNN-Transformer for Real-time Multi-label Weather Recognition"
       authors: "<strong>Shengchao Chen</strong>, Ting Shu<sup><i class='fa-regular fa-envelope fa-xs'></i></sup>, Huan Zhao, Yuan Yan Tang"
       conference_short: KBS
@@ -150,22 +141,6 @@ ai4science:
       bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
       image: "./assets/img/survey.png"
 
-    - title: "High-Resolution Spectrum Reconstruction of Cascaded FBG-FPI Sensor in Resource-Constrained Environments"
-      authors: "Haoyang Xu, <strong>Shengchao Chen</strong>, Sufen Ren, Xuan Hou, Hong Peng, Guanjun Wang, Yaqian Zhang"
-      conference_short: IEEE Sensors J.
-      conference: "IEEE Sensors Journal 24 (7), 11878-11885, 2024."
-      pdf: "https://ieeexplore.ieee.org/abstract/document/10477585"
-      bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
-      image: "./assets/img/survey.png"
-
-    - title: "Rethink training: Synthetic data powers efficient fiber-optics sensor demodulation neural networks"
-      authors: "Sufen Ren, <strong>Shengchao Chen</strong>, Yule Hu, Haoyang Xu, Xuan Hou, Qian Yang, Guanjun Wang, Yaqian Zhang"
-      conference_short: IEEE Sensors J.
-      conference: "IEEE Sensors Journal 24 (10), 16783-16792, 2024."
-      pdf: "https://ieeexplore.ieee.org/abstract/document/10531025"
-      bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
-      image: "./assets/img/survey.png"
-
     - title: "Federated learning-based wavelength demodulation system for multi-point distributed multi-peak FBG sensors"
       authors: "Xuan Hou, Sufen Ren, Kebei Yu, Yule Hu, Haoyang Xu, Chenyang Xue, <strong>Shengchao Chen</strong>, Guanjun Wang"
       conference_short: Optics Express
@@ -179,14 +154,6 @@ ai4science:
       conference_short: Optics Commun.
       conference: "Optics Communications, 132263, 2025."
       pdf: "https://www.sciencedirect.com/science/article/abs/pii/S0030401825000634"
-      bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
-      image: "./assets/img/survey.png"
-
-    - title: "FBG Temperature Demodulation via Two-Branch Neural Network with Multi-Information Fusion"
-      authors: "Haoyang Xu, Sufen Ren, Yule Hu, Shuang Wang, Rui Li, Lei Zhou, Xuan Hou, <strong>Shengchao Chen</strong>, Guanjun Wang"
-      conference_short: IEEE Sensors J.
-      conference: "IEEE Sensors Journal, 2025."
-      pdf: "https://ieeexplore.ieee.org/abstract/document/10904143"
       bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
       image: "./assets/img/survey.png"
 
@@ -220,14 +187,6 @@ remote_sensing:
       pdf: "https://ieeexplore.ieee.org/abstract/document/10238744"
       bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
       image: "./assets/img/tempee.png"
-
-    - title: "Space target classification with corrupted HRRP sequences based on temporal-spatial feature aggregation network"
-      authors: "Yuan-Peng Zhang, Lei Zhang, Le Kang, Huan Wang, Ying Luo, Qun Zhang"
-      conference_short: IEEE TGRS
-      conference: "IEEE Transactions on Geoscience and Remote Sensing 61, 1-18, 2023."
-      pdf: "https://ieeexplore.ieee.org/abstract/document/10287338"
-      bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
-      image: "./assets/img/freelunch.png"
 
 medical_imaging:
   title: "Medical Imaging"
@@ -327,15 +286,6 @@ main:
     code: "https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training"
     bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
     image: "./assets/img/freelunch.png"
-
-  - title: "Foundation Models for Weather and Climate Data Understanding: A Comprehensive Survey"
-    authors: "<strong>Shengchao Chen</strong>, Guodong Long, Jing Jiang, Dikai Liu, Chengqi Zhang"
-    conference_short: Preprint
-    conference: "ArXiv Preprint Version, 2023."
-    pdf: "https://arxiv.org/pdf/2312.03014"
-    code: "https://github.com/shengchaochen82/Awesome-Foundation-Models-for-Weather-and-Climate"
-    bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
-    image: "./assets/img/survey.png"
 
   - title: "MASK-CNN-Transformer for Real-time Multi-label Weather Recognition"
     authors: "<strong>Shengchao Chen</strong>, Ting Shu<sup><i class='fa-regular fa-envelope fa-xs'></i></sup>, Huan Zhao, Yuan Yan Tang"
