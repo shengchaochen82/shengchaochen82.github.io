@@ -73,6 +73,11 @@ body {
   flex-shrink: 0;
 }
 
+.classic-info {
+  flex: 1;
+  min-width: 0;
+}
+
 .classic-info p {
   margin: 3px 0;
   font-size: 15px;
