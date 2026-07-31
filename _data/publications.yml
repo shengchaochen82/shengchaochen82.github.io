@@ -159,7 +159,7 @@ remote_sensing:
   description: "Intelligent analysis and processing of remote sensing data, including satellite imagery, radar echo data, and fine-grained classification."
   papers:
     - title: "MASK-CNN-Transformer for Real-time Multi-label Weather Recognition"
-      authors: "<strong>Shengchao Chen</strong>, Ting Shu<sup><i class='fa-regular fa-envelope fa-xs'></i></sup>, Huan Zhao, Yuan Yan Tang"
+      authors: "<strong>Shengchao Chen</strong>, Ting Shu, Huan Zhao, Yuan Yan Tang"
       conference_short: KBS
       conference: "Knowledge-Based Systems <strong>(KBS)</strong> <span class='classic-tag'>[JCR Q1/TOP]</span>, 2023."
       pdf: "https://www.sciencedirect.com/science/article/abs/pii/S0950705123006317"
@@ -167,7 +167,7 @@ remote_sensing:
       image: "./assets/img/mask.png"
 
     - title: "Free Lunch for Federated Remote Sensing Target Fine-Grained Classification: A Parameter-Efficient Framework"
-      authors: "<strong>Shengchao Chen</strong>, Ting Shu<sup><i class='fa-regular fa-envelope fa-xs'></i></sup>, Huan Zhao, Jiahao Wang, Sufen Ren, Lina Yang"
+      authors: "<strong>Shengchao Chen</strong>, Ting Shu, Huan Zhao, Jiahao Wang, Sufen Ren, Lina Yang"
       conference_short: KBS
       conference: "Knowledge-Based Systems <strong>(KBS)</strong> <span class='classic-tag'>[JCR Q1/TOP]</span>, 2024."
       pdf: "https://ieeexplore.ieee.org/abstract/document/10050021/"
@@ -176,7 +176,7 @@ remote_sensing:
       image: "./assets/img/freelunch.png"
 
     - title: "Dynamic Multiscale Fusion Generative Adversarial Network for Radar Image Extrapolation"
-      authors: "<strong>Shengchao Chen</strong>, Ting Shu<sup><i class='fa-regular fa-envelope fa-xs'></i></sup>, Huan Zhao, Qilin Wan, Jincan Huang, Cailing Li"
+      authors: "<strong>Shengchao Chen</strong>, Ting Shu, Huan Zhao, Qilin Wan, Jincan Huang, Cailing Li"
       conference_short: IEEE TGRS
       conference: "IEEE Transactions on Geoscience and Remote Sensing <strong>(IEEE TGRS)</strong> <span class='classic-tag'>[JCR Q1/TOP]</span>, 2023."
       pdf: "https://ieeexplore.ieee.org/abstract/document/9837952"
@@ -184,7 +184,7 @@ remote_sensing:
       image: "./assets/img/mask.png"
 
     - title: "TempEE: Temporal-Spatial Parallel Transformer for Radar Echo Extrapolation Beyond Auto-Regression"
-      authors: "<strong>Shengchao Chen</strong>, Ting Shu<sup><i class='fa-regular fa-envelope fa-xs'></i></sup>, Huan Zhao, Guo Zhong, Xunlai Chen"
+      authors: "<strong>Shengchao Chen</strong>, Ting Shu, Huan Zhao, Guo Zhong, Xunlai Chen"
       conference_short: IEEE TGRS
       conference: "IEEE Transactions on Geoscience and Remote Sensing <strong>(IEEE TGRS)</strong> <span class='classic-tag'>[JCR Q1/TOP]</span>, 2023."
       pdf: "https://ieeexplore.ieee.org/abstract/document/10238744"
@@ -216,7 +216,7 @@ medical_imaging:
       image: "./assets/img/icmr.png"
 
     - title: "Interpretable CNN-Multilevel Attention Transformer for Rapid Recognition of Pneumonia from Chest X-Ray Images"
-      authors: "<strong>Shengchao Chen</strong>, Sufen Ren, Guanjun Wang<sup><i class='fa-regular fa-envelope fa-xs'></i></sup>, Mengxing Huang, Chenyang Xue"
+      authors: "<strong>Shengchao Chen</strong>, Sufen Ren, Guanjun Wang, Mengxing Huang, Chenyang Xue"
       conference_short: IEEE JBHI
       conference: "IEEE Journal of Biomedical and Health Informatics <strong>(IEEE JBHI)</strong> <span class='classic-tag'>[JCR Q1/TOP]</span>, 2024."
       pdf: "https://ieeexplore.ieee.org/abstract/document/10050021/"
@@ -283,7 +283,7 @@ main:
     image: "./assets/img/FedPoD.png"
 
   - title: "Interpretable CNN-Multilevel Attention Transformer for Rapid Recognition of Pneumonia from Chest X-Ray Images"
-    authors: "<strong>Shengchao Chen</strong>, Sufen Ren, Guanjun Wang<sup><i class='fa-regular fa-envelope fa-xs'></i></sup>, Mengxing Huang, Chenyang Xue"
+    authors: "<strong>Shengchao Chen</strong>, Sufen Ren, Guanjun Wang, Mengxing Huang, Chenyang Xue"
     conference_short: IEEE JBHI
     conference: "IEEE Journal of Biomedical and Health Informatics <strong>(IEEE JBHI)</strong> <span class='classic-tag'>[JCR Q1/TOP]</span>, 2024."
     pdf: "https://ieeexplore.ieee.org/abstract/document/10050021/"
@@ -292,7 +292,7 @@ main:
     image: "./assets/img/medical.png"
 
   - title: "Free Lunch for Federated Remote Sensing Target Fine-Grained Classification: A Parameter-Efficient Framework"
-    authors: "<strong>Shengchao Chen</strong>, Ting Shu<sup><i class='fa-regular fa-envelope fa-xs'></i></sup>, Huan Zhao, Jiahao Wang, Sufen Ren, Lina Yang"
+    authors: "<strong>Shengchao Chen</strong>, Ting Shu, Huan Zhao, Jiahao Wang, Sufen Ren, Lina Yang"
     conference_short: KBS
     conference: "Knowledge-Based Systems <strong>(KBS)</strong> <span class='classic-tag'>[JCR Q1/TOP]</span>, 2024."
     pdf: "https://ieeexplore.ieee.org/abstract/document/10050021/"
@@ -301,7 +301,7 @@ main:
     image: "./assets/img/freelunch.png"
 
   - title: "MASK-CNN-Transformer for Real-time Multi-label Weather Recognition"
-    authors: "<strong>Shengchao Chen</strong>, Ting Shu<sup><i class='fa-regular fa-envelope fa-xs'></i></sup>, Huan Zhao, Yuan Yan Tang"
+    authors: "<strong>Shengchao Chen</strong>, Ting Shu, Huan Zhao, Yuan Yan Tang"
     conference_short: KBS
     conference: "Knowledge-Based Systems <strong>(KBS)</strong> <span class='classic-tag'>[JCR Q1/TOP]</span>, 2023."
     pdf: "https://www.sciencedirect.com/science/article/abs/pii/S0950705123006317"
@@ -309,7 +309,7 @@ main:
     image: "./assets/img/mask.png"
 
   - title: "TempEE: Temporal-Spatial Parallel Transformer for Radar Echo Extrapolation Beyond Auto-Regression"
-    authors: "<strong>Shengchao Chen</strong>, Ting Shu<sup><i class='fa-regular fa-envelope fa-xs'></i></sup>, Huan Zhao, Guo Zhong, Xunlai Chen"
+    authors: "<strong>Shengchao Chen</strong>, Ting Shu, Huan Zhao, Guo Zhong, Xunlai Chen"
     conference_short: IEEE TGRS
     conference: "IEEE Transactions on Geoscience and Remote Sensing <strong>(IEEE TGRS)</strong> <span class='classic-tag'>[JCR Q1/TOP]</span>, 2023."
     pdf: "https://ieeexplore.ieee.org/abstract/document/10238744"
@@ -325,7 +325,7 @@ main:
     image: "./assets/img/metepfl.png"
 
   - title: "Dynamic Multiscale Fusion Generative Adversarial Network for Radar Image Extrapolation"
-    authors: "<strong>Shengchao Chen</strong>, Ting Shu<sup><i class='fa-regular fa-envelope fa-xs'></i></sup>, Huan Zhao, Qilin Wan, Jincan Huang, Cailing Li"
+    authors: "<strong>Shengchao Chen</strong>, Ting Shu, Huan Zhao, Qilin Wan, Jincan Huang, Cailing Li"
     conference_short: IEEE TGRS
     conference: "IEEE Transactions on Geoscience and Remote Sensing <strong>(IEEE TGRS)</strong> <span class='classic-tag'>[JCR Q1/TOP]</span>, 2023."
     pdf: "https://ieeexplore.ieee.org/abstract/document/9837952"
