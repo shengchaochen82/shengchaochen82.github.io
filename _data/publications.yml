@@ -68,6 +68,11 @@ ai4science:
   color: "#10b981"
   description: "Applying artificial intelligence and machine learning to scientific domains, particularly optical fiber sensing, weather forecasting, climate modeling, and computational materials."
   papers:
+    - title: "PCF-LLM: Scaling LLMs for Multimodal Understanding of Structured Scientific Data in Photonic Crystal Fiber Sensors"
+      authors: "<strong>Shengchao Chen</strong>, Geyao Hu, Sufen Ren, Ting Shu"
+      conference_short: Information Fusion
+      conference: "Information Fusion, 104022, 2025. <span class='classic-tag'>[JCR Q1]</span>"
+
     - title: "Towards scalable and accurate property prediction for photonic crystal fibers with federated learning"
       authors: "Guanjun Wang, Jiacheng Liu, <strong>Shengchao Chen</strong>, Sufen Ren"
       conference_short: Optics Express
@@ -194,6 +199,16 @@ medical_imaging:
   color: "#ef4444"
   description: "AI-driven solutions for medical image analysis, including multi-modal learning, federated medical imaging, and interpretable diagnosis systems."
   papers:
+    - title: "FM²: Unified Federated Foundation Models for Heterogeneous Multimodal Medical Imaging"
+      authors: "<strong>Shengchao Chen</strong>, Ting Shu"
+      conference_short: ACMMM
+      conference: "The 34th ACM International Conference on Multimedia <strong>(ACM MM)</strong> <span class='classic-tag'>[Core A/CCF-A]</span>, 2026."
+
+    - title: "Restyled, Tuning, and Alignment: Taming VLMs for Federated Non-IID Medical Image Analysis"
+      authors: "<strong>Shengchao Chen</strong>, Ting Shu"
+      conference_short: MICCAI
+      conference: "International Conference on Medical Image Computing and Computer-Assisted Intervention <strong>(MICCAI)</strong> <span class='classic-tag'>[Core A]</span>, 530-540, 2025."
+
     - title: "Taming Vision-Language Models for Foundation Models on Heterogeneous Medical Imaging Modalities"
       authors: "Lulu Feng, <strong>Shengchao Chen</strong><sup><i class='fa-regular fa-envelope fa-xs'></i></sup>"
       conference_short: ICMR
