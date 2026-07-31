@@ -28,7 +28,6 @@ federated_tsfm:
       pdf: "https://dl.acm.org/doi/abs/10.1145/3701716.3715864"
       bibtex: "https://bib.yliu.me/MICCAI23.txt"
       image: "./assets/img/tutor.png"
-      notes: "Tutorial on Federated Intelligence."
 
     - title: "Personalized Adapter for Large Meteorology Model on Devices: Towards Weather Foundation Models"
       authors: "<strong>Shengchao Chen</strong>, Guodong Long, Jing Jiang, Chengqi Zhang"
