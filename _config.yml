@@ -32,7 +32,7 @@ enable_footnote: true
 # Under Reconstruction Overlay
 # Set to true to show a full-screen "coming soon" overlay while redesigning.
 # Set to false (or remove) to restore the normal site.
-under_reconstruction: true
+under_reconstruction: false
 
 # Auto Dark Mode
 # You may use the option to disable the automatic dark theme
