@@ -198,6 +198,8 @@ medical_imaging:
       authors: "<strong>Shengchao Chen</strong>, Ting Shu"
       conference_short: ACMMM
       conference: "The 34th ACM International Conference on Multimedia <strong>(ACM MM)</strong> <span class='classic-tag'>[Core A/CCF-A]</span>, 2026."
+      image: "./assets/img/fm2.png"
+      thumbnail: true
 
     - title: "Restyled, Tuning, and Alignment: Taming VLMs for Federated Non-IID Medical Image Analysis"
       authors: "<strong>Shengchao Chen</strong>, Ting Shu"
