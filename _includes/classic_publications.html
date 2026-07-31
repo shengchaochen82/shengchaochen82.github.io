@@ -14,11 +14,10 @@
           </span><br>
           {{ paper.authors }}<br>
           <span class="classic-pub-meta">{{ paper.conference }}</span>
-          {% if paper.code or paper.page or paper.notes %}
+          {% if paper.page or paper.notes %}
           <br>
-          {% if paper.code %}<a href="{{ paper.code }}" target="_blank">Code</a>{% endif %}
-          {% if paper.page %}{% if paper.code %} &nbsp;·&nbsp; {% endif %}<a href="{{ paper.page }}" target="_blank">Project page</a>{% endif %}
-          {% if paper.notes %}{% if paper.code or paper.page %} &nbsp;·&nbsp; {% endif %}<span class="classic-pub-meta">{{ paper.notes }}</span>{% endif %}
+          {% if paper.page %}<a href="{{ paper.page }}" target="_blank">Project page</a>{% endif %}
+          {% if paper.notes %}{% if paper.page %} &nbsp;·&nbsp; {% endif %}<span class="classic-pub-meta">{{ paper.notes }}</span>{% endif %}
           {% endif %}
         </li>
         {% endfor %}
