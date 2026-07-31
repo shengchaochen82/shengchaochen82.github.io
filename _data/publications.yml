@@ -73,7 +73,7 @@ ai4science:
       conference: "Information Fusion, 104022, 2025. <span class='classic-tag'>[JCR Q1/TOP]</span>"
       pdf: "https://www.sciencedirect.com/science/article/pii/S156625352501084X"
 
-    - title: "Towards scalable and accurate property prediction for photonic crystal fibers with federated learning"
+    - title: "Towards Scalable and Accurate Property Prediction for Photonic Crystal Fibers with Federated Learning"
       authors: "Guanjun Wang, Jiacheng Liu, <strong>Shengchao Chen</strong><sup><i class='fa-regular fa-envelope fa-xs'></i></sup>, Sufen Ren"
       conference_short: Optics Express
       conference: "Optics Express 33 (16), 33421-33434, 2025. <span class='classic-tag'>[JCR Q1]</span>"
@@ -81,7 +81,7 @@ ai4science:
       bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
       image: "./assets/img/survey.png"
 
-    - title: "Optimizing low-resolution spectral demodulation for long-period fiber gratings using residual convolutional neural networks"
+    - title: "Optimizing Low-Resolution Spectral Demodulation for Long-Period Fiber Gratings Using Residual Convolutional Neural Networks"
       authors: "Guanjun Wang, Jiacheng Liu, <strong>Shengchao Chen</strong><sup><i class='fa-regular fa-envelope fa-xs'></i></sup>, Sufen Ren"
       conference_short: Optics Express
       conference: "Optics Express 33 (4), 8225-8238, 2025. <span class='classic-tag'>[JCR Q1]</span>"
@@ -89,7 +89,7 @@ ai4science:
       bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
       image: "./assets/img/survey.png"
 
-    - title: "Towards robust machine learning-based LPFG temperature sensing demodulation with limited data via diffusion models"
+    - title: "Towards Robust Machine Learning-Based LPFG Temperature Sensing Demodulation with Limited Data via Diffusion Models"
       authors: "Guanjun Wang, Jianxun Liu, <strong>Shengchao Chen</strong><sup><i class='fa-regular fa-envelope fa-xs'></i></sup>, Sufen Ren"
       conference_short: Optics Commun.
       conference: "Optics Communications, 132263, 2025. <span class='classic-tag'>[JCR Q2]</span>"
@@ -97,7 +97,7 @@ ai4science:
       bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
       image: "./assets/img/survey.png"
 
-    - title: "Federated learning-based wavelength demodulation system for multi-point distributed multi-peak FBG sensors"
+    - title: "Federated Learning-Based Wavelength Demodulation System for Multi-Point Distributed Multi-Peak FBG Sensors"
       authors: "Xuan Hou, Sufen Ren, Kebei Yu, Yule Hu, Haoyang Xu, Chenyang Xue, <strong>Shengchao Chen</strong><sup><i class='fa-regular fa-envelope fa-xs'></i></sup>, Guanjun Wang"
       conference_short: Optics Express
       conference: "Optics Express 32 (23), 41297-41313, 2024. <span class='classic-tag'>[JCR Q1]</span>"
@@ -105,7 +105,7 @@ ai4science:
       bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
       image: "./assets/img/survey.png"
 
-    - title: "Collaborative photonic crystal fiber property optimization: A new paradigm for reverse design"
+    - title: "Collaborative Photonic Crystal Fiber Property Optimization: A New Paradigm for Reverse Design"
       authors: "<strong>Shengchao Chen</strong>, Xinchen Wang, Sufen Ren, Jianli Yang, Yaqian Zhang, Guanjun Wang"
       conference_short: IEEE PTL
       conference: "IEEE Photonics Technology Letters 35 (19), 1035-1038, 2023. <span class='classic-tag'>[JCR Q2]</span>"
@@ -113,7 +113,7 @@ ai4science:
       bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
       image: "./assets/img/survey.png"
 
-    - title: "Efficient calculation of optical properties of suspended-core fiber via a machine learning algorithm"
+    - title: "Efficient Calculation of Optical Properties of Suspended-Core Fiber via a Machine Learning Algorithm"
       authors: "Shuyu Yuan*, <strong>Shengchao Chen*</strong>, Jianli Yang, Qian Yang, Sufen Ren, Guanjun Wang, Benguo Yu"
       conference_short: Applied Optics
       conference: "Applied Optics 61 (19), 5714-5721, 2022. <span class='classic-tag'>[JCR Q2]</span>"
@@ -121,7 +121,7 @@ ai4science:
       bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
       image: "./assets/img/survey.png"
 
-    - title: "Fabry-Perot interferometric sensor demodulation system utilizing multi-peak wavelength tracking and neural network algorithm"
+    - title: "Fabry-Perot Interferometric Sensor Demodulation System Utilizing Multi-Peak Wavelength Tracking and Neural Network Algorithm"
       authors: "<strong>Shengchao Chen</strong>, Feifan Yao, Sufen Ren, Jianli Yang, Qian Yang, Shuyu Yuan, Guanjun Wang, Mengxing Huang"
       conference_short: Optics Express
       conference: "Optics Express 30 (14), 24461-24480, 2022. <span class='classic-tag'>[JCR Q1]</span>"
@@ -129,7 +129,7 @@ ai4science:
       bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
       image: "./assets/img/survey.png"
 
-    - title: "Cost-effective improvement of the performance of AWG-based FBG wavelength interrogation via a cascaded neural network"
+    - title: "Cost-Effective Improvement of the Performance of AWG-Based FBG Wavelength Interrogation via a Cascaded Neural Network"
       authors: "<strong>Shengchao Chen</strong>, Feifan Yao, Sufen Ren, Guanjun Wang, Mengxing Huang"
       conference_short: Optics Express
       conference: "Optics Express 30 (5), 7647-7663, 2022. <span class='classic-tag'>[JCR Q1]</span>"
@@ -137,7 +137,7 @@ ai4science:
       bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
       image: "./assets/img/survey.png"
 
-    - title: "Reconstruction of Fabry-Perot interferometric sensor spectrum from extremely sparse sampling points using dense neural network"
+    - title: "Reconstruction of Fabry-Perot Interferometric Sensor Spectrum from Extremely Sparse Sampling Points Using Dense Neural Network"
       authors: "<strong>Shengchao Chen</strong>, Sufen Ren, Jianli Yang, Feifan Yao, Qian Yang, Lu Wang, Guanjun Wang, Mengxing Huang"
       conference_short: IEEE PTL
       conference: "IEEE Photonics Technology Letters 34 (24), 1337-1340, 2022. <span class='classic-tag'>[JCR Q2]</span>"
@@ -160,7 +160,7 @@ remote_sensing:
       bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
       image: "./assets/img/freelunch.png"
 
-    - title: "MASK-CNN-Transformer for Real-time Multi-label Weather Recognition"
+    - title: "MASK-CNN-Transformer for Real-Time Multi-Label Weather Recognition"
       authors: "<strong>Shengchao Chen</strong>, Ting Shu, Huan Zhao, Yuan Yan Tang"
       conference_short: KBS
       conference: "Knowledge-Based Systems <strong>(KBS)</strong> <span class='classic-tag'>[JCR Q1/TOP]</span>, 2023."
@@ -223,7 +223,7 @@ medical_imaging:
       bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
       image: "./assets/img/medical.png"
 
-    - title: "Ensemble learning for retinal disease recognition under limited resources"
+    - title: "Ensemble Learning for Retinal Disease Recognition under Limited Resources"
       authors: "Jian Wang, Hui Peng, <strong>Shengchao Chen</strong><sup><i class='fa-regular fa-envelope fa-xs'></i></sup>, Sufen Ren"
       conference_short: Med. Biol. Eng. Comput.
       conference: "Medical & Biological Engineering & Computing 62 (9), 2839-2852, 2024. <span class='classic-tag'>[JCR Q2]</span>"
@@ -294,7 +294,7 @@ main:
     bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
     image: "./assets/img/freelunch.png"
 
-  - title: "MASK-CNN-Transformer for Real-time Multi-label Weather Recognition"
+  - title: "MASK-CNN-Transformer for Real-Time Multi-Label Weather Recognition"
     authors: "<strong>Shengchao Chen</strong>, Ting Shu, Huan Zhao, Yuan Yan Tang"
     conference_short: KBS
     conference: "Knowledge-Based Systems <strong>(KBS)</strong> <span class='classic-tag'>[JCR Q1/TOP]</span>, 2023."
