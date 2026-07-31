@@ -142,67 +142,11 @@ ai4science:
       bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
       image: "./assets/img/survey.png"
 
-    - title: "Semi-supervised deep learning model for efficient computation of optical properties of suspended-core fibers"
-      authors: "Gao Wang, Sufen Ren, Shuna Li, <strong>Shengchao Chen</strong>, Benguo Yu"
-      conference_short: Sensors
-      conference: "Sensors 22 (18), 6751, 2022."
-      pdf: "https://www.mdpi.com/1424-8220/22/18/6751"
-      bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
-      image: "./assets/img/survey.png"
-
-    - title: "Improvement of fiber Bragg grating wavelength demodulation system by cascading generative adversarial network and dense neural network"
-      authors: "Shuna Li, Sufen Ren, <strong>Shengchao Chen</strong>, Benguo Yu"
-      conference_short: Appl. Sci.
-      conference: "Applied Sciences 12 (18), 9031, 2022."
-      pdf: "https://www.mdpi.com/2076-3417/12/18/9031"
-      bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
-      image: "./assets/img/survey.png"
-
-    - title: "Design and Demodulation of a Fiber-Optic Fabry-Perot Sensor Applied in a High-Frequency Pneumatic System"
-      authors: "Jianli Yang, Qian Yang, <strong>Shengchao Chen</strong>, Sufen Ren, Guanjun Wang, Mengxing Huang"
-      conference_short: IEEE Photonics J.
-      conference: "IEEE Photonics Journal 15 (1), 1-9, 2023."
-      pdf: "https://ieeexplore.ieee.org/abstract/document/10034804"
-      bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
-      image: "./assets/img/survey.png"
-
     - title: "High-efficiency FBG array sensor interrogation system via a neural network working with sparse data"
       authors: "Sufen Ren, <strong>Shengchao Chen</strong>, Jianli Yang, Jiahao Wang, Qian Yang, Chenyang Xue, Guanjun Wang, Mengxing Huang"
       conference_short: Optics Express
       conference: "Optics Express 31 (5), 8937-8952, 2023."
       pdf: "https://opg.optica.org/oe/fulltext.cfm?uri=oe-31-5-8937&id=527041"
-      bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
-      image: "./assets/img/survey.png"
-
-    - title: "Unsupervised representation learning-based spectrum reconstruction for demodulation of Fabry-Pérot interferometer sensor"
-      authors: "Sufen Ren, <strong>Shengchao Chen</strong>, Haoyang Xu, Xuan Hou, Guanjun Wang, Chong Shen"
-      conference_short: IEEE Sensors J.
-      conference: "IEEE Sensors Journal 23 (12), 13810-13816, 2023."
-      pdf: "https://ieeexplore.ieee.org/abstract/document/10121312"
-      bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
-      image: "./assets/img/survey.png"
-
-    - title: "Dual-parameter demodulation of fbg-fpi cascade sensors via sparse samples: A deep learning-based perspective"
-      authors: "Haoyang Xu, <strong>Shengchao Chen</strong>, Sufen Ren, Xuan Hou, Guanjun Wang, Chong Shen"
-      conference_short: IEEE Sensors J.
-      conference: "IEEE Sensors Journal 23 (19), 23903-23915, 2023."
-      pdf: "https://ieeexplore.ieee.org/abstract/document/10236535"
-      bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
-      image: "./assets/img/survey.png"
-
-    - title: "Neural network-based FBG array sensor demodulation system with sparse data"
-      authors: "Sufen Ren, <strong>Shengchao Chen</strong>, Haoyang Xu, Xuan Hou, Guanjun Wang, Mengxing Huang"
-      conference_short: ICOCN
-      conference: "2023 21st International Conference on Optical Communications and Networks (ICOCN), 1-3, 2023."
-      pdf: "https://ieeexplore.ieee.org/abstract/document/10234971"
-      bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
-      image: "./assets/img/survey.png"
-
-    - title: "Fabrication and demodulation for sensitivity enhanced fiber Fabry-Pérot sensor based on hookean effect"
-      authors: "Qian Yang, <strong>Shengchao Chen</strong>, Zilu Liu, Lei Liu, Sen Zhang, Sufen Ren, Longtao Lv, Guanjun Wang, Chong Shen"
-      conference_short: IEEE Sensors J.
-      conference: "IEEE Sensors Journal 23 (23), 28932-28941, 2023."
-      pdf: "https://ieeexplore.ieee.org/abstract/document/10309177"
       bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
       image: "./assets/img/survey.png"
 
@@ -219,14 +163,6 @@ ai4science:
       conference_short: IEEE Sensors J.
       conference: "IEEE Sensors Journal 24 (7), 11878-11885, 2024."
       pdf: "https://ieeexplore.ieee.org/abstract/document/10477585"
-      bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
-      image: "./assets/img/survey.png"
-
-    - title: "Curvature sensing via symmetric fiber ball MZI and neural network with sparse data"
-      authors: "Qian Yang, Lei Zhou, Rui Li, ShuaiCheng Liu, LongTao Lv, <strong>ShengChao Chen</strong>, SuFen Ren, Guanjun Wang, Chong Shen"
-      conference_short: Opt. Fiber Technol.
-      conference: "Optical Fiber Technology 85, 103800, 2024."
-      pdf: "https://www.sciencedirect.com/science/article/abs/pii/S1068520024001317"
       bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
       image: "./assets/img/survey.png"
 
@@ -259,22 +195,6 @@ ai4science:
       conference_short: IEEE Sensors J.
       conference: "IEEE Sensors Journal, 2025."
       pdf: "https://ieeexplore.ieee.org/abstract/document/10904143"
-      bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
-      image: "./assets/img/survey.png"
-
-    - title: "Breaking demodulation limitations: AWG and Deep Learning in Dynamic Spectral Reconstruction for Differential FBG Accelerometers"
-      authors: "Qian Yang, Lei Liu, Ning Niu, ChenYi Quan, SuFen Ren, <strong>ShengChao Chen</strong>, JiaLin Zhang, YuMeng Yan, LongTeng Xiang, YiPing Wang"
-      conference_short: IEEE Sensors J.
-      conference: "IEEE Sensors Journal, 2025."
-      pdf: "https://ieeexplore.ieee.org/abstract/document/10816674"
-      bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
-      image: "./assets/img/survey.png"
-
-    - title: "A Generalizable Wavelength Demodulation Method for Fiber-Optic Fabry-Pérot Pressure Sensors via Federated Learning"
-      authors: "Sufen Ren, <strong>Shengchao Chen</strong>, Hao Shi, Guanjun Wang"
-      conference_short: ICOCN
-      conference: "2025 23rd International Conference on Optical Communications and Networks (ICOCN), 1-3, 2025."
-      pdf: "https://ieeexplore.ieee.org/abstract/document/10903234"
       bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
       image: "./assets/img/survey.png"
 
@@ -340,15 +260,6 @@ medical_imaging:
       bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
       image: "./assets/img/medical.png"
 
-    - title: "Federated Distillation for Medical Image Classification: Towards Trustworthy Computer-Aided Diagnosis"
-      authors: "Sufen Ren, Yule Hu, <strong>Shengchao Chen</strong><sup><i class='fa-regular fa-envelope fa-xs'></i></sup>, Guanjun Wang<sup><i class='fa-regular fa-envelope fa-xs'></i></sup>"
-      conference_short: Preprint
-      conference: "ArXiv Preprint Version, 2024."
-      pdf: "https://arxiv.org/pdf/2407.02261"
-      code: "https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training"
-      bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
-      image: "./assets/img/medical_fl.png"
-
     - title: "Ensemble learning for retinal disease recognition under limited resources"
       authors: "Jian Wang, Hui Peng, <strong>Shengchao Chen</strong>, Sufen Ren"
       conference_short: Med. Biol. Eng. Comput.
@@ -357,22 +268,6 @@ medical_imaging:
       bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
       image: "./assets/img/medical.png"
       notes: "Ensemble learning for retinal disease diagnosis."
-
-    - title: "Boosting Sclera Segmentation through Semi-supervised Learning with Fewer Labels"
-      authors: "Guanjun Wang, Lu Wang, Ning Niu, Qi Yao, Yunlu Wang, Sufen Ren, <strong>Shengchao Chen</strong>"
-      conference_short: arXiv
-      conference: "arXiv preprint arXiv:2501.07750, 2025."
-      pdf: "https://arxiv.org/abs/2501.07750"
-      bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
-      image: "./assets/img/medical_fl.png"
-
-    - title: "Recognition System for Diagnosing Pneumonia and Bronchitis Using Children's Breathing Sounds Based on Transfer Learning"
-      authors: "Jianying Shi, <strong>Shengchao Chen</strong>, Benguo Yu, Yi Ren, Guanjun Wang, Chenyang Xue"
-      conference_short: IASC
-      conference: "Intelligent Automation & Soft Computing 37 (3), 3235-3258, 2023."
-      pdf: "https://www.techscience.com/iasc/v37n3/48215"
-      bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
-      image: "./assets/img/medical.png"
 
 main:
   - title: "Federated Intelligence in Web: A Tutorial"
@@ -440,15 +335,6 @@ main:
     code: "https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training"
     bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
     image: "./assets/img/freelunch.png"
-
-  - title: "Federated Distillation for Medical Image Classification: Towards Trustworthy Computer-Aided Diagnosis"
-    authors: "Sufen Ren, Yule Hu, <strong>Shengchao Chen</strong><sup><i class='fa-regular fa-envelope fa-xs'></i></sup>, Guanjun Wang<sup><i class='fa-regular fa-envelope fa-xs'></i></sup>"
-    conference_short: Preprint
-    conference: "ArXiv Preprint Version, 2024."
-    pdf: "https://arxiv.org/pdf/2407.02261"
-    code: "https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training"
-    bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
-    image: "./assets/img/medical_fl.png"
 
   - title: "Foundation Models for Weather and Climate Data Understanding: A Comprehensive Survey"
     authors: "<strong>Shengchao Chen</strong>, Guodong Long, Jing Jiang, Dikai Liu, Chengqi Zhang"
