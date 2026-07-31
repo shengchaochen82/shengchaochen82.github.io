@@ -139,9 +139,15 @@ body {
 }
 
 .classic-tag {
-  color: var(--classic-link);
+  color: #b91c1c;
   font-size: 0.82em;
   font-weight: 600;
+}
+
+@media (prefers-color-scheme: dark) {
+  .classic-tag {
+    color: #f87171;
+  }
 }
 
 .classic-goto {
