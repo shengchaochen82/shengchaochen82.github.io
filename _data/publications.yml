@@ -168,14 +168,6 @@ remote_sensing:
       bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
       image: "./assets/img/mask.png"
 
-    - title: "Dynamic Multiscale Fusion Generative Adversarial Network for Radar Image Extrapolation"
-      authors: "<strong>Shengchao Chen</strong>, Ting Shu, Huan Zhao, Qilin Wan, Jincan Huang, Cailing Li"
-      conference_short: IEEE TGRS
-      conference: "IEEE Transactions on Geoscience and Remote Sensing <strong>(IEEE TGRS)</strong> <span class='classic-tag'>[JCR Q1/TOP]</span>, 2023."
-      pdf: "https://ieeexplore.ieee.org/abstract/document/9837952"
-      bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
-      image: "./assets/img/mask.png"
-
     - title: "TempEE: Temporal-Spatial Parallel Transformer for Radar Echo Extrapolation Beyond Auto-Regression"
       authors: "<strong>Shengchao Chen</strong>, Ting Shu, Huan Zhao, Guo Zhong, Xunlai Chen"
       conference_short: IEEE TGRS
@@ -183,6 +175,14 @@ remote_sensing:
       pdf: "https://ieeexplore.ieee.org/abstract/document/10238744"
       bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
       image: "./assets/img/tempee.png"
+
+    - title: "Dynamic Multiscale Fusion Generative Adversarial Network for Radar Image Extrapolation"
+      authors: "<strong>Shengchao Chen</strong>, Ting Shu, Huan Zhao, Qilin Wan, Jincan Huang, Cailing Li"
+      conference_short: IEEE TGRS
+      conference: "IEEE Transactions on Geoscience and Remote Sensing <strong>(IEEE TGRS)</strong> <span class='classic-tag'>[JCR Q1/TOP]</span>, 2022."
+      pdf: "https://ieeexplore.ieee.org/abstract/document/9837952"
+      bibtex: "https://class-il.mpi-inf.mpg.de/mnemonics/"
+      image: "./assets/img/mask.png"
 
 medical_imaging:
   title: "Medical Imaging"
