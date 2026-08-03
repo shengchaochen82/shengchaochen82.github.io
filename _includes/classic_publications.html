@@ -1,5 +1,6 @@
 <section class="classic-section" id="publications">
   <h1>Selected Publications &nbsp;<small><a href="https://scholar.google.com/citations?user=9R3tsmUAAAAJ&hl=en" target="_blank">Google Scholar →</a></small></h1>
+  <p class="classic-pub-legend"><em>* indicates co-first authorship; <i class="fa-regular fa-envelope fa-xs"></i> indicates corresponding author.</em></p>
   {% assign pub_order = "federated_tsfm,medical_imaging,remote_sensing,ai4science" | split: "," %}
   {% for key in pub_order %}
     {% assign cat = site.data.publications[key] %}

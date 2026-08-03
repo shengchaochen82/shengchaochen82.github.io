@@ -186,6 +186,12 @@ body {
   color: var(--classic-muted);
 }
 
+.classic-pub-legend {
+  font-size: 0.85em;
+  color: var(--classic-muted);
+  margin: -8px 0 20px !important;
+}
+
 .classic-tag {
   color: #b91c1c;
   font-size: 0.82em;
