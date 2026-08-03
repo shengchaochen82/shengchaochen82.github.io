@@ -7,7 +7,7 @@ federated_tsfm:
     - title: "Bi-Level Heterogeneous Learning for Time Series Foundation Models: A Federated Learning Approach"
       authors: "<strong>Shengchao Chen</strong>, Guodong Long, Dikai Liu, Jing Jiang"
       conference_short: arXiv
-      conference: "arXiv preprint arXiv:2604.06727, 2026. <span class='classic-tag-blue'>[Preprint]</span>"
+      conference: "arXiv preprint arXiv:2604.06727 <span class='classic-tag-blue'>[Preprint]</span>, 2026."
       pdf: "https://arxiv.org/abs/2604.06727"
 
     - title: "FeDaL: Federated Dataset Learning for General Time Series Foundation Models"
