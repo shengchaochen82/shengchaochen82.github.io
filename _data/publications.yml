@@ -2,7 +2,7 @@ federated_tsfm:
   title: "Large-Scale Federated Foundation Models"
   icon: "fa-network-wired"
   color: "#3b82f6"
-  description: "Exploring federated learning approaches for training and deploying time series foundation models across heterogeneous devices and datasets."
+  description: "Pushing foundation models to learn at scale across distributed, privacy-sensitive data without ever centralizing it."
   papers:
     - title: "Bi-Level Heterogeneous Learning for Time Series Foundation Models: A Federated Learning Approach"
       authors: "<strong>Shengchao Chen</strong>, Guodong Long, Dikai Liu, Jing Jiang"
@@ -65,7 +65,7 @@ ai4science:
   title: "AI for Scientific Design and Problem Solving"
   icon: "fa-flask"
   color: "#10b981"
-  description: "Applying artificial intelligence and machine learning to scientific domains, particularly optical fiber sensing, weather forecasting, climate modeling, and computational materials."
+  description: "Treating AI as a scientific instrument that can reason, design, and discover alongside human experts."
   papers:
     - title: "Learning Design Skills as Memory Policies for Agentic Photonic Inverse Design"
       authors: "<strong>Shengchao Chen</strong>, Ting Shu, Sufen Ren"
@@ -155,7 +155,7 @@ remote_sensing:
   title: "Remote Sensing Intelligence"
   icon: "fa-satellite"
   color: "#f59e0b"
-  description: "Intelligent analysis and processing of remote sensing data, including satellite imagery, radar echo data, and fine-grained classification."
+  description: "Turning raw signals from sky and space into real-time, actionable understanding of a changing planet."
   papers:
     - title: "Free Lunch for Federated Remote Sensing Target Fine-Grained Classification: A Parameter-Efficient Framework"
       authors: "<strong>Shengchao Chen</strong>, Ting Shu, Huan Zhao, Jiahao Wang, Sufen Ren, Lina Yang"
@@ -194,7 +194,7 @@ medical_imaging:
   title: "Trustworthy Medical AI"
   icon: "fa-heart-pulse"
   color: "#ef4444"
-  description: "AI-driven solutions for medical image analysis, including multi-modal learning, federated medical imaging, and interpretable diagnosis systems."
+  description: "Building AI that clinicians can trust, bridging the gap between algorithmic performance and real clinical impact."
   papers:
     - title: "Visual and Textual Spaces Both Matter: Taming CLIP for Non-IID Federated Medical Image Classification"
       authors: "Lulu Feng, <strong>Shengchao Chen</strong><sup><i class='fa-regular fa-envelope fa-xs'></i></sup>"
