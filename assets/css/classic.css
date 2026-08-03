@@ -198,6 +198,12 @@ body {
   font-weight: 600;
 }
 
+.classic-tag-blue {
+  color: var(--classic-link);
+  font-size: 0.82em;
+  font-weight: 600;
+}
+
 @media (prefers-color-scheme: dark) {
   .classic-tag {
     color: #f87171;
