@@ -8,7 +8,7 @@ associate_editor:
 area_chair:
   title: "Area Chair"
   venues:
-    - name: "IJCNN 2025"
+    - name: "IJCNN"
       full: "International Joint Conference on Neural Networks"
       link: "https://2025.ijcnn.org/"
 
