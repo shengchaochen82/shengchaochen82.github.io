@@ -7,7 +7,7 @@
     <ul>
       {% for venue in cat.venues %}
       <li>
-        {% if venue.link %}<a href="{{ venue.link }}" target="_blank">{{ venue.name }}</a>{% else %}{{ venue.name }}{% endif %}{% if venue.full %}, {{ venue.full }}{% endif %}{% if venue.years %} <small>({{ venue.years }})</small>{% endif %}.
+        {% if venue.link %}<a href="{{ venue.link }}" target="_blank">{{ venue.name }}</a>{% else %}{{ venue.name }}{% endif %}{% if venue.full %}, {{ venue.full }}{% endif %}{% if venue.rank %} <span class="classic-tag">[{{ venue.rank }}]</span>{% endif %}.
       </li>
       {% endfor %}
     </ul>
