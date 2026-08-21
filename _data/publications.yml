@@ -67,6 +67,11 @@ ai4science:
   color: "#10b981"
   description: "Treating AI as a scientific instrument that can reason, design, and discover alongside human experts."
   papers:
+    - title: "The Physicist, the Coder, and the Critic: Agentic Photonic Crystal Fiber Inverse Design via Verbal Gradient Descent"
+      authors: "<strong>Shengchao Chen</strong>, Ting Shu"
+      conference_short: EMNLP
+      conference: "Findings of the Association for Computational Linguistics: EMNLP 2026 <strong>(EMNLP Findings)</strong> <span class='classic-tag'>[Core A*/CCF-B]</span>."
+
     - title: "Learning Design Skills as Memory Policies for Agentic Photonic Inverse Design"
       authors: "<strong>Shengchao Chen</strong>, Ting Shu, Sufen Ren"
       conference_short: KBS
