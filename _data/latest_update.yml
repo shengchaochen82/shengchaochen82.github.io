@@ -1,4 +1,4 @@
 # The single "Latest Update" line shown under the header.
 # Leave `text` empty to hide the line. `text` may contain HTML links.
 date: "Sep 2026"
-text: "We have three papers about Agentic RL accepted by <strong>NeurIPS 2026</strong>. See you in Sydney!"
+text: "We have three papers about <strong>Agentic RL</strong> accepted by <strong>NeurIPS 2026</strong>. See you in Sydney!"
