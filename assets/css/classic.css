@@ -104,10 +104,11 @@ body {
 }
 
 .classic-latest-badge {
-  display: inline-flex;
+  display: flex;
+  width: fit-content;
   align-items: center;
   gap: 6px;
-  margin-right: 10px;
+  margin: 0 0 6px;
   padding: 2px 10px;
   border-radius: 999px;
   background: var(--classic-link);
@@ -116,8 +117,11 @@ body {
   font-weight: 700;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  vertical-align: 1px;
   white-space: nowrap;
+}
+
+.classic-latest-text {
+  display: block;
 }
 
 .classic-latest-dot {
