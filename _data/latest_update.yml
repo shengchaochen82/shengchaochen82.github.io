@@ -1,0 +1,4 @@
+# The single "Latest Update" line shown under the header.
+# Leave `text` empty to hide the line. `text` may contain HTML links.
+date: ""
+text: ""
