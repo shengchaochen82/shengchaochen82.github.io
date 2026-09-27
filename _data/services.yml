@@ -11,6 +11,9 @@ area_chair:
     - name: "IJCNN"
       full: "International Joint Conference on Neural Networks"
       link: "https://2025.ijcnn.org/"
+    - name: "ICASSP"
+      full: "IEEE International Conference on Acoustics, Speech and Signal Processing"
+      link: "https://ieeeicassp.org/"
 
 conference_reviewer:
   title: "Conference Reviewer / PC Member"
