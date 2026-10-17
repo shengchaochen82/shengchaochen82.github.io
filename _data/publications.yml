@@ -86,7 +86,7 @@ agent_sci_design:
     - title: "PCF-LLM: Scaling LLMs for Multimodal Understanding of Structured Scientific Data in Photonic Crystal Fiber Sensors"
       authors: "<strong>Shengchao Chen</strong>, Geyao Hu, Sufen Ren, Ting Shu"
       conference_short: Information Fusion
-      conference: "Information Fusion, 104022, 2025. <span class='classic-tag'>[JCR Q1/TOP]</span>"
+      conference: "Information Fusion, 104022, 2025. <span class='classic-tag'>[JCR Q1/TOP, 5-Yr IF 19.9]</span>"
       pdf: "https://www.sciencedirect.com/science/article/pii/S156625352501084X"
 
 agentic_rl:
