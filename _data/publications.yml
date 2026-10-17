@@ -71,6 +71,7 @@ agent_sci_design:
       authors: "<strong>Shengchao Chen</strong>, Ting Shu, Sufen Ren"
       conference_short: NeurIPS
       conference: "Fortieth Annual Conference on Neural Information Processing Systems <strong>(NeurIPS)</strong> <span class='classic-tag'>[Core A*/CCF-A]</span>, 2026."
+      page: "https://pcfbench.github.io/"
 
     - title: "The Physicist, the Coder, and the Critic: Agentic Photonic Crystal Fiber Inverse Design via Verbal Gradient Descent"
       authors: "<strong>Shengchao Chen</strong>, Ting Shu"
