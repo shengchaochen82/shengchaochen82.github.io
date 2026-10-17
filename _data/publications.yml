@@ -1,5 +1,5 @@
 federated_tsfm:
-  title: "Large-Scale Federated Foundation Models"
+  title: "Large-Scale Distributed Foundation Models"
   icon: "fa-network-wired"
   color: "#3b82f6"
   description: "Pushing foundation models to learn at scale across distributed, privacy-sensitive data without ever centralizing it."
