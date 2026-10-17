@@ -67,6 +67,11 @@ agent_sci_design:
   color: "#8b5cf6"
   description: "Building autonomous agents that reason, critique, and iterate their way to better scientific and engineering designs."
   papers:
+    - title: "PCFBench: How Far Can Large Vision-Language Models Go in Physics-Aware Photonic Inverse Design?"
+      authors: "<strong>Shengchao Chen</strong>, Ting Shu, Sufen Ren"
+      conference_short: NeurIPS
+      conference: "Fortieth Annual Conference on Neural Information Processing Systems <strong>(NeurIPS)</strong> <span class='classic-tag'>[Core A*/CCF-A]</span>, 2026."
+
     - title: "The Physicist, the Coder, and the Critic: Agentic Photonic Crystal Fiber Inverse Design via Verbal Gradient Descent"
       authors: "<strong>Shengchao Chen</strong>, Ting Shu"
       conference_short: EMNLP
