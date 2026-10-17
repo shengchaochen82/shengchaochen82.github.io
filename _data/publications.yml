@@ -61,11 +61,11 @@ federated_tsfm:
       bibtex: "https://bib.yliu.me/MICCAI23.txt"
       image: "./assets/img/metepfl.png"
 
-ai4science:
-  title: "AI for Scientific Design and Problem Solving"
-  icon: "fa-flask"
-  color: "#10b981"
-  description: "Treating AI as a scientific instrument that can reason, design, and discover alongside human experts."
+agent_sci_design:
+  title: "Agent for Scientific Design"
+  icon: "fa-robot"
+  color: "#8b5cf6"
+  description: "Building autonomous agents that reason, critique, and iterate their way to better scientific and engineering designs."
   papers:
     - title: "The Physicist, the Coder, and the Critic: Agentic Photonic Crystal Fiber Inverse Design via Verbal Gradient Descent"
       authors: "<strong>Shengchao Chen</strong>, Ting Shu"
@@ -84,6 +84,19 @@ ai4science:
       conference: "Information Fusion, 104022, 2025. <span class='classic-tag'>[JCR Q1/TOP]</span>"
       pdf: "https://www.sciencedirect.com/science/article/pii/S156625352501084X"
 
+agentic_rl:
+  title: "Agentic RL & VLM/LLM Post-training"
+  icon: "fa-brain"
+  color: "#f59e0b"
+  description: "Training agentic language and vision-language models to plan, act, and improve through reinforcement learning."
+  papers: []
+
+ai4science:
+  title: "Early AI for Science Work"
+  icon: "fa-flask"
+  color: "#10b981"
+  description: "Treating AI as a scientific instrument that can reason, design, and discover alongside human experts."
+  papers:
     - title: "Towards Scalable and Accurate Property Prediction for Photonic Crystal Fibers with Federated Learning"
       authors: "Guanjun Wang, Jiacheng Liu, <strong>Shengchao Chen</strong><sup><i class='fa-regular fa-envelope fa-xs'></i></sup>, Sufen Ren"
       conference_short: Optics Express
