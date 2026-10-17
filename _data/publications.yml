@@ -80,7 +80,7 @@ agent_sci_design:
     - title: "Learning Design Skills as Memory Policies for Agentic Photonic Inverse Design"
       authors: "<strong>Shengchao Chen</strong>, Ting Shu, Sufen Ren"
       conference_short: KBS
-      conference: "Knowledge-Based Systems <strong>(KBS)</strong> <span class='classic-tag'>[JCR Q1/TOP]</span>, 2026."
+      conference: "Knowledge-Based Systems <strong>(KBS)</strong> <span class='classic-tag'>[JCR Q1/TOP]</span>, 2026. / ICML 2026 AI for Physics"
       pdf: "https://arxiv.org/abs/2605.29421"
 
     - title: "PCF-LLM: Scaling LLMs for Multimodal Understanding of Structured Scientific Data in Photonic Crystal Fiber Sensors"
