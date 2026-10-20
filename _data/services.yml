@@ -82,6 +82,14 @@ conference_reviewer:
       full: "ACM International Conference on Web Search and Data Mining"
       rank: "Core A"
       link: "https://www.wsdm-conference.org/"
+    - name: "WACV"
+      full: "IEEE/CVF Winter Conference on Applications of Computer Vision"
+      rank: "Core A"
+      link: "https://wacv.thecvf.com/"
+    - name: "AISTATS"
+      full: "International Conference on Artificial Intelligence and Statistics"
+      rank: "Core A"
+      link: "https://aistats.org/"
 
 journal_reviewer:
   title: "Journal Reviewer"
