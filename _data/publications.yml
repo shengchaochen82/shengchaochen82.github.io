@@ -96,6 +96,12 @@ agentic_rl:
   color: "#f59e0b"
   description: "Training agentic language and vision-language models to plan, act, and improve through reinforcement learning."
   papers:
+    - title: "Policy-Adaptive Credit Assignment for Spatial Reasoning with Verifiable Rewards"
+      authors: "Hailiang Yang, <strong>Shengchao Chen</strong><sup><i class='fa-regular fa-envelope fa-xs'></i></sup> (Project Leader)"
+      conference_short: arXiv
+      conference: "arXiv preprint arXiv:2610.26410 <span class='classic-tag-blue'>[Preprint]</span>, 2026."
+      pdf: "https://arxiv.org/abs/2610.26410"
+
     - title: "Hider–Seeker Self-Play: Geometry-Verifiable Process Rewards for Long-Horizon Visual Search"
       authors: "Yu Mao, <strong>Shengchao Chen</strong><sup><i class='fa-regular fa-envelope fa-xs'></i></sup> (Project Leader)"
       conference_short: NeurIPS
@@ -105,12 +111,6 @@ agentic_rl:
       authors: "Qirui Zheng, <strong>Shengchao Chen</strong><sup><i class='fa-regular fa-envelope fa-xs'></i></sup> (Project Leader)"
       conference_short: NeurIPS
       conference: "Fortieth Annual Conference on Neural Information Processing Systems <strong>(NeurIPS)</strong> <span class='classic-tag'>[Core A*/CCF-A]</span>, 2026."
-
-    - title: "Policy-Adaptive Credit Assignment for Spatial Reasoning with Verifiable Rewards"
-      authors: "Hailiang Yang, <strong>Shengchao Chen</strong><sup><i class='fa-regular fa-envelope fa-xs'></i></sup> (Project Leader)"
-      conference_short: arXiv
-      conference: "arXiv preprint arXiv:2610.26410 <span class='classic-tag-blue'>[Preprint]</span>, 2026."
-      pdf: "https://arxiv.org/abs/2610.26410"
 
 ai4science:
   title: "Early AI for Science Work"
