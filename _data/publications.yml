@@ -107,7 +107,7 @@ agentic_rl:
       conference: "Fortieth Annual Conference on Neural Information Processing Systems <strong>(NeurIPS)</strong> <span class='classic-tag'>[Core A*/CCF-A]</span>, 2026."
 
     - title: "Policy-Adaptive Credit Assignment for Spatial Reasoning with Verifiable Rewards"
-      authors: "Hailiang Yang, <strong>Shengchao Chen</strong>"
+      authors: "Hailiang Yang, <strong>Shengchao Chen</strong><sup><i class='fa-regular fa-envelope fa-xs'></i></sup> (Project Leader)"
       conference_short: arXiv
       conference: "arXiv preprint arXiv:2610.26410 <span class='classic-tag-blue'>[Preprint]</span>, 2026."
       pdf: "https://arxiv.org/abs/2610.26410"
