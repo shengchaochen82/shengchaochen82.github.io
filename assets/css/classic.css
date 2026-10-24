@@ -58,6 +58,44 @@ body {
   margin: 0 0 20px;
 }
 
+.classic-gilded {
+  --gild-base: linear-gradient(100deg, #6e4f0c 0%, #a67a1f 30%, #c29a3e 50%, #a67a1f 70%, #6e4f0c 100%);
+  --gild-sheen: linear-gradient(105deg, transparent 42%, rgba(255, 233, 160, 0.95) 50%, transparent 58%);
+  color: #9a7220;
+}
+
+@supports ((-webkit-background-clip: text) or (background-clip: text)) {
+  .classic-gilded {
+    background-image: var(--gild-sheen), var(--gild-base);
+    background-size: 300% 100%, 100% 100%;
+    background-repeat: no-repeat;
+    background-position: 100% 0, 0 0;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+  }
+}
+
+@keyframes classic-gild-sheen {
+  0%       { background-position: 100% 0, 0 0; }
+  40%, 100% { background-position: 0% 0, 0 0; }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .classic-gilded {
+    animation: classic-gild-sheen 6s ease-in-out infinite;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .classic-gilded {
+    --gild-base: linear-gradient(100deg, #b8913a 0%, #dcb860 30%, #f0d384 50%, #dcb860 70%, #b8913a 100%);
+    --gild-sheen: linear-gradient(105deg, transparent 42%, rgba(255, 249, 225, 0.95) 50%, transparent 58%);
+    color: #dcb860;
+  }
+}
+
 .classic-header {
   display: flex;
   gap: 26px;
