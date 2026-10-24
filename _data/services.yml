@@ -90,6 +90,10 @@ conference_reviewer:
       full: "International Conference on Artificial Intelligence and Statistics"
       rank: "Core A"
       link: "https://aistats.org/"
+    - name: "PAKDD"
+      full: "Pacific-Asia Conference on Knowledge Discovery and Data Mining"
+      rank: "Core B"
+      link: "https://pakdd.org/"
 
 journal_reviewer:
   title: "Journal Reviewer"
@@ -142,3 +146,6 @@ journal_reviewer:
     - name: "TMLR"
       full: "Transactions on Machine Learning Research"
       link: "https://jmlr.org/tmlr/"
+    - name: "TIST"
+      full: "ACM Transactions on Intelligent Systems and Technology"
+      link: "https://dl.acm.org/journal/tist"
