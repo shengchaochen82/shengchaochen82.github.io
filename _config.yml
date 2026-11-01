@@ -7,9 +7,9 @@ email: shengchao.chen.uts (AT) gmail.com
 
 # Search Engine Optimization (SEO)
 # The following information is used to improve the website traffic from search engines, e.g., Google.
-keywords: minimal light
-description: The Minimal Light is a simple and elegant jekyll theme for academic personal homepage.
-canonical: https://minimal-light-theme.yliu.me/
+keywords: Shengchao Chen, agentic AI, post-training, foundation models, reinforcement learning, University of Technology Sydney
+description: Academic homepage of Shengchao Chen, Australian Artificial Intelligence Institute, University of Technology Sydney. Research on agentic AI, post-training, and foundation models.
+canonical: https://shengchaochen82.github.io/
 
 # Links 
 # If you don't need one of them, you may delete the corresponding line.
@@ -41,10 +41,6 @@ auto_dark_mode: true
 # Font
 # You can use this option to choose between Serif or Sans Serif fonts.
 font: "Serif" # or "Sans Serif"
-
-# Google Analytics ID
-# Please remove this if you don't use Google Analytics
-google_analytics: UA-111540567-4
 
 # Use this project as a remote theme for GitHub Pages
 # See the guide here: https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/adding-a-theme-to-your-github-pages-site-using-jekyll
