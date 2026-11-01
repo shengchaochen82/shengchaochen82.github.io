@@ -256,6 +256,20 @@ body {
   margin: 5px 0;
 }
 
+.classic-focus {
+  font-weight: 700;
+}
+
+.classic-focus-agentic { color: #0f766e; }
+.classic-focus-post { color: #7b3fa0; }
+.classic-focus-fm { color: #b4541a; }
+
+@media (prefers-color-scheme: dark) {
+  .classic-focus-agentic { color: #5fd4c4; }
+  .classic-focus-post { color: #c9a3ec; }
+  .classic-focus-fm { color: #f0a36b; }
+}
+
 .classic-honors-list {
   list-style: none;
   padding-left: 0;
