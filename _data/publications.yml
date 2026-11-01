@@ -102,6 +102,12 @@ agentic_rl:
       conference: "arXiv preprint arXiv:2610.26410 <span class='classic-tag-blue'>[Preprint]</span>, 2026."
       pdf: "https://arxiv.org/abs/2610.26410"
 
+    - title: "LURE: Pursuit-Evasion Self-Play for Zero-Data Multi-Step Reasoning"
+      authors: "Jing Yu, <strong>Shengchao Chen</strong><sup><i class='fa-regular fa-envelope fa-xs'></i></sup> (Project Leader), Yiyun Tan"
+      conference_short: arXiv
+      conference: "arXiv preprint arXiv:2608.21871 <span class='classic-tag-blue'>[Preprint]</span>, 2026."
+      pdf: "https://arxiv.org/abs/2608.21871"
+
     - title: "Hider–Seeker Self-Play: Geometry-Verifiable Process Rewards for Long-Horizon Visual Search"
       authors: "Yu Mao, <strong>Shengchao Chen</strong><sup><i class='fa-regular fa-envelope fa-xs'></i></sup> (Project Leader)"
       conference_short: NeurIPS
