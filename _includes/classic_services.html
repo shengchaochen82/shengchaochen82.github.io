@@ -1,5 +1,5 @@
-<section class="classic-section" id="academia-services">
-  <h1>Academia Services</h1>
+<section class="classic-section" id="academic-services">
+  <h1>Academic Services</h1>
   {% assign service_order = "associate_editor,area_chair,conference_reviewer,journal_reviewer" | split: "," %}
   {% for key in service_order %}
     {% assign cat = site.data.services[key] %}
@@ -12,5 +12,4 @@
       {% endfor %}
     </ul>
   {% endfor %}
-  <p class="classic-goto"><a href="#top">[go top]</a></p>
 </section>
