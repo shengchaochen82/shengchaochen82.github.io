@@ -77,6 +77,7 @@ agent_sci_design:
       authors: "<strong>Shengchao Chen</strong>, Ting Shu"
       conference_short: EMNLP
       conference: "Association for Computational Linguistics: EMNLP 2026 <strong>(EMNLP)</strong> <span class='classic-tag'>[Core A*/CCF-B]</span>."
+      pdf: "https://aclanthology.org/2026.findings-emnlp.1034.pdf"
 
     - title: "Learning Design Skills as Memory Policies for Agentic Photonic Inverse Design"
       authors: "<strong>Shengchao Chen</strong>, Ting Shu, Sufen Ren"
