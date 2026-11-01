@@ -20,6 +20,12 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <script>
+      try {
+        var savedTheme = localStorage.getItem('theme');
+        if (savedTheme === 'light' || savedTheme === 'dark') document.documentElement.dataset.theme = savedTheme;
+      } catch (e) {}
+    </script>
     <link rel="stylesheet" href="./assets/css/classic.css?v={{ site.time | date: '%s' }}">
   </head>
   <body>
@@ -261,6 +267,7 @@
         <a href="#publications">Publications</a>
         <a href="#honors">Honors</a>
         <a href="#academic-services">Services</a>
+        <button id="theme-toggle" class="classic-theme-toggle" type="button" hidden><i aria-hidden="true"></i></button>
       </nav>
 
       <div class="classic-header">
@@ -303,5 +310,33 @@
       ga('send', 'pageview');
     </script>
     {% endif %}
+  <script>
+      (function () {
+        var root = document.documentElement;
+        var button = document.getElementById('theme-toggle');
+        var system = window.matchMedia('(prefers-color-scheme: dark)');
+
+        function current() {
+          return root.dataset.theme || (system.matches ? 'dark' : 'light');
+        }
+
+        function render() {
+          var dark = current() === 'dark';
+          var label = dark ? 'Switch to light mode' : 'Switch to dark mode';
+          button.querySelector('i').className = 'fa-regular ' + (dark ? 'fa-sun' : 'fa-moon');
+          button.setAttribute('aria-label', label);
+          button.title = label;
+        }
+
+        button.addEventListener('click', function () {
+          root.dataset.theme = current() === 'dark' ? 'light' : 'dark';
+          try { localStorage.setItem('theme', root.dataset.theme); } catch (e) {}
+          render();
+        });
+        system.addEventListener('change', render);
+        button.hidden = false;
+        render();
+      })();
+    </script>
   </body>
 </html>
