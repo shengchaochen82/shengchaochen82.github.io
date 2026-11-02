@@ -19,6 +19,15 @@ github_link: https://github.com/shengchaochen82/Awesome-Foundation-Models-for-We
 linkedin: https://www.linkedin.com/in/shengchao-chen-6059302b9/?originalSubdomain=au
 blog_link: /blog/
 
+# Blog posts live at /blog/<title>/ and use the blog layout
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: blog
+      permalink: /blog/:title/
+
 # Images (e.g., your profile picture and your website's favicon) 
 # "favicon" and "favicon_dark" are used for the light and dark modes, respectively. 
 avatar: ./assets/img/avatar.jpg
