@@ -1,0 +1,10 @@
+{% assign home = include.home | default: "" %}
+<nav class="classic-nav" aria-label="Site">
+  <a href="{{ home }}#biography">Biography</a>
+  <a href="{{ home }}#research-interest">Research</a>
+  <a href="{{ home }}#publications">Publications</a>
+  <a href="{{ home }}#honors">Honors</a>
+  <a href="{{ home }}#academic-services">Services</a>
+  <a href="{{ '/blog/' | relative_url }}"{% if include.active == "blog" %} aria-current="page"{% endif %}>Blog</a>
+  <button id="theme-toggle" class="classic-theme-toggle" type="button" hidden><i aria-hidden="true"></i></button>
+</nav>

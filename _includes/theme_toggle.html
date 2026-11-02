@@ -1,0 +1,28 @@
+<script>
+  (function () {
+    var root = document.documentElement;
+    var button = document.getElementById('theme-toggle');
+    var system = window.matchMedia('(prefers-color-scheme: dark)');
+
+    function current() {
+      return root.dataset.theme || (system.matches ? 'dark' : 'light');
+    }
+
+    function render() {
+      var dark = current() === 'dark';
+      var label = dark ? 'Switch to light mode' : 'Switch to dark mode';
+      button.querySelector('i').className = 'fa-regular ' + (dark ? 'fa-sun' : 'fa-moon');
+      button.setAttribute('aria-label', label);
+      button.title = label;
+    }
+
+    button.addEventListener('click', function () {
+      root.dataset.theme = current() === 'dark' ? 'light' : 'dark';
+      try { localStorage.setItem('theme', root.dataset.theme); } catch (e) {}
+      render();
+    });
+    system.addEventListener('change', render);
+    button.hidden = false;
+    render();
+  })();
+</script>
