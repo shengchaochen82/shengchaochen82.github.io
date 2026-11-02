@@ -23,7 +23,21 @@ Classical inverse design deals with the first three problems through optimizers 
 
 By an agent I mean a language or vision-language model that can plan, call tools, read the results, and decide what to do next over many steps. In design, this brings four abilities that neither a predictor nor a black-box optimizer has.
 
+<figure class="post-loop">
+  <ol>
+    <li><span class="post-loop-name">Propose</span><span class="post-loop-desc">State a hypothesis in physical terms</span></li>
+    <li><span class="post-loop-name">Build</span><span class="post-loop-desc">Turn it into a geometry the solver can run</span></li>
+    <li><span class="post-loop-name">Simulate</span><span class="post-loop-desc">Let a trusted solver score the design</span></li>
+    <li><span class="post-loop-name">Critique</span><span class="post-loop-desc">Read the numbers and write down what went wrong</span></li>
+  </ol>
+  <p class="post-loop-return"><i class="fa-solid fa-rotate-right" aria-hidden="true"></i> Repeat, and keep the moves that worked as reusable skills</p>
+  <figcaption>The loop an agent runs in design. The physics stays in the simulator; the agent decides what to try next.</figcaption>
+</figure>
+
 **It reasons in the language of the domain.** An agent can propose a change and explain it: the mode is leaking between the holes of the first ring, so enlarge them. An explanation like this can be checked, challenged and reused. You cannot argue with a gradient step, but you can argue with a hypothesis.
+
+> You cannot argue with a gradient step, but you can argue with a hypothesis.
+{: .pull}
 
 **It uses the tools scientists already trust.** The agent does not need to replace the simulator. It writes the geometry, runs the solver, reads the field profile and compares the result with the target. The physics stays in the tools we trust, and the model makes the decisions between runs.
 
@@ -46,4 +60,4 @@ The demos make it look easier than it is. Several problems remain open.
 
 I do not think agents will replace domain experts in design. They will change what experts spend their time on: less time tuning parameters and running simulations by hand, and more time defining the right objective, deciding which constraints matter and judging which results to trust. Those were always the most interesting parts of the work.
 
-Photonics is my testbed, but the same pattern appears in antennas, metamaterials, catalysts, drug candidates and many other fields: a clear target, a trusted simulator, and expert knowledge that is hard to write down. If you work on one of these problems and would like to try agents on it, or you are a student who finds this direction exciting, I would be glad to hear from you.
+Photonics is my testbed, but the same pattern appears in antennas, metamaterials, catalysts, drug candidates and many other fields: a clear target, a trusted simulator, and expert knowledge that is hard to write down. Wherever those three meet, I expect agents to change how design is done.
