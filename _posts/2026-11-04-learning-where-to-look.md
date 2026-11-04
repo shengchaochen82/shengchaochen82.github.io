@@ -95,6 +95,8 @@ The flip side is a warning. Where progress is hard to verify, as it is in much o
 
 ### When data are scarce, let the problem generate itself
 
+{% include figure.html layout="side" src="/assets/img/blog/tissot-hide-and-seek.jpg" width="951" height="1300" alt="James Tissot's painting Hide and Seek: children hide behind a screen and furniture in a cluttered Victorian drawing room while a small girl crawls across the rug looking for them" caption="James Tissot, Hide and Seek (c. 1877). The oldest self-play game there is: the hiders set the difficulty, and the seeker gets better because of it. Count the children before reading on." credit='Painting: James Tissot, National Gallery of Art · CC0 · via <a href="https://commons.wikimedia.org/wiki/File:James_Jacques_Joseph_Tissot,_Hide_and_Seek,_c._1877,_NGA_56669.jpg">Wikimedia Commons</a>' %}
+
 Long-horizon search data is expensive to label. Someone has to decide not only the answer but which steps were good. Self-play offers a way around this. If one agent creates tasks and another solves them, the task generator can be rewarded for staying at the edge of what the solver can do, neither trivial nor impossible. In our work on pursuit-evasion self-play for language reasoning, the task-setter's reward peaks when the solver succeeds about half the time. That turns "barely solvable" from a hand-tuned filter into something the system learns.
 
 I find this one of the more hopeful ideas in the field. It suggests that for many agentic skills, the bottleneck is not data at all, but a well-designed game.
@@ -102,6 +104,8 @@ I find this one of the more hopeful ideas in the field. It suggests that for man
 ### Looking has a price
 
 Every observation costs something. In a benchmark it costs tokens and latency. In pathology or remote sensing it costs computation over gigapixel images. For a drone or a robot it costs real time and energy that cannot be recovered. And for a clinician working alongside a model, it costs attention.
+
+{% include figure.html src="/assets/img/blog/hirise-perseverance-ingenuity.jpg" width="1342" height="1090" alt="Black-and-white orbital image of rippled Martian terrain with a red circle around a tiny dark dot, the Ingenuity helicopter" caption="NASA's Ingenuity helicopter, photographed from orbit by the HiRISE camera in February 2022: the dark dot inside the red circle, about 200 metres from the Perseverance rover. For an agent that has to fly, drive or point a camera, every extra look is paid for in time and energy." credit='Image: NASA/JPL-Caltech/University of Arizona (PIA25174) · Public domain · via <a href="https://commons.wikimedia.org/wiki/File:PIA25174_Ingenuity_captured_by_Hirise_camera_on_mars_reconaissance_orbiter.jpg">Wikimedia Commons</a>' %}
 
 The field still treats this cost as an afterthought. We report accuracy and perhaps mention how many tool calls were used. But suppose one system reaches 80 percent accuracy with four looks and another reaches 81 percent with forty. Those are not close competitors. They are different systems, suited to different worlds. **Cost belongs inside the objective during training, and evaluation should report accuracy against the number of observations, not accuracy alone.**
 

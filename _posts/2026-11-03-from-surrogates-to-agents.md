@@ -17,6 +17,8 @@ A photonic crystal fiber guides light through a pattern of tiny air holes runnin
 
 {% include figure.html src="/assets/img/blog/pcf-sem-nrl.jpg" width="1128" height="634" alt="Electron micrographs of a photonic crystal fiber: a hexagonal array of hundreds of air holes around a solid core, and a close-up of several holes" caption="A real photonic crystal fiber under an electron microscope. Left: the whole cross-section, with a solid core of about 5 µm at the centre where one hole is missing. Right: a close-up of the air holes. Every one of those holes is a design variable." credit='Image: U.S. Naval Research Laboratory · Public domain · via <a href="https://commons.wikimedia.org/wiki/File:Photonic-crystal-fiber-from-NRL.jpg">Wikimedia Commons</a>' %}
 
+{% include figure.html layout="side" src="/assets/img/blog/maxwell-gravure.jpg" width="736" height="1100" alt="Engraved portrait of the physicist James Clerk Maxwell" caption="James Clerk Maxwell. His equations, written down in the 1860s, already contain everything a fiber will ever do. Knowing the physics was never the hard part." credit='Image: gravure after G. J. Stodart, from a photograph by Fergus · CC0 · via <a href="https://commons.wikimedia.org/wiki/File:James_Clerk_Maxwell_gravure.jpg">Wikimedia Commons</a>' %}
+
 The physics is not mysterious. Maxwell's equations describe it completely, and a finite-element solver can tell you, for any given geometry, what the fiber will do. The difficulty is that the solver is slow, the space of geometries is enormous, and the question an engineer actually asks runs the other way. Nobody wants to know what an arbitrary pattern of holes does. They want a pattern of holes that does something specific.
 
 That gap, between a world we can simulate and a design we need to find, is the shape of most problems in science and engineering. Proteins, catalysts, antennas, metamaterials and batteries all have it. Photonics is just a particularly clean version: the physics is trusted, the simulator is good, and the targets are numbers you can write down.
@@ -93,6 +95,8 @@ I now think this was the real mistake of the surrogate era. We spent enormous ef
 Several things have become clear to me over these four eras. None of them is specific to fibers.
 
 ### The bitter lesson has a twist in science
+
+{% include figure.html layout="side" src="/assets/img/blog/deep-blue.jpg" width="825" height="1100" alt="A tall black IBM computer cabinet from Deep Blue on display in a museum" caption="Deep Blue, the machine that beat Garry Kasparov in 1997. Sutton's essay opens with computer chess: massive search won where carefully encoded chess knowledge did not." credit='Photo: Erik Pitti · <a href="https://creativecommons.org/licenses/by/2.0">CC BY 2.0</a> · resized · via <a href="https://commons.wikimedia.org/wiki/File:Say_hello_to_Deep_Blue_(2586059148).jpg">Wikimedia Commons</a>' %}
 
 Rich Sutton's [*The Bitter Lesson*](http://www.incompleteideas.net/IncIdeas/BitterLesson.html) argues that, over the history of AI, general methods that scale with computation have repeatedly beaten methods that build in human knowledge. Search and learning win; hand-crafted expertise loses, eventually and painfully.
 

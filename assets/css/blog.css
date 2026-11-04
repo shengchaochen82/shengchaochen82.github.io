@@ -1018,6 +1018,32 @@ main::before {
   text-wrap: pretty;
 }
 
+.post-figure--side {
+  float: right;
+  width: 40%;
+  margin: 0.35em 0 1.2em 1.8em;
+}
+
+.post-figure--side figcaption {
+  font-size: 14.5px;
+}
+
+.prose h2,
+.prose h3,
+.prose blockquote.pull,
+.prose .post-loop,
+.prose .post-figure:not(.post-figure--side) {
+  clear: both;
+}
+
+@media (max-width: 600px) {
+  .post-figure--side {
+    float: none;
+    width: 100%;
+    margin: 2em 0 2.2em;
+  }
+}
+
 :root[data-theme="dark"] .post-figure img {
   filter: brightness(0.9);
 }

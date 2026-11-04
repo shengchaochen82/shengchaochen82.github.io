@@ -2,8 +2,9 @@
   Usage: {% include figure.html src="/assets/img/blog/x.jpg" width="1200" height="800"
             alt="..." caption="..." credit='Image: <a href="...">Author</a> · CC BY 4.0' %}
   The credit line sits under the image's bottom-right corner.
+  Add layout="side" for tall images: they float right and the text wraps around them.
 {% endcomment %}
-<figure class="post-figure">
+<figure class="post-figure{% if include.layout == "side" %} post-figure--side{% endif %}">
   <img src="{{ include.src | relative_url }}" alt="{{ include.alt | escape }}"{% if include.width %} width="{{ include.width }}" height="{{ include.height }}"{% endif %} loading="lazy" decoding="async">
   {% if include.credit %}<p class="post-figure-credit">{{ include.credit }}</p>{% endif %}
   {% if include.caption %}<figcaption>{{ include.caption }}</figcaption>{% endif %}
