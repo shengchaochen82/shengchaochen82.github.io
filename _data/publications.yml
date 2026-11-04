@@ -97,6 +97,12 @@ agentic_rl:
   color: "#f59e0b"
   description: "Training agentic language and vision-language models to plan, act, and improve through reinforcement learning."
   papers:
+    - title: "Toward Counterfactual Learning for Selective Re-Examination in Agentic Visual Search"
+      authors: "Ao Chen, <strong>Shengchao Chen</strong>, Yan Luximon"
+      conference_short: arXiv
+      conference: "arXiv preprint arXiv:2611.00848 <span class='classic-tag-blue'>[Preprint]</span>, 2026."
+      pdf: "https://arxiv.org/abs/2611.00848"
+
     - title: "Policy-Adaptive Credit Assignment for Spatial Reasoning with Verifiable Rewards"
       authors: "Hailiang Yang, <strong>Shengchao Chen</strong><sup><i class='fa-regular fa-envelope fa-xs'></i></sup> (Project Leader)"
       conference_short: arXiv
