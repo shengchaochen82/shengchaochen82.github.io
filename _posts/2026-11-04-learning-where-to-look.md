@@ -89,6 +89,8 @@ Shunyu Yao made a related argument in [*The Second Half*](https://ysymyth.github
 
 ### Verifiability decides what gets solved
 
+{% include figure.html src="/assets/img/blog/sudoku-solve-vs-check.png" width="1400" height="680" alt="A Sudoku puzzle with only some digits filled in, beside the same grid fully solved" caption="Left: a puzzle. Right: its solution. Finding the right-hand grid can take a person half an hour; checking it takes a minute. Tasks with this shape, hard to solve and easy to check, are the ones learning systems tend to conquer first." credit='Puzzle: Tim Stellmach, <a href="https://commons.wikimedia.org/wiki/File:Sudoku_Puzzle_by_L2G-20050714_standardized_layout.svg">CC0</a> · Solution: Cburnett, <a href="https://commons.wikimedia.org/wiki/File:Sudoku_Puzzle_by_L2G-20050714_solution_standardized_layout.svg">CC BY-SA 3.0</a> · combined side by side · via Wikimedia Commons' %}
+
 Jason Wei has [written](https://www.jasonwei.net/blog) about the asymmetry between solving and verifying: tasks that are easy to check tend to be the ones AI masters first. Visual search is a good illustration. It is hard to do and, thanks to geometry, relatively easy to check. That combination is exactly why it is a productive training ground, and why I expect ideas from it to transfer to web agents, GUI agents and embodied agents, which share the same structure of long searches through large spaces with checkable progress.
 
 The flip side is a warning. Where progress is hard to verify, as it is in much of open-ended reasoning, the same methods will struggle, and benchmarks will quietly reward whatever is easiest to measure. When I design a new task now, the first question I ask is not "is this hard?" but "can I check every step of it?"
@@ -111,11 +113,15 @@ The field still treats this cost as an afterthought. We report accuracy and perh
 
 ### Knowing when to stop is part of intelligence
 
+{% include figure.html layout="side" src="/assets/img/blog/radiologist-reading.jpg" width="825" height="1100" alt="A navy radiologist seated at a workstation, studying arm X-rays on two large monitors" caption="A radiologist reviewing digital X-rays aboard the hospital ship USNS Comfort. Much of the expertise is in deciding quickly what does not need a second look." credit='Photo: U.S. Navy, Ellen Maurer · Public domain · via <a href="https://commons.wikimedia.org/wiki/File:US_Navy_030221-N-2338M-001_Navy_Radiologist_Lt._Cmdr._Roy_Rice,_MC,_reviews_a_digital_X-ray_before_importing_it_into_the_Comfort%27s_RADWORKS_system.jpg">Wikimedia Commons</a>' %}
+
 Watch an expert radiologist and you will notice that much of their skill is in what they do not look at. They recognize quickly when an image is normal, and spend their attention where it is needed. The same is true of an experienced field geologist, or a forecaster scanning a radar loop. Expertise is not exhaustive search. It is selective search.
 
 Our models are not yet like this. They rarely say "the target is not in this image" and stop. They keep looking, or they invent an answer. Teaching an agent to stop, and to abstain when the evidence is not there, seems to me as important as teaching it to search well, and much less studied.
 
 ### Bigger eyes versus better judgement
+
+{% include figure.html layout="side" src="/assets/img/blog/hubble-deep-field.jpg" width="1100" height="1077" alt="The Hubble Deep Field: a black patch of sky filled with thousands of small, colourful galaxies" caption="The Hubble Deep Field, December 1995. The telescope stared for ten days at a tiny patch of sky that looked almost empty, and found it full of galaxies. A better eye made the discovery possible; the decision about where to point it made it happen." credit='Image: R. Williams, NASA, ESA, STScI · Public domain · via <a href="https://commons.wikimedia.org/wiki/File:HubbleDeepField.800px.jpg">Wikimedia Commons</a>' %}
 
 For a decade, progress in visual understanding mostly came from better eyes: higher resolution, larger encoders, more pixels per token. That progress was real, and the bitter lesson suggests we should not bet against more scale. But I have come to think that scale and judgement are not in competition. More capable perception makes good search policies *more* valuable, not less, because each look yields more information. The open question is how to spend that capability wisely, and that is a question about decisions, not about pixels.
 
@@ -124,6 +130,8 @@ For a decade, progress in visual understanding mostly came from better eyes: hig
 A few problems seem to me both important and wide open.
 
 **Memory of where you have been.** Long searches need a record of what has already been ruled out. Without it, models revisit the same region and mistake repetition for diligence. I suspect the right representation is something like a map: spatial, persistent and cheap to update.
+
+{% include figure.html src="/assets/img/blog/perseverance-traverse.jpg" width="831" height="510" alt="Orbital map of Jezero Crater on Mars with a short white path showing where the Perseverance rover has driven and a long blue line showing its planned route to the river delta" caption="A rover's memory, drawn as a map. The white line is where Perseverance had already driven in Jezero Crater; the blue line is the route planned towards the ancient river delta. Long searches need exactly this: a record of where you have been, and a plan for where to look next." credit='Image: NASA/JPL-Caltech (PIA25027) · Public domain · via <a href="https://commons.wikimedia.org/wiki/File:Traverse_From_Seitah_to_Jezero_Delta_(PIA25027).jpg">Wikimedia Commons</a>' %}
 
 **Longer horizons in the physical world.** Video, 3D scenes and embodied agents stretch the horizon from tens of steps to hundreds, and each observation becomes physically expensive. Everything I have described about credit and cost becomes more severe.
 
