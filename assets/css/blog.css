@@ -18,8 +18,9 @@
   --display: "Gloock", "Literata", Georgia, serif;
   --text: "Literata", Georgia, "Times New Roman", serif;
 
-  --wide: 880px;
-  --measure: 640px;
+  --wide: 1240px;
+  --measure: 700px;
+  --rail: 250px;
   --gutter: clamp(20px, 5vw, 48px);
   --ease: cubic-bezier(0.16, 1, 0.3, 1);
 }
@@ -220,7 +221,16 @@ main::before {
 
 .index-head {
   padding: clamp(40px, 8vw, 84px) 0 clamp(36px, 6vw, 60px);
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  grid-template-areas: "kicker kicker" "title dek";
+  align-items: end;
+  column-gap: clamp(32px, 6vw, 96px);
 }
+
+.index-kicker { grid-area: kicker; }
+.index-title { grid-area: title; }
+.index-dek { grid-area: dek; }
 
 .index-kicker {
   margin: 0 0 6px;
@@ -232,14 +242,14 @@ main::before {
   margin: 0;
   font-family: var(--display);
   font-weight: 400;
-  font-size: clamp(76px, 15vw, 156px);
+  font-size: clamp(76px, 15vw, 188px);
   line-height: 0.88;
   letter-spacing: -0.022em;
 }
 
 .index-dek {
   max-width: 34ch;
-  margin: 22px 0 0;
+  margin: 0 0 0.6em;
   color: var(--ink-soft);
   font-size: clamp(19px, 2.3vw, 22px);
   font-style: italic;
@@ -260,7 +270,7 @@ main::before {
 
 .entry {
   display: grid;
-  grid-template-columns: minmax(96px, 150px) 1fr;
+  grid-template-columns: minmax(96px, 220px) minmax(0, 1fr);
   gap: 0 clamp(20px, 4vw, 44px);
   padding: clamp(28px, 4vw, 44px) 0 clamp(32px, 4.5vw, 50px);
   text-decoration: none;
@@ -291,7 +301,7 @@ main::before {
 .entry-title {
   display: block;
   font-family: var(--display);
-  font-size: clamp(32px, 4.6vw, 50px);
+  font-size: clamp(32px, 4.4vw, 58px);
   line-height: 1.06;
   letter-spacing: -0.012em;
   text-wrap: balance;
@@ -309,7 +319,7 @@ main::before {
 
 .entry-dek {
   display: block;
-  max-width: 54ch;
+  max-width: 62ch;
   margin-top: 16px;
   color: var(--ink-soft);
   font-size: 18px;
@@ -380,17 +390,17 @@ main::before {
 
 .essay-head h1 {
   margin: 0;
-  max-width: 15ch;
+  max-width: 20ch;
   font-family: var(--display);
   font-weight: 400;
-  font-size: clamp(46px, 8vw, 88px);
+  font-size: clamp(44px, 6.2vw, 84px);
   line-height: 1;
   letter-spacing: -0.016em;
   text-wrap: balance;
 }
 
 .essay-dek {
-  max-width: 36ch;
+  max-width: 44ch;
   margin: clamp(20px, 3vw, 28px) 0 0;
   color: var(--ink-soft);
   font-size: clamp(20px, 2.5vw, 24px);
@@ -449,6 +459,7 @@ main::before {
 }
 
 .prose h2 {
+  scroll-margin-top: 28px;
   counter-increment: section;
   margin: 2.4em 0 0.7em;
   font-family: var(--display);
@@ -531,8 +542,6 @@ main::before {
 
 .prose blockquote.pull {
   position: relative;
-  width: min(var(--wide) - 2 * var(--gutter), calc(100vw - 2 * var(--gutter)));
-  max-width: none;
   margin: 1.6em 0 1.7em;
   padding: 0.2em 0 0 64px;
   border: 0;
@@ -581,10 +590,89 @@ main::before {
   color: var(--accent);
 }
 
+/* ---------- reading grid + contents rail ---------- */
+
+.essay-grid {
+  display: grid;
+  grid-template-columns: minmax(0, var(--measure)) var(--rail);
+  justify-content: space-between;
+  column-gap: 64px;
+}
+
+.essay-toc {
+  position: sticky;
+  top: 40px;
+  align-self: start;
+  padding-top: 6px;
+}
+
+.essay-toc-title {
+  margin: 0 0 12px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--ink);
+  color: var(--ink-faint);
+  font-size: 16px;
+  line-height: 1.2;
+  font-variant-caps: all-small-caps;
+  letter-spacing: 0.07em;
+}
+
+.essay-toc ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.essay-toc li {
+  margin: 0;
+}
+
+.essay-toc a {
+  display: grid;
+  grid-template-columns: 34px 1fr;
+  padding: 7px 0;
+  color: var(--ink-faint);
+  font-size: 15.5px;
+  line-height: 1.35;
+  text-decoration: none;
+  transition-property: color;
+  transition-duration: 160ms;
+}
+
+.essay-toc-num {
+  color: var(--ink-faint);
+  font-variant-caps: all-small-caps;
+  letter-spacing: 0.05em;
+}
+
+.essay-toc a[aria-current="true"],
+.essay-toc a[aria-current="true"] .essay-toc-num {
+  color: var(--accent);
+}
+
+.essay-toc a[aria-current="true"] {
+  color: var(--ink);
+}
+
+@media (hover: hover) {
+  .essay-toc a:hover {
+    color: var(--ink);
+  }
+}
+
+@media (max-width: 1100px) {
+  .essay-grid {
+    display: block;
+  }
+
+  .essay-toc {
+    display: none;
+  }
+}
+
 /* ---------- figure: design loop ---------- */
 
 .post-loop {
-  width: min(var(--wide) - 2 * var(--gutter), calc(100vw - 2 * var(--gutter)));
   margin: 2.2em 0 2.4em;
 }
 
@@ -726,6 +814,14 @@ main::before {
 /* ---------- small screens ---------- */
 
 @media (max-width: 720px) {
+  .index-head {
+    display: block;
+  }
+
+  .index-dek {
+    margin-top: 22px;
+  }
+
   body {
     font-size: 17.5px;
     line-height: 1.68;

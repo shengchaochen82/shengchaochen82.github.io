@@ -2,7 +2,7 @@
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
     {% assign is_index = false %}{% if page.url == "/blog/" %}{% assign is_index = true %}{% endif %}
-    <title>{% if is_index %}Essays{% else %}{{ page.title }}{% endif %} | {{ site.title }}</title>
+    <title>{% if is_index %}Blog{% else %}{{ page.title }}{% endif %} | {{ site.title }}</title>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -33,7 +33,7 @@
     <header class="masthead">
       <a class="masthead-brand" href="{{ '/blog/' | relative_url }}">
         <span class="masthead-name">{{ site.title }}</span>
-        <span class="masthead-section">Essays</span>
+        <span class="masthead-section">Blog</span>
       </a>
       <nav class="masthead-actions" aria-label="Site">
         <a class="masthead-link" href="{{ '/' | relative_url }}">Homepage</a>
@@ -61,13 +61,19 @@
           <p class="essay-byline">By <span class="essay-author">{{ site.title }}</span> · <span class="nowrap">{{ page.date | date: "%b %-d, %Y" }}</span> · <span class="nowrap">{{ minutes }} min read</span></p>
         </header>
 
-        <div class="prose">
-          {{ content }}
+        <div class="essay-grid">
+          <div class="prose">
+            {{ content }}
+          </div>
+          <aside class="essay-toc" aria-label="Contents" hidden>
+            <p class="essay-toc-title">In this post</p>
+            <ol></ol>
+          </aside>
         </div>
 
         <footer class="essay-foot">
           {% if page.tags and page.tags.size > 0 %}<p class="essay-filed">Filed under {{ page.tags | join: " · " }}</p>{% endif %}
-          <a class="essay-back" href="{{ '/blog/' | relative_url }}"><span aria-hidden="true">←</span> All essays</a>
+          <a class="essay-back" href="{{ '/blog/' | relative_url }}"><span aria-hidden="true">←</span> All posts</a>
         </footer>
       </article>
       <script>
@@ -75,11 +81,47 @@
           var bar = document.querySelector('.progress span');
           var prose = document.querySelector('.prose');
           if (!bar || !prose) return;
+
+          var toc = document.querySelector('.essay-toc');
+          var heads = Array.prototype.slice.call(prose.querySelectorAll('h2'));
+          var links = [];
+          var romans = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X', 'XI', 'XII'];
+          if (toc && heads.length > 1) {
+            var list = toc.querySelector('ol');
+            heads.forEach(function (h, i) {
+              if (!h.id) h.id = 'section-' + (i + 1);
+              var li = document.createElement('li');
+              var a = document.createElement('a');
+              a.href = '#' + h.id;
+              var num = document.createElement('span');
+              num.className = 'essay-toc-num';
+              num.textContent = (romans[i] || String(i + 1)) + '.';
+              var label = document.createElement('span');
+              label.textContent = h.textContent;
+              a.appendChild(num);
+              a.appendChild(label);
+              li.appendChild(a);
+              list.appendChild(li);
+              links.push(a);
+            });
+            toc.hidden = false;
+          }
+
           var ticking = false;
           function update() {
             var r = prose.getBoundingClientRect();
             var done = Math.min(1, Math.max(0, -r.top / Math.max(r.height - window.innerHeight, 1)));
             bar.style.transform = 'scaleX(' + done + ')';
+            if (links.length) {
+              var active = -1;
+              for (var i = 0; i < heads.length; i++) {
+                if (heads[i].getBoundingClientRect().top < window.innerHeight * 0.3) active = i;
+              }
+              links.forEach(function (a, i) {
+                if (i === active) a.setAttribute('aria-current', 'true');
+                else a.removeAttribute('aria-current');
+              });
+            }
             ticking = false;
           }
           window.addEventListener('scroll', function () {

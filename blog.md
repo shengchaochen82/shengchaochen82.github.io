@@ -1,14 +1,14 @@
 ---
 layout: blog
-title: Essays
+title: Blog
 permalink: /blog/
-description: Essays by Shengchao Chen on agents, post-training, and the craft of scientific design.
+description: Reflections by Shengchao Chen on agents, post-training, AI for science, and where the field is heading.
 ---
 
 <section class="index-head">
   <p class="index-kicker">Since 2026 · Sydney</p>
-  <h1 class="index-title">Essays</h1>
-  <p class="index-dek">Arguments and working notes on agents, post-training, and the craft of scientific design.</p>
+  <h1 class="index-title">Blog</h1>
+  <p class="index-dek">Reflections on the road so far, and on where agents, post-training and AI for science are heading.</p>
 </section>
 
 {% if site.posts.size > 0 %}
@@ -30,5 +30,5 @@ description: Essays by Shengchao Chen on agents, post-training, and the craft of
   {% endfor %}
 </ol>
 {% else %}
-<p class="index-empty">The first essay is on its way.</p>
+<p class="index-empty">The first post is on its way.</p>
 {% endif %}
