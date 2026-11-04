@@ -2,15 +2,14 @@
 title: "Learning Where to Look"
 description: "Years of weather radar, satellite imagery and medical scans taught me that the important pixels are usually the fewest. Now that models can choose where to look, that old problem has turned into a question about decisions, rewards and credit. Reflections on long-horizon visual search, and what it says about agentic AI."
 tags: [agents, visual search, reinforcement learning, reflections]
+cover: learning-where-to-look.svg
 ---
 
-The most important pixels in an image are usually the fewest.
-
-I learned this long before I worked on agents. In weather radar, the storm cell that matters is a small bright patch in a large, mostly quiet field. In satellite imagery, the target you are asked to classify may occupy a fraction of a percent of the scene. In a chest X-ray, the sign of disease can be a faint shadow that a resized thumbnail erases completely. Across very different domains, the same pattern kept appearing: the answer was in the image, but in a part of it that was easy to miss.
+The most important pixels in an image are usually the fewest. I learned this long before I worked on agents. In weather radar, the storm cell that matters is a small bright patch in a large, mostly quiet field. In satellite imagery, the target you are asked to classify may occupy a fraction of a percent of the scene. In a chest X-ray, the sign of disease can be a faint shadow that a resized thumbnail erases completely. Across very different domains, the same pattern kept appearing: the answer was in the image, but in a part of it that was easy to miss.
 
 For most of that time, the model never had to deal with this problem. We did. Someone decided how to tile the image, what resolution to use, which region to crop and what to throw away. The model saw whatever window we chose for it.
 
-That has changed. Vision-language models can now decide for themselves where to look. They crop, zoom, call tools, look again and only then answer. I have spent the last stretch of my research trying to understand what this change really means, and I have come to a conclusion that surprised me. The hard part of visual search is no longer seeing. It is deciding, and above all, learning which decisions deserve the credit.
+That has changed. Vision-language models can now decide for themselves where to look. They crop, zoom, call tools, look again and only then answer. I have spent the last stretch of my research trying to understand what this change really means, and I have come to a conclusion. The hard part of visual search is no longer seeing. It is deciding, and above all, learning which decisions deserve the credit.
 
 ## Before agents, we did the looking
 
@@ -62,7 +61,7 @@ The result is not just slower learning. It is the wrong habits. Models trained t
 
 ## Putting credit at the joints
 
-If the problem is credit assignment, then the work is to put credit where it belongs. Over the past year my group has approached this from several angles, and I want to describe them less as methods than as a sequence of realizations.
+If the problem is credit assignment, then the work is to put credit where it belongs. Over the past year my group has approached this from several angles, each starting from a realization about where the credit was hiding.
 
 The first realization was that **visual search is unusually checkable**. Much of it is geometry, and geometry can be computed rather than judged. Whether a crop overlaps the target, whether the search is getting closer, whether a region has already been covered: these can be scored at every step without asking another model for its opinion. That observation led to our hider–seeker self-play work, where one policy hides targets and another searches for them, and progress along a long search is rewarded with geometry-verifiable signals instead of a single verdict at the end.
 

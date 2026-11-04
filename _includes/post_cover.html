@@ -1,0 +1,14 @@
+{% comment %}
+  Cover art for a post. Front matter options:
+    cover: name.svg        -> inline SVG from _includes/covers/ (follows light/dark theme)
+    cover_image: /path.jpg -> any raster image, with cover_alt for its description
+{% endcomment %}
+{% assign p = include.post %}
+{% if p.cover_image %}
+<img src="{{ p.cover_image | relative_url }}" alt="{{ p.cover_alt | default: '' | escape }}" loading="{{ include.loading | default: 'lazy' }}" decoding="async">
+{% elsif p.cover %}
+{% capture cover_path %}covers/{{ p.cover }}{% endcapture %}
+{% include {{ cover_path }} %}
+{% else %}
+<div class="cover-fallback" aria-hidden="true"><span>{{ p.title | slice: 0 }}</span></div>
+{% endif %}

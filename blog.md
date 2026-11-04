@@ -12,18 +12,23 @@ description: Reflections by Shengchao Chen on agents, post-training, AI for scie
 </section>
 
 {% if site.posts.size > 0 %}
-<ol class="essay-list" reversed>
+{% assign total = site.posts.size %}
+{% assign odd = total | modulo: 2 %}
+<ol class="post-grid" reversed>
   {% for post in site.posts %}
-  {% assign n = site.posts.size | minus: forloop.index0 %}
+  {% assign n = total | minus: forloop.index0 %}
   {% assign words = post.content | strip_html | number_of_words %}
   {% assign minutes = words | divided_by: 220 | plus: 1 %}
-  <li>
-    <a class="entry" href="{{ post.url | relative_url }}">
-      <span class="entry-no" aria-hidden="true">{% if n < 10 %}0{% endif %}{{ n }}</span>
-      <span class="entry-body">
-        <span class="entry-meta"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time> · {{ minutes }} min read</span>
-        <span class="entry-title"><span>{{ post.title }}</span></span>
-        {% if post.description %}<span class="entry-dek">{{ post.description }}</span>{% endif %}
+  <li class="card{% if forloop.first and total > 2 and odd == 1 %} card--feature{% endif %}">
+    <a class="card-link" href="{{ post.url | relative_url }}">
+      <span class="card-cover">{% include post_cover.html post=post %}</span>
+      <span class="card-body">
+        <span class="card-head">
+          <span class="card-no" aria-hidden="true">{% if n < 10 %}0{% endif %}{{ n }}</span>
+          <span class="card-meta"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time><br>{{ minutes }} min read</span>
+        </span>
+        <span class="card-title"><span>{{ post.title }}</span></span>
+        {% if post.description %}<span class="card-dek">{{ post.description }}</span>{% endif %}
       </span>
     </a>
   </li>

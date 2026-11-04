@@ -14,11 +14,13 @@
   --accent: oklch(0.53 0.165 33);
   --accent-line: oklch(0.53 0.165 33 / 0.45);
   --selection: oklch(0.88 0.06 55);
+  --cover-bg: oklch(0.935 0.018 80);
+  --cover-glass: oklch(0.955 0.014 82);
 
   --display: "Gloock", "Literata", Georgia, serif;
   --text: "Literata", Georgia, "Times New Roman", serif;
 
-  --wide: 1240px;
+  --wide: 1360px;
   --measure: 700px;
   --rail: 250px;
   --gutter: clamp(20px, 5vw, 48px);
@@ -37,6 +39,8 @@
     --accent: oklch(0.72 0.13 42);
     --accent-line: oklch(0.72 0.13 42 / 0.5);
     --selection: oklch(0.40 0.06 45);
+    --cover-bg: oklch(0.245 0.009 60);
+    --cover-glass: oklch(0.225 0.008 60);
   }
 }
 
@@ -51,6 +55,8 @@
   --accent: oklch(0.72 0.13 42);
   --accent-line: oklch(0.72 0.13 42 / 0.5);
   --selection: oklch(0.40 0.06 45);
+  --cover-bg: oklch(0.245 0.009 60);
+  --cover-glass: oklch(0.225 0.008 60);
 }
 
 /* ---------- base ---------- */
@@ -112,7 +118,6 @@ button:focus-visible {
 .masthead-section,
 .masthead-link,
 .index-kicker,
-.entry-meta,
 .essay-strap,
 .essay-byline,
 .essay-filed,
@@ -257,57 +262,104 @@ main::before {
   text-wrap: pretty;
 }
 
-.essay-list {
+/* ---------- post grid ---------- */
+
+.post-grid {
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding: clamp(28px, 4vw, 44px) 0 0;
   border-top: 1px solid var(--ink);
-}
-
-.essay-list li {
-  border-bottom: 1px solid var(--rule);
-}
-
-.entry {
   display: grid;
-  grid-template-columns: minmax(96px, 220px) minmax(0, 1fr);
-  gap: 0 clamp(20px, 4vw, 44px);
-  padding: clamp(28px, 4vw, 44px) 0 clamp(32px, 4.5vw, 50px);
-  text-decoration: none;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 440px), 1fr));
+  gap: clamp(48px, 6vw, 72px) clamp(32px, 4vw, 56px);
 }
 
-.entry-no {
-  font-family: var(--display);
-  font-size: clamp(64px, 9.5vw, 112px);
-  line-height: 0.82;
-  letter-spacing: -0.04em;
-  color: var(--accent);
-  font-variant-numeric: tabular-nums lining-nums;
-}
-
-.entry-body {
-  display: block;
+.card {
   min-width: 0;
 }
 
-.entry-meta {
-  display: block;
-  margin-bottom: 10px;
-  color: var(--ink-faint);
-  font-size: 17px;
-  line-height: 1.2;
+.card-link {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  text-decoration: none;
 }
 
-.entry-title {
+.card-cover {
+  display: block;
+  aspect-ratio: 16 / 10;
+  overflow: hidden;
+  background: var(--cover-bg);
+  outline: 1px solid var(--rule);
+  outline-offset: -1px;
+}
+
+.card-cover > svg,
+.card-cover > img,
+.essay-cover > svg,
+.essay-cover > img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition-property: transform;
+  transition-duration: 700ms;
+  transition-timing-function: var(--ease);
+}
+
+.cover-fallback {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  font-family: var(--display);
+  font-size: 160px;
+  color: var(--accent);
+}
+
+.card-body {
+  display: block;
+  padding-top: 22px;
+}
+
+.card-head {
+  display: flex;
+  align-items: flex-end;
+  gap: 16px;
+  margin-bottom: 14px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--rule);
+}
+
+.card-no {
+  font-family: var(--display);
+  font-size: clamp(52px, 5.5vw, 72px);
+  line-height: 0.8;
+  letter-spacing: -0.03em;
+  color: var(--accent);
+  font-variant-numeric: lining-nums;
+}
+
+.card-meta {
+  display: block;
+  color: var(--ink-faint);
+  font-size: 16px;
+  line-height: 1.3;
+  font-variant-caps: all-small-caps;
+  letter-spacing: 0.07em;
+}
+
+.card-title {
   display: block;
   font-family: var(--display);
-  font-size: clamp(32px, 4.4vw, 58px);
-  line-height: 1.06;
+  font-size: clamp(30px, 3vw, 42px);
+  line-height: 1.08;
   letter-spacing: -0.012em;
   text-wrap: balance;
 }
 
-.entry-title > span {
+.card-title > span {
   background-image: linear-gradient(var(--accent), var(--accent));
   background-repeat: no-repeat;
   background-position: 0 92%;
@@ -317,25 +369,66 @@ main::before {
   transition-timing-function: var(--ease);
 }
 
-.entry-dek {
-  display: block;
-  max-width: 62ch;
-  margin-top: 16px;
+.card-dek {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  overflow: hidden;
+  max-width: 60ch;
+  margin-top: 14px;
   color: var(--ink-soft);
-  font-size: 18px;
+  font-size: 17px;
   font-style: italic;
   line-height: 1.55;
   text-wrap: pretty;
 }
 
 @media (hover: hover) {
-  .entry:hover .entry-title > span {
+  .card-link:hover .card-cover > svg,
+  .card-link:hover .card-cover > img {
+    transform: scale(1.03);
+  }
+
+  .card-link:hover .card-title > span {
     background-size: 100% 2px;
   }
 }
 
-.entry:focus-visible .entry-title > span {
+.card-link:focus-visible .card-title > span {
   background-size: 100% 2px;
+}
+
+/* the newest post spans the row when the grid would otherwise leave a gap */
+@media (min-width: 980px) {
+  .card--feature {
+    grid-column: 1 / -1;
+  }
+
+  .card--feature .card-link {
+    display: grid;
+    grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
+    column-gap: clamp(32px, 4vw, 56px);
+    align-items: end;
+  }
+
+  .card--feature .card-body {
+    padding-top: 0;
+  }
+
+  .card--feature .card-title {
+    font-size: clamp(38px, 3.8vw, 56px);
+  }
+}
+
+/* ---------- post cover ---------- */
+
+.essay-cover {
+  margin: clamp(30px, 4vw, 44px) 0 0;
+  aspect-ratio: 21 / 9;
+  overflow: hidden;
+  background: var(--cover-bg);
+  outline: 1px solid var(--rule);
+  outline-offset: -1px;
 }
 
 .index-empty {
@@ -848,16 +941,8 @@ main::before {
     font-size: 16px;
   }
 
-  .entry {
-    grid-template-columns: 1fr;
-  }
-
-  .entry-no {
-    margin-bottom: 14px;
-  }
-
-  .entry-dek {
-    font-size: 17px;
+  .essay-cover {
+    aspect-ratio: 4 / 3;
   }
 
   .prose h2 {
@@ -885,7 +970,9 @@ main::before {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .entry-title > span,
+  .card-title > span,
+  .card-cover > svg,
+  .card-cover > img,
   .masthead-link,
   .theme-toggle,
   .prose a,

@@ -1,14 +1,15 @@
 ---
 title: "From Surrogates to Agents: What Photonics Taught Me About AI for Science"
-description: "I started by training small networks to stand in for an optical solver. A few years later I am training agents to argue with it. What changed along the way, what did not, and the lessons I think AI for science keeps having to relearn."
+description: "Optical fiber design was my master's project and my first taste of research, back when that meant asking a conventional neural network for a number. Then ChatGPT arrived, and I went back to that narrow problem with very different tools. What changed, what did not, and the lessons I think AI for science keeps having to relearn."
 tags: [AI for science, agents, reflections]
+cover: surrogates-to-agents.svg
 ---
 
-For most of my research life, I have been trying to teach a computer to design an optical fiber.
+Optical fiber design was the first research problem I ever worked on. It was my master's project, and like most master's projects it was narrow: take a photonic crystal fiber and use a neural network to predict how it behaves. At the time, that was what machine learning for science meant in practice. You trained a conventional network on simulated data and asked it for a number.
 
-It sounds like a narrow ambition, and in one sense it is. But the same problem has followed me through three different eras of machine learning, and each time the tools changed, the problem looked different. Looking back, the fiber has been less a research topic than a lens: a small, well-understood corner of physics in which I could watch what AI for science actually gets right, and what it keeps getting wrong.
+Then ChatGPT arrived, and within a year the world around that narrow problem had changed beyond recognition. Models that could read, write and reason in natural language were suddenly everywhere. I found myself going back to the problem I had started with and asking a different question. Not how to predict a fiber faster, but whether these new models could help design one, and whether they could make me see an old, small field in a new way.
 
-This post is an attempt to write that down. It is not a survey and it is not a summary of my papers. It is closer to a field journal: what I believed at each stage, what turned out to be wrong, and the lessons that I think apply well beyond photonics.
+That return trip taught me more than the original project did. The fiber turned out to be a good lens: a small, well-understood corner of physics in which I could see what AI for science gets right, and what it keeps getting wrong.
 
 ## The problem that would not go away
 
@@ -18,13 +19,13 @@ The physics is not mysterious. Maxwell's equations describe it completely, and a
 
 That gap, between a world we can simulate and a design we need to find, is the shape of most problems in science and engineering. Proteins, catalysts, antennas, metamaterials and batteries all have it. Photonics is just a particularly clean version: the physics is trusted, the simulator is good, and the targets are numbers you can write down.
 
-So the question that has run through all my work is simple to state. **How do we get from a simulator we trust to a design we want?**
+So the question that has stayed with me since that first project is simple to state. **How do we get from a simulator we trust to a design we want?**
 
 ## The first era: make the simulator faster
 
-My first instinct, and the field's, was to make the forward direction cheap.
+In my master's work, the instinct, mine and the field's, was to make the forward direction cheap.
 
-If a finite-element simulation takes minutes, train a neural network on thousands of simulated examples and let it predict the answer in milliseconds. That is what my early papers did. We trained networks to estimate the optical properties of suspended-core and photonic crystal fibers from their geometry, and to read out sensor signals, turning raw spectra from fiber gratings and interferometers into the temperature or strain that produced them. The surrogate models worked. They were fast, they were accurate inside the range they were trained on, and they made a nice figure: the solver on one side, the network on the other, nearly identical curves.
+If a finite-element simulation takes minutes, train a neural network on thousands of simulated examples and let it predict the answer in milliseconds. That is what my master's work did. We trained networks to estimate the optical properties of suspended-core and photonic crystal fibers from their geometry, and to read out sensor signals, turning raw spectra from fiber gratings and interferometers into the temperature or strain that produced them. The surrogate models worked. They were fast, they were accurate inside the range they were trained on, and they made a nice figure: the solver on one side, the network on the other, nearly identical curves.
 
 And yet they did not change how fibers were designed.
 
@@ -32,7 +33,7 @@ It took me a while to understand why. A faster forward model is a better tool fo
 
 There was a second, quieter problem. Surrogates are only as good as the simulated data they learn from, and that data covers a small, hand-chosen slice of the design space. Step outside it, which is exactly what a designer looking for something new wants to do, and the predictions degrade without telling you.
 
-The lesson I took from this era is one I now repeat to students:
+With a few years of distance, I can put the lesson into words, and it is one I now repeat to students:
 
 **A faster answer to the wrong question is still the wrong question.**
 
@@ -52,15 +53,15 @@ The second lesson took longer to sink in. Even when the optimized design was gen
 
 That is not a statement about interpretability as a nice-to-have. It is practical. Scientists build on each other's designs, and you can only build on what you understand.
 
-## The third era: language enters the loop
+## The third era: ChatGPT changes the question
 
-The arrival of large language models changed the shape of the problem in a way I did not anticipate.
+When I came back to fibers after ChatGPT, the question I kept returning to was whether a language model could rethink a field that had only ever asked neural networks for numbers.
 
-My first serious encounter was through a question that seemed almost sideways: can a language model understand structured scientific data? Fiber sensing produces spectra, geometry tables and parameter sweeps, data that is neither natural language nor a typical image. Building a model that could read and reason over that kind of data, the work that became PCF-LLM, convinced me of something I had underestimated.
+My first attempt came through a question that seemed almost sideways: can a language model understand structured scientific data? Fiber sensing produces spectra, geometry tables and parameter sweeps, data that is neither natural language nor a typical image. Building a model that could read and reason over that kind of data, the work that became PCF-LLM, convinced me of something I had underestimated.
 
 Much of the expertise that makes a human designer fast is linguistic. It lives in heuristics that people say to each other: the first ring of holes does most of the work in shaping the mode; if the dispersion is too steep, try a smaller pitch; larger air-filling fractions confine light better but are harder to draw. None of this is written as an equation. It is passed between people in conversation, in lab meetings, in the margins of theses. The surrogate models could not use it. The optimizers could not use it. A language model, in principle, can.
 
-That reframed the whole problem for me. For years, I had been trying to replace the parts of design that were slow. The parts that were hard, the judgement and the intuition and the reasons, had been left out entirely, because there was no way to represent them. Language turned out to be that representation.
+That reframed the whole problem for me. In my master's work, I had been trying to replace the parts of design that were slow. The parts that were hard, the judgement and the intuition and the reasons, had been left out entirely, because there was no way to represent them. Language turned out to be that representation.
 
 **The knowledge that was hardest to encode was the knowledge that lived in words.**
 

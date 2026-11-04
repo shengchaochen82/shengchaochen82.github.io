@@ -58,6 +58,7 @@
           </p>
           <h1>{{ page.title }}</h1>
           {% if page.description %}<p class="essay-dek">{{ page.description }}</p>{% endif %}
+          <figure class="essay-cover">{% include post_cover.html post=page loading="eager" %}</figure>
           <p class="essay-byline">By <span class="essay-author">{{ site.title }}</span> · <span class="nowrap">{{ page.date | date: "%b %-d, %Y" }}</span> · <span class="nowrap">{{ minutes }} min read</span></p>
         </header>
 
